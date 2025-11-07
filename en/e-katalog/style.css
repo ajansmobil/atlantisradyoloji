@@ -1,5 +1,5 @@
 
-  .y2vls {
+  .n3o9l {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .y2vlstitle {
+  .n3o9ltitle {
     width: 100%;
     /* background-color: #333; */
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .y2vlstitlebody {
+  .n3o9ltitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,26 +23,26 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .y2vlstitlebodytitle {
+  .n3o9ltitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .y2vlstitlebodylang {
+  .n3o9ltitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
     position: relative;
     z-index: 1;
   }
 
-  .y2vlstitlebodylang ul {
+  .n3o9ltitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .y2vlsbody {
+  .n3o9lbody {
     width: var(--max);
     display: flex;
     align-items: start;
@@ -50,14 +50,14 @@
     margin: -30px 0px 5px 0px;
   }
 
-  .y2vlsmenu {
+  .n3o9lmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .y2vlsmenulist {
+  .n3o9lmenulist {
     width: calc(100% - 20px);
     background-color: #279c90;
     padding: 10px;
@@ -65,7 +65,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .y2vlsmenubody {
+  .n3o9lmenubody {
     width: 100%;
     background-color: #279c90;
     display: flex;
@@ -73,7 +73,7 @@
     justify-content: center;
   }
 
-  .y2vlsmenulist ul {
+  .n3o9lmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -83,7 +83,7 @@
     overflow-x: auto;
   }
 
-  .y2vlsmenulist ul a {
+  .n3o9lmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -94,26 +94,26 @@
     white-space: nowrap;
   }
 
-  .y2vlsmenulist ul a:hover {
+  .n3o9lmenulist ul a:hover {
     background-color: #fff;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .y2vls-menu-list-active {
+  .n3o9l-menu-list-active {
     background-color: #fff;
     border-radius: 5px;
       color: #000 !important;
     cursor: pointer;
   }
 
-  .y2vlsmenulistbody {
+  .n3o9lmenulistbody {
     width: 100%;
   }
 
   @media screen and (min-width: 1024px) {
-    .y2vlsbodylogo {
+    .n3o9lbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .y2vlsmenu {
+    .n3o9lmenu {
       overflow-x: auto;
     }
 
-    .y2vlsmenulist ul {
+    .n3o9lmenulist ul {
       flex-direction: row;
     }
 
-    .y2vlsbodylogo {
+    .n3o9lbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,8 +137,177 @@
   }
 
   @media screen and (max-width: 768px) {
-    .y2vlsmenulist ul a {
+    .n3o9lmenulist ul a {
       font-size: 14px;
+    }
+  }
+
+
+  #content {
+    justify-content: start;
+  }
+
+  .vackl-catalog {
+    width: var(--max);
+    margin: 40px auto;
+    padding: 32px;
+    padding: 36px;
+    background-color: #ffffff;
+    background-color: #ffffff;
+    border-radius: 16px;
+    border-radius: 20px;
+    box-shadow: 0 20px 60px rgba(15, 23, 42, 0.12);
+    box-shadow: 0 32px 70px rgba(15, 23, 42, 0.16);
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .vackl-catalog-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+
+  .vackl-catalog-info {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex: 1;
+    min-width: 240px;
+  }
+
+  .vackl-catalog-icon {
+    font-size: 36px;
+    color: #d32f2f;
+    color: #279c90;
+  }
+
+  .vackl-catalog-title {
+    margin: 0;
+    font-size: 28px;
+    font-size: 28px;
+    color: #1e3046;
+    color: #1e3046;
+    font-weight: 700;
+  }
+
+  .vackl-catalog-subtitle {
+    margin: 4px 0 0;
+    font-size: 16px;
+    font-size: 16px;
+    color: #4a5568;
+    color: #2f4d5f;
+    line-height: 1.5;
+  }
+
+  .vackl-catalog-subtitle:empty {
+    display: none;
+  }
+
+  .vackl-catalog-download {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 12px 20px;
+    background-color: #d32f2f;
+    background-color: #279c90;
+    color: #ffffff;
+    color: #ffffff;
+    border-radius: 12px;
+    border-radius: 14px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    cursor: pointer;
+  }
+
+  .vackl-catalog-download:hover {
+    background-color: #b71c1c;
+    background-color: #1f7d71;
+    transform: translateY(-2px);
+  }
+
+  .vackl-catalog-download .material-symbols-outlined {
+    font-size: 20px;
+  }
+
+  .vackl-catalog-viewer {
+    width: 100%;
+    min-height: 640px;
+    min-height: 900px;
+    height: 900px;
+    background-color: #f5f7fa;
+    background-color: #f5f7fa;
+    border-radius: 12px;
+    border-radius: 16px;
+    border: 1px solid rgba(15, 23, 42, 0.08);
+    border: 1px solid rgba(15, 23, 42, 0.12);
+    overflow: hidden;
+  }
+
+  .vackl-catalog-viewer iframe,
+  .vackl-catalog-viewer embed,
+  .vackl-catalog-viewer object {
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    border: none;
+    display: block;
+  }
+
+  .vackl-catalog-empty {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+    text-align: center;
+    font-size: 18px;
+    color: #4a5568;
+    color: #2f4d5f;
+  }
+
+  .vackl-catalog-note {
+    font-size: 14px;
+    font-size: 14px;
+    color: #4a5568;
+    color: #2f4d5f;
+    margin: 0;
+  }
+
+  .vackl-catalog-note:empty {
+    display: none;
+  }
+
+  @media screen and (max-width: 1024px) {
+    .vackl-catalog {
+      width: calc(100% - 40px);
+      margin: 30px 20px;
+    }
+
+    .vackl-catalog-download {
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .vackl-catalog {
+      width: calc(100% - 20px);
+      margin: 20px 10px;
+      padding: 24px;
+    }
+
+    .vackl-catalog-title {
+      font-size: 24px;
+    }
+
+    .vackl-catalog-subtitle {
+      font-size: 15px;
     }
   }
 
