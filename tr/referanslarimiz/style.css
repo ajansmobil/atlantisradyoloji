@@ -1,17 +1,17 @@
 
-  .ff0q9menumobil {
+  .diu87menumobil {
     display: none;
     cursor: pointer;
   }
 
-  .ff0q9Children {
+  .diu87Children {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
 
-  .ff0q9 {
+  .diu87 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -20,7 +20,7 @@
     background-color: #e9e9e9;
   }
 
-  .ff0q9title {
+  .diu87title {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -28,7 +28,7 @@
     justify-content: center;
   }
 
-  .ff0q9titlebody {
+  .diu87titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -36,31 +36,80 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .ff0q9titlebodytitle {
+  .diu87titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .ff0q9titlebodylang {
+  .diu87titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .ff0q9titlebodylang ul {
+  .diu87titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .ff0q9body {
+  .diu87titlebodylang ul li {
+    list-style: none;
+    margin: 0;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .diu87titlebodylang ul a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px !important;
+    aspect-ratio: 1/1;
+    border-radius: 5px;
+    background-color: #333;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    padding: 4px;
+  }
+  
+  .diu87titlebodylang ul a:hover {
+    background-color: #fff;
+    color: #333;
+  }
+  .diu87titlebodylang ul a:active {
+    background-color: #333;
+    color: #fff;
+  }
+  .diu87titlebodylang ul a:focus {
+    background-color: #333;
+    color: #fff;
+  }
+  .diu87titlebodylang ul a:visited {
+    background-color: #333;
+    color: #fff;
+  }
+  .diu87titlebodylang ul a:link {
+    background-color: #333;
+    color: #fff;
+  }
+
+  .diu87body {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
 
-  .ff0q9menulist {
+  .diu87menulist {
     display: block;
     background-color: #279c90;
     padding: 10px;
@@ -69,7 +118,7 @@
     width: 100%;
   }
 
-  .ff0q9menubody {
+  .diu87menubody {
     width: 100%;
     background-color: #279c90;
     display: flex;
@@ -77,7 +126,7 @@
     justify-content: center;
   }
 
-  .ff0q9menulist ul {
+  .diu87menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -87,7 +136,7 @@
     overflow-x: auto;
   }
 
-  .ff0q9menulist ul a {
+  .diu87menulist ul a {
     padding: 8px;
     font-size: 16px;
     color: #fff;
@@ -99,14 +148,14 @@
     white-space: nowrap;
   }
 
-  .ff0q9menulist ul a:hover {
+  .diu87menulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .ff0q9menuitem {
+  .diu87menuitem {
     padding: 8px;
     font-size: 16px;
     color: #fff;
@@ -118,30 +167,30 @@
     white-space: nowrap;
   }
 
-  .ff0q9menuactive {
+  .diu87menuactive {
     background-color: #e0e0e0 !important;
     border-radius: 5px;
     color: #000 !important;
     font-weight: bold;
   }
 
-  .ff0q9bodylogo {
+  .diu87bodylogo {
     height: 100px;
     max-width: 90vw;
   }
 
   @media screen and (min-width: 1024px) {
-    .ff0q9menumobil {
+    .diu87menumobil {
       display: none !important;
     }
 
-    .ff0q9menulist {
+    .diu87menulist {
       display: flex !important;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .ff0q9menumobil {
+    .diu87menumobil {
       display: flex;
       align-items: center;
       justify-content: end;
@@ -149,22 +198,22 @@
       width: 100%;
     }
 
-    .ff0q9menumobil div {
+    .diu87menumobil div {
       font-size: 32px;
       color: #fff;
       padding: 5px;
     }
 
-    .ff0q9menulist {
+    .diu87menulist {
       display: none;
     }
 
-    .ff0q9body {
+    .diu87body {
       flex-direction: column;
       gap: 20px;
     }
 
-    .ff0q9Children {
+    .diu87Children {
       width: 100%;
       gap: 0px;
       flex-direction: column;
@@ -172,19 +221,19 @@
       justify-content: center;
     }
 
-    .ff0q9menulist ul a {
+    .diu87menulist ul a {
       padding: 10px 0px 10px 0px;
     }
 
-    .ff0q9menu {
+    .diu87menu {
       overflow-x: auto;
     }
 
-    .ff0q9menulist ul {
+    .diu87menulist ul {
       flex-direction: column;
     }
 
-    .ff0q9bodylogo {
+    .diu87bodylogo {
       max-height: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -192,27 +241,27 @@
   }
 
   @media screen and (max-width: 768px) {
-    .ff0q9menulist ul a {
+    .diu87menulist ul a {
       font-size: 14px;
     }
   }
 
 
-  .ps4ae {
+  .ensnp {
     margin-top: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .ps4aebody {
+  .ensnpbody {
     width: var(--max);
     display: grid;
     gap: 20px;
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .ps4aebodyitem {
+  .ensnpbodyitem {
     cursor: pointer;
     background-color: #e9e9e9;
     border-radius: 12px;
@@ -227,23 +276,23 @@
     padding: 10px;
   }
 
-  .ps4aebodyitem:hover {
+  .ensnpbodyitem:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
   }
 
-  .ps4aebodyitem:hover .ps4aebodyitemimg {
+  .ensnpbodyitem:hover .ensnpbodyitemimg {
     transform: scale(1.1);
   }
 
-  .ps4aebodyitemimg {
+  .ensnpbodyitemimg {
     width: 100%;
     height: 100%;
     object-fit: cover;
     transition: transform 0.5s ease;
   }
 
-  .ps4aebodyitemtitle {
+  .ensnpbodyitemtitle {
     padding: 10px;
     background-color: #e9e9e9;
     text-align: left;
@@ -251,14 +300,14 @@
     font-weight: --font-weight--;
     font-size: 16px;
   }
-  .ps4aebodyitemtext {
+  .ensnpbodyitemtext {
     font-size: 16px;
     color: #000;
     font-weight: bold;
   }
 
   @media screen and (max-width: 1024px) {
-    .ps4aebody {
+    .ensnpbody {
       width: calc(100% - 30px);
       margin: 0 15px;
       grid-template-columns: repeat(3, 1fr);
@@ -267,7 +316,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .ps4aebody {
+    .ensnpbody {
       width: calc(100% - 20px);
       margin: 0 10px;
       grid-template-columns: repeat(2, 1fr);

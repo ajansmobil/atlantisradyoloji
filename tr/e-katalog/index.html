@@ -8,6 +8,9 @@
   <meta http-equiv="Page-Exit" content="BlendTrans(Duration"="0)" />
   <meta http-equiv="Page-Enter" content="BlendTrans(Duration"="0)" />
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+  <meta http-equiv="Cache-Control" content="max-age=3600, public" />
+  <meta http-equiv="Pragma" content="cache" />
+  <meta http-equiv="Expires" content="3600" />
   <title>E-Katalog</title>
   <meta name="description" content="Atlantis Radyoloji e-katalog - Radyoloji cihazları, hizmetler ve çözümlerin detaylı kataloğu." />
   <meta name="keywords" content="atlantis radyoloji e-katalog, radyoloji cihaz kataloğu, mri katalog, bt katalog, röntgen katalog" />
@@ -15,45 +18,44 @@
   <meta property="og:description" content="Atlantis Radyoloji e-katalog - Radyoloji cihazları, hizmetler ve çözümlerin detaylı kataloğu." />
   <meta property="og:image" content="https://atlantisradyoloji.com/img/icon.png" />
   <meta name="robots" content="index, follow" />
-  <link rel="stylesheet" href="/src/css.css?v=pjfe4" />
-  <link rel="shortcut icon" href="/img/icon.png?v=pjfe4" type="image/png" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
-    rel="stylesheet" />
+
+
+  <link rel="stylesheet" href="/src/rubik.css" />
+  <link rel="stylesheet" href="/src/css.css?v=bczbu" />
+  <link rel="shortcut icon" href="/img/icon.png?v=bczbu" type="image/png" />
 
   <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
   <script src="/src/swiper-bundle.min.js"></script>
   
 
-  <script type="text/javascript" src="/src/firebase.js?v=pjfe4"></script>
-<link rel="stylesheet" href="style.css?v=pjfe4">
+  <script type="text/javascript" src="/src/firebase.js?v=bczbu"></script>
+<link rel="stylesheet" href="style.css?v=bczbu">
 </head>
 
 <body>
-  <div id="header"><div class="ws4tl">
-  <div class="ws4tltitle">
-    <div class="ws4tltitlebody">
-      <div class="ws4tltitlebodytitle">
+  <div id="header"><div class="qtlmd">
+  <div class="qtlmdtitle">
+    <div class="qtlmdtitlebody">
+      <div class="qtlmdtitlebodytitle">
         Atlantis Radyoloji Web Sitemize Hoşgeldiniz
       </div>
-      <div class="ws4tltitlebodylang">
+      <div class="qtlmdtitlebodylang">
         <ul>
-          <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li>
+          <li><a href="/tr/">tr</a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="ws4tlChildren">
-    <div class="ws4tlbody">
-      <a href="/tr/"><img src="/img/logo.svg?v=pjfe4" class="ws4tlbodylogo" alt="Atlantis Radyoloji Logo" /></a>
+  <div class="qtlmdChildren">
+    <div class="qtlmdbody">
+      <a href="/tr/"><img src="/img/logo.svg?v=bczbu" class="qtlmdbodylogo" alt="Atlantis Radyoloji Logo" /></a>
     </div>
-    <div class="ws4tlmenumobil">
+    <div class="qtlmdmenumobil">
       <div class="material-symbols-outlined">menu</div>
     </div>
-    <div class="ws4tlmenulist">
+    <div class="qtlmdmenulist">
       <ul>
-        <a href="/tr/" class="ws4tlmenuitem">Anasayfa </a><a href="/tr/hakkimizda/" class="ws4tlmenuitem">Kurumsal</a><a href="/tr/hizmetlerimiz/" class="ws4tlmenuitem">Hizmetlerimiz</a><a href="/tr/e-katalog/" class="ws4tlmenuitem ws4tlmenuactive">E-Katalog</a><a href="/tr/referanslarimiz/" class="ws4tlmenuitem">Referanslarımız</a><a href="/tr/iletisim/" class="ws4tlmenuitem">İletişim</a>
+        <a href="/tr/" class="qtlmdmenuitem">Anasayfa </a><a href="/tr/hakkimizda/" class="qtlmdmenuitem">Kurumsal</a><a href="/tr/hizmetlerimiz/" class="qtlmdmenuitem">Hizmetlerimiz</a><a href="/tr/e-katalog/" class="qtlmdmenuitem qtlmdmenuactive">E-Katalog</a><a href="/tr/referanslarimiz/" class="qtlmdmenuitem">Referanslarımız</a><a href="/tr/iletisim/" class="qtlmdmenuitem">İletişim</a>
       </ul>
     </div>
   </div>
@@ -61,9 +63,9 @@
 
 <script>
   document
-    .querySelector(".ws4tlmenumobil")
+    .querySelector(".qtlmdmenumobil")
     .addEventListener("click", function () {
-      const menu = document.querySelector(".ws4tlmenulist");
+      const menu = document.querySelector(".qtlmdmenulist");
       if (menu.style.display === "flex") {
         menu.style.display = "none";
       } else {
@@ -125,7 +127,7 @@
 
 
 
-<script type="text/javascript" src="/src/js.js?v=pjfe4"></script>
-<script src="/src/cookie.js?v=pjfe4"></script>
+<script type="text/javascript" src="/src/js.js?v=bczbu"></script>
+<script src="/src/cookie.js?v=bczbu"></script>
 
 </html>

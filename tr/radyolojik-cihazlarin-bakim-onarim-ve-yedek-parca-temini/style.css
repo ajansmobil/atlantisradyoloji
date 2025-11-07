@@ -1,17 +1,17 @@
 
-  .yvitymenumobil {
+  .o1z8imenumobil {
     display: none;
     cursor: pointer;
   }
 
-  .yvityChildren {
+  .o1z8iChildren {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
 
-  .yvity {
+  .o1z8i {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -20,7 +20,7 @@
     background-color: #e9e9e9;
   }
 
-  .yvitytitle {
+  .o1z8ititle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -28,7 +28,7 @@
     justify-content: center;
   }
 
-  .yvitytitlebody {
+  .o1z8ititlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -36,31 +36,80 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .yvitytitlebodytitle {
+  .o1z8ititlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .yvitytitlebodylang {
+  .o1z8ititlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .yvitytitlebodylang ul {
+  .o1z8ititlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .yvitybody {
+  .o1z8ititlebodylang ul li {
+    list-style: none;
+    margin: 0;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .o1z8ititlebodylang ul a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px !important;
+    aspect-ratio: 1/1;
+    border-radius: 5px;
+    background-color: #333;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    padding: 4px;
+  }
+  
+  .o1z8ititlebodylang ul a:hover {
+    background-color: #fff;
+    color: #333;
+  }
+  .o1z8ititlebodylang ul a:active {
+    background-color: #333;
+    color: #fff;
+  }
+  .o1z8ititlebodylang ul a:focus {
+    background-color: #333;
+    color: #fff;
+  }
+  .o1z8ititlebodylang ul a:visited {
+    background-color: #333;
+    color: #fff;
+  }
+  .o1z8ititlebodylang ul a:link {
+    background-color: #333;
+    color: #fff;
+  }
+
+  .o1z8ibody {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
 
-  .yvitymenulist {
+  .o1z8imenulist {
     display: block;
     background-color: #279c90;
     padding: 10px;
@@ -69,7 +118,7 @@
     width: 100%;
   }
 
-  .yvitymenubody {
+  .o1z8imenubody {
     width: 100%;
     background-color: #279c90;
     display: flex;
@@ -77,7 +126,7 @@
     justify-content: center;
   }
 
-  .yvitymenulist ul {
+  .o1z8imenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -87,7 +136,7 @@
     overflow-x: auto;
   }
 
-  .yvitymenulist ul a {
+  .o1z8imenulist ul a {
     padding: 8px;
     font-size: 16px;
     color: #fff;
@@ -99,14 +148,14 @@
     white-space: nowrap;
   }
 
-  .yvitymenulist ul a:hover {
+  .o1z8imenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .yvitymenuitem {
+  .o1z8imenuitem {
     padding: 8px;
     font-size: 16px;
     color: #fff;
@@ -118,30 +167,30 @@
     white-space: nowrap;
   }
 
-  .yvitymenuactive {
+  .o1z8imenuactive {
     background-color: #e0e0e0 !important;
     border-radius: 5px;
     color: #000 !important;
     font-weight: bold;
   }
 
-  .yvitybodylogo {
+  .o1z8ibodylogo {
     height: 100px;
     max-width: 90vw;
   }
 
   @media screen and (min-width: 1024px) {
-    .yvitymenumobil {
+    .o1z8imenumobil {
       display: none !important;
     }
 
-    .yvitymenulist {
+    .o1z8imenulist {
       display: flex !important;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .yvitymenumobil {
+    .o1z8imenumobil {
       display: flex;
       align-items: center;
       justify-content: end;
@@ -149,22 +198,22 @@
       width: 100%;
     }
 
-    .yvitymenumobil div {
+    .o1z8imenumobil div {
       font-size: 32px;
       color: #fff;
       padding: 5px;
     }
 
-    .yvitymenulist {
+    .o1z8imenulist {
       display: none;
     }
 
-    .yvitybody {
+    .o1z8ibody {
       flex-direction: column;
       gap: 20px;
     }
 
-    .yvityChildren {
+    .o1z8iChildren {
       width: 100%;
       gap: 0px;
       flex-direction: column;
@@ -172,19 +221,19 @@
       justify-content: center;
     }
 
-    .yvitymenulist ul a {
+    .o1z8imenulist ul a {
       padding: 10px 0px 10px 0px;
     }
 
-    .yvitymenu {
+    .o1z8imenu {
       overflow-x: auto;
     }
 
-    .yvitymenulist ul {
+    .o1z8imenulist ul {
       flex-direction: column;
     }
 
-    .yvitybodylogo {
+    .o1z8ibodylogo {
       max-height: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -192,7 +241,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .yvitymenulist ul a {
+    .o1z8imenulist ul a {
       font-size: 14px;
     }
   }
@@ -202,7 +251,7 @@
     justify-content: start;
   }
 
-  .ua4r8 {
+  .f3xyt {
     width: var(--max);
     margin-top: 20px;
     gap: 10px;
@@ -210,7 +259,7 @@
     position: relative;
   }
 
-  .ua4r8-menu-btn {
+  .f3xyt-menu-btn {
     display: none;
     background-color: #000;
     padding: 10px 20px;
@@ -222,11 +271,11 @@
     align-items: center;
   }
 
-  .ua4r8-menu-btn i {
+  .f3xyt-menu-btn i {
     font-size: 20px;
   }
 
-  .ua4r8-menu {
+  .f3xyt-menu {
     width: 200px;
     background-color: #f9f9f9;
     border-radius: 5px;
@@ -237,28 +286,28 @@
     float: left;
   }
 
-  .ua4r8-desc {
+  .f3xyt-desc {
     display: flex;
     flex-direction: column;
     gap: 10px;
     float: right;
   }
 
-  .ua4r8-menu > a {
+  .f3xyt-menu > a {
     background-color: #fff;
     padding: 10px;
     float: left;
     border-radius: 5px;
   }
 
-  .ua4r8-menu > .active,
-  .ua4r8-menu > a:hover {
+  .f3xyt-menu > .active,
+  .f3xyt-menu > a:hover {
     background-color: #000;
     color: #fff;
     display: flex;
   }
 
-  .ua4r8-desc-menu {
+  .f3xyt-desc-menu {
     width: 200px;
     background-color: #000;
     display: flex;
@@ -266,19 +315,19 @@
     border-radius: 5px;
   }
 
-  .ua4r8-desc-menu > div {
+  .f3xyt-desc-menu > div {
     padding: 5px;
     border-radius: 5px;
     background-color: #fff;
     margin: 5px;
   }
 
-  .ua4r8-desc-body {
+  .f3xyt-desc-body {
     display: flex;
     justify-content: space-between;
   }
 
-  .ua4r8-title {
+  .f3xyt-title {
     width: 100%;
     height: 150px;
     background-color: #000;
@@ -291,7 +340,7 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 
-  .ua4r8-title::before {
+  .f3xyt-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -306,44 +355,44 @@
     z-index: 1;
   }
 
-  .ua4r8-title span {
+  .f3xyt-title span {
     position: relative;
     z-index: 2;
     font-size: 30px;
   }
 
-  .ua4r8-body {
+  .f3xyt-body {
     display: flex;
     flex-direction: column;
     gap: 10px;
     text-align: left;
   }
 
-  .ua4r8-img {
+  .f3xyt-img {
     display: flex;
     align-items: center;
     justify-content: center;
     width: calc(var(--max) - 460px);
   }
 
-  .ua4r8-img img {
+  .f3xyt-img img {
     width: 100%;
   }
 
   @media screen and (min-width: 1024px) {
-    .ua4r8-desc {
+    .f3xyt-desc {
       width: calc(var(--max) - 240px);
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .ua4r8-menu-btn {
+    .f3xyt-menu-btn {
       display: flex;
       width: calc(100% - 55px);
       margin-left: 5px;
     }
 
-    .ua4r8 {
+    .f3xyt {
       display: flex;
       flex-direction: column;
       width: 100%;
@@ -352,17 +401,17 @@
       margin-top: 0px;
     }
 
-    .ua4r8-img {
+    .f3xyt-img {
       width: 100%;
     }
 
-    .ua4r8-body {
+    .f3xyt-body {
       width: 100%;
       order: 3;
       padding: 10px;
     }
 
-    .ua4r8-menu {
+    .f3xyt-menu {
       width: 100%;
       float: none;
       flex-direction: column;
@@ -370,11 +419,11 @@
       display: none;
     }
 
-    .ua4r8-menu.active {
+    .f3xyt-menu.active {
       display: flex;
     }
 
-    .ua4r8-desc {
+    .f3xyt-desc {
       width: 100% !important;
       order: 2;
     }
