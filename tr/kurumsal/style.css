@@ -1,5 +1,5 @@
 
-  .ian6v {
+  .vclha {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .ian6vtitle {
+  .vclhatitle {
     width: 100%;
     /* background-color: #333; */
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .ian6vtitlebody {
+  .vclhatitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,39 +23,39 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .ian6vtitlebodytitle {
+  .vclhatitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .ian6vtitlebodylang {
+  .vclhatitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .ian6vtitlebodylang ul {
+  .vclhatitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .ian6vbody {
+  .vclhabody {
     width: var(--max);
     display: flex;
     align-items: start;
     justify-content: left;
-    margin: 5px 0px 5px 0px;
+    margin: -30px 0px 5px 0px;
   }
 
-  .ian6vmenu {
+  .vclhamenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .ian6vmenulist {
+  .vclhamenulist {
     width: calc(100% - 20px);
     background-color: #279c90;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .ian6vmenubody {
+  .vclhamenubody {
     width: 100%;
     background-color: #279c90;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .ian6vmenulist ul {
+  .vclhamenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .ian6vmenulist ul a {
+  .vclhamenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -92,26 +92,26 @@
     white-space: nowrap;
   }
 
-  .ian6vmenulist ul a:hover {
+  .vclhamenulist ul a:hover {
     background-color: #fff;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .ian6v-menu-list-active {
+  .vclha-menu-list-active {
     background-color: #fff;
     border-radius: 5px;
       color: #000 !important;
     cursor: pointer;
   }
 
-  .ian6vmenulistbody {
+  .vclhamenulistbody {
     width: 100%;
   }
 
   @media screen and (min-width: 1024px) {
-    .ian6vbodylogo {
+    .vclhabodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -119,15 +119,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .ian6vmenu {
+    .vclhamenu {
       overflow-x: auto;
     }
 
-    .ian6vmenulist ul {
+    .vclhamenulist ul {
       flex-direction: row;
     }
 
-    .ian6vbodylogo {
+    .vclhabodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -135,7 +135,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .ian6vmenulist ul a {
+    .vclhamenulist ul a {
       font-size: 14px;
     }
   }
