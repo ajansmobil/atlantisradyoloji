@@ -1,5 +1,5 @@
 
-  .nadws {
+  .wzc5j {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .nadwstitle {
+  .wzc5jtitle {
     width: 100%;
     /* background-color: #333; */
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .nadwstitlebody {
+  .wzc5jtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,26 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .nadwstitlebodytitle {
+  .wzc5jtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .nadwstitlebodylang {
+  .wzc5jtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
+    position: relative;
+    z-index: 1;
   }
 
-  .nadwstitlebodylang ul {
+  .wzc5jtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .nadwsbody {
+  .wzc5jbody {
     width: var(--max);
     display: flex;
     align-items: start;
@@ -48,14 +50,14 @@
     margin: -30px 0px 5px 0px;
   }
 
-  .nadwsmenu {
+  .wzc5jmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .nadwsmenulist {
+  .wzc5jmenulist {
     width: calc(100% - 20px);
     background-color: #279c90;
     padding: 10px;
@@ -63,7 +65,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .nadwsmenubody {
+  .wzc5jmenubody {
     width: 100%;
     background-color: #279c90;
     display: flex;
@@ -71,7 +73,7 @@
     justify-content: center;
   }
 
-  .nadwsmenulist ul {
+  .wzc5jmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +83,7 @@
     overflow-x: auto;
   }
 
-  .nadwsmenulist ul a {
+  .wzc5jmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -92,26 +94,26 @@
     white-space: nowrap;
   }
 
-  .nadwsmenulist ul a:hover {
+  .wzc5jmenulist ul a:hover {
     background-color: #fff;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .nadws-menu-list-active {
+  .wzc5j-menu-list-active {
     background-color: #fff;
     border-radius: 5px;
       color: #000 !important;
     cursor: pointer;
   }
 
-  .nadwsmenulistbody {
+  .wzc5jmenulistbody {
     width: 100%;
   }
 
   @media screen and (min-width: 1024px) {
-    .nadwsbodylogo {
+    .wzc5jbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -119,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .nadwsmenu {
+    .wzc5jmenu {
       overflow-x: auto;
     }
 
-    .nadwsmenulist ul {
+    .wzc5jmenulist ul {
       flex-direction: row;
     }
 
-    .nadwsbodylogo {
+    .wzc5jbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -135,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .nadwsmenulist ul a {
+    .wzc5jmenulist ul a {
       font-size: 14px;
     }
   }
@@ -145,7 +147,7 @@
     justify-content: start;
   }
 
-  .xuhjg {
+  .bcwpk {
     width: var(--max);
     margin-top: 20px;
     gap: 10px;
@@ -153,7 +155,7 @@
     position: relative;
   }
 
-  .xuhjg-menu-btn {
+  .bcwpk-menu-btn {
     display: none;
     background-color: #279c90;
     padding: 10px 20px;
@@ -165,11 +167,11 @@
     align-items: center;
   }
 
-  .xuhjg-menu-btn i {
+  .bcwpk-menu-btn i {
     font-size: 20px;
   }
 
-  .xuhjg-menu {
+  .bcwpk-menu {
     width: 200px;
     background-color: #f9f9f9;
     border-radius: 5px;
@@ -180,28 +182,28 @@
     float: left;
   }
 
-  .xuhjg-desc {
+  .bcwpk-desc {
     display: flex;
     flex-direction: column;
     gap: 10px;
     float: right;
   }
 
-  .xuhjg-menu > a {
+  .bcwpk-menu > a {
     background-color: #fff;
     padding: 10px;
     float: left;
     border-radius: 5px;
   }
 
-  .xuhjg-menu > .active,
-  .xuhjg-menu > a:hover {
+  .bcwpk-menu > .active,
+  .bcwpk-menu > a:hover {
     background-color: #279c90;
     color: #fff;
     display: flex;
   }
 
-  .xuhjg-desc-menu {
+  .bcwpk-desc-menu {
     width: 200px;
     background-color: #279c90;
     display: flex;
@@ -209,19 +211,19 @@
     border-radius: 5px;
   }
 
-  .xuhjg-desc-menu > div {
+  .bcwpk-desc-menu > div {
     padding: 5px;
     border-radius: 5px;
     background-color: #fff;
     margin: 5px;
   }
 
-  .xuhjg-desc-body {
+  .bcwpk-desc-body {
     display: flex;
     justify-content: space-between;
   }
 
-  .xuhjg-title {
+  .bcwpk-title {
     width: 100%;
     height: 0px;
     background-color: #279c90;
@@ -234,7 +236,7 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 
-  .xuhjg-title::before {
+  .bcwpk-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -249,44 +251,44 @@
     z-index: 1;
   }
 
-  .xuhjg-title span {
+  .bcwpk-title span {
     position: relative;
     z-index: 2;
     font-size: 0px;
   }
 
-  .xuhjg-body {
+  .bcwpk-body {
     display: flex;
     flex-direction: column;
     gap: 10px;
     text-align: left;
   }
 
-  .xuhjg-img {
+  .bcwpk-img {
     display: flex;
     align-items: center;
     justify-content: center;
     width: calc(var(--max) - 460px);
   }
 
-  .xuhjg-img img {
+  .bcwpk-img img {
     width: 100%;
   }
 
   @media screen and (min-width: 1024px) {
-    .xuhjg-desc {
+    .bcwpk-desc {
       width: calc(var(--max) - 240px);
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .xuhjg-menu-btn {
+    .bcwpk-menu-btn {
       display: flex;
       width: calc(100% - 55px);
       margin-left: 5px;
     }
 
-    .xuhjg {
+    .bcwpk {
       display: flex;
       flex-direction: column;
       width: 100%;
@@ -295,17 +297,17 @@
       margin-top: 0px;
     }
 
-    .xuhjg-img {
+    .bcwpk-img {
       width: 100%;
     }
 
-    .xuhjg-body {
+    .bcwpk-body {
       width: 100%;
       order: 3;
       padding: 10px;
     }
 
-    .xuhjg-menu {
+    .bcwpk-menu {
       width: 100%;
       float: none;
       flex-direction: column;
@@ -313,11 +315,11 @@
       display: none;
     }
 
-    .xuhjg-menu.active {
+    .bcwpk-menu.active {
       display: flex;
     }
 
-    .xuhjg-desc {
+    .bcwpk-desc {
       width: 100% !important;
       order: 2;
     }

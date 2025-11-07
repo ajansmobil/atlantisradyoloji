@@ -1,5 +1,5 @@
 
-  .ozb2o {
+  .fymou {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .ozb2otitle {
+  .fymoutitle {
     width: 100%;
     /* background-color: #333; */
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .ozb2otitlebody {
+  .fymoutitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,26 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .ozb2otitlebodytitle {
+  .fymoutitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .ozb2otitlebodylang {
+  .fymoutitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
+    position: relative;
+    z-index: 1;
   }
 
-  .ozb2otitlebodylang ul {
+  .fymoutitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .ozb2obody {
+  .fymoubody {
     width: var(--max);
     display: flex;
     align-items: start;
@@ -48,14 +50,14 @@
     margin: -30px 0px 5px 0px;
   }
 
-  .ozb2omenu {
+  .fymoumenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .ozb2omenulist {
+  .fymoumenulist {
     width: calc(100% - 20px);
     background-color: #279c90;
     padding: 10px;
@@ -63,7 +65,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .ozb2omenubody {
+  .fymoumenubody {
     width: 100%;
     background-color: #279c90;
     display: flex;
@@ -71,7 +73,7 @@
     justify-content: center;
   }
 
-  .ozb2omenulist ul {
+  .fymoumenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +83,7 @@
     overflow-x: auto;
   }
 
-  .ozb2omenulist ul a {
+  .fymoumenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -92,26 +94,26 @@
     white-space: nowrap;
   }
 
-  .ozb2omenulist ul a:hover {
+  .fymoumenulist ul a:hover {
     background-color: #fff;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .ozb2o-menu-list-active {
+  .fymou-menu-list-active {
     background-color: #fff;
     border-radius: 5px;
       color: #000 !important;
     cursor: pointer;
   }
 
-  .ozb2omenulistbody {
+  .fymoumenulistbody {
     width: 100%;
   }
 
   @media screen and (min-width: 1024px) {
-    .ozb2obodylogo {
+    .fymoubodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -119,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .ozb2omenu {
+    .fymoumenu {
       overflow-x: auto;
     }
 
-    .ozb2omenulist ul {
+    .fymoumenulist ul {
       flex-direction: row;
     }
 
-    .ozb2obodylogo {
+    .fymoubodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -135,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .ozb2omenulist ul a {
+    .fymoumenulist ul a {
       font-size: 14px;
     }
   }
@@ -145,7 +147,7 @@
     justify-content: start;
   }
 
-  .gyegd {
+  .x17s9 {
     width: var(--max);
     margin-top: 20px;
     gap: 10px;
@@ -153,7 +155,7 @@
     position: relative;
   }
 
-  .gyegd-menu-btn {
+  .x17s9-menu-btn {
     display: none;
     background-color: #279c90;
     padding: 10px 20px;
@@ -165,11 +167,11 @@
     align-items: center;
   }
 
-  .gyegd-menu-btn i {
+  .x17s9-menu-btn i {
     font-size: 20px;
   }
 
-  .gyegd-menu {
+  .x17s9-menu {
     width: 200px;
     background-color: #f9f9f9;
     border-radius: 5px;
@@ -180,28 +182,28 @@
     float: left;
   }
 
-  .gyegd-desc {
+  .x17s9-desc {
     display: flex;
     flex-direction: column;
     gap: 10px;
     float: right;
   }
 
-  .gyegd-menu > a {
+  .x17s9-menu > a {
     background-color: #fff;
     padding: 10px;
     float: left;
     border-radius: 5px;
   }
 
-  .gyegd-menu > .active,
-  .gyegd-menu > a:hover {
+  .x17s9-menu > .active,
+  .x17s9-menu > a:hover {
     background-color: #279c90;
     color: #fff;
     display: flex;
   }
 
-  .gyegd-desc-menu {
+  .x17s9-desc-menu {
     width: 200px;
     background-color: #279c90;
     display: flex;
@@ -209,19 +211,19 @@
     border-radius: 5px;
   }
 
-  .gyegd-desc-menu > div {
+  .x17s9-desc-menu > div {
     padding: 5px;
     border-radius: 5px;
     background-color: #fff;
     margin: 5px;
   }
 
-  .gyegd-desc-body {
+  .x17s9-desc-body {
     display: flex;
     justify-content: space-between;
   }
 
-  .gyegd-title {
+  .x17s9-title {
     width: 100%;
     height: 0px;
     background-color: #279c90;
@@ -234,7 +236,7 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 
-  .gyegd-title::before {
+  .x17s9-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -249,44 +251,44 @@
     z-index: 1;
   }
 
-  .gyegd-title span {
+  .x17s9-title span {
     position: relative;
     z-index: 2;
     font-size: 0px;
   }
 
-  .gyegd-body {
+  .x17s9-body {
     display: flex;
     flex-direction: column;
     gap: 10px;
     text-align: left;
   }
 
-  .gyegd-img {
+  .x17s9-img {
     display: flex;
     align-items: center;
     justify-content: center;
     width: calc(var(--max) - 460px);
   }
 
-  .gyegd-img img {
+  .x17s9-img img {
     width: 100%;
   }
 
   @media screen and (min-width: 1024px) {
-    .gyegd-desc {
+    .x17s9-desc {
       width: calc(var(--max) - 240px);
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .gyegd-menu-btn {
+    .x17s9-menu-btn {
       display: flex;
       width: calc(100% - 55px);
       margin-left: 5px;
     }
 
-    .gyegd {
+    .x17s9 {
       display: flex;
       flex-direction: column;
       width: 100%;
@@ -295,17 +297,17 @@
       margin-top: 0px;
     }
 
-    .gyegd-img {
+    .x17s9-img {
       width: 100%;
     }
 
-    .gyegd-body {
+    .x17s9-body {
       width: 100%;
       order: 3;
       padding: 10px;
     }
 
-    .gyegd-menu {
+    .x17s9-menu {
       width: 100%;
       float: none;
       flex-direction: column;
@@ -313,11 +315,11 @@
       display: none;
     }
 
-    .gyegd-menu.active {
+    .x17s9-menu.active {
       display: flex;
     }
 
-    .gyegd-desc {
+    .x17s9-desc {
       width: 100% !important;
       order: 2;
     }

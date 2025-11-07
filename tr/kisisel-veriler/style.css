@@ -1,5 +1,5 @@
 
-  .yenvz {
+  .x9xm1 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .yenvztitle {
+  .x9xm1title {
     width: 100%;
     /* background-color: #333; */
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .yenvztitlebody {
+  .x9xm1titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,26 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .yenvztitlebodytitle {
+  .x9xm1titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .yenvztitlebodylang {
+  .x9xm1titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
+    position: relative;
+    z-index: 1;
   }
 
-  .yenvztitlebodylang ul {
+  .x9xm1titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .yenvzbody {
+  .x9xm1body {
     width: var(--max);
     display: flex;
     align-items: start;
@@ -48,14 +50,14 @@
     margin: -30px 0px 5px 0px;
   }
 
-  .yenvzmenu {
+  .x9xm1menu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .yenvzmenulist {
+  .x9xm1menulist {
     width: calc(100% - 20px);
     background-color: #279c90;
     padding: 10px;
@@ -63,7 +65,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .yenvzmenubody {
+  .x9xm1menubody {
     width: 100%;
     background-color: #279c90;
     display: flex;
@@ -71,7 +73,7 @@
     justify-content: center;
   }
 
-  .yenvzmenulist ul {
+  .x9xm1menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +83,7 @@
     overflow-x: auto;
   }
 
-  .yenvzmenulist ul a {
+  .x9xm1menulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -92,26 +94,26 @@
     white-space: nowrap;
   }
 
-  .yenvzmenulist ul a:hover {
+  .x9xm1menulist ul a:hover {
     background-color: #fff;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .yenvz-menu-list-active {
+  .x9xm1-menu-list-active {
     background-color: #fff;
     border-radius: 5px;
       color: #000 !important;
     cursor: pointer;
   }
 
-  .yenvzmenulistbody {
+  .x9xm1menulistbody {
     width: 100%;
   }
 
   @media screen and (min-width: 1024px) {
-    .yenvzbodylogo {
+    .x9xm1bodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -119,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .yenvzmenu {
+    .x9xm1menu {
       overflow-x: auto;
     }
 
-    .yenvzmenulist ul {
+    .x9xm1menulist ul {
       flex-direction: row;
     }
 
-    .yenvzbodylogo {
+    .x9xm1bodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -135,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .yenvzmenulist ul a {
+    .x9xm1menulist ul a {
       font-size: 14px;
     }
   }
@@ -145,7 +147,7 @@
     justify-content: start;
   }
 
-  .nayyu {
+  .fh8u8 {
     width: var(--max);
     margin-top: 20px;
     gap: 10px;
@@ -153,7 +155,7 @@
     position: relative;
   }
 
-  .nayyu-menu-btn {
+  .fh8u8-menu-btn {
     display: none;
     background-color: #279c90;
     padding: 10px 20px;
@@ -165,11 +167,11 @@
     align-items: center;
   }
 
-  .nayyu-menu-btn i {
+  .fh8u8-menu-btn i {
     font-size: 20px;
   }
 
-  .nayyu-menu {
+  .fh8u8-menu {
     width: 200px;
     background-color: #f9f9f9;
     border-radius: 5px;
@@ -180,28 +182,28 @@
     float: left;
   }
 
-  .nayyu-desc {
+  .fh8u8-desc {
     display: flex;
     flex-direction: column;
     gap: 10px;
     float: right;
   }
 
-  .nayyu-menu > a {
+  .fh8u8-menu > a {
     background-color: #fff;
     padding: 10px;
     float: left;
     border-radius: 5px;
   }
 
-  .nayyu-menu > .active,
-  .nayyu-menu > a:hover {
+  .fh8u8-menu > .active,
+  .fh8u8-menu > a:hover {
     background-color: #279c90;
     color: #fff;
     display: flex;
   }
 
-  .nayyu-desc-menu {
+  .fh8u8-desc-menu {
     width: 200px;
     background-color: #279c90;
     display: flex;
@@ -209,19 +211,19 @@
     border-radius: 5px;
   }
 
-  .nayyu-desc-menu > div {
+  .fh8u8-desc-menu > div {
     padding: 5px;
     border-radius: 5px;
     background-color: #fff;
     margin: 5px;
   }
 
-  .nayyu-desc-body {
+  .fh8u8-desc-body {
     display: flex;
     justify-content: space-between;
   }
 
-  .nayyu-title {
+  .fh8u8-title {
     width: 100%;
     height: 0px;
     background-color: #279c90;
@@ -234,7 +236,7 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 
-  .nayyu-title::before {
+  .fh8u8-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -249,44 +251,44 @@
     z-index: 1;
   }
 
-  .nayyu-title span {
+  .fh8u8-title span {
     position: relative;
     z-index: 2;
     font-size: 0px;
   }
 
-  .nayyu-body {
+  .fh8u8-body {
     display: flex;
     flex-direction: column;
     gap: 10px;
     text-align: left;
   }
 
-  .nayyu-img {
+  .fh8u8-img {
     display: flex;
     align-items: center;
     justify-content: center;
     width: calc(var(--max) - 460px);
   }
 
-  .nayyu-img img {
+  .fh8u8-img img {
     width: 100%;
   }
 
   @media screen and (min-width: 1024px) {
-    .nayyu-desc {
+    .fh8u8-desc {
       width: calc(var(--max) - 240px);
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .nayyu-menu-btn {
+    .fh8u8-menu-btn {
       display: flex;
       width: calc(100% - 55px);
       margin-left: 5px;
     }
 
-    .nayyu {
+    .fh8u8 {
       display: flex;
       flex-direction: column;
       width: 100%;
@@ -295,17 +297,17 @@
       margin-top: 0px;
     }
 
-    .nayyu-img {
+    .fh8u8-img {
       width: 100%;
     }
 
-    .nayyu-body {
+    .fh8u8-body {
       width: 100%;
       order: 3;
       padding: 10px;
     }
 
-    .nayyu-menu {
+    .fh8u8-menu {
       width: 100%;
       float: none;
       flex-direction: column;
@@ -313,11 +315,11 @@
       display: none;
     }
 
-    .nayyu-menu.active {
+    .fh8u8-menu.active {
       display: flex;
     }
 
-    .nayyu-desc {
+    .fh8u8-desc {
       width: 100% !important;
       order: 2;
     }

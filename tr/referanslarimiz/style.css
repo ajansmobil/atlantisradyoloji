@@ -1,5 +1,5 @@
 
-  .s0bmr {
+  .qq8yp {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .s0bmrtitle {
+  .qq8yptitle {
     width: 100%;
     /* background-color: #333; */
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .s0bmrtitlebody {
+  .qq8yptitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,26 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .s0bmrtitlebodytitle {
+  .qq8yptitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .s0bmrtitlebodylang {
+  .qq8yptitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
+    position: relative;
+    z-index: 1;
   }
 
-  .s0bmrtitlebodylang ul {
+  .qq8yptitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .s0bmrbody {
+  .qq8ypbody {
     width: var(--max);
     display: flex;
     align-items: start;
@@ -48,14 +50,14 @@
     margin: -30px 0px 5px 0px;
   }
 
-  .s0bmrmenu {
+  .qq8ypmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .s0bmrmenulist {
+  .qq8ypmenulist {
     width: calc(100% - 20px);
     background-color: #279c90;
     padding: 10px;
@@ -63,7 +65,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .s0bmrmenubody {
+  .qq8ypmenubody {
     width: 100%;
     background-color: #279c90;
     display: flex;
@@ -71,7 +73,7 @@
     justify-content: center;
   }
 
-  .s0bmrmenulist ul {
+  .qq8ypmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +83,7 @@
     overflow-x: auto;
   }
 
-  .s0bmrmenulist ul a {
+  .qq8ypmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -92,26 +94,26 @@
     white-space: nowrap;
   }
 
-  .s0bmrmenulist ul a:hover {
+  .qq8ypmenulist ul a:hover {
     background-color: #fff;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .s0bmr-menu-list-active {
+  .qq8yp-menu-list-active {
     background-color: #fff;
     border-radius: 5px;
       color: #000 !important;
     cursor: pointer;
   }
 
-  .s0bmrmenulistbody {
+  .qq8ypmenulistbody {
     width: 100%;
   }
 
   @media screen and (min-width: 1024px) {
-    .s0bmrbodylogo {
+    .qq8ypbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -119,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .s0bmrmenu {
+    .qq8ypmenu {
       overflow-x: auto;
     }
 
-    .s0bmrmenulist ul {
+    .qq8ypmenulist ul {
       flex-direction: row;
     }
 
-    .s0bmrbodylogo {
+    .qq8ypbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -135,27 +137,27 @@
   }
 
   @media screen and (max-width: 768px) {
-    .s0bmrmenulist ul a {
+    .qq8ypmenulist ul a {
       font-size: 14px;
     }
   }
 
 
-  .mv7h7 {
+  .zbpsq {
     margin-top: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .mv7h7body {
+  .zbpsqbody {
     width: var(--max);
     display: grid;
     gap: 20px;
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .mv7h7bodyitem {
+  .zbpsqbodyitem {
     cursor: pointer;
     background-color: #e9e9e9;
     border-radius: 12px;
@@ -170,23 +172,23 @@
     padding: 10px;
   }
 
-  .mv7h7bodyitem:hover {
+  .zbpsqbodyitem:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
   }
 
-  .mv7h7bodyitem:hover .mv7h7bodyitemimg {
+  .zbpsqbodyitem:hover .zbpsqbodyitemimg {
     transform: scale(1.1);
   }
 
-  .mv7h7bodyitemimg {
+  .zbpsqbodyitemimg {
     width: 100%;
     height: 100%;
     object-fit: cover;
     transition: transform 0.5s ease;
   }
 
-  .mv7h7bodyitemtitle {
+  .zbpsqbodyitemtitle {
     padding: 10px;
     background-color: #e9e9e9;
     text-align: left;
@@ -194,14 +196,14 @@
     font-weight: --font-weight--;
     font-size: 16px;
   }
-  .mv7h7bodyitemtext {
+  .zbpsqbodyitemtext {
     font-size: 16px;
     color: #000;
     font-weight: bold;
   }
 
   @media screen and (max-width: 1024px) {
-    .mv7h7body {
+    .zbpsqbody {
       width: calc(100% - 30px);
       margin: 0 15px;
       grid-template-columns: repeat(3, 1fr);
@@ -210,7 +212,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .mv7h7body {
+    .zbpsqbody {
       width: calc(100% - 20px);
       margin: 0 10px;
       grid-template-columns: repeat(2, 1fr);

@@ -1,5 +1,5 @@
 
-  .w1nfg {
+  .df2ho {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .w1nfgtitle {
+  .df2hotitle {
     width: 100%;
     /* background-color: #333; */
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .w1nfgtitlebody {
+  .df2hotitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,26 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .w1nfgtitlebodytitle {
+  .df2hotitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .w1nfgtitlebodylang {
+  .df2hotitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
+    position: relative;
+    z-index: 1;
   }
 
-  .w1nfgtitlebodylang ul {
+  .df2hotitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .w1nfgbody {
+  .df2hobody {
     width: var(--max);
     display: flex;
     align-items: start;
@@ -48,14 +50,14 @@
     margin: -30px 0px 5px 0px;
   }
 
-  .w1nfgmenu {
+  .df2homenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .w1nfgmenulist {
+  .df2homenulist {
     width: calc(100% - 20px);
     background-color: #279c90;
     padding: 10px;
@@ -63,7 +65,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .w1nfgmenubody {
+  .df2homenubody {
     width: 100%;
     background-color: #279c90;
     display: flex;
@@ -71,7 +73,7 @@
     justify-content: center;
   }
 
-  .w1nfgmenulist ul {
+  .df2homenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +83,7 @@
     overflow-x: auto;
   }
 
-  .w1nfgmenulist ul a {
+  .df2homenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -92,26 +94,26 @@
     white-space: nowrap;
   }
 
-  .w1nfgmenulist ul a:hover {
+  .df2homenulist ul a:hover {
     background-color: #fff;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .w1nfg-menu-list-active {
+  .df2ho-menu-list-active {
     background-color: #fff;
     border-radius: 5px;
       color: #000 !important;
     cursor: pointer;
   }
 
-  .w1nfgmenulistbody {
+  .df2homenulistbody {
     width: 100%;
   }
 
   @media screen and (min-width: 1024px) {
-    .w1nfgbodylogo {
+    .df2hobodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -119,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .w1nfgmenu {
+    .df2homenu {
       overflow-x: auto;
     }
 
-    .w1nfgmenulist ul {
+    .df2homenulist ul {
       flex-direction: row;
     }
 
-    .w1nfgbodylogo {
+    .df2hobodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -135,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .w1nfgmenulist ul a {
+    .df2homenulist ul a {
       font-size: 14px;
     }
   }
@@ -145,7 +147,7 @@
     justify-content: start;
   }
 
-  .pxlwo {
+  .ma4cv {
     width: var(--max);
     margin-top: 20px;
     gap: 10px;
@@ -153,7 +155,7 @@
     position: relative;
   }
 
-  .pxlwo-menu-btn {
+  .ma4cv-menu-btn {
     display: none;
     background-color: #279c90;
     padding: 10px 20px;
@@ -165,11 +167,11 @@
     align-items: center;
   }
 
-  .pxlwo-menu-btn i {
+  .ma4cv-menu-btn i {
     font-size: 20px;
   }
 
-  .pxlwo-menu {
+  .ma4cv-menu {
     width: 200px;
     background-color: #f9f9f9;
     border-radius: 5px;
@@ -180,28 +182,28 @@
     float: left;
   }
 
-  .pxlwo-desc {
+  .ma4cv-desc {
     display: flex;
     flex-direction: column;
     gap: 10px;
     float: right;
   }
 
-  .pxlwo-menu > a {
+  .ma4cv-menu > a {
     background-color: #fff;
     padding: 10px;
     float: left;
     border-radius: 5px;
   }
 
-  .pxlwo-menu > .active,
-  .pxlwo-menu > a:hover {
+  .ma4cv-menu > .active,
+  .ma4cv-menu > a:hover {
     background-color: #279c90;
     color: #fff;
     display: flex;
   }
 
-  .pxlwo-desc-menu {
+  .ma4cv-desc-menu {
     width: 200px;
     background-color: #279c90;
     display: flex;
@@ -209,19 +211,19 @@
     border-radius: 5px;
   }
 
-  .pxlwo-desc-menu > div {
+  .ma4cv-desc-menu > div {
     padding: 5px;
     border-radius: 5px;
     background-color: #fff;
     margin: 5px;
   }
 
-  .pxlwo-desc-body {
+  .ma4cv-desc-body {
     display: flex;
     justify-content: space-between;
   }
 
-  .pxlwo-title {
+  .ma4cv-title {
     width: 100%;
     height: 0px;
     background-color: #279c90;
@@ -234,7 +236,7 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 
-  .pxlwo-title::before {
+  .ma4cv-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -249,44 +251,44 @@
     z-index: 1;
   }
 
-  .pxlwo-title span {
+  .ma4cv-title span {
     position: relative;
     z-index: 2;
     font-size: 0px;
   }
 
-  .pxlwo-body {
+  .ma4cv-body {
     display: flex;
     flex-direction: column;
     gap: 10px;
     text-align: left;
   }
 
-  .pxlwo-img {
+  .ma4cv-img {
     display: flex;
     align-items: center;
     justify-content: center;
     width: calc(var(--max) - 460px);
   }
 
-  .pxlwo-img img {
+  .ma4cv-img img {
     width: 100%;
   }
 
   @media screen and (min-width: 1024px) {
-    .pxlwo-desc {
+    .ma4cv-desc {
       width: calc(var(--max) - 240px);
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .pxlwo-menu-btn {
+    .ma4cv-menu-btn {
       display: flex;
       width: calc(100% - 55px);
       margin-left: 5px;
     }
 
-    .pxlwo {
+    .ma4cv {
       display: flex;
       flex-direction: column;
       width: 100%;
@@ -295,17 +297,17 @@
       margin-top: 0px;
     }
 
-    .pxlwo-img {
+    .ma4cv-img {
       width: 100%;
     }
 
-    .pxlwo-body {
+    .ma4cv-body {
       width: 100%;
       order: 3;
       padding: 10px;
     }
 
-    .pxlwo-menu {
+    .ma4cv-menu {
       width: 100%;
       float: none;
       flex-direction: column;
@@ -313,11 +315,11 @@
       display: none;
     }
 
-    .pxlwo-menu.active {
+    .ma4cv-menu.active {
       display: flex;
     }
 
-    .pxlwo-desc {
+    .ma4cv-desc {
       width: 100% !important;
       order: 2;
     }

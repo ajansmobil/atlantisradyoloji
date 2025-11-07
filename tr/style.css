@@ -1,5 +1,5 @@
 
-  .wro5l {
+  .tg6ee {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .wro5ltitle {
+  .tg6eetitle {
     width: 100%;
     /* background-color: #333; */
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .wro5ltitlebody {
+  .tg6eetitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,26 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .wro5ltitlebodytitle {
+  .tg6eetitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .wro5ltitlebodylang {
+  .tg6eetitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
+    position: relative;
+    z-index: 1;
   }
 
-  .wro5ltitlebodylang ul {
+  .tg6eetitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .wro5lbody {
+  .tg6eebody {
     width: var(--max);
     display: flex;
     align-items: start;
@@ -48,14 +50,14 @@
     margin: -30px 0px 5px 0px;
   }
 
-  .wro5lmenu {
+  .tg6eemenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .wro5lmenulist {
+  .tg6eemenulist {
     width: calc(100% - 20px);
     background-color: #279c90;
     padding: 10px;
@@ -63,7 +65,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .wro5lmenubody {
+  .tg6eemenubody {
     width: 100%;
     background-color: #279c90;
     display: flex;
@@ -71,7 +73,7 @@
     justify-content: center;
   }
 
-  .wro5lmenulist ul {
+  .tg6eemenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +83,7 @@
     overflow-x: auto;
   }
 
-  .wro5lmenulist ul a {
+  .tg6eemenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -92,26 +94,26 @@
     white-space: nowrap;
   }
 
-  .wro5lmenulist ul a:hover {
+  .tg6eemenulist ul a:hover {
     background-color: #fff;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .wro5l-menu-list-active {
+  .tg6ee-menu-list-active {
     background-color: #fff;
     border-radius: 5px;
       color: #000 !important;
     cursor: pointer;
   }
 
-  .wro5lmenulistbody {
+  .tg6eemenulistbody {
     width: 100%;
   }
 
   @media screen and (min-width: 1024px) {
-    .wro5lbodylogo {
+    .tg6eebodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -119,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .wro5lmenu {
+    .tg6eemenu {
       overflow-x: auto;
     }
 
-    .wro5lmenulist ul {
+    .tg6eemenulist ul {
       flex-direction: row;
     }
 
-    .wro5lbodylogo {
+    .tg6eebodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -135,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .wro5lmenulist ul a {
+    .tg6eemenulist ul a {
       font-size: 14px;
     }
   }
@@ -190,18 +192,18 @@
   }
 
 
-  .bjjos {
+  .ui533 {
     width: 100%;
     margin: 15px 0;
   }
 
-  .bjjosbody {
+  .ui533body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 15px;
   }
 
-  .bjjosbodyitem {
+  .ui533bodyitem {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -212,7 +214,7 @@
     position: relative;
   }
 
-  .bjjosbodyitemlink {
+  .ui533bodyitemlink {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -221,7 +223,7 @@
     gap: 10px;
   }
 
-  .bjjosbodyitemimg {
+  .ui533bodyitemimg {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -232,18 +234,18 @@
     transition: all 0.3s ease;
   }
 
-  .bjjosbodyitemimg:hover {
+  .ui533bodyitemimg:hover {
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
     transform: translateY(-5px);
   }
 
-  .bjjosbodyitemimg img {
+  .ui533bodyitemimg img {
     max-height: 200px;
     max-width: calc(200px * 2);
     border-radius: 10px;
   }
 
-  .bjjosbodyitemtitle {
+  .ui533bodyitemtitle {
     padding: 5px;
     display: flex;
     height: calc(36 * 2);
@@ -255,7 +257,7 @@
     text-align: center;
   }
 
-  .bjjosbodybg {
+  .ui533bodybg {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -266,7 +268,7 @@
     opacity: 0.5;
   }
 
-  .bjjosbodyitems {
+  .ui533bodyitems {
     padding: 5px;
     display: flex;
     flex-direction: column;
@@ -277,25 +279,25 @@
     position: relative;
   }
 
-  .bjjosbodyitems.left {
+  .ui533bodyitems.left {
     align-self: flex-start;
     border-radius: 0px 10px 10px 0px;
     transform: translateY(60px);
     animation: slideInLeft 1s forwards;
   }
 
-  .bjjosbodyitems.right {
+  .ui533bodyitems.right {
     align-self: flex-end;
     border-radius: 10px 0px 0px 10px;
     transform: translateY(60px);
     animation: slideInRight 1s forwards;
   }
 
-  .bjjosbodyitem.lefts {
+  .ui533bodyitem.lefts {
     align-self: flex-end;
   }
 
-  .bjjosbodyitem.rights {
+  .ui533bodyitem.rights {
     align-self: flex-start;
   }
 
@@ -323,18 +325,18 @@
     }
   }
 
-  .bjjosbodyitems {
+  .ui533bodyitems {
     animation-delay: 0.3s;
   }
 
  
 
   @media screen and (max-width: 1024px) {
-    .bjjosbodyitem {
+    .ui533bodyitem {
       width: 100%;
     }
 
-    .bjjosbody {
+    .ui533body {
       display: flex;
       flex-direction: column;
       gap: 15px;

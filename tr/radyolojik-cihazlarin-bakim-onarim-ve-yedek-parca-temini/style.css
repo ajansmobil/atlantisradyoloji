@@ -1,5 +1,5 @@
 
-  .qir63 {
+  .adb9w {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .qir63title {
+  .adb9wtitle {
     width: 100%;
     /* background-color: #333; */
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .qir63titlebody {
+  .adb9wtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,26 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .qir63titlebodytitle {
+  .adb9wtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .qir63titlebodylang {
+  .adb9wtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
+    position: relative;
+    z-index: 1;
   }
 
-  .qir63titlebodylang ul {
+  .adb9wtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .qir63body {
+  .adb9wbody {
     width: var(--max);
     display: flex;
     align-items: start;
@@ -48,14 +50,14 @@
     margin: -30px 0px 5px 0px;
   }
 
-  .qir63menu {
+  .adb9wmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .qir63menulist {
+  .adb9wmenulist {
     width: calc(100% - 20px);
     background-color: #279c90;
     padding: 10px;
@@ -63,7 +65,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .qir63menubody {
+  .adb9wmenubody {
     width: 100%;
     background-color: #279c90;
     display: flex;
@@ -71,7 +73,7 @@
     justify-content: center;
   }
 
-  .qir63menulist ul {
+  .adb9wmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +83,7 @@
     overflow-x: auto;
   }
 
-  .qir63menulist ul a {
+  .adb9wmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -92,26 +94,26 @@
     white-space: nowrap;
   }
 
-  .qir63menulist ul a:hover {
+  .adb9wmenulist ul a:hover {
     background-color: #fff;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .qir63-menu-list-active {
+  .adb9w-menu-list-active {
     background-color: #fff;
     border-radius: 5px;
       color: #000 !important;
     cursor: pointer;
   }
 
-  .qir63menulistbody {
+  .adb9wmenulistbody {
     width: 100%;
   }
 
   @media screen and (min-width: 1024px) {
-    .qir63bodylogo {
+    .adb9wbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -119,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .qir63menu {
+    .adb9wmenu {
       overflow-x: auto;
     }
 
-    .qir63menulist ul {
+    .adb9wmenulist ul {
       flex-direction: row;
     }
 
-    .qir63bodylogo {
+    .adb9wbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -135,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .qir63menulist ul a {
+    .adb9wmenulist ul a {
       font-size: 14px;
     }
   }
@@ -145,7 +147,7 @@
     justify-content: start;
   }
 
-  .fs3sb {
+  .opycn {
     width: var(--max);
     margin-top: 20px;
     gap: 10px;
@@ -153,7 +155,7 @@
     position: relative;
   }
 
-  .fs3sb-menu-btn {
+  .opycn-menu-btn {
     display: none;
     background-color: #279c90;
     padding: 10px 20px;
@@ -165,11 +167,11 @@
     align-items: center;
   }
 
-  .fs3sb-menu-btn i {
+  .opycn-menu-btn i {
     font-size: 20px;
   }
 
-  .fs3sb-menu {
+  .opycn-menu {
     width: 200px;
     background-color: #f9f9f9;
     border-radius: 5px;
@@ -180,28 +182,28 @@
     float: left;
   }
 
-  .fs3sb-desc {
+  .opycn-desc {
     display: flex;
     flex-direction: column;
     gap: 10px;
     float: right;
   }
 
-  .fs3sb-menu > a {
+  .opycn-menu > a {
     background-color: #fff;
     padding: 10px;
     float: left;
     border-radius: 5px;
   }
 
-  .fs3sb-menu > .active,
-  .fs3sb-menu > a:hover {
+  .opycn-menu > .active,
+  .opycn-menu > a:hover {
     background-color: #279c90;
     color: #fff;
     display: flex;
   }
 
-  .fs3sb-desc-menu {
+  .opycn-desc-menu {
     width: 200px;
     background-color: #279c90;
     display: flex;
@@ -209,19 +211,19 @@
     border-radius: 5px;
   }
 
-  .fs3sb-desc-menu > div {
+  .opycn-desc-menu > div {
     padding: 5px;
     border-radius: 5px;
     background-color: #fff;
     margin: 5px;
   }
 
-  .fs3sb-desc-body {
+  .opycn-desc-body {
     display: flex;
     justify-content: space-between;
   }
 
-  .fs3sb-title {
+  .opycn-title {
     width: 100%;
     height: 0px;
     background-color: #279c90;
@@ -234,7 +236,7 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 
-  .fs3sb-title::before {
+  .opycn-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -249,44 +251,44 @@
     z-index: 1;
   }
 
-  .fs3sb-title span {
+  .opycn-title span {
     position: relative;
     z-index: 2;
     font-size: 0px;
   }
 
-  .fs3sb-body {
+  .opycn-body {
     display: flex;
     flex-direction: column;
     gap: 10px;
     text-align: left;
   }
 
-  .fs3sb-img {
+  .opycn-img {
     display: flex;
     align-items: center;
     justify-content: center;
     width: calc(var(--max) - 460px);
   }
 
-  .fs3sb-img img {
+  .opycn-img img {
     width: 100%;
   }
 
   @media screen and (min-width: 1024px) {
-    .fs3sb-desc {
+    .opycn-desc {
       width: calc(var(--max) - 240px);
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .fs3sb-menu-btn {
+    .opycn-menu-btn {
       display: flex;
       width: calc(100% - 55px);
       margin-left: 5px;
     }
 
-    .fs3sb {
+    .opycn {
       display: flex;
       flex-direction: column;
       width: 100%;
@@ -295,17 +297,17 @@
       margin-top: 0px;
     }
 
-    .fs3sb-img {
+    .opycn-img {
       width: 100%;
     }
 
-    .fs3sb-body {
+    .opycn-body {
       width: 100%;
       order: 3;
       padding: 10px;
     }
 
-    .fs3sb-menu {
+    .opycn-menu {
       width: 100%;
       float: none;
       flex-direction: column;
@@ -313,11 +315,11 @@
       display: none;
     }
 
-    .fs3sb-menu.active {
+    .opycn-menu.active {
       display: flex;
     }
 
-    .fs3sb-desc {
+    .opycn-desc {
       width: 100% !important;
       order: 2;
     }

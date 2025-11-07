@@ -1,5 +1,5 @@
 
-  .levek {
+  .ldb0a {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .levektitle {
+  .ldb0atitle {
     width: 100%;
     /* background-color: #333; */
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .levektitlebody {
+  .ldb0atitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,26 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .levektitlebodytitle {
+  .ldb0atitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .levektitlebodylang {
+  .ldb0atitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
+    position: relative;
+    z-index: 1;
   }
 
-  .levektitlebodylang ul {
+  .ldb0atitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .levekbody {
+  .ldb0abody {
     width: var(--max);
     display: flex;
     align-items: start;
@@ -48,14 +50,14 @@
     margin: -30px 0px 5px 0px;
   }
 
-  .levekmenu {
+  .ldb0amenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .levekmenulist {
+  .ldb0amenulist {
     width: calc(100% - 20px);
     background-color: #279c90;
     padding: 10px;
@@ -63,7 +65,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .levekmenubody {
+  .ldb0amenubody {
     width: 100%;
     background-color: #279c90;
     display: flex;
@@ -71,7 +73,7 @@
     justify-content: center;
   }
 
-  .levekmenulist ul {
+  .ldb0amenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +83,7 @@
     overflow-x: auto;
   }
 
-  .levekmenulist ul a {
+  .ldb0amenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -92,26 +94,26 @@
     white-space: nowrap;
   }
 
-  .levekmenulist ul a:hover {
+  .ldb0amenulist ul a:hover {
     background-color: #fff;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .levek-menu-list-active {
+  .ldb0a-menu-list-active {
     background-color: #fff;
     border-radius: 5px;
       color: #000 !important;
     cursor: pointer;
   }
 
-  .levekmenulistbody {
+  .ldb0amenulistbody {
     width: 100%;
   }
 
   @media screen and (min-width: 1024px) {
-    .levekbodylogo {
+    .ldb0abodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -119,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .levekmenu {
+    .ldb0amenu {
       overflow-x: auto;
     }
 
-    .levekmenulist ul {
+    .ldb0amenulist ul {
       flex-direction: row;
     }
 
-    .levekbodylogo {
+    .ldb0abodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -135,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .levekmenulist ul a {
+    .ldb0amenulist ul a {
       font-size: 14px;
     }
   }
@@ -145,7 +147,7 @@
     justify-content: start;
   }
 
-  .l8tt9 {
+  .qdn9i {
     width: var(--max);
     margin-top: 20px;
     gap: 10px;
@@ -153,7 +155,7 @@
     position: relative;
   }
 
-  .l8tt9-menu-btn {
+  .qdn9i-menu-btn {
     display: none;
     background-color: #279c90;
     padding: 10px 20px;
@@ -165,11 +167,11 @@
     align-items: center;
   }
 
-  .l8tt9-menu-btn i {
+  .qdn9i-menu-btn i {
     font-size: 20px;
   }
 
-  .l8tt9-menu {
+  .qdn9i-menu {
     width: 200px;
     background-color: #f9f9f9;
     border-radius: 5px;
@@ -180,28 +182,28 @@
     float: left;
   }
 
-  .l8tt9-desc {
+  .qdn9i-desc {
     display: flex;
     flex-direction: column;
     gap: 10px;
     float: right;
   }
 
-  .l8tt9-menu > a {
+  .qdn9i-menu > a {
     background-color: #fff;
     padding: 10px;
     float: left;
     border-radius: 5px;
   }
 
-  .l8tt9-menu > .active,
-  .l8tt9-menu > a:hover {
+  .qdn9i-menu > .active,
+  .qdn9i-menu > a:hover {
     background-color: #279c90;
     color: #fff;
     display: flex;
   }
 
-  .l8tt9-desc-menu {
+  .qdn9i-desc-menu {
     width: 200px;
     background-color: #279c90;
     display: flex;
@@ -209,19 +211,19 @@
     border-radius: 5px;
   }
 
-  .l8tt9-desc-menu > div {
+  .qdn9i-desc-menu > div {
     padding: 5px;
     border-radius: 5px;
     background-color: #fff;
     margin: 5px;
   }
 
-  .l8tt9-desc-body {
+  .qdn9i-desc-body {
     display: flex;
     justify-content: space-between;
   }
 
-  .l8tt9-title {
+  .qdn9i-title {
     width: 100%;
     height: 0px;
     background-color: #279c90;
@@ -234,7 +236,7 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 
-  .l8tt9-title::before {
+  .qdn9i-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -249,44 +251,44 @@
     z-index: 1;
   }
 
-  .l8tt9-title span {
+  .qdn9i-title span {
     position: relative;
     z-index: 2;
     font-size: 0px;
   }
 
-  .l8tt9-body {
+  .qdn9i-body {
     display: flex;
     flex-direction: column;
     gap: 10px;
     text-align: left;
   }
 
-  .l8tt9-img {
+  .qdn9i-img {
     display: flex;
     align-items: center;
     justify-content: center;
     width: calc(var(--max) - 460px);
   }
 
-  .l8tt9-img img {
+  .qdn9i-img img {
     width: 100%;
   }
 
   @media screen and (min-width: 1024px) {
-    .l8tt9-desc {
+    .qdn9i-desc {
       width: calc(var(--max) - 240px);
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .l8tt9-menu-btn {
+    .qdn9i-menu-btn {
       display: flex;
       width: calc(100% - 55px);
       margin-left: 5px;
     }
 
-    .l8tt9 {
+    .qdn9i {
       display: flex;
       flex-direction: column;
       width: 100%;
@@ -295,17 +297,17 @@
       margin-top: 0px;
     }
 
-    .l8tt9-img {
+    .qdn9i-img {
       width: 100%;
     }
 
-    .l8tt9-body {
+    .qdn9i-body {
       width: 100%;
       order: 3;
       padding: 10px;
     }
 
-    .l8tt9-menu {
+    .qdn9i-menu {
       width: 100%;
       float: none;
       flex-direction: column;
@@ -313,11 +315,11 @@
       display: none;
     }
 
-    .l8tt9-menu.active {
+    .qdn9i-menu.active {
       display: flex;
     }
 
-    .l8tt9-desc {
+    .qdn9i-desc {
       width: 100% !important;
       order: 2;
     }
