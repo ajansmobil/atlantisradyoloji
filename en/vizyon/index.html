@@ -19,44 +19,44 @@
   <meta property="og:image" content="https://atlantisradyoloji.com/img/icon.png" />
   <meta name="robots" content="index, follow" />
 
-
   <link rel="stylesheet" href="/src/rubik.css" />
-  <link rel="stylesheet" href="/src/css.css?v=p1qt3" />
-  <link rel="shortcut icon" href="/img/icon.png?v=p1qt3" type="image/png" />
+  <link rel="stylesheet" href="/src/css.css?v=d33ef" />
+  <link rel="shortcut icon" href="/img/icon.png?v=d33ef" type="image/png" />
 
   <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
   <script src="/src/swiper-bundle.min.js"></script>
   
-
-  <script type="text/javascript" src="/src/firebase.js?v=p1qt3"></script>
-<link rel="stylesheet" href="style.css?v=p1qt3">
+  
+  
+  
+<link rel="stylesheet" href="style.css?v=d33ef">
 </head>
 
 <body>
-  <div id="header"><div class="lxhus">
-  <div class="lxhustitle">
-    <div class="lxhustitlebody">
-     <div class="lxhustitlebodytitle">
+  <div id="header"><div class="tx6rf">
+  <div class="tx6rftitle">
+    <div class="tx6rftitlebody">
+     <div class="tx6rftitlebodytitle">
       </div>
-      <div class="lxhustitlebodylang">
+      <div class="tx6rftitlebodylang">
         <ul>
           <li><a href="/tr/vizyon/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/vizyon/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="lxhusbody">
+  <div class="tx6rfbody">
     <a href="/en/"
       ><img
-        src="/img/logo.svg?v=p1qt3"
+        src="/img/logo.svg?v=d33ef"
         alt="Atlantis Radyoloji Logo"
-        class="lxhusbodylogo"
+        class="tx6rfbodylogo"
     /></a>
   </div>
-  <div class="lxhusmenubody">
-    <div class="lxhusmenu">
-      <div class="lxhusmenulistbody">
-        <div class="lxhusmenulist">
+  <div class="tx6rfmenubody">
+    <div class="tx6rfmenu">
+      <div class="tx6rfmenulistbody">
+        <div class="tx6rfmenulist">
           <ul>
             <a href="/en/">Home </a><a href="/en/hakkimizda/">Corporate</a><a href="/en/hizmetlerimiz/">Our Services</a><a href="/en/e-katalog/">E-Catalogue</a><a href="/en/referanslarimiz/">Our References</a><a href="/en/iletisim/">Contact</a>
           </ul>
@@ -67,40 +67,55 @@
 </div>
 
 </div>
-  <div id="content"><div class="e5w05-title f36">
+  <div id="content"><div class="p8lao-title f36">
   <span>Vision</span>
 </div>
-<div class="e5w05">
-  <div class="e5w05-menu-btn">
+<div class="p8lao">
+  <div class="p8lao-menu-btn">
     <span>Menu</span>
-    <i class="fas fa-bars"></i>
+    <span class="material-symbols-outlined p8lao-icon">menu</span>
   </div>
-  <div class="e5w05-menu"><a   href="/en/hakkimizda" >About Us</a><a   href="/en/misyon" >Mission</a><a class="active"  href="/en/vizyon" >Vision</a><a   href="/en/kalite-politikamiz" >Our Quality Policy</a><a   href="/en/gizlilik-politikasi" >Privacy Policy</a><a   href="/en/kisisel-veriler" >Personal Data</a><a   href="/en/kullanici-haklari" >User Rights</a><a   href="/en/yasal-uyari" >Legal Notice</a></div>
-  <div class="e5w05-desc">
+  <div class="p8lao-menu"><a class="p8lao-menu-link" href="/en/hakkimizda">About Us</a><a class="p8lao-menu-link" href="/en/misyon">Mission</a><a class="p8lao-menu-link active" href="/en/vizyon">Vision</a><a class="p8lao-menu-link" href="/en/kalite-politikamiz">Our Quality Policy</a><a class="p8lao-menu-link" href="/en/gizlilik-politikasi">Privacy Policy</a><a class="p8lao-menu-link" href="/en/kisisel-veriler">Personal Data</a><a class="p8lao-menu-link" href="/en/kullanici-haklari">User Rights</a><a class="p8lao-menu-link" href="/en/yasal-uyari">Legal Notice</a></div>
+  <div class="p8lao-desc">
     
-    <div class="e5w05-body"><p><h2 style="font-size: 24px;">OUR VISION</h2></p>
+    <div class="p8lao-body"><p><h2 style="font-size: 24px;">OUR VISION</h2></p>
 <p>    <p style="font-size: 16px;">Atlantis Radiology's vision is to bring technology and expertise together to become Turkey's reference brand in teleradiology, create value for healthcare providers through global partnerships, and deliver groundbreaking reporting experiences with innovative solutions.</p></p>
 <p>    <p style="font-size: 16px;">We aim to lead the evolution of the digital health ecosystem, continuously enhance report quality with AI-assisted decision mechanisms, and provide services that go beyond international quality standards. With our sustainable growth strategy, we strive to be an accessible and reliable teleradiology partner in every region.</p></p></div>
   </div>
 </div>
 
 <script>
-  document
-    .querySelector(".e5w05-menu-btn")
-    .addEventListener("click", function () {
-      document.querySelector(".e5w05-menu").classList.toggle("active");
-      const icon = this.querySelector("i");
-      icon.classList.toggle("fa-bars");
-      icon.classList.toggle("fa-times");
+  const menuToggleBtn = document.querySelector(".p8lao-menu-btn");
+  if (menuToggleBtn) {
+    menuToggleBtn.addEventListener("click", function () {
+      const menu = document.querySelector(".p8lao-menu");
+      if (!menu) return;
+      const isOpen = menu.classList.toggle("active");
+      const icon = this.querySelector(".p8lao-icon");
+      if (icon) {
+        icon.textContent = isOpen ? "close" : "menu";
+      }
     });
+  }
+
+  document.querySelectorAll(".p8lao-top").forEach(function (button) {
+    button.addEventListener("click", function () {
+      const group = this.closest(".p8lao-menu-group");
+      if (!group) return;
+      const sub = group.querySelector(".p8lao-sub");
+      const isOpen = group.classList.toggle("open");
+      this.classList.toggle("active", isOpen);
+      const icon = this.querySelector(".p8lao-icon");
+      if (icon) {
+        icon.textContent = isOpen ? "expand_less" : "expand_more";
+      }
+      if (sub) {
+        sub.classList.toggle("show", isOpen);
+      }
+    });
+  });
 </script>
 
-<head>
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-  />
-</head>
 </div>
   <div id="footer"><footer class="footer">
   <div class="waves">
@@ -154,7 +169,7 @@
 
 
 
-<script type="text/javascript" src="/src/js.js?v=p1qt3"></script>
-<script src="/src/cookie.js?v=p1qt3"></script>
+<script type="text/javascript" src="/src/js.js?v=d33ef"></script>
+<script src="/src/cookie.js?v=d33ef"></script>
 
 </html>

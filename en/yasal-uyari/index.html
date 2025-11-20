@@ -19,44 +19,44 @@
   <meta property="og:image" content="https://atlantisradyoloji.com/img/icon.png" />
   <meta name="robots" content="index, follow" />
 
-
   <link rel="stylesheet" href="/src/rubik.css" />
-  <link rel="stylesheet" href="/src/css.css?v=jyjb2" />
-  <link rel="shortcut icon" href="/img/icon.png?v=jyjb2" type="image/png" />
+  <link rel="stylesheet" href="/src/css.css?v=d0b20" />
+  <link rel="shortcut icon" href="/img/icon.png?v=d0b20" type="image/png" />
 
   <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
   <script src="/src/swiper-bundle.min.js"></script>
   
-
-  <script type="text/javascript" src="/src/firebase.js?v=jyjb2"></script>
-<link rel="stylesheet" href="style.css?v=jyjb2">
+  
+  
+  
+<link rel="stylesheet" href="style.css?v=d0b20">
 </head>
 
 <body>
-  <div id="header"><div class="vmc0c">
-  <div class="vmc0ctitle">
-    <div class="vmc0ctitlebody">
-     <div class="vmc0ctitlebodytitle">
+  <div id="header"><div class="u5zzi">
+  <div class="u5zzititle">
+    <div class="u5zzititlebody">
+     <div class="u5zzititlebodytitle">
       </div>
-      <div class="vmc0ctitlebodylang">
+      <div class="u5zzititlebodylang">
         <ul>
           <li><a href="/tr/yasal-uyari/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/yasal-uyari/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="vmc0cbody">
+  <div class="u5zzibody">
     <a href="/en/"
       ><img
-        src="/img/logo.svg?v=jyjb2"
+        src="/img/logo.svg?v=d0b20"
         alt="Atlantis Radyoloji Logo"
-        class="vmc0cbodylogo"
+        class="u5zzibodylogo"
     /></a>
   </div>
-  <div class="vmc0cmenubody">
-    <div class="vmc0cmenu">
-      <div class="vmc0cmenulistbody">
-        <div class="vmc0cmenulist">
+  <div class="u5zzimenubody">
+    <div class="u5zzimenu">
+      <div class="u5zzimenulistbody">
+        <div class="u5zzimenulist">
           <ul>
             <a href="/en/">Home </a><a href="/en/hakkimizda/">Corporate</a><a href="/en/hizmetlerimiz/">Our Services</a><a href="/en/e-katalog/">E-Catalogue</a><a href="/en/referanslarimiz/">Our References</a><a href="/en/iletisim/">Contact</a>
           </ul>
@@ -67,18 +67,18 @@
 </div>
 
 </div>
-  <div id="content"><div class="weyyn-title f36">
+  <div id="content"><div class="utxcn-title f36">
   <span>Legal Notice</span>
 </div>
-<div class="weyyn">
-  <div class="weyyn-menu-btn">
+<div class="utxcn">
+  <div class="utxcn-menu-btn">
     <span>Menu</span>
-    <i class="fas fa-bars"></i>
+    <span class="material-symbols-outlined utxcn-icon">menu</span>
   </div>
-  <div class="weyyn-menu"><a   href="/en/hakkimizda" >About Us</a><a   href="/en/misyon" >Mission</a><a   href="/en/vizyon" >Vision</a><a   href="/en/kalite-politikamiz" >Our Quality Policy</a><a   href="/en/gizlilik-politikasi" >Privacy Policy</a><a   href="/en/kisisel-veriler" >Personal Data</a><a   href="/en/kullanici-haklari" >User Rights</a><a class="active"  href="/en/yasal-uyari" >Legal Notice</a></div>
-  <div class="weyyn-desc">
+  <div class="utxcn-menu"><a class="utxcn-menu-link" href="/en/hakkimizda">About Us</a><a class="utxcn-menu-link" href="/en/misyon">Mission</a><a class="utxcn-menu-link" href="/en/vizyon">Vision</a><a class="utxcn-menu-link" href="/en/kalite-politikamiz">Our Quality Policy</a><a class="utxcn-menu-link" href="/en/gizlilik-politikasi">Privacy Policy</a><a class="utxcn-menu-link" href="/en/kisisel-veriler">Personal Data</a><a class="utxcn-menu-link" href="/en/kullanici-haklari">User Rights</a><a class="utxcn-menu-link active" href="/en/yasal-uyari">Legal Notice</a></div>
+  <div class="utxcn-desc">
     
-    <div class="weyyn-body"><p><h2 style="font-size: 24px;">Legal Notice</h2></p>
+    <div class="utxcn-body"><p><h2 style="font-size: 24px;">Legal Notice</h2></p>
 <p>    <p style="font-size: 16px;">All content on this website is provided for informational purposes only and does not constitute medical diagnosis or treatment advice. Atlantis Radiology reserves the right to make changes without prior notice and accepts no responsibility for references to third-party websites.</p></p>
 <p>    <p style="font-size: 16px;">Reports and visual materials published on this site may not be copied, altered or used for commercial purposes by unauthorised persons or organisations. If you detect unlawful use of our content, please contact us; we reserve the right to take legal action when necessary.</p></p>
 <p>    <p style="font-size: 16px;">By continuing to use this site, visitors acknowledge that they have read and accepted this legal notice.</p></p></div>
@@ -86,22 +86,37 @@
 </div>
 
 <script>
-  document
-    .querySelector(".weyyn-menu-btn")
-    .addEventListener("click", function () {
-      document.querySelector(".weyyn-menu").classList.toggle("active");
-      const icon = this.querySelector("i");
-      icon.classList.toggle("fa-bars");
-      icon.classList.toggle("fa-times");
+  const menuToggleBtn = document.querySelector(".utxcn-menu-btn");
+  if (menuToggleBtn) {
+    menuToggleBtn.addEventListener("click", function () {
+      const menu = document.querySelector(".utxcn-menu");
+      if (!menu) return;
+      const isOpen = menu.classList.toggle("active");
+      const icon = this.querySelector(".utxcn-icon");
+      if (icon) {
+        icon.textContent = isOpen ? "close" : "menu";
+      }
     });
+  }
+
+  document.querySelectorAll(".utxcn-top").forEach(function (button) {
+    button.addEventListener("click", function () {
+      const group = this.closest(".utxcn-menu-group");
+      if (!group) return;
+      const sub = group.querySelector(".utxcn-sub");
+      const isOpen = group.classList.toggle("open");
+      this.classList.toggle("active", isOpen);
+      const icon = this.querySelector(".utxcn-icon");
+      if (icon) {
+        icon.textContent = isOpen ? "expand_less" : "expand_more";
+      }
+      if (sub) {
+        sub.classList.toggle("show", isOpen);
+      }
+    });
+  });
 </script>
 
-<head>
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-  />
-</head>
 </div>
   <div id="footer"><footer class="footer">
   <div class="waves">
@@ -155,7 +170,7 @@
 
 
 
-<script type="text/javascript" src="/src/js.js?v=jyjb2"></script>
-<script src="/src/cookie.js?v=jyjb2"></script>
+<script type="text/javascript" src="/src/js.js?v=d0b20"></script>
+<script src="/src/cookie.js?v=d0b20"></script>
 
 </html>

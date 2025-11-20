@@ -19,44 +19,44 @@
   <meta property="og:image" content="https://atlantisradyoloji.com/img/icon.png" />
   <meta name="robots" content="index, follow" />
 
-
   <link rel="stylesheet" href="/src/rubik.css" />
-  <link rel="stylesheet" href="/src/css.css?v=z3312" />
-  <link rel="shortcut icon" href="/img/icon.png?v=z3312" type="image/png" />
+  <link rel="stylesheet" href="/src/css.css?v=trgdm" />
+  <link rel="shortcut icon" href="/img/icon.png?v=trgdm" type="image/png" />
 
   <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
   <script src="/src/swiper-bundle.min.js"></script>
   
-
-  <script type="text/javascript" src="/src/firebase.js?v=z3312"></script>
-<link rel="stylesheet" href="style.css?v=z3312">
+  
+  
+  
+<link rel="stylesheet" href="style.css?v=trgdm">
 </head>
 
 <body>
-  <div id="header"><div class="ermln">
-  <div class="ermlntitle">
-    <div class="ermlntitlebody">
-     <div class="ermlntitlebodytitle">
+  <div id="header"><div class="qe34g">
+  <div class="qe34gtitle">
+    <div class="qe34gtitlebody">
+     <div class="qe34gtitlebodytitle">
       </div>
-      <div class="ermlntitlebodylang">
+      <div class="qe34gtitlebodylang">
         <ul>
           <li><a href="/tr/kisisel-veriler/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/kisisel-veriler/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="ermlnbody">
+  <div class="qe34gbody">
     <a href="/en/"
       ><img
-        src="/img/logo.svg?v=z3312"
+        src="/img/logo.svg?v=trgdm"
         alt="Atlantis Radyoloji Logo"
-        class="ermlnbodylogo"
+        class="qe34gbodylogo"
     /></a>
   </div>
-  <div class="ermlnmenubody">
-    <div class="ermlnmenu">
-      <div class="ermlnmenulistbody">
-        <div class="ermlnmenulist">
+  <div class="qe34gmenubody">
+    <div class="qe34gmenu">
+      <div class="qe34gmenulistbody">
+        <div class="qe34gmenulist">
           <ul>
             <a href="/en/">Home </a><a href="/en/hakkimizda/">Corporate</a><a href="/en/hizmetlerimiz/">Our Services</a><a href="/en/e-katalog/">E-Catalogue</a><a href="/en/referanslarimiz/">Our References</a><a href="/en/iletisim/">Contact</a>
           </ul>
@@ -67,18 +67,18 @@
 </div>
 
 </div>
-  <div id="content"><div class="ybf45-title f36">
+  <div id="content"><div class="fokg5-title f36">
   <span>Personal Data</span>
 </div>
-<div class="ybf45">
-  <div class="ybf45-menu-btn">
+<div class="fokg5">
+  <div class="fokg5-menu-btn">
     <span>Menu</span>
-    <i class="fas fa-bars"></i>
+    <span class="material-symbols-outlined fokg5-icon">menu</span>
   </div>
-  <div class="ybf45-menu"><a   href="/en/hakkimizda" >About Us</a><a   href="/en/misyon" >Mission</a><a   href="/en/vizyon" >Vision</a><a   href="/en/kalite-politikamiz" >Our Quality Policy</a><a   href="/en/gizlilik-politikasi" >Privacy Policy</a><a class="active"  href="/en/kisisel-veriler" >Personal Data</a><a   href="/en/kullanici-haklari" >User Rights</a><a   href="/en/yasal-uyari" >Legal Notice</a></div>
-  <div class="ybf45-desc">
+  <div class="fokg5-menu"><a class="fokg5-menu-link" href="/en/hakkimizda">About Us</a><a class="fokg5-menu-link" href="/en/misyon">Mission</a><a class="fokg5-menu-link" href="/en/vizyon">Vision</a><a class="fokg5-menu-link" href="/en/kalite-politikamiz">Our Quality Policy</a><a class="fokg5-menu-link" href="/en/gizlilik-politikasi">Privacy Policy</a><a class="fokg5-menu-link active" href="/en/kisisel-veriler">Personal Data</a><a class="fokg5-menu-link" href="/en/kullanici-haklari">User Rights</a><a class="fokg5-menu-link" href="/en/yasal-uyari">Legal Notice</a></div>
+  <div class="fokg5-desc">
     
-    <div class="ybf45-body"><p><h2 style="font-size: 24px;">Processing of Personal Data</h2></p>
+    <div class="fokg5-body"><p><h2 style="font-size: 24px;">Processing of Personal Data</h2></p>
 <p>    <p style="font-size: 16px;">Your personal data is processed by Atlantis Radiology under Law No. 6698 (KVKK) to conduct diagnostic and reporting activities, measure service quality and fulfil legal obligations. Data is shared only with relevant parties and legally required authorities, and is anonymised when necessary.</p></p>
 <p>    <p style="font-size: 16px;">During data retention we record access logs, apply role-based authorisation and encrypted storage methods. When statutory periods expire, your information is securely destroyed, and the same security standards apply to all backup processes.</p></p>
 <p>    <p style="font-size: 16px;">You may request information about data processing activities at any time, or ask for your data to be corrected, deleted or object to its processing. Application forms and contact details are provided within our KVKK request procedure.</p></p></div>
@@ -86,22 +86,37 @@
 </div>
 
 <script>
-  document
-    .querySelector(".ybf45-menu-btn")
-    .addEventListener("click", function () {
-      document.querySelector(".ybf45-menu").classList.toggle("active");
-      const icon = this.querySelector("i");
-      icon.classList.toggle("fa-bars");
-      icon.classList.toggle("fa-times");
+  const menuToggleBtn = document.querySelector(".fokg5-menu-btn");
+  if (menuToggleBtn) {
+    menuToggleBtn.addEventListener("click", function () {
+      const menu = document.querySelector(".fokg5-menu");
+      if (!menu) return;
+      const isOpen = menu.classList.toggle("active");
+      const icon = this.querySelector(".fokg5-icon");
+      if (icon) {
+        icon.textContent = isOpen ? "close" : "menu";
+      }
     });
+  }
+
+  document.querySelectorAll(".fokg5-top").forEach(function (button) {
+    button.addEventListener("click", function () {
+      const group = this.closest(".fokg5-menu-group");
+      if (!group) return;
+      const sub = group.querySelector(".fokg5-sub");
+      const isOpen = group.classList.toggle("open");
+      this.classList.toggle("active", isOpen);
+      const icon = this.querySelector(".fokg5-icon");
+      if (icon) {
+        icon.textContent = isOpen ? "expand_less" : "expand_more";
+      }
+      if (sub) {
+        sub.classList.toggle("show", isOpen);
+      }
+    });
+  });
 </script>
 
-<head>
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-  />
-</head>
 </div>
   <div id="footer"><footer class="footer">
   <div class="waves">
@@ -155,7 +170,7 @@
 
 
 
-<script type="text/javascript" src="/src/js.js?v=z3312"></script>
-<script src="/src/cookie.js?v=z3312"></script>
+<script type="text/javascript" src="/src/js.js?v=trgdm"></script>
+<script src="/src/cookie.js?v=trgdm"></script>
 
 </html>

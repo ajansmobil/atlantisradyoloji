@@ -19,44 +19,44 @@
   <meta property="og:image" content="https://atlantisradyoloji.com/img/icon.png" />
   <meta name="robots" content="index, follow" />
 
-
   <link rel="stylesheet" href="/src/rubik.css" />
-  <link rel="stylesheet" href="/src/css.css?v=y4qc6" />
-  <link rel="shortcut icon" href="/img/icon.png?v=y4qc6" type="image/png" />
+  <link rel="stylesheet" href="/src/css.css?v=lgbi9" />
+  <link rel="shortcut icon" href="/img/icon.png?v=lgbi9" type="image/png" />
 
   <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
   <script src="/src/swiper-bundle.min.js"></script>
   
-
-  <script type="text/javascript" src="/src/firebase.js?v=y4qc6"></script>
-<link rel="stylesheet" href="style.css?v=y4qc6">
+  
+  
+  
+<link rel="stylesheet" href="style.css?v=lgbi9">
 </head>
 
 <body>
-  <div id="header"><div class="wd7rb">
-  <div class="wd7rbtitle">
-    <div class="wd7rbtitlebody">
-     <div class="wd7rbtitlebodytitle">
+  <div id="header"><div class="qq01q">
+  <div class="qq01qtitle">
+    <div class="qq01qtitlebody">
+     <div class="qq01qtitlebodytitle">
       </div>
-      <div class="wd7rbtitlebodylang">
+      <div class="qq01qtitlebodylang">
         <ul>
           <li><a href="/tr/kullanici-haklari/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/kullanici-haklari/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="wd7rbbody">
+  <div class="qq01qbody">
     <a href="/en/"
       ><img
-        src="/img/logo.svg?v=y4qc6"
+        src="/img/logo.svg?v=lgbi9"
         alt="Atlantis Radyoloji Logo"
-        class="wd7rbbodylogo"
+        class="qq01qbodylogo"
     /></a>
   </div>
-  <div class="wd7rbmenubody">
-    <div class="wd7rbmenu">
-      <div class="wd7rbmenulistbody">
-        <div class="wd7rbmenulist">
+  <div class="qq01qmenubody">
+    <div class="qq01qmenu">
+      <div class="qq01qmenulistbody">
+        <div class="qq01qmenulist">
           <ul>
             <a href="/en/">Home </a><a href="/en/hakkimizda/">Corporate</a><a href="/en/hizmetlerimiz/">Our Services</a><a href="/en/e-katalog/">E-Catalogue</a><a href="/en/referanslarimiz/">Our References</a><a href="/en/iletisim/">Contact</a>
           </ul>
@@ -67,18 +67,18 @@
 </div>
 
 </div>
-  <div id="content"><div class="holc1-title f36">
+  <div id="content"><div class="mpaco-title f36">
   <span>User Rights</span>
 </div>
-<div class="holc1">
-  <div class="holc1-menu-btn">
+<div class="mpaco">
+  <div class="mpaco-menu-btn">
     <span>Menu</span>
-    <i class="fas fa-bars"></i>
+    <span class="material-symbols-outlined mpaco-icon">menu</span>
   </div>
-  <div class="holc1-menu"><a   href="/en/hakkimizda" >About Us</a><a   href="/en/misyon" >Mission</a><a   href="/en/vizyon" >Vision</a><a   href="/en/kalite-politikamiz" >Our Quality Policy</a><a   href="/en/gizlilik-politikasi" >Privacy Policy</a><a   href="/en/kisisel-veriler" >Personal Data</a><a class="active"  href="/en/kullanici-haklari" >User Rights</a><a   href="/en/yasal-uyari" >Legal Notice</a></div>
-  <div class="holc1-desc">
+  <div class="mpaco-menu"><a class="mpaco-menu-link" href="/en/hakkimizda">About Us</a><a class="mpaco-menu-link" href="/en/misyon">Mission</a><a class="mpaco-menu-link" href="/en/vizyon">Vision</a><a class="mpaco-menu-link" href="/en/kalite-politikamiz">Our Quality Policy</a><a class="mpaco-menu-link" href="/en/gizlilik-politikasi">Privacy Policy</a><a class="mpaco-menu-link" href="/en/kisisel-veriler">Personal Data</a><a class="mpaco-menu-link active" href="/en/kullanici-haklari">User Rights</a><a class="mpaco-menu-link" href="/en/yasal-uyari">Legal Notice</a></div>
+  <div class="mpaco-desc">
     
-    <div class="holc1-body"><p><h2 style="font-size: 24px;">User Rights</h2></p>
+    <div class="mpaco-body"><p><h2 style="font-size: 24px;">User Rights</h2></p>
 <p>    <p style="font-size: 16px;">Institutions and individuals who benefit from Atlantis Radiology services have the right to access, correct, delete, object to the processing of their personal data, and request up-to-date information. You can submit your requests in writing or via our registered e-mail channels and receive transparent feedback on every step.</p></p>
 <p>    <p style="font-size: 16px;">Your applications are evaluated and finalised within the periods defined by KVKK. We protect your data through the identity verification steps in our request forms, create a record for each application and keep you informed throughout the process.</p></p>
 <p>    <p style="font-size: 16px;">To exercise your rights or obtain detailed information, please use the communication channels listed in our privacy policy. Our team receives regular training on user rights and resolves every request in accordance with the legislation.</p></p></div>
@@ -86,22 +86,37 @@
 </div>
 
 <script>
-  document
-    .querySelector(".holc1-menu-btn")
-    .addEventListener("click", function () {
-      document.querySelector(".holc1-menu").classList.toggle("active");
-      const icon = this.querySelector("i");
-      icon.classList.toggle("fa-bars");
-      icon.classList.toggle("fa-times");
+  const menuToggleBtn = document.querySelector(".mpaco-menu-btn");
+  if (menuToggleBtn) {
+    menuToggleBtn.addEventListener("click", function () {
+      const menu = document.querySelector(".mpaco-menu");
+      if (!menu) return;
+      const isOpen = menu.classList.toggle("active");
+      const icon = this.querySelector(".mpaco-icon");
+      if (icon) {
+        icon.textContent = isOpen ? "close" : "menu";
+      }
     });
+  }
+
+  document.querySelectorAll(".mpaco-top").forEach(function (button) {
+    button.addEventListener("click", function () {
+      const group = this.closest(".mpaco-menu-group");
+      if (!group) return;
+      const sub = group.querySelector(".mpaco-sub");
+      const isOpen = group.classList.toggle("open");
+      this.classList.toggle("active", isOpen);
+      const icon = this.querySelector(".mpaco-icon");
+      if (icon) {
+        icon.textContent = isOpen ? "expand_less" : "expand_more";
+      }
+      if (sub) {
+        sub.classList.toggle("show", isOpen);
+      }
+    });
+  });
 </script>
 
-<head>
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-  />
-</head>
 </div>
   <div id="footer"><footer class="footer">
   <div class="waves">
@@ -155,7 +170,7 @@
 
 
 
-<script type="text/javascript" src="/src/js.js?v=y4qc6"></script>
-<script src="/src/cookie.js?v=y4qc6"></script>
+<script type="text/javascript" src="/src/js.js?v=lgbi9"></script>
+<script src="/src/cookie.js?v=lgbi9"></script>
 
 </html>

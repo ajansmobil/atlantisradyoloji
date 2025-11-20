@@ -1,5 +1,5 @@
 
-  .skii7 {
+  .jhm4w {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .skii7title {
+  .jhm4wtitle {
     width: 100%;
     /* background-color: #333; */
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .skii7titlebody {
+  .jhm4wtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,26 +23,26 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .skii7titlebodytitle {
+  .jhm4wtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .skii7titlebodylang {
+  .jhm4wtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
     position: relative;
     z-index: 1;
   }
 
-  .skii7titlebodylang ul {
+  .jhm4wtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .skii7body {
+  .jhm4wbody {
     width: var(--max);
     display: flex;
     align-items: start;
@@ -50,14 +50,14 @@
     margin: -30px 0px 5px 0px;
   }
 
-  .skii7menu {
+  .jhm4wmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .skii7menulist {
+  .jhm4wmenulist {
     width: calc(100% - 20px);
     background-color: #279c90;
     padding: 10px;
@@ -65,7 +65,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .skii7menubody {
+  .jhm4wmenubody {
     width: 100%;
     background-color: #279c90;
     display: flex;
@@ -73,7 +73,7 @@
     justify-content: center;
   }
 
-  .skii7menulist ul {
+  .jhm4wmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -83,7 +83,7 @@
     overflow-x: auto;
   }
 
-  .skii7menulist ul a {
+  .jhm4wmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -94,26 +94,26 @@
     white-space: nowrap;
   }
 
-  .skii7menulist ul a:hover {
+  .jhm4wmenulist ul a:hover {
     background-color: #fff;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .skii7-menu-list-active {
+  .jhm4w-menu-list-active {
     background-color: #fff;
     border-radius: 5px;
       color: #000 !important;
     cursor: pointer;
   }
 
-  .skii7menulistbody {
+  .jhm4wmenulistbody {
     width: 100%;
   }
 
   @media screen and (min-width: 1024px) {
-    .skii7bodylogo {
+    .jhm4wbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .skii7menu {
+    .jhm4wmenu {
       overflow-x: auto;
     }
 
-    .skii7menulist ul {
+    .jhm4wmenulist ul {
       flex-direction: row;
     }
 
-    .skii7bodylogo {
+    .jhm4wbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .skii7menulist ul a {
+    .jhm4wmenulist ul a {
       font-size: 14px;
     }
   }
@@ -147,15 +147,20 @@
     justify-content: start;
   }
 
-  .govav {
+  .ik8ay {
     width: var(--max);
     margin-top: 20px;
     gap: 10px;
     float: left;
     position: relative;
+    box-sizing: border-box;
   }
 
-  .govav-menu-btn {
+  .ik8ay * {
+    box-sizing: border-box;
+  }
+
+  .ik8ay-menu-btn {
     display: none;
     background-color: #279c90;
     padding: 10px 20px;
@@ -167,43 +172,99 @@
     align-items: center;
   }
 
-  .govav-menu-btn i {
+  .ik8ay-menu-btn .ik8ay-icon {
     font-size: 20px;
   }
 
-  .govav-menu {
+  .ik8ay-menu {
     width: 200px;
     background-color: #f9f9f9;
     border-radius: 5px;
     padding: 10px;
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 8px;
     float: left;
   }
 
-  .govav-desc {
+  .ik8ay-desc {
     display: flex;
     flex-direction: column;
     gap: 10px;
     float: right;
   }
 
-  .govav-menu > a {
+  .ik8ay-menu-link,
+  .ik8ay-top {
     background-color: #fff;
     padding: 10px;
-    float: left;
     border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    color: inherit;
+    cursor: pointer;
+    transition: background-color 0.2s ease, color 0.2s ease;
   }
 
-  .govav-menu > .active,
-  .govav-menu > a:hover {
+  .ik8ay-menu-link.active,
+  .ik8ay-menu-link:hover,
+  .ik8ay-top.active,
+  .ik8ay-top:hover {
     background-color: #279c90;
     color: #fff;
+  }
+
+  .ik8ay-menu-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .ik8ay-top {
+    width: 100%;
+    border: none;
+    font-weight: 600;
+  }
+
+  .ik8ay-top .ik8ay-icon {
+    font-size: 14px;
+    transition: transform 0.2s ease;
+  }
+
+  .ik8ay-menu-group.open .ik8ay-top .ik8ay-icon {
+    transform: rotate(180deg);
+  }
+
+  .ik8ay-sub {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    padding-left: 8px;
+  }
+
+  .ik8ay-sub.show {
     display: flex;
   }
 
-  .govav-desc-menu {
+  .ik8ay-sub-link {
+    background-color: #fff;
+    padding: 8px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    border: 1px solid rgba(0, 0, 0, 0.04);
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+
+  .ik8ay-sub-link.active,
+  .ik8ay-sub-link:hover {
+    background-color: rgba(39, 156, 144, 0.12);
+    color: inherit;
+  }
+
+  .ik8ay-desc-menu {
     width: 200px;
     background-color: #279c90;
     display: flex;
@@ -211,19 +272,19 @@
     border-radius: 5px;
   }
 
-  .govav-desc-menu > div {
+  .ik8ay-desc-menu > div {
     padding: 5px;
     border-radius: 5px;
     background-color: #fff;
     margin: 5px;
   }
 
-  .govav-desc-body {
+  .ik8ay-desc-body {
     display: flex;
     justify-content: space-between;
   }
 
-  .govav-title {
+  .ik8ay-title {
     width: 100%;
     height: 0px;
     background-color: #279c90;
@@ -236,7 +297,7 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 
-  .govav-title::before {
+  .ik8ay-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -251,44 +312,60 @@
     z-index: 1;
   }
 
-  .govav-title span {
+  .ik8ay-title span {
     position: relative;
     z-index: 2;
     font-size: 0px;
   }
 
-  .govav-body {
+  .ik8ay-body {
     display: flex;
     flex-direction: column;
     gap: 10px;
     text-align: left;
   }
 
-  .govav-img {
+  .ik8ay-img {
     display: flex;
     align-items: center;
     justify-content: center;
     width: calc(var(--max) - 460px);
   }
 
-  .govav-img img {
+  .ik8ay-img img {
     width: 100%;
   }
 
+
+
+  
+
   @media screen and (min-width: 1024px) {
-    .govav-desc {
+    .ik8ay-desc {
       width: calc(var(--max) - 240px);
+    }
+
+    .ik8ay-menu {
+    padding: 0px;
+    }
+
+    .ik8ay-menu-link {
+      padding: 10px 10px 10px 10px;
+    }
+
+    .ik8ay-top {
+      padding: 10px 10px 10px 10px;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .govav-menu-btn {
+    .ik8ay-menu-btn {
       display: flex;
-      width: calc(100% - 55px);
-      margin-left: 5px;
+      width: 100%;
+      margin: 0;
     }
 
-    .govav {
+    .ik8ay {
       display: flex;
       flex-direction: column;
       width: 100%;
@@ -297,29 +374,30 @@
       margin-top: 0px;
     }
 
-    .govav-img {
+    .ik8ay-img {
       width: 100%;
     }
 
-    .govav-body {
+    .ik8ay-body {
       width: 100%;
       order: 3;
       padding: 10px;
     }
 
-    .govav-menu {
+    .ik8ay-menu {
       width: 100%;
       float: none;
       flex-direction: column;
       order: 1;
       display: none;
+      gap: 10px;
     }
 
-    .govav-menu.active {
+    .ik8ay-menu.active {
       display: flex;
     }
 
-    .govav-desc {
+    .ik8ay-desc {
       width: 100% !important;
       order: 2;
     }
