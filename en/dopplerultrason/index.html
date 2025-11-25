@@ -20,8 +20,8 @@
   <meta name="robots" content="index, follow" />
 
   <link rel="stylesheet" href="/src/rubik.css" />
-  <link rel="stylesheet" href="/src/css.css?v=wkyh1" />
-  <link rel="shortcut icon" href="/img/icon.png?v=wkyh1" type="image/png" />
+  <link rel="stylesheet" href="/src/css.css?v=bq31f" />
+  <link rel="shortcut icon" href="/img/icon.png?v=bq31f" type="image/png" />
 
   <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
   <script src="/src/swiper-bundle.min.js"></script>
@@ -29,59 +29,80 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=wkyh1">
+<link rel="stylesheet" href="style.css?v=bq31f">
 </head>
 
 <body>
-  <div id="header"><div class="j333m">
-  <div class="j333mtitle">
-    <div class="j333mtitlebody">
-     <div class="j333mtitlebodytitle">
-      </div>
-      <div class="j333mtitlebodylang">
+  <div id="header"><div class="nmu22">
+  <div class="nmu22title">
+    <div class="nmu22titlebody">
+      <div class="nmu22titlebodylang">
         <ul>
-          <li><a href="/tr/dopplerultrason/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/dopplerultrason/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li>
+          <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="j333mbody">
+  <div class="nmu22body">
     <a href="/en/"
       ><img
-        src="/img/logo.svg?v=wkyh1"
+        src="/img/logo.svg?v=bq31f"
         alt="Atlantis Radyoloji Logo"
-        class="j333mbodylogo"
+        class="nmu22bodylogo"
     /></a>
+    <button type="button" class="nmu22-mobile-toggle" onclick="menu2_toggle()">
+      <span class="material-symbols-outlined">menu</span>
+    </button>
   </div>
-  <div class="j333mmenubody">
-    <div class="j333mmenu">
-      <div class="j333mmenulistbody">
-        <div class="j333mmenulist">
+  <div class="nmu22menubody">
+    <div class="nmu22menu" id="menu-2-root">
+      <div class="nmu22menulistbody">
+        <div class="nmu22menulist">
           <ul>
             <a href="/en/">Home </a><a href="/en/hakkimizda/">Corporate</a><a href="/en/hizmetlerimiz/">Our Services</a><a href="/en/e-katalog/">E-Catalogue</a><a href="/en/referanslarimiz/">Our References</a><a href="/en/iletisim/">Contact</a>
           </ul>
+          <div class="nmu22languages-mobile">
+            <ul>
+              <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </div>
 
+<script>
+  if (typeof menu2_toggle === "undefined") {
+    function menu2_toggle() {
+      var root = document.getElementById("menu-2-root");
+      if (!root) {
+        return;
+      }
+      if (root.classList.contains("nmu22menu-open")) {
+        root.classList.remove("nmu22menu-open");
+      } else {
+        root.classList.add("nmu22menu-open");
+      }
+    }
+  }
+</script>
 </div>
-  <div id="content"><div class="aqmb1-title f36">
+  <div id="content"><div class="f4qxr-title f36">
   <span>Doppler and Ultrasonography Service</span>
 </div>
-<div class="aqmb1">
-  <div class="aqmb1-menu-btn">
+<div class="f4qxr">
+  <div class="f4qxr-menu-btn">
     <span>Menu</span>
-    <span class="material-symbols-outlined aqmb1-icon">menu</span>
+    <span class="material-symbols-outlined f4qxr-icon">menu</span>
   </div>
-  <div class="aqmb1-menu"><a class="aqmb1-menu-link" href="/en/teleradyolojik-raporlama-hizmeti">Teleradiology Reporting Service</a><a class="aqmb1-menu-link" href="/en/radyoloji-bolumu-isletme-hizmeti">Radiology Department Management Service</a><a class="aqmb1-menu-link" href="/en/btodasi">Design and Construction of Computed Tomography Rooms</a><a class="aqmb1-menu-link" href="/en/manyetik-rezonans-goruntuleme-cihaz-odalarinin-projelendirilmesi-ve-yapimi">Design and Construction of Magnetic Resonance Imaging Suites</a><a class="aqmb1-menu-link active" href="/en/dopplerultrason">Doppler and Ultrasonography Service</a><a class="aqmb1-menu-link" href="/en/rontgen-ve-mamografi-odalarinin-projelendirilmesi-ve-yapimi">Design and Construction of X-ray and Mammography Rooms</a><a class="aqmb1-menu-link" href="/en/radyoloji-cihaz-satisi-sifir-ve-ikinci-el">Radiology Device Sales (New and Pre-Owned)</a><a class="aqmb1-menu-link" href="/en/hastanelerde-pacs-ve-arsivleme-hizmeti">PACS and Archiving Services for Hospitals</a><a class="aqmb1-menu-link" href="/en/radyolojik-cihazlarin-bakim-onarim-ve-yedek-parca-temini">Maintenance, Repair, and Spare Parts Supply for Radiological Devices</a><a class="aqmb1-menu-link" href="/en/danismanlik-hizmetleri">Consultancy Services</a></div>
-  <div class="aqmb1-desc">
+  <div class="f4qxr-menu"><a class="f4qxr-menu-link" href="/en/teleradyolojik-raporlama-hizmeti">Teleradiology Reporting Service</a><a class="f4qxr-menu-link" href="/en/radyoloji-bolumu-isletme-hizmeti">Radiology Department Management Service</a><a class="f4qxr-menu-link" href="/en/btodasi">Design and Construction of Computed Tomography Rooms</a><a class="f4qxr-menu-link" href="/en/manyetik-rezonans-goruntuleme-cihaz-odalarinin-projelendirilmesi-ve-yapimi">Design and Construction of Magnetic Resonance Imaging Suites</a><a class="f4qxr-menu-link active" href="/en/dopplerultrason">Doppler and Ultrasonography Service</a><a class="f4qxr-menu-link" href="/en/rontgen-ve-mamografi-odalarinin-projelendirilmesi-ve-yapimi">Design and Construction of X-ray and Mammography Rooms</a><a class="f4qxr-menu-link" href="/en/radyoloji-cihaz-satisi-sifir-ve-ikinci-el">Radiology Device Sales (New and Pre-Owned)</a><a class="f4qxr-menu-link" href="/en/hastanelerde-pacs-ve-arsivleme-hizmeti">PACS and Archiving Services for Hospitals</a><a class="f4qxr-menu-link" href="/en/radyolojik-cihazlarin-bakim-onarim-ve-yedek-parca-temini">Maintenance, Repair, and Spare Parts Supply for Radiological Devices</a><a class="f4qxr-menu-link" href="/en/danismanlik-hizmetleri">Consultancy Services</a></div>
+  <div class="f4qxr-desc">
     
-    <div class="aqmb1-desc-body">
-            <img src="/page/doppler_ultrason/fmqbz.jpg?v=wkyh1" width="100%" alt="{{title}}" />
+    <div class="f4qxr-desc-body">
+            <img src="/page/doppler_ultrason/fmqbz.jpg?v=bq31f" width="100%" alt="{{title}}" />
     </div>
-    <div class="aqmb1-body"><p><h2 style="font-size: 24px;">DOPPLER AND ULTRASONOGRAPHY SERVICE</h2></p>
+    <div class="f4qxr-body"><p><h2 style="font-size: 24px;">DOPPLER AND ULTRASONOGRAPHY SERVICE</h2></p>
 <p>    <p style="font-size: 16px;"></p>
 <p>        Within our Doppler and ultrasonography imaging services, we provide high-quality diagnostic imaging and reporting with our specialist radiology team. Backed by 23 years of experience, our strong staff includes 40 physicians, 40 medical secretaries, and 5 technical experts. Doppler ultrasonography is a dedicated technique used to evaluate blood flow.</p>
 <p>    </p></p>
@@ -98,27 +119,27 @@
 </div>
 
 <script>
-  const menuToggleBtn = document.querySelector(".aqmb1-menu-btn");
+  const menuToggleBtn = document.querySelector(".f4qxr-menu-btn");
   if (menuToggleBtn) {
     menuToggleBtn.addEventListener("click", function () {
-      const menu = document.querySelector(".aqmb1-menu");
+      const menu = document.querySelector(".f4qxr-menu");
       if (!menu) return;
       const isOpen = menu.classList.toggle("active");
-      const icon = this.querySelector(".aqmb1-icon");
+      const icon = this.querySelector(".f4qxr-icon");
       if (icon) {
         icon.textContent = isOpen ? "close" : "menu";
       }
     });
   }
 
-  document.querySelectorAll(".aqmb1-top").forEach(function (button) {
+  document.querySelectorAll(".f4qxr-top").forEach(function (button) {
     button.addEventListener("click", function () {
-      const group = this.closest(".aqmb1-menu-group");
+      const group = this.closest(".f4qxr-menu-group");
       if (!group) return;
-      const sub = group.querySelector(".aqmb1-sub");
+      const sub = group.querySelector(".f4qxr-sub");
       const isOpen = group.classList.toggle("open");
       this.classList.toggle("active", isOpen);
-      const icon = this.querySelector(".aqmb1-icon");
+      const icon = this.querySelector(".f4qxr-icon");
       if (icon) {
         icon.textContent = isOpen ? "expand_less" : "expand_more";
       }
@@ -182,7 +203,7 @@
 
 
 
-<script type="text/javascript" src="/src/js.js?v=wkyh1"></script>
-<script src="/src/cookie.js?v=wkyh1"></script>
+<script type="text/javascript" src="/src/js.js?v=bq31f"></script>
+<script src="/src/cookie.js?v=bq31f"></script>
 
 </html>

@@ -20,8 +20,8 @@
   <meta name="robots" content="index, follow" />
 
   <link rel="stylesheet" href="/src/rubik.css" />
-  <link rel="stylesheet" href="/src/css.css?v=al0nm" />
-  <link rel="shortcut icon" href="/img/icon.png?v=al0nm" type="image/png" />
+  <link rel="stylesheet" href="/src/css.css?v=yu0a2" />
+  <link rel="shortcut icon" href="/img/icon.png?v=yu0a2" type="image/png" />
 
   <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
   <script src="/src/swiper-bundle.min.js"></script>
@@ -29,43 +29,64 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=al0nm">
+<link rel="stylesheet" href="style.css?v=yu0a2">
 </head>
 
 <body>
-  <div id="header"><div class="wx34c">
-  <div class="wx34ctitle">
-    <div class="wx34ctitlebody">
-     <div class="wx34ctitlebodytitle">
-      </div>
-      <div class="wx34ctitlebodylang">
+  <div id="header"><div class="r3dvk">
+  <div class="r3dvktitle">
+    <div class="r3dvktitlebody">
+      <div class="r3dvktitlebodylang">
         <ul>
-          <li><a href="/tr/kurumsal/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/kurumsal/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li>
+          <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="wx34cbody">
+  <div class="r3dvkbody">
     <a href="/en/"
       ><img
-        src="/img/logo.svg?v=al0nm"
+        src="/img/logo.svg?v=yu0a2"
         alt="Atlantis Radyoloji Logo"
-        class="wx34cbodylogo"
+        class="r3dvkbodylogo"
     /></a>
+    <button type="button" class="r3dvk-mobile-toggle" onclick="menu2_toggle()">
+      <span class="material-symbols-outlined">menu</span>
+    </button>
   </div>
-  <div class="wx34cmenubody">
-    <div class="wx34cmenu">
-      <div class="wx34cmenulistbody">
-        <div class="wx34cmenulist">
+  <div class="r3dvkmenubody">
+    <div class="r3dvkmenu" id="menu-2-root">
+      <div class="r3dvkmenulistbody">
+        <div class="r3dvkmenulist">
           <ul>
-            <a href="/en/">Home </a><a class="wx34c-menu-list-active" href="/en/kurumsal/">Corporate</a><a href="/en/hizmetlerimiz/">Our Services</a><a href="/en/e-katalog/">E-Catalogue</a><a href="/en/referanslarimiz/">Our References</a><a href="/en/iletisim/">Contact</a>
+            <a href="/en/">Home </a><a class="r3dvk-menu-list-active" href="/en/kurumsal/">Corporate</a><a href="/en/hizmetlerimiz/">Our Services</a><a href="/en/e-katalog/">E-Catalogue</a><a href="/en/referanslarimiz/">Our References</a><a href="/en/iletisim/">Contact</a>
           </ul>
+          <div class="r3dvklanguages-mobile">
+            <ul>
+              <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </div>
 
+<script>
+  if (typeof menu2_toggle === "undefined") {
+    function menu2_toggle() {
+      var root = document.getElementById("menu-2-root");
+      if (!root) {
+        return;
+      }
+      if (root.classList.contains("r3dvkmenu-open")) {
+        root.classList.remove("r3dvkmenu-open");
+      } else {
+        root.classList.add("r3dvkmenu-open");
+      }
+    }
+  }
+</script>
 </div>
   <div id="content"></div>
   <div id="footer"><footer class="footer">
@@ -120,7 +141,7 @@
 
 
 
-<script type="text/javascript" src="/src/js.js?v=al0nm"></script>
-<script src="/src/cookie.js?v=al0nm"></script>
+<script type="text/javascript" src="/src/js.js?v=yu0a2"></script>
+<script src="/src/cookie.js?v=yu0a2"></script>
 
 </html>

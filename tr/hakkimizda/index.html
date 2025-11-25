@@ -20,8 +20,8 @@
   <meta name="robots" content="index, follow" />
 
   <link rel="stylesheet" href="/src/rubik.css" />
-  <link rel="stylesheet" href="/src/css.css?v=yb27l" />
-  <link rel="shortcut icon" href="/img/icon.png?v=yb27l" type="image/png" />
+  <link rel="stylesheet" href="/src/css.css?v=anrms" />
+  <link rel="shortcut icon" href="/img/icon.png?v=anrms" type="image/png" />
 
   <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
   <script src="/src/swiper-bundle.min.js"></script>
@@ -29,56 +29,77 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=yb27l">
+<link rel="stylesheet" href="style.css?v=anrms">
 </head>
 
 <body>
-  <div id="header"><div class="vyzlx">
-  <div class="vyzlxtitle">
-    <div class="vyzlxtitlebody">
-     <div class="vyzlxtitlebodytitle">
-      </div>
-      <div class="vyzlxtitlebodylang">
+  <div id="header"><div class="dap1y">
+  <div class="dap1ytitle">
+    <div class="dap1ytitlebody">
+      <div class="dap1ytitlebodylang">
         <ul>
-          <li><a href="/tr/hakkimizda/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/hakkimizda/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li>
+          <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="vyzlxbody">
+  <div class="dap1ybody">
     <a href="/tr/"
       ><img
-        src="/img/logo.svg?v=yb27l"
+        src="/img/logo.svg?v=anrms"
         alt="Atlantis Radyoloji Logo"
-        class="vyzlxbodylogo"
+        class="dap1ybodylogo"
     /></a>
+    <button type="button" class="dap1y-mobile-toggle" onclick="menu2_toggle()">
+      <span class="material-symbols-outlined">menu</span>
+    </button>
   </div>
-  <div class="vyzlxmenubody">
-    <div class="vyzlxmenu">
-      <div class="vyzlxmenulistbody">
-        <div class="vyzlxmenulist">
+  <div class="dap1ymenubody">
+    <div class="dap1ymenu" id="menu-2-root">
+      <div class="dap1ymenulistbody">
+        <div class="dap1ymenulist">
           <ul>
             <a href="/tr/">Anasayfa </a><a href="/tr/hakkimizda/">Kurumsal</a><a href="/tr/hizmetlerimiz/">Hizmetlerimiz</a><a href="/tr/e-katalog/">E-Katalog</a><a href="/tr/referanslarimiz/">Referanslarımız</a><a href="/tr/iletisim/">İletişim</a>
           </ul>
+          <div class="dap1ylanguages-mobile">
+            <ul>
+              <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </div>
 
+<script>
+  if (typeof menu2_toggle === "undefined") {
+    function menu2_toggle() {
+      var root = document.getElementById("menu-2-root");
+      if (!root) {
+        return;
+      }
+      if (root.classList.contains("dap1ymenu-open")) {
+        root.classList.remove("dap1ymenu-open");
+      } else {
+        root.classList.add("dap1ymenu-open");
+      }
+    }
+  }
+</script>
 </div>
-  <div id="content"><div class="ol5s9-title f36">
+  <div id="content"><div class="uvr0b-title f36">
   <span>Hakkımızda</span>
 </div>
-<div class="ol5s9">
-  <div class="ol5s9-menu-btn">
+<div class="uvr0b">
+  <div class="uvr0b-menu-btn">
     <span>Menü</span>
-    <span class="material-symbols-outlined ol5s9-icon">menu</span>
+    <span class="material-symbols-outlined uvr0b-icon">menu</span>
   </div>
-  <div class="ol5s9-menu"><a class="ol5s9-menu-link active" href="/tr/hakkimizda">Hakkımızda</a><a class="ol5s9-menu-link" href="/tr/misyon">Misyon</a><a class="ol5s9-menu-link" href="/tr/vizyon">Vizyon</a><a class="ol5s9-menu-link" href="/tr/kalite-politikamiz">Kalite Politikamız</a><a class="ol5s9-menu-link" href="/tr/gizlilik-politikasi">Gizlilik Politikası</a><a class="ol5s9-menu-link" href="/tr/kisisel-veriler">Kişisel Veriler</a><a class="ol5s9-menu-link" href="/tr/kullanici-haklari">Kullanıcı Hakları</a><a class="ol5s9-menu-link" href="/tr/yasal-uyari">Yasal Uyarı</a></div>
-  <div class="ol5s9-desc">
+  <div class="uvr0b-menu"><a class="uvr0b-menu-link active" href="/tr/hakkimizda">Hakkımızda</a><a class="uvr0b-menu-link" href="/tr/misyon">Misyon</a><a class="uvr0b-menu-link" href="/tr/vizyon">Vizyon</a><a class="uvr0b-menu-link" href="/tr/kalite-politikamiz">Kalite Politikamız</a><a class="uvr0b-menu-link" href="/tr/gizlilik-politikasi">Gizlilik Politikası</a><a class="uvr0b-menu-link" href="/tr/kisisel-veriler">Kişisel Veriler</a><a class="uvr0b-menu-link" href="/tr/kullanici-haklari">Kullanıcı Hakları</a><a class="uvr0b-menu-link" href="/tr/yasal-uyari">Yasal Uyarı</a></div>
+  <div class="uvr0b-desc">
     
-    <div class="ol5s9-body"><p><h2 style="font-size: 24px;">ATLANTİS RADYOLOJİ HAKKIMIZDA</h2></p>
+    <div class="uvr0b-body"><p><h2 style="font-size: 24px;">ATLANTİS RADYOLOJİ HAKKIMIZDA</h2></p>
 <p>    <p style="font-size: 16px;"></p>
 <p>        ATLANTİS RADYOLOJİ GÖRÜNTÜLEME SAĞLIK HİZMETLERİ LİMİTED ŞİRKETİ, dünyada hızla gelişmekte olan tanısal görüntüleme imajlarının paylaşımı ve arşivleme konusunda ülkemizdeki ihtiyaçları karşılamak ve en doğru tanısal raporların oluşturulması için konusunda deneyimli radyoloji uzmanlarımız ve raporörlerimizin bir araya gelmesi ile kurulmuştur. Firmamız, hizmet verdiğimiz hastanelerde çekilmiş MRI (Manyetik Rezonans Görüntüleme), MRI anjiyografi, BT (Bilgisayarlı Tomografi), BT Anjiyografi, mamografi, Dijital Röntgen ve Sintigrafi (Nükleer Tıp) tetkik imajları, dünya genelinde kullanılan PACS yazılımları aracılığıyla internet üzerinden güvenli bir şekilde transfer edilip raporlanabilmekte, böylece teleradyoloji raporları dünyanın her yerinden yapılabilmektedir.</p>
 <p>    </p></p>
@@ -92,27 +113,27 @@
 </div>
 
 <script>
-  const menuToggleBtn = document.querySelector(".ol5s9-menu-btn");
+  const menuToggleBtn = document.querySelector(".uvr0b-menu-btn");
   if (menuToggleBtn) {
     menuToggleBtn.addEventListener("click", function () {
-      const menu = document.querySelector(".ol5s9-menu");
+      const menu = document.querySelector(".uvr0b-menu");
       if (!menu) return;
       const isOpen = menu.classList.toggle("active");
-      const icon = this.querySelector(".ol5s9-icon");
+      const icon = this.querySelector(".uvr0b-icon");
       if (icon) {
         icon.textContent = isOpen ? "close" : "menu";
       }
     });
   }
 
-  document.querySelectorAll(".ol5s9-top").forEach(function (button) {
+  document.querySelectorAll(".uvr0b-top").forEach(function (button) {
     button.addEventListener("click", function () {
-      const group = this.closest(".ol5s9-menu-group");
+      const group = this.closest(".uvr0b-menu-group");
       if (!group) return;
-      const sub = group.querySelector(".ol5s9-sub");
+      const sub = group.querySelector(".uvr0b-sub");
       const isOpen = group.classList.toggle("open");
       this.classList.toggle("active", isOpen);
-      const icon = this.querySelector(".ol5s9-icon");
+      const icon = this.querySelector(".uvr0b-icon");
       if (icon) {
         icon.textContent = isOpen ? "expand_less" : "expand_more";
       }
@@ -176,7 +197,7 @@
 
 
 
-<script type="text/javascript" src="/src/js.js?v=yb27l"></script>
-<script src="/src/cookie.js?v=yb27l"></script>
+<script type="text/javascript" src="/src/js.js?v=anrms"></script>
+<script src="/src/cookie.js?v=anrms"></script>
 
 </html>

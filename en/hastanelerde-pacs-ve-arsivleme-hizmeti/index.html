@@ -20,8 +20,8 @@
   <meta name="robots" content="index, follow" />
 
   <link rel="stylesheet" href="/src/rubik.css" />
-  <link rel="stylesheet" href="/src/css.css?v=htp8n" />
-  <link rel="shortcut icon" href="/img/icon.png?v=htp8n" type="image/png" />
+  <link rel="stylesheet" href="/src/css.css?v=sf949" />
+  <link rel="shortcut icon" href="/img/icon.png?v=sf949" type="image/png" />
 
   <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
   <script src="/src/swiper-bundle.min.js"></script>
@@ -29,59 +29,80 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=htp8n">
+<link rel="stylesheet" href="style.css?v=sf949">
 </head>
 
 <body>
-  <div id="header"><div class="yodxs">
-  <div class="yodxstitle">
-    <div class="yodxstitlebody">
-     <div class="yodxstitlebodytitle">
-      </div>
-      <div class="yodxstitlebodylang">
+  <div id="header"><div class="cj0p1">
+  <div class="cj0p1title">
+    <div class="cj0p1titlebody">
+      <div class="cj0p1titlebodylang">
         <ul>
-          <li><a href="/tr/hastanelerde-pacs-ve-arsivleme-hizmeti/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/hastanelerde-pacs-ve-arsivleme-hizmeti/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li>
+          <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="yodxsbody">
+  <div class="cj0p1body">
     <a href="/en/"
       ><img
-        src="/img/logo.svg?v=htp8n"
+        src="/img/logo.svg?v=sf949"
         alt="Atlantis Radyoloji Logo"
-        class="yodxsbodylogo"
+        class="cj0p1bodylogo"
     /></a>
+    <button type="button" class="cj0p1-mobile-toggle" onclick="menu2_toggle()">
+      <span class="material-symbols-outlined">menu</span>
+    </button>
   </div>
-  <div class="yodxsmenubody">
-    <div class="yodxsmenu">
-      <div class="yodxsmenulistbody">
-        <div class="yodxsmenulist">
+  <div class="cj0p1menubody">
+    <div class="cj0p1menu" id="menu-2-root">
+      <div class="cj0p1menulistbody">
+        <div class="cj0p1menulist">
           <ul>
             <a href="/en/">Home </a><a href="/en/hakkimizda/">Corporate</a><a href="/en/hizmetlerimiz/">Our Services</a><a href="/en/e-katalog/">E-Catalogue</a><a href="/en/referanslarimiz/">Our References</a><a href="/en/iletisim/">Contact</a>
           </ul>
+          <div class="cj0p1languages-mobile">
+            <ul>
+              <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </div>
 
+<script>
+  if (typeof menu2_toggle === "undefined") {
+    function menu2_toggle() {
+      var root = document.getElementById("menu-2-root");
+      if (!root) {
+        return;
+      }
+      if (root.classList.contains("cj0p1menu-open")) {
+        root.classList.remove("cj0p1menu-open");
+      } else {
+        root.classList.add("cj0p1menu-open");
+      }
+    }
+  }
+</script>
 </div>
-  <div id="content"><div class="jlgxs-title f36">
+  <div id="content"><div class="r74n6-title f36">
   <span>PACS and Archiving Services for Hospitals</span>
 </div>
-<div class="jlgxs">
-  <div class="jlgxs-menu-btn">
+<div class="r74n6">
+  <div class="r74n6-menu-btn">
     <span>Menu</span>
-    <span class="material-symbols-outlined jlgxs-icon">menu</span>
+    <span class="material-symbols-outlined r74n6-icon">menu</span>
   </div>
-  <div class="jlgxs-menu"><a class="jlgxs-menu-link" href="/en/teleradyolojik-raporlama-hizmeti">Teleradiology Reporting Service</a><a class="jlgxs-menu-link" href="/en/radyoloji-bolumu-isletme-hizmeti">Radiology Department Management Service</a><a class="jlgxs-menu-link" href="/en/btodasi">Design and Construction of Computed Tomography Rooms</a><a class="jlgxs-menu-link" href="/en/manyetik-rezonans-goruntuleme-cihaz-odalarinin-projelendirilmesi-ve-yapimi">Design and Construction of Magnetic Resonance Imaging Suites</a><a class="jlgxs-menu-link" href="/en/dopplerultrason">Doppler and Ultrasonography Service</a><a class="jlgxs-menu-link" href="/en/rontgen-ve-mamografi-odalarinin-projelendirilmesi-ve-yapimi">Design and Construction of X-ray and Mammography Rooms</a><a class="jlgxs-menu-link" href="/en/radyoloji-cihaz-satisi-sifir-ve-ikinci-el">Radiology Device Sales (New and Pre-Owned)</a><a class="jlgxs-menu-link active" href="/en/hastanelerde-pacs-ve-arsivleme-hizmeti">PACS and Archiving Services for Hospitals</a><a class="jlgxs-menu-link" href="/en/radyolojik-cihazlarin-bakim-onarim-ve-yedek-parca-temini">Maintenance, Repair, and Spare Parts Supply for Radiological Devices</a><a class="jlgxs-menu-link" href="/en/danismanlik-hizmetleri">Consultancy Services</a></div>
-  <div class="jlgxs-desc">
+  <div class="r74n6-menu"><a class="r74n6-menu-link" href="/en/teleradyolojik-raporlama-hizmeti">Teleradiology Reporting Service</a><a class="r74n6-menu-link" href="/en/radyoloji-bolumu-isletme-hizmeti">Radiology Department Management Service</a><a class="r74n6-menu-link" href="/en/btodasi">Design and Construction of Computed Tomography Rooms</a><a class="r74n6-menu-link" href="/en/manyetik-rezonans-goruntuleme-cihaz-odalarinin-projelendirilmesi-ve-yapimi">Design and Construction of Magnetic Resonance Imaging Suites</a><a class="r74n6-menu-link" href="/en/dopplerultrason">Doppler and Ultrasonography Service</a><a class="r74n6-menu-link" href="/en/rontgen-ve-mamografi-odalarinin-projelendirilmesi-ve-yapimi">Design and Construction of X-ray and Mammography Rooms</a><a class="r74n6-menu-link" href="/en/radyoloji-cihaz-satisi-sifir-ve-ikinci-el">Radiology Device Sales (New and Pre-Owned)</a><a class="r74n6-menu-link active" href="/en/hastanelerde-pacs-ve-arsivleme-hizmeti">PACS and Archiving Services for Hospitals</a><a class="r74n6-menu-link" href="/en/radyolojik-cihazlarin-bakim-onarim-ve-yedek-parca-temini">Maintenance, Repair, and Spare Parts Supply for Radiological Devices</a><a class="r74n6-menu-link" href="/en/danismanlik-hizmetleri">Consultancy Services</a></div>
+  <div class="r74n6-desc">
     
-    <div class="jlgxs-desc-body">
-            <img src="/page/pacs_arsiv/vtxn2.jpg?v=htp8n" width="100%" alt="{{title}}" />
+    <div class="r74n6-desc-body">
+            <img src="/page/pacs_arsiv/vtxn2.jpg?v=sf949" width="100%" alt="{{title}}" />
     </div>
-    <div class="jlgxs-body"><p><h2 style="font-size: 24px;">PACS AND ARCHIVING SERVICES IN HOSPITALS</h2></p>
+    <div class="r74n6-body"><p><h2 style="font-size: 24px;">PACS AND ARCHIVING SERVICES IN HOSPITALS</h2></p>
 <p>    <p style="font-size: 16px;"></p>
 <p>        A PACS (Picture Archiving and Communication System) manages the capture, archiving, and distribution of radiological images in digital form. In recent years, advances in medical technology have progressed in parallel with developments in computing, making it easier to transport and store diagnostic images and reports.</p>
 <p>    </p></p>
@@ -98,27 +119,27 @@
 </div>
 
 <script>
-  const menuToggleBtn = document.querySelector(".jlgxs-menu-btn");
+  const menuToggleBtn = document.querySelector(".r74n6-menu-btn");
   if (menuToggleBtn) {
     menuToggleBtn.addEventListener("click", function () {
-      const menu = document.querySelector(".jlgxs-menu");
+      const menu = document.querySelector(".r74n6-menu");
       if (!menu) return;
       const isOpen = menu.classList.toggle("active");
-      const icon = this.querySelector(".jlgxs-icon");
+      const icon = this.querySelector(".r74n6-icon");
       if (icon) {
         icon.textContent = isOpen ? "close" : "menu";
       }
     });
   }
 
-  document.querySelectorAll(".jlgxs-top").forEach(function (button) {
+  document.querySelectorAll(".r74n6-top").forEach(function (button) {
     button.addEventListener("click", function () {
-      const group = this.closest(".jlgxs-menu-group");
+      const group = this.closest(".r74n6-menu-group");
       if (!group) return;
-      const sub = group.querySelector(".jlgxs-sub");
+      const sub = group.querySelector(".r74n6-sub");
       const isOpen = group.classList.toggle("open");
       this.classList.toggle("active", isOpen);
-      const icon = this.querySelector(".jlgxs-icon");
+      const icon = this.querySelector(".r74n6-icon");
       if (icon) {
         icon.textContent = isOpen ? "expand_less" : "expand_more";
       }
@@ -182,7 +203,7 @@
 
 
 
-<script type="text/javascript" src="/src/js.js?v=htp8n"></script>
-<script src="/src/cookie.js?v=htp8n"></script>
+<script type="text/javascript" src="/src/js.js?v=sf949"></script>
+<script src="/src/cookie.js?v=sf949"></script>
 
 </html>

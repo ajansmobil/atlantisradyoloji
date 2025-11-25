@@ -20,8 +20,8 @@
   <meta name="robots" content="index, follow" />
 
   <link rel="stylesheet" href="/src/rubik.css" />
-  <link rel="stylesheet" href="/src/css.css?v=kfdl4" />
-  <link rel="shortcut icon" href="/img/icon.png?v=kfdl4" type="image/png" />
+  <link rel="stylesheet" href="/src/css.css?v=vdbw1" />
+  <link rel="shortcut icon" href="/img/icon.png?v=vdbw1" type="image/png" />
 
   <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
   <script src="/src/swiper-bundle.min.js"></script>
@@ -29,56 +29,77 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=kfdl4">
+<link rel="stylesheet" href="style.css?v=vdbw1">
 </head>
 
 <body>
-  <div id="header"><div class="jzjm5">
-  <div class="jzjm5title">
-    <div class="jzjm5titlebody">
-     <div class="jzjm5titlebodytitle">
-      </div>
-      <div class="jzjm5titlebodylang">
+  <div id="header"><div class="i5jcd">
+  <div class="i5jcdtitle">
+    <div class="i5jcdtitlebody">
+      <div class="i5jcdtitlebodylang">
         <ul>
-          <li><a href="/tr/kullanici-haklari/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/kullanici-haklari/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li>
+          <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="jzjm5body">
+  <div class="i5jcdbody">
     <a href="/tr/"
       ><img
-        src="/img/logo.svg?v=kfdl4"
+        src="/img/logo.svg?v=vdbw1"
         alt="Atlantis Radyoloji Logo"
-        class="jzjm5bodylogo"
+        class="i5jcdbodylogo"
     /></a>
+    <button type="button" class="i5jcd-mobile-toggle" onclick="menu2_toggle()">
+      <span class="material-symbols-outlined">menu</span>
+    </button>
   </div>
-  <div class="jzjm5menubody">
-    <div class="jzjm5menu">
-      <div class="jzjm5menulistbody">
-        <div class="jzjm5menulist">
+  <div class="i5jcdmenubody">
+    <div class="i5jcdmenu" id="menu-2-root">
+      <div class="i5jcdmenulistbody">
+        <div class="i5jcdmenulist">
           <ul>
             <a href="/tr/">Anasayfa </a><a href="/tr/hakkimizda/">Kurumsal</a><a href="/tr/hizmetlerimiz/">Hizmetlerimiz</a><a href="/tr/e-katalog/">E-Katalog</a><a href="/tr/referanslarimiz/">Referanslarımız</a><a href="/tr/iletisim/">İletişim</a>
           </ul>
+          <div class="i5jcdlanguages-mobile">
+            <ul>
+              <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </div>
 
+<script>
+  if (typeof menu2_toggle === "undefined") {
+    function menu2_toggle() {
+      var root = document.getElementById("menu-2-root");
+      if (!root) {
+        return;
+      }
+      if (root.classList.contains("i5jcdmenu-open")) {
+        root.classList.remove("i5jcdmenu-open");
+      } else {
+        root.classList.add("i5jcdmenu-open");
+      }
+    }
+  }
+</script>
 </div>
-  <div id="content"><div class="bmpu5-title f36">
+  <div id="content"><div class="yf2h0-title f36">
   <span>Kullanıcı Hakları</span>
 </div>
-<div class="bmpu5">
-  <div class="bmpu5-menu-btn">
+<div class="yf2h0">
+  <div class="yf2h0-menu-btn">
     <span>Menü</span>
-    <span class="material-symbols-outlined bmpu5-icon">menu</span>
+    <span class="material-symbols-outlined yf2h0-icon">menu</span>
   </div>
-  <div class="bmpu5-menu"><a class="bmpu5-menu-link" href="/tr/hakkimizda">Hakkımızda</a><a class="bmpu5-menu-link" href="/tr/misyon">Misyon</a><a class="bmpu5-menu-link" href="/tr/vizyon">Vizyon</a><a class="bmpu5-menu-link" href="/tr/kalite-politikamiz">Kalite Politikamız</a><a class="bmpu5-menu-link" href="/tr/gizlilik-politikasi">Gizlilik Politikası</a><a class="bmpu5-menu-link" href="/tr/kisisel-veriler">Kişisel Veriler</a><a class="bmpu5-menu-link active" href="/tr/kullanici-haklari">Kullanıcı Hakları</a><a class="bmpu5-menu-link" href="/tr/yasal-uyari">Yasal Uyarı</a></div>
-  <div class="bmpu5-desc">
+  <div class="yf2h0-menu"><a class="yf2h0-menu-link" href="/tr/hakkimizda">Hakkımızda</a><a class="yf2h0-menu-link" href="/tr/misyon">Misyon</a><a class="yf2h0-menu-link" href="/tr/vizyon">Vizyon</a><a class="yf2h0-menu-link" href="/tr/kalite-politikamiz">Kalite Politikamız</a><a class="yf2h0-menu-link" href="/tr/gizlilik-politikasi">Gizlilik Politikası</a><a class="yf2h0-menu-link" href="/tr/kisisel-veriler">Kişisel Veriler</a><a class="yf2h0-menu-link active" href="/tr/kullanici-haklari">Kullanıcı Hakları</a><a class="yf2h0-menu-link" href="/tr/yasal-uyari">Yasal Uyarı</a></div>
+  <div class="yf2h0-desc">
     
-    <div class="bmpu5-body"><p><h2 style="font-size: 24px;">Kullanıcı Hakları</h2></p>
+    <div class="yf2h0-body"><p><h2 style="font-size: 24px;">Kullanıcı Hakları</h2></p>
 <p>    <p style="font-size: 16px;">Atlantis Radyoloji hizmetlerinden yararlanan kurum ve bireyler; kişisel verilerine erişme, düzeltme, silme, işlenmesine itiraz etme ve güncel bilgilendirme talep etme haklarına sahiptir. Taleplerinizi yazılı olarak veya kayıtlı elektronik posta kanallarımızdan iletebilir, süreç hakkında şeffaf geri bildirim alabilirsiniz.</p></p>
 <p>    <p style="font-size: 16px;">Başvurularınız KVKK'da tanımlanan süreler içinde değerlendirilir ve sonuçlandırılır. Talep formlarında yer alan kimlik doğrulama adımlarıyla verilerinizin güvenliğini korur, her başvuru için kayıt oluşturur ve süreç boyunca bilgilendirme yaparız.</p></p>
 <p>    <p style="font-size: 16px;">Haklarınızı kullanmak veya detaylı bilgi almak için gizlilik politikamızdaki iletişim kanallarını kullanabilirsiniz. Çalışanlarımız, kullanıcı hakları konusunda düzenli olarak eğitim alır ve gelen her talebi mevzuata uygun şekilde sonuçlandırır.</p></p></div>
@@ -86,27 +107,27 @@
 </div>
 
 <script>
-  const menuToggleBtn = document.querySelector(".bmpu5-menu-btn");
+  const menuToggleBtn = document.querySelector(".yf2h0-menu-btn");
   if (menuToggleBtn) {
     menuToggleBtn.addEventListener("click", function () {
-      const menu = document.querySelector(".bmpu5-menu");
+      const menu = document.querySelector(".yf2h0-menu");
       if (!menu) return;
       const isOpen = menu.classList.toggle("active");
-      const icon = this.querySelector(".bmpu5-icon");
+      const icon = this.querySelector(".yf2h0-icon");
       if (icon) {
         icon.textContent = isOpen ? "close" : "menu";
       }
     });
   }
 
-  document.querySelectorAll(".bmpu5-top").forEach(function (button) {
+  document.querySelectorAll(".yf2h0-top").forEach(function (button) {
     button.addEventListener("click", function () {
-      const group = this.closest(".bmpu5-menu-group");
+      const group = this.closest(".yf2h0-menu-group");
       if (!group) return;
-      const sub = group.querySelector(".bmpu5-sub");
+      const sub = group.querySelector(".yf2h0-sub");
       const isOpen = group.classList.toggle("open");
       this.classList.toggle("active", isOpen);
-      const icon = this.querySelector(".bmpu5-icon");
+      const icon = this.querySelector(".yf2h0-icon");
       if (icon) {
         icon.textContent = isOpen ? "expand_less" : "expand_more";
       }
@@ -170,7 +191,7 @@
 
 
 
-<script type="text/javascript" src="/src/js.js?v=kfdl4"></script>
-<script src="/src/cookie.js?v=kfdl4"></script>
+<script type="text/javascript" src="/src/js.js?v=vdbw1"></script>
+<script src="/src/cookie.js?v=vdbw1"></script>
 
 </html>

@@ -20,8 +20,8 @@
   <meta name="robots" content="index, follow" />
 
   <link rel="stylesheet" href="/src/rubik.css" />
-  <link rel="stylesheet" href="/src/css.css?v=b4ufv" />
-  <link rel="shortcut icon" href="/img/icon.png?v=b4ufv" type="image/png" />
+  <link rel="stylesheet" href="/src/css.css?v=x2ggu" />
+  <link rel="shortcut icon" href="/img/icon.png?v=x2ggu" type="image/png" />
 
   <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
   <script src="/src/swiper-bundle.min.js"></script>
@@ -29,56 +29,77 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=b4ufv">
+<link rel="stylesheet" href="style.css?v=x2ggu">
 </head>
 
 <body>
-  <div id="header"><div class="kfoct">
-  <div class="kfocttitle">
-    <div class="kfocttitlebody">
-     <div class="kfocttitlebodytitle">
-      </div>
-      <div class="kfocttitlebodylang">
+  <div id="header"><div class="amjoq">
+  <div class="amjoqtitle">
+    <div class="amjoqtitlebody">
+      <div class="amjoqtitlebodylang">
         <ul>
-          <li><a href="/tr/yasal-uyari/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/yasal-uyari/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li>
+          <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="kfoctbody">
+  <div class="amjoqbody">
     <a href="/tr/"
       ><img
-        src="/img/logo.svg?v=b4ufv"
+        src="/img/logo.svg?v=x2ggu"
         alt="Atlantis Radyoloji Logo"
-        class="kfoctbodylogo"
+        class="amjoqbodylogo"
     /></a>
+    <button type="button" class="amjoq-mobile-toggle" onclick="menu2_toggle()">
+      <span class="material-symbols-outlined">menu</span>
+    </button>
   </div>
-  <div class="kfoctmenubody">
-    <div class="kfoctmenu">
-      <div class="kfoctmenulistbody">
-        <div class="kfoctmenulist">
+  <div class="amjoqmenubody">
+    <div class="amjoqmenu" id="menu-2-root">
+      <div class="amjoqmenulistbody">
+        <div class="amjoqmenulist">
           <ul>
             <a href="/tr/">Anasayfa </a><a href="/tr/hakkimizda/">Kurumsal</a><a href="/tr/hizmetlerimiz/">Hizmetlerimiz</a><a href="/tr/e-katalog/">E-Katalog</a><a href="/tr/referanslarimiz/">Referanslarımız</a><a href="/tr/iletisim/">İletişim</a>
           </ul>
+          <div class="amjoqlanguages-mobile">
+            <ul>
+              <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </div>
 
+<script>
+  if (typeof menu2_toggle === "undefined") {
+    function menu2_toggle() {
+      var root = document.getElementById("menu-2-root");
+      if (!root) {
+        return;
+      }
+      if (root.classList.contains("amjoqmenu-open")) {
+        root.classList.remove("amjoqmenu-open");
+      } else {
+        root.classList.add("amjoqmenu-open");
+      }
+    }
+  }
+</script>
 </div>
-  <div id="content"><div class="vt845-title f36">
+  <div id="content"><div class="jthw1-title f36">
   <span>Yasal Uyarı</span>
 </div>
-<div class="vt845">
-  <div class="vt845-menu-btn">
+<div class="jthw1">
+  <div class="jthw1-menu-btn">
     <span>Menü</span>
-    <span class="material-symbols-outlined vt845-icon">menu</span>
+    <span class="material-symbols-outlined jthw1-icon">menu</span>
   </div>
-  <div class="vt845-menu"><a class="vt845-menu-link" href="/tr/hakkimizda">Hakkımızda</a><a class="vt845-menu-link" href="/tr/misyon">Misyon</a><a class="vt845-menu-link" href="/tr/vizyon">Vizyon</a><a class="vt845-menu-link" href="/tr/kalite-politikamiz">Kalite Politikamız</a><a class="vt845-menu-link" href="/tr/gizlilik-politikasi">Gizlilik Politikası</a><a class="vt845-menu-link" href="/tr/kisisel-veriler">Kişisel Veriler</a><a class="vt845-menu-link" href="/tr/kullanici-haklari">Kullanıcı Hakları</a><a class="vt845-menu-link active" href="/tr/yasal-uyari">Yasal Uyarı</a></div>
-  <div class="vt845-desc">
+  <div class="jthw1-menu"><a class="jthw1-menu-link" href="/tr/hakkimizda">Hakkımızda</a><a class="jthw1-menu-link" href="/tr/misyon">Misyon</a><a class="jthw1-menu-link" href="/tr/vizyon">Vizyon</a><a class="jthw1-menu-link" href="/tr/kalite-politikamiz">Kalite Politikamız</a><a class="jthw1-menu-link" href="/tr/gizlilik-politikasi">Gizlilik Politikası</a><a class="jthw1-menu-link" href="/tr/kisisel-veriler">Kişisel Veriler</a><a class="jthw1-menu-link" href="/tr/kullanici-haklari">Kullanıcı Hakları</a><a class="jthw1-menu-link active" href="/tr/yasal-uyari">Yasal Uyarı</a></div>
+  <div class="jthw1-desc">
     
-    <div class="vt845-body"><p><h2 style="font-size: 24px;">Yasal Uyarı</h2></p>
+    <div class="jthw1-body"><p><h2 style="font-size: 24px;">Yasal Uyarı</h2></p>
 <p>    <p style="font-size: 16px;">Bu internet sitesinde yer alan tüm içerikler bilgilendirme amaçlıdır; tıbbi teşhis ve tedavi tavsiyesi yerine geçmez. Atlantis Radyoloji, içeriklerde meydana gelebilecek olası değişiklikleri önceden haber vermeksizin yapma hakkını saklı tutar ve üçüncü taraf sitelere verilen yönlendirmelerden doğabilecek sorumlulukları kabul etmez.</p></p>
 <p>    <p style="font-size: 16px;">Site üzerinde yer alan raporlar ve görsel materyaller, yetkisiz kişi ve kurumlar tarafından kopyalanamaz, değiştirilemez veya ticari amaçla kullanılamaz. İçeriklerin hukuka aykırı kullanımını tespit etmeniz hâlinde lütfen bizimle iletişime geçin; gerekli durumlarda yasal haklarımızı kullanma hakkımız saklıdır.</p></p>
 <p>    <p style="font-size: 16px;">Sitemizi ziyaret eden kullanıcılar, bu yasal uyarıyı okumuş ve kabul etmiş sayılır.</p></p></div>
@@ -86,27 +107,27 @@
 </div>
 
 <script>
-  const menuToggleBtn = document.querySelector(".vt845-menu-btn");
+  const menuToggleBtn = document.querySelector(".jthw1-menu-btn");
   if (menuToggleBtn) {
     menuToggleBtn.addEventListener("click", function () {
-      const menu = document.querySelector(".vt845-menu");
+      const menu = document.querySelector(".jthw1-menu");
       if (!menu) return;
       const isOpen = menu.classList.toggle("active");
-      const icon = this.querySelector(".vt845-icon");
+      const icon = this.querySelector(".jthw1-icon");
       if (icon) {
         icon.textContent = isOpen ? "close" : "menu";
       }
     });
   }
 
-  document.querySelectorAll(".vt845-top").forEach(function (button) {
+  document.querySelectorAll(".jthw1-top").forEach(function (button) {
     button.addEventListener("click", function () {
-      const group = this.closest(".vt845-menu-group");
+      const group = this.closest(".jthw1-menu-group");
       if (!group) return;
-      const sub = group.querySelector(".vt845-sub");
+      const sub = group.querySelector(".jthw1-sub");
       const isOpen = group.classList.toggle("open");
       this.classList.toggle("active", isOpen);
-      const icon = this.querySelector(".vt845-icon");
+      const icon = this.querySelector(".jthw1-icon");
       if (icon) {
         icon.textContent = isOpen ? "expand_less" : "expand_more";
       }
@@ -170,7 +191,7 @@
 
 
 
-<script type="text/javascript" src="/src/js.js?v=b4ufv"></script>
-<script src="/src/cookie.js?v=b4ufv"></script>
+<script type="text/javascript" src="/src/js.js?v=x2ggu"></script>
+<script src="/src/cookie.js?v=x2ggu"></script>
 
 </html>

@@ -20,8 +20,8 @@
   <meta name="robots" content="index, follow" />
 
   <link rel="stylesheet" href="/src/rubik.css" />
-  <link rel="stylesheet" href="/src/css.css?v=rsjc3" />
-  <link rel="shortcut icon" href="/img/icon.png?v=rsjc3" type="image/png" />
+  <link rel="stylesheet" href="/src/css.css?v=s7vnc" />
+  <link rel="shortcut icon" href="/img/icon.png?v=s7vnc" type="image/png" />
 
   <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
   <script src="/src/swiper-bundle.min.js"></script>
@@ -29,62 +29,83 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=rsjc3">
+<link rel="stylesheet" href="style.css?v=s7vnc">
 </head>
 
 <body>
-  <div id="header"><div class="csmu7">
-  <div class="csmu7title">
-    <div class="csmu7titlebody">
-     <div class="csmu7titlebodytitle">
-      </div>
-      <div class="csmu7titlebodylang">
+  <div id="header"><div class="b3ev8">
+  <div class="b3ev8title">
+    <div class="b3ev8titlebody">
+      <div class="b3ev8titlebodylang">
         <ul>
-          <li><a href="/tr/e-katalog/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/e-katalog/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li>
+          <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="csmu7body">
+  <div class="b3ev8body">
     <a href="/tr/"
       ><img
-        src="/img/logo.svg?v=rsjc3"
+        src="/img/logo.svg?v=s7vnc"
         alt="Atlantis Radyoloji Logo"
-        class="csmu7bodylogo"
+        class="b3ev8bodylogo"
     /></a>
+    <button type="button" class="b3ev8-mobile-toggle" onclick="menu2_toggle()">
+      <span class="material-symbols-outlined">menu</span>
+    </button>
   </div>
-  <div class="csmu7menubody">
-    <div class="csmu7menu">
-      <div class="csmu7menulistbody">
-        <div class="csmu7menulist">
+  <div class="b3ev8menubody">
+    <div class="b3ev8menu" id="menu-2-root">
+      <div class="b3ev8menulistbody">
+        <div class="b3ev8menulist">
           <ul>
-            <a href="/tr/">Anasayfa </a><a href="/tr/hakkimizda/">Kurumsal</a><a href="/tr/hizmetlerimiz/">Hizmetlerimiz</a><a class="csmu7-menu-list-active" href="/tr/e-katalog/">E-Katalog</a><a href="/tr/referanslarimiz/">Referanslarımız</a><a href="/tr/iletisim/">İletişim</a>
+            <a href="/tr/">Anasayfa </a><a href="/tr/hakkimizda/">Kurumsal</a><a href="/tr/hizmetlerimiz/">Hizmetlerimiz</a><a class="b3ev8-menu-list-active" href="/tr/e-katalog/">E-Katalog</a><a href="/tr/referanslarimiz/">Referanslarımız</a><a href="/tr/iletisim/">İletişim</a>
           </ul>
+          <div class="b3ev8languages-mobile">
+            <ul>
+              <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </div>
 
+<script>
+  if (typeof menu2_toggle === "undefined") {
+    function menu2_toggle() {
+      var root = document.getElementById("menu-2-root");
+      if (!root) {
+        return;
+      }
+      if (root.classList.contains("b3ev8menu-open")) {
+        root.classList.remove("b3ev8menu-open");
+      } else {
+        root.classList.add("b3ev8menu-open");
+      }
+    }
+  }
+</script>
 </div>
-  <div id="content"><div class="fdqcp-catalog">
-  <div class="fdqcp-catalog-header">
-    <div class="fdqcp-catalog-info">
-      <span class="material-symbols-outlined fdqcp-catalog-icon">picture_as_pdf</span>
-      <div class="fdqcp-catalog-texts">
-        <h2 class="fdqcp-catalog-title">Atlantis Radyoloji E-Katalog</h2>
-        <p class="fdqcp-catalog-subtitle">Tüm teleradyoloji hizmetlerini ve ekipman çözümlerini tek PDF içinde inceleyin.</p>
+  <div id="content"><div class="brc93-catalog">
+  <div class="brc93-catalog-header">
+    <div class="brc93-catalog-info">
+      <span class="material-symbols-outlined brc93-catalog-icon">picture_as_pdf</span>
+      <div class="brc93-catalog-texts">
+        <h2 class="brc93-catalog-title">Atlantis Radyoloji E-Katalog</h2>
+        <p class="brc93-catalog-subtitle">Tüm teleradyoloji hizmetlerini ve ekipman çözümlerini tek PDF içinde inceleyin.</p>
       </div>
     </div>
-    <a class="fdqcp-catalog-download" href="/img/cvt1pk/katalogweb.pdf" target="_blank" rel="noopener">
+    <a class="brc93-catalog-download" href="/img/cvt1pk/katalogweb.pdf" target="_blank" rel="noopener">
       <span class="material-symbols-outlined">download</span>
       katalogweb.pdf
     </a>
   </div>
-  <div class="fdqcp-catalog-viewer">
+  <div class="brc93-catalog-viewer">
     <iframe src="/img/cvt1pk/katalogweb.pdf" loading="lazy" title="Atlantis Radyoloji E-Katalog"></iframe>
   </div>
-  <div class="fdqcp-catalog-note">Katalog görünmezse indir butonuna tıklayarak yeni sekmede açabilirsiniz.</div>
+  <div class="brc93-catalog-note">Katalog görünmezse indir butonuna tıklayarak yeni sekmede açabilirsiniz.</div>
 </div>
 
 
@@ -142,7 +163,7 @@
 
 
 
-<script type="text/javascript" src="/src/js.js?v=rsjc3"></script>
-<script src="/src/cookie.js?v=rsjc3"></script>
+<script type="text/javascript" src="/src/js.js?v=s7vnc"></script>
+<script src="/src/cookie.js?v=s7vnc"></script>
 
 </html>

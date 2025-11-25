@@ -20,8 +20,8 @@
   <meta name="robots" content="index, follow" />
 
   <link rel="stylesheet" href="/src/rubik.css" />
-  <link rel="stylesheet" href="/src/css.css?v=nu6z9" />
-  <link rel="shortcut icon" href="/img/icon.png?v=nu6z9" type="image/png" />
+  <link rel="stylesheet" href="/src/css.css?v=efw76" />
+  <link rel="shortcut icon" href="/img/icon.png?v=efw76" type="image/png" />
 
   <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
   <script src="/src/swiper-bundle.min.js"></script>
@@ -29,59 +29,80 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=nu6z9">
+<link rel="stylesheet" href="style.css?v=efw76">
 </head>
 
 <body>
-  <div id="header"><div class="dbona">
-  <div class="dbonatitle">
-    <div class="dbonatitlebody">
-     <div class="dbonatitlebodytitle">
-      </div>
-      <div class="dbonatitlebodylang">
+  <div id="header"><div class="wg6dp">
+  <div class="wg6dptitle">
+    <div class="wg6dptitlebody">
+      <div class="wg6dptitlebodylang">
         <ul>
-          <li><a href="/tr/dopplerultrason/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/dopplerultrason/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li>
+          <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="dbonabody">
+  <div class="wg6dpbody">
     <a href="/tr/"
       ><img
-        src="/img/logo.svg?v=nu6z9"
+        src="/img/logo.svg?v=efw76"
         alt="Atlantis Radyoloji Logo"
-        class="dbonabodylogo"
+        class="wg6dpbodylogo"
     /></a>
+    <button type="button" class="wg6dp-mobile-toggle" onclick="menu2_toggle()">
+      <span class="material-symbols-outlined">menu</span>
+    </button>
   </div>
-  <div class="dbonamenubody">
-    <div class="dbonamenu">
-      <div class="dbonamenulistbody">
-        <div class="dbonamenulist">
+  <div class="wg6dpmenubody">
+    <div class="wg6dpmenu" id="menu-2-root">
+      <div class="wg6dpmenulistbody">
+        <div class="wg6dpmenulist">
           <ul>
             <a href="/tr/">Anasayfa </a><a href="/tr/hakkimizda/">Kurumsal</a><a href="/tr/hizmetlerimiz/">Hizmetlerimiz</a><a href="/tr/e-katalog/">E-Katalog</a><a href="/tr/referanslarimiz/">Referanslarımız</a><a href="/tr/iletisim/">İletişim</a>
           </ul>
+          <div class="wg6dplanguages-mobile">
+            <ul>
+              <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </div>
 
+<script>
+  if (typeof menu2_toggle === "undefined") {
+    function menu2_toggle() {
+      var root = document.getElementById("menu-2-root");
+      if (!root) {
+        return;
+      }
+      if (root.classList.contains("wg6dpmenu-open")) {
+        root.classList.remove("wg6dpmenu-open");
+      } else {
+        root.classList.add("wg6dpmenu-open");
+      }
+    }
+  }
+</script>
 </div>
-  <div id="content"><div class="f6in6-title f36">
+  <div id="content"><div class="gyh76-title f36">
   <span>Doppler ve Ultrasonografi Hizmeti</span>
 </div>
-<div class="f6in6">
-  <div class="f6in6-menu-btn">
+<div class="gyh76">
+  <div class="gyh76-menu-btn">
     <span>Menü</span>
-    <span class="material-symbols-outlined f6in6-icon">menu</span>
+    <span class="material-symbols-outlined gyh76-icon">menu</span>
   </div>
-  <div class="f6in6-menu"><a class="f6in6-menu-link" href="/tr/teleradyolojik-raporlama-hizmeti">Teleradyolojik Raporlama Hizmeti</a><a class="f6in6-menu-link" href="/tr/radyoloji-bolumu-isletme-hizmeti">Radyoloji Bölümü İşletme Hizmeti</a><a class="f6in6-menu-link" href="/tr/btodasi">Bilgisayarlı Tomografi Odalarının Projelendirilmesi ve Yapımı</a><a class="f6in6-menu-link" href="/tr/manyetik-rezonans-goruntuleme-cihaz-odalarinin-projelendirilmesi-ve-yapimi">Manyetik Rezonans Görüntüleme Cihaz Odalarının Projelendirilmesi ve Yapımı</a><a class="f6in6-menu-link active" href="/tr/dopplerultrason">Doppler ve Ultrasonografi Hizmeti</a><a class="f6in6-menu-link" href="/tr/rontgen-ve-mamografi-odalarinin-projelendirilmesi-ve-yapimi">Röntgen ve Mamografi Odalarının Projelendirilmesi ve Yapımı</a><a class="f6in6-menu-link" href="/tr/radyoloji-cihaz-satisi-sifir-ve-ikinci-el">Radyoloji Cihaz Satışı (Sıfır ve İkinci El)</a><a class="f6in6-menu-link" href="/tr/hastanelerde-pacs-ve-arsivleme-hizmeti">Hastanelerde PACS ve Arşivleme Hizmeti</a><a class="f6in6-menu-link" href="/tr/radyolojik-cihazlarin-bakim-onarim-ve-yedek-parca-temini">Radyolojik Cihazların Bakım, Onarım ve Yedek Parça Temini</a><a class="f6in6-menu-link" href="/tr/danismanlik-hizmetleri">Danışmanlık Hizmetleri</a></div>
-  <div class="f6in6-desc">
+  <div class="gyh76-menu"><a class="gyh76-menu-link" href="/tr/teleradyolojik-raporlama-hizmeti">Teleradyolojik Raporlama Hizmeti</a><a class="gyh76-menu-link" href="/tr/radyoloji-bolumu-isletme-hizmeti">Radyoloji Bölümü İşletme Hizmeti</a><a class="gyh76-menu-link" href="/tr/btodasi">Bilgisayarlı Tomografi Odalarının Projelendirilmesi ve Yapımı</a><a class="gyh76-menu-link" href="/tr/manyetik-rezonans-goruntuleme-cihaz-odalarinin-projelendirilmesi-ve-yapimi">Manyetik Rezonans Görüntüleme Cihaz Odalarının Projelendirilmesi ve Yapımı</a><a class="gyh76-menu-link active" href="/tr/dopplerultrason">Doppler ve Ultrasonografi Hizmeti</a><a class="gyh76-menu-link" href="/tr/rontgen-ve-mamografi-odalarinin-projelendirilmesi-ve-yapimi">Röntgen ve Mamografi Odalarının Projelendirilmesi ve Yapımı</a><a class="gyh76-menu-link" href="/tr/radyoloji-cihaz-satisi-sifir-ve-ikinci-el">Radyoloji Cihaz Satışı (Sıfır ve İkinci El)</a><a class="gyh76-menu-link" href="/tr/hastanelerde-pacs-ve-arsivleme-hizmeti">Hastanelerde PACS ve Arşivleme Hizmeti</a><a class="gyh76-menu-link" href="/tr/radyolojik-cihazlarin-bakim-onarim-ve-yedek-parca-temini">Radyolojik Cihazların Bakım, Onarım ve Yedek Parça Temini</a><a class="gyh76-menu-link" href="/tr/danismanlik-hizmetleri">Danışmanlık Hizmetleri</a></div>
+  <div class="gyh76-desc">
     
-    <div class="f6in6-desc-body">
-            <img src="/page/doppler_ultrason/fmqbz.jpg?v=nu6z9" width="100%" alt="{{title}}" />
+    <div class="gyh76-desc-body">
+            <img src="/page/doppler_ultrason/fmqbz.jpg?v=efw76" width="100%" alt="{{title}}" />
     </div>
-    <div class="f6in6-body"><p><h2 style="font-size: 24px;">DOPPLER VE ULTRASONOGRAFİ HİZMETİ</h2></p>
+    <div class="gyh76-body"><p><h2 style="font-size: 24px;">DOPPLER VE ULTRASONOGRAFİ HİZMETİ</h2></p>
 <p>    <p style="font-size: 16px;"></p>
 <p>        Doppler ve Ultrasonografi görüntüleme hizmetleri kapsamında, uzman radyolog kadromuzla kaliteli tanısal görüntüleme ve raporlama hizmetleri sunmaktayız. Firmamız 23 yıllık deneyim ve birikimi ile bu sektörde bilgi ve birikimi en profesyonel şekilde çalışan 40 Doktor, 40 Tıbbi Sekreter ve 5 Teknik personelden oluşan güçlü kadrosu ile hizmet vermektedir. Doppler ultrasonografi, kan akımını değerlendirmek için kullanılan özel bir ultrasonografi tekniğidir.</p>
 <p>    </p></p>
@@ -98,27 +119,27 @@
 </div>
 
 <script>
-  const menuToggleBtn = document.querySelector(".f6in6-menu-btn");
+  const menuToggleBtn = document.querySelector(".gyh76-menu-btn");
   if (menuToggleBtn) {
     menuToggleBtn.addEventListener("click", function () {
-      const menu = document.querySelector(".f6in6-menu");
+      const menu = document.querySelector(".gyh76-menu");
       if (!menu) return;
       const isOpen = menu.classList.toggle("active");
-      const icon = this.querySelector(".f6in6-icon");
+      const icon = this.querySelector(".gyh76-icon");
       if (icon) {
         icon.textContent = isOpen ? "close" : "menu";
       }
     });
   }
 
-  document.querySelectorAll(".f6in6-top").forEach(function (button) {
+  document.querySelectorAll(".gyh76-top").forEach(function (button) {
     button.addEventListener("click", function () {
-      const group = this.closest(".f6in6-menu-group");
+      const group = this.closest(".gyh76-menu-group");
       if (!group) return;
-      const sub = group.querySelector(".f6in6-sub");
+      const sub = group.querySelector(".gyh76-sub");
       const isOpen = group.classList.toggle("open");
       this.classList.toggle("active", isOpen);
-      const icon = this.querySelector(".f6in6-icon");
+      const icon = this.querySelector(".gyh76-icon");
       if (icon) {
         icon.textContent = isOpen ? "expand_less" : "expand_more";
       }
@@ -182,7 +203,7 @@
 
 
 
-<script type="text/javascript" src="/src/js.js?v=nu6z9"></script>
-<script src="/src/cookie.js?v=nu6z9"></script>
+<script type="text/javascript" src="/src/js.js?v=efw76"></script>
+<script src="/src/cookie.js?v=efw76"></script>
 
 </html>

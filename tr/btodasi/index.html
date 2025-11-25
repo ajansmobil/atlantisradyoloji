@@ -20,8 +20,8 @@
   <meta name="robots" content="index, follow" />
 
   <link rel="stylesheet" href="/src/rubik.css" />
-  <link rel="stylesheet" href="/src/css.css?v=b9hfo" />
-  <link rel="shortcut icon" href="/img/icon.png?v=b9hfo" type="image/png" />
+  <link rel="stylesheet" href="/src/css.css?v=bjg5s" />
+  <link rel="shortcut icon" href="/img/icon.png?v=bjg5s" type="image/png" />
 
   <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
   <script src="/src/swiper-bundle.min.js"></script>
@@ -29,59 +29,80 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=b9hfo">
+<link rel="stylesheet" href="style.css?v=bjg5s">
 </head>
 
 <body>
-  <div id="header"><div class="st1ke">
-  <div class="st1ketitle">
-    <div class="st1ketitlebody">
-     <div class="st1ketitlebodytitle">
-      </div>
-      <div class="st1ketitlebodylang">
+  <div id="header"><div class="zz494">
+  <div class="zz494title">
+    <div class="zz494titlebody">
+      <div class="zz494titlebodylang">
         <ul>
-          <li><a href="/tr/btodasi/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/btodasi/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li>
+          <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="st1kebody">
+  <div class="zz494body">
     <a href="/tr/"
       ><img
-        src="/img/logo.svg?v=b9hfo"
+        src="/img/logo.svg?v=bjg5s"
         alt="Atlantis Radyoloji Logo"
-        class="st1kebodylogo"
+        class="zz494bodylogo"
     /></a>
+    <button type="button" class="zz494-mobile-toggle" onclick="menu2_toggle()">
+      <span class="material-symbols-outlined">menu</span>
+    </button>
   </div>
-  <div class="st1kemenubody">
-    <div class="st1kemenu">
-      <div class="st1kemenulistbody">
-        <div class="st1kemenulist">
+  <div class="zz494menubody">
+    <div class="zz494menu" id="menu-2-root">
+      <div class="zz494menulistbody">
+        <div class="zz494menulist">
           <ul>
             <a href="/tr/">Anasayfa </a><a href="/tr/hakkimizda/">Kurumsal</a><a href="/tr/hizmetlerimiz/">Hizmetlerimiz</a><a href="/tr/e-katalog/">E-Katalog</a><a href="/tr/referanslarimiz/">Referanslarımız</a><a href="/tr/iletisim/">İletişim</a>
           </ul>
+          <div class="zz494languages-mobile">
+            <ul>
+              <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </div>
 
+<script>
+  if (typeof menu2_toggle === "undefined") {
+    function menu2_toggle() {
+      var root = document.getElementById("menu-2-root");
+      if (!root) {
+        return;
+      }
+      if (root.classList.contains("zz494menu-open")) {
+        root.classList.remove("zz494menu-open");
+      } else {
+        root.classList.add("zz494menu-open");
+      }
+    }
+  }
+</script>
 </div>
-  <div id="content"><div class="um1p2-title f36">
+  <div id="content"><div class="v003p-title f36">
   <span>Bilgisayarlı Tomografi Odalarının Projelendirilmesi ve Yapımı</span>
 </div>
-<div class="um1p2">
-  <div class="um1p2-menu-btn">
+<div class="v003p">
+  <div class="v003p-menu-btn">
     <span>Menü</span>
-    <span class="material-symbols-outlined um1p2-icon">menu</span>
+    <span class="material-symbols-outlined v003p-icon">menu</span>
   </div>
-  <div class="um1p2-menu"><a class="um1p2-menu-link" href="/tr/teleradyolojik-raporlama-hizmeti">Teleradyolojik Raporlama Hizmeti</a><a class="um1p2-menu-link" href="/tr/radyoloji-bolumu-isletme-hizmeti">Radyoloji Bölümü İşletme Hizmeti</a><a class="um1p2-menu-link active" href="/tr/btodasi">Bilgisayarlı Tomografi Odalarının Projelendirilmesi ve Yapımı</a><a class="um1p2-menu-link" href="/tr/manyetik-rezonans-goruntuleme-cihaz-odalarinin-projelendirilmesi-ve-yapimi">Manyetik Rezonans Görüntüleme Cihaz Odalarının Projelendirilmesi ve Yapımı</a><a class="um1p2-menu-link" href="/tr/dopplerultrason">Doppler ve Ultrasonografi Hizmeti</a><a class="um1p2-menu-link" href="/tr/rontgen-ve-mamografi-odalarinin-projelendirilmesi-ve-yapimi">Röntgen ve Mamografi Odalarının Projelendirilmesi ve Yapımı</a><a class="um1p2-menu-link" href="/tr/radyoloji-cihaz-satisi-sifir-ve-ikinci-el">Radyoloji Cihaz Satışı (Sıfır ve İkinci El)</a><a class="um1p2-menu-link" href="/tr/hastanelerde-pacs-ve-arsivleme-hizmeti">Hastanelerde PACS ve Arşivleme Hizmeti</a><a class="um1p2-menu-link" href="/tr/radyolojik-cihazlarin-bakim-onarim-ve-yedek-parca-temini">Radyolojik Cihazların Bakım, Onarım ve Yedek Parça Temini</a><a class="um1p2-menu-link" href="/tr/danismanlik-hizmetleri">Danışmanlık Hizmetleri</a></div>
-  <div class="um1p2-desc">
+  <div class="v003p-menu"><a class="v003p-menu-link" href="/tr/teleradyolojik-raporlama-hizmeti">Teleradyolojik Raporlama Hizmeti</a><a class="v003p-menu-link" href="/tr/radyoloji-bolumu-isletme-hizmeti">Radyoloji Bölümü İşletme Hizmeti</a><a class="v003p-menu-link active" href="/tr/btodasi">Bilgisayarlı Tomografi Odalarının Projelendirilmesi ve Yapımı</a><a class="v003p-menu-link" href="/tr/manyetik-rezonans-goruntuleme-cihaz-odalarinin-projelendirilmesi-ve-yapimi">Manyetik Rezonans Görüntüleme Cihaz Odalarının Projelendirilmesi ve Yapımı</a><a class="v003p-menu-link" href="/tr/dopplerultrason">Doppler ve Ultrasonografi Hizmeti</a><a class="v003p-menu-link" href="/tr/rontgen-ve-mamografi-odalarinin-projelendirilmesi-ve-yapimi">Röntgen ve Mamografi Odalarının Projelendirilmesi ve Yapımı</a><a class="v003p-menu-link" href="/tr/radyoloji-cihaz-satisi-sifir-ve-ikinci-el">Radyoloji Cihaz Satışı (Sıfır ve İkinci El)</a><a class="v003p-menu-link" href="/tr/hastanelerde-pacs-ve-arsivleme-hizmeti">Hastanelerde PACS ve Arşivleme Hizmeti</a><a class="v003p-menu-link" href="/tr/radyolojik-cihazlarin-bakim-onarim-ve-yedek-parca-temini">Radyolojik Cihazların Bakım, Onarım ve Yedek Parça Temini</a><a class="v003p-menu-link" href="/tr/danismanlik-hizmetleri">Danışmanlık Hizmetleri</a></div>
+  <div class="v003p-desc">
     
-    <div class="um1p2-desc-body">
-            <img src="/page/bt_odasi/og9nm.jpg?v=b9hfo" width="100%" alt="{{title}}" />
+    <div class="v003p-desc-body">
+            <img src="/page/bt_odasi/og9nm.jpg?v=bjg5s" width="100%" alt="{{title}}" />
     </div>
-    <div class="um1p2-body"><p><h2 style="font-size: 24px;">BİLGİSAYARLI TOMOGRAFİ ODALARININ PROJELENDİRİLMESİ VE YAPIMI</h2></p>
+    <div class="v003p-body"><p><h2 style="font-size: 24px;">BİLGİSAYARLI TOMOGRAFİ ODALARININ PROJELENDİRİLMESİ VE YAPIMI</h2></p>
 <p>    <p style="font-size: 16px;"></p>
 <p>        Bilgisayarlı Tomografi (BT) odalarının projelendirilmesi, kurşun kaplanması ve anahtar teslim yapımı hizmetleri konusunda uzman ekibimizle hizmet veriyoruz. Firmamız 23 yıllık deneyim ve birikimi ile bu sektörde bilgi ve birikimi en profesyonel şekilde çalışan 40 Doktor, 40 Tıbbi Sekreter ve 5 Teknik personelden oluşan güçlü kadrosu ile hizmet vermektedir. BT odalarının projelendirilmesi, radyasyon güvenliği açısından kritik önem taşıyan bir süreçtir.</p>
 <p>    </p></p>
@@ -98,27 +119,27 @@
 </div>
 
 <script>
-  const menuToggleBtn = document.querySelector(".um1p2-menu-btn");
+  const menuToggleBtn = document.querySelector(".v003p-menu-btn");
   if (menuToggleBtn) {
     menuToggleBtn.addEventListener("click", function () {
-      const menu = document.querySelector(".um1p2-menu");
+      const menu = document.querySelector(".v003p-menu");
       if (!menu) return;
       const isOpen = menu.classList.toggle("active");
-      const icon = this.querySelector(".um1p2-icon");
+      const icon = this.querySelector(".v003p-icon");
       if (icon) {
         icon.textContent = isOpen ? "close" : "menu";
       }
     });
   }
 
-  document.querySelectorAll(".um1p2-top").forEach(function (button) {
+  document.querySelectorAll(".v003p-top").forEach(function (button) {
     button.addEventListener("click", function () {
-      const group = this.closest(".um1p2-menu-group");
+      const group = this.closest(".v003p-menu-group");
       if (!group) return;
-      const sub = group.querySelector(".um1p2-sub");
+      const sub = group.querySelector(".v003p-sub");
       const isOpen = group.classList.toggle("open");
       this.classList.toggle("active", isOpen);
-      const icon = this.querySelector(".um1p2-icon");
+      const icon = this.querySelector(".v003p-icon");
       if (icon) {
         icon.textContent = isOpen ? "expand_less" : "expand_more";
       }
@@ -182,7 +203,7 @@
 
 
 
-<script type="text/javascript" src="/src/js.js?v=b9hfo"></script>
-<script src="/src/cookie.js?v=b9hfo"></script>
+<script type="text/javascript" src="/src/js.js?v=bjg5s"></script>
+<script src="/src/cookie.js?v=bjg5s"></script>
 
 </html>

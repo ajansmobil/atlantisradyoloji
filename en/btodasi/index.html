@@ -20,8 +20,8 @@
   <meta name="robots" content="index, follow" />
 
   <link rel="stylesheet" href="/src/rubik.css" />
-  <link rel="stylesheet" href="/src/css.css?v=rj6tw" />
-  <link rel="shortcut icon" href="/img/icon.png?v=rj6tw" type="image/png" />
+  <link rel="stylesheet" href="/src/css.css?v=mgt0i" />
+  <link rel="shortcut icon" href="/img/icon.png?v=mgt0i" type="image/png" />
 
   <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
   <script src="/src/swiper-bundle.min.js"></script>
@@ -29,59 +29,80 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=rj6tw">
+<link rel="stylesheet" href="style.css?v=mgt0i">
 </head>
 
 <body>
-  <div id="header"><div class="d8yr8">
-  <div class="d8yr8title">
-    <div class="d8yr8titlebody">
-     <div class="d8yr8titlebodytitle">
-      </div>
-      <div class="d8yr8titlebodylang">
+  <div id="header"><div class="y8jyw">
+  <div class="y8jywtitle">
+    <div class="y8jywtitlebody">
+      <div class="y8jywtitlebodylang">
         <ul>
-          <li><a href="/tr/btodasi/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/btodasi/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li>
+          <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="d8yr8body">
+  <div class="y8jywbody">
     <a href="/en/"
       ><img
-        src="/img/logo.svg?v=rj6tw"
+        src="/img/logo.svg?v=mgt0i"
         alt="Atlantis Radyoloji Logo"
-        class="d8yr8bodylogo"
+        class="y8jywbodylogo"
     /></a>
+    <button type="button" class="y8jyw-mobile-toggle" onclick="menu2_toggle()">
+      <span class="material-symbols-outlined">menu</span>
+    </button>
   </div>
-  <div class="d8yr8menubody">
-    <div class="d8yr8menu">
-      <div class="d8yr8menulistbody">
-        <div class="d8yr8menulist">
+  <div class="y8jywmenubody">
+    <div class="y8jywmenu" id="menu-2-root">
+      <div class="y8jywmenulistbody">
+        <div class="y8jywmenulist">
           <ul>
             <a href="/en/">Home </a><a href="/en/hakkimizda/">Corporate</a><a href="/en/hizmetlerimiz/">Our Services</a><a href="/en/e-katalog/">E-Catalogue</a><a href="/en/referanslarimiz/">Our References</a><a href="/en/iletisim/">Contact</a>
           </ul>
+          <div class="y8jywlanguages-mobile">
+            <ul>
+              <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </div>
 
+<script>
+  if (typeof menu2_toggle === "undefined") {
+    function menu2_toggle() {
+      var root = document.getElementById("menu-2-root");
+      if (!root) {
+        return;
+      }
+      if (root.classList.contains("y8jywmenu-open")) {
+        root.classList.remove("y8jywmenu-open");
+      } else {
+        root.classList.add("y8jywmenu-open");
+      }
+    }
+  }
+</script>
 </div>
-  <div id="content"><div class="wgvnl-title f36">
+  <div id="content"><div class="bkl82-title f36">
   <span>Design and Construction of Computed Tomography Rooms</span>
 </div>
-<div class="wgvnl">
-  <div class="wgvnl-menu-btn">
+<div class="bkl82">
+  <div class="bkl82-menu-btn">
     <span>Menu</span>
-    <span class="material-symbols-outlined wgvnl-icon">menu</span>
+    <span class="material-symbols-outlined bkl82-icon">menu</span>
   </div>
-  <div class="wgvnl-menu"><a class="wgvnl-menu-link" href="/en/teleradyolojik-raporlama-hizmeti">Teleradiology Reporting Service</a><a class="wgvnl-menu-link" href="/en/radyoloji-bolumu-isletme-hizmeti">Radiology Department Management Service</a><a class="wgvnl-menu-link active" href="/en/btodasi">Design and Construction of Computed Tomography Rooms</a><a class="wgvnl-menu-link" href="/en/manyetik-rezonans-goruntuleme-cihaz-odalarinin-projelendirilmesi-ve-yapimi">Design and Construction of Magnetic Resonance Imaging Suites</a><a class="wgvnl-menu-link" href="/en/dopplerultrason">Doppler and Ultrasonography Service</a><a class="wgvnl-menu-link" href="/en/rontgen-ve-mamografi-odalarinin-projelendirilmesi-ve-yapimi">Design and Construction of X-ray and Mammography Rooms</a><a class="wgvnl-menu-link" href="/en/radyoloji-cihaz-satisi-sifir-ve-ikinci-el">Radiology Device Sales (New and Pre-Owned)</a><a class="wgvnl-menu-link" href="/en/hastanelerde-pacs-ve-arsivleme-hizmeti">PACS and Archiving Services for Hospitals</a><a class="wgvnl-menu-link" href="/en/radyolojik-cihazlarin-bakim-onarim-ve-yedek-parca-temini">Maintenance, Repair, and Spare Parts Supply for Radiological Devices</a><a class="wgvnl-menu-link" href="/en/danismanlik-hizmetleri">Consultancy Services</a></div>
-  <div class="wgvnl-desc">
+  <div class="bkl82-menu"><a class="bkl82-menu-link" href="/en/teleradyolojik-raporlama-hizmeti">Teleradiology Reporting Service</a><a class="bkl82-menu-link" href="/en/radyoloji-bolumu-isletme-hizmeti">Radiology Department Management Service</a><a class="bkl82-menu-link active" href="/en/btodasi">Design and Construction of Computed Tomography Rooms</a><a class="bkl82-menu-link" href="/en/manyetik-rezonans-goruntuleme-cihaz-odalarinin-projelendirilmesi-ve-yapimi">Design and Construction of Magnetic Resonance Imaging Suites</a><a class="bkl82-menu-link" href="/en/dopplerultrason">Doppler and Ultrasonography Service</a><a class="bkl82-menu-link" href="/en/rontgen-ve-mamografi-odalarinin-projelendirilmesi-ve-yapimi">Design and Construction of X-ray and Mammography Rooms</a><a class="bkl82-menu-link" href="/en/radyoloji-cihaz-satisi-sifir-ve-ikinci-el">Radiology Device Sales (New and Pre-Owned)</a><a class="bkl82-menu-link" href="/en/hastanelerde-pacs-ve-arsivleme-hizmeti">PACS and Archiving Services for Hospitals</a><a class="bkl82-menu-link" href="/en/radyolojik-cihazlarin-bakim-onarim-ve-yedek-parca-temini">Maintenance, Repair, and Spare Parts Supply for Radiological Devices</a><a class="bkl82-menu-link" href="/en/danismanlik-hizmetleri">Consultancy Services</a></div>
+  <div class="bkl82-desc">
     
-    <div class="wgvnl-desc-body">
-            <img src="/page/bt_odasi/og9nm.jpg?v=rj6tw" width="100%" alt="{{title}}" />
+    <div class="bkl82-desc-body">
+            <img src="/page/bt_odasi/og9nm.jpg?v=mgt0i" width="100%" alt="{{title}}" />
     </div>
-    <div class="wgvnl-body"><p><h2 style="font-size: 24px;">DESIGN AND CONSTRUCTION OF COMPUTED TOMOGRAPHY ROOMS</h2></p>
+    <div class="bkl82-body"><p><h2 style="font-size: 24px;">DESIGN AND CONSTRUCTION OF COMPUTED TOMOGRAPHY ROOMS</h2></p>
 <p>    <p style="font-size: 16px;"></p>
 <p>        We provide specialized services for the design, lead shielding, and turnkey construction of Computed Tomography (CT) rooms. With 23 years of experience, our strong team of 40 physicians, 40 medical secretaries, and 5 technical specialists delivers highly professional expertise in the sector. Designing CT rooms is a process of critical importance for radiation safety.</p>
 <p>    </p></p>
@@ -98,27 +119,27 @@
 </div>
 
 <script>
-  const menuToggleBtn = document.querySelector(".wgvnl-menu-btn");
+  const menuToggleBtn = document.querySelector(".bkl82-menu-btn");
   if (menuToggleBtn) {
     menuToggleBtn.addEventListener("click", function () {
-      const menu = document.querySelector(".wgvnl-menu");
+      const menu = document.querySelector(".bkl82-menu");
       if (!menu) return;
       const isOpen = menu.classList.toggle("active");
-      const icon = this.querySelector(".wgvnl-icon");
+      const icon = this.querySelector(".bkl82-icon");
       if (icon) {
         icon.textContent = isOpen ? "close" : "menu";
       }
     });
   }
 
-  document.querySelectorAll(".wgvnl-top").forEach(function (button) {
+  document.querySelectorAll(".bkl82-top").forEach(function (button) {
     button.addEventListener("click", function () {
-      const group = this.closest(".wgvnl-menu-group");
+      const group = this.closest(".bkl82-menu-group");
       if (!group) return;
-      const sub = group.querySelector(".wgvnl-sub");
+      const sub = group.querySelector(".bkl82-sub");
       const isOpen = group.classList.toggle("open");
       this.classList.toggle("active", isOpen);
-      const icon = this.querySelector(".wgvnl-icon");
+      const icon = this.querySelector(".bkl82-icon");
       if (icon) {
         icon.textContent = isOpen ? "expand_less" : "expand_more";
       }
@@ -182,7 +203,7 @@
 
 
 
-<script type="text/javascript" src="/src/js.js?v=rj6tw"></script>
-<script src="/src/cookie.js?v=rj6tw"></script>
+<script type="text/javascript" src="/src/js.js?v=mgt0i"></script>
+<script src="/src/cookie.js?v=mgt0i"></script>
 
 </html>

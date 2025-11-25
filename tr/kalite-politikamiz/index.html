@@ -20,8 +20,8 @@
   <meta name="robots" content="index, follow" />
 
   <link rel="stylesheet" href="/src/rubik.css" />
-  <link rel="stylesheet" href="/src/css.css?v=dpobz" />
-  <link rel="shortcut icon" href="/img/icon.png?v=dpobz" type="image/png" />
+  <link rel="stylesheet" href="/src/css.css?v=c5eht" />
+  <link rel="shortcut icon" href="/img/icon.png?v=c5eht" type="image/png" />
 
   <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
   <script src="/src/swiper-bundle.min.js"></script>
@@ -29,56 +29,77 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=dpobz">
+<link rel="stylesheet" href="style.css?v=c5eht">
 </head>
 
 <body>
-  <div id="header"><div class="wi7dh">
-  <div class="wi7dhtitle">
-    <div class="wi7dhtitlebody">
-     <div class="wi7dhtitlebodytitle">
-      </div>
-      <div class="wi7dhtitlebodylang">
+  <div id="header"><div class="whvau">
+  <div class="whvautitle">
+    <div class="whvautitlebody">
+      <div class="whvautitlebodylang">
         <ul>
-          <li><a href="/tr/kalite-politikamiz/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/kalite-politikamiz/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li>
+          <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="wi7dhbody">
+  <div class="whvaubody">
     <a href="/tr/"
       ><img
-        src="/img/logo.svg?v=dpobz"
+        src="/img/logo.svg?v=c5eht"
         alt="Atlantis Radyoloji Logo"
-        class="wi7dhbodylogo"
+        class="whvaubodylogo"
     /></a>
+    <button type="button" class="whvau-mobile-toggle" onclick="menu2_toggle()">
+      <span class="material-symbols-outlined">menu</span>
+    </button>
   </div>
-  <div class="wi7dhmenubody">
-    <div class="wi7dhmenu">
-      <div class="wi7dhmenulistbody">
-        <div class="wi7dhmenulist">
+  <div class="whvaumenubody">
+    <div class="whvaumenu" id="menu-2-root">
+      <div class="whvaumenulistbody">
+        <div class="whvaumenulist">
           <ul>
             <a href="/tr/">Anasayfa </a><a href="/tr/hakkimizda/">Kurumsal</a><a href="/tr/hizmetlerimiz/">Hizmetlerimiz</a><a href="/tr/e-katalog/">E-Katalog</a><a href="/tr/referanslarimiz/">Referanslarımız</a><a href="/tr/iletisim/">İletişim</a>
           </ul>
+          <div class="whvaulanguages-mobile">
+            <ul>
+              <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </div>
 
+<script>
+  if (typeof menu2_toggle === "undefined") {
+    function menu2_toggle() {
+      var root = document.getElementById("menu-2-root");
+      if (!root) {
+        return;
+      }
+      if (root.classList.contains("whvaumenu-open")) {
+        root.classList.remove("whvaumenu-open");
+      } else {
+        root.classList.add("whvaumenu-open");
+      }
+    }
+  }
+</script>
 </div>
-  <div id="content"><div class="rheva-title f36">
+  <div id="content"><div class="qtq5l-title f36">
   <span>Kalite Politikamız</span>
 </div>
-<div class="rheva">
-  <div class="rheva-menu-btn">
+<div class="qtq5l">
+  <div class="qtq5l-menu-btn">
     <span>Menü</span>
-    <span class="material-symbols-outlined rheva-icon">menu</span>
+    <span class="material-symbols-outlined qtq5l-icon">menu</span>
   </div>
-  <div class="rheva-menu"><a class="rheva-menu-link" href="/tr/hakkimizda">Hakkımızda</a><a class="rheva-menu-link" href="/tr/misyon">Misyon</a><a class="rheva-menu-link" href="/tr/vizyon">Vizyon</a><a class="rheva-menu-link active" href="/tr/kalite-politikamiz">Kalite Politikamız</a><a class="rheva-menu-link" href="/tr/gizlilik-politikasi">Gizlilik Politikası</a><a class="rheva-menu-link" href="/tr/kisisel-veriler">Kişisel Veriler</a><a class="rheva-menu-link" href="/tr/kullanici-haklari">Kullanıcı Hakları</a><a class="rheva-menu-link" href="/tr/yasal-uyari">Yasal Uyarı</a></div>
-  <div class="rheva-desc">
+  <div class="qtq5l-menu"><a class="qtq5l-menu-link" href="/tr/hakkimizda">Hakkımızda</a><a class="qtq5l-menu-link" href="/tr/misyon">Misyon</a><a class="qtq5l-menu-link" href="/tr/vizyon">Vizyon</a><a class="qtq5l-menu-link active" href="/tr/kalite-politikamiz">Kalite Politikamız</a><a class="qtq5l-menu-link" href="/tr/gizlilik-politikasi">Gizlilik Politikası</a><a class="qtq5l-menu-link" href="/tr/kisisel-veriler">Kişisel Veriler</a><a class="qtq5l-menu-link" href="/tr/kullanici-haklari">Kullanıcı Hakları</a><a class="qtq5l-menu-link" href="/tr/yasal-uyari">Yasal Uyarı</a></div>
+  <div class="qtq5l-desc">
     
-    <div class="rheva-body"><p><h2 style="font-size: 24px;">ATLANTİS RADYOLOJİ KALİTE POLİTİKASI</h2></p>
+    <div class="qtq5l-body"><p><h2 style="font-size: 24px;">ATLANTİS RADYOLOJİ KALİTE POLİTİKASI</h2></p>
 <p>    <p style="font-size: 16px;">Atlantis Radyoloji kalite politikamız; ulusal mevzuata ve uluslararası standartlara uygun süreçlerle, uzman doktor kadrosu ve deneyimli operasyon ekibiyle hatasız raporlama sağlamak, hizmet kalitesini düzenli denetim ve eğitimlerle iyileştirmek, hasta güvenliği ve bilgi güvenliği prensiplerini tüm süreçlerde korumaktır.</p></p>
 <p>    <p style="font-size: 16px;">Sürekli eğitim programlarıyla ekip yetkinliklerimizi güncel tutuyor, PACS altyapımızı ve raporlama platformlarımızı düzenli bakım süreçleriyle güçlendiriyoruz. Ölçümlenebilir performans göstergeleri ve iç denetim raporlarıyla her projede kalite hedeflerimizi takip ediyor, geri bildirimleri sistematik şekilde değerlendiriyoruz.</p></p>
 <p>    <p style="font-size: 16px;">Bilgi güvenliği, hasta mahremiyeti ve etik değerlere bağlılık kalite yönetiminin temel unsurlarıdır. Tüm hizmet adımlarında KVKK ve ilgili sağlık mevzuatına uyum sağlıyor, enerji verimliliği ve çevresel etkileri dikkate alan bir operasyon modeli uyguluyoruz.</p></p></div>
@@ -86,27 +107,27 @@
 </div>
 
 <script>
-  const menuToggleBtn = document.querySelector(".rheva-menu-btn");
+  const menuToggleBtn = document.querySelector(".qtq5l-menu-btn");
   if (menuToggleBtn) {
     menuToggleBtn.addEventListener("click", function () {
-      const menu = document.querySelector(".rheva-menu");
+      const menu = document.querySelector(".qtq5l-menu");
       if (!menu) return;
       const isOpen = menu.classList.toggle("active");
-      const icon = this.querySelector(".rheva-icon");
+      const icon = this.querySelector(".qtq5l-icon");
       if (icon) {
         icon.textContent = isOpen ? "close" : "menu";
       }
     });
   }
 
-  document.querySelectorAll(".rheva-top").forEach(function (button) {
+  document.querySelectorAll(".qtq5l-top").forEach(function (button) {
     button.addEventListener("click", function () {
-      const group = this.closest(".rheva-menu-group");
+      const group = this.closest(".qtq5l-menu-group");
       if (!group) return;
-      const sub = group.querySelector(".rheva-sub");
+      const sub = group.querySelector(".qtq5l-sub");
       const isOpen = group.classList.toggle("open");
       this.classList.toggle("active", isOpen);
-      const icon = this.querySelector(".rheva-icon");
+      const icon = this.querySelector(".qtq5l-icon");
       if (icon) {
         icon.textContent = isOpen ? "expand_less" : "expand_more";
       }
@@ -170,7 +191,7 @@
 
 
 
-<script type="text/javascript" src="/src/js.js?v=dpobz"></script>
-<script src="/src/cookie.js?v=dpobz"></script>
+<script type="text/javascript" src="/src/js.js?v=c5eht"></script>
+<script src="/src/cookie.js?v=c5eht"></script>
 
 </html>

@@ -20,8 +20,8 @@
   <meta name="robots" content="index, follow" />
 
   <link rel="stylesheet" href="/src/rubik.css" />
-  <link rel="stylesheet" href="/src/css.css?v=exvby" />
-  <link rel="shortcut icon" href="/img/icon.png?v=exvby" type="image/png" />
+  <link rel="stylesheet" href="/src/css.css?v=s1sfj" />
+  <link rel="shortcut icon" href="/img/icon.png?v=s1sfj" type="image/png" />
 
   <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
   <script src="/src/swiper-bundle.min.js"></script>
@@ -29,59 +29,80 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=exvby">
+<link rel="stylesheet" href="style.css?v=s1sfj">
 </head>
 
 <body>
-  <div id="header"><div class="zsthq">
-  <div class="zsthqtitle">
-    <div class="zsthqtitlebody">
-     <div class="zsthqtitlebodytitle">
-      </div>
-      <div class="zsthqtitlebodylang">
+  <div id="header"><div class="mt6ab">
+  <div class="mt6abtitle">
+    <div class="mt6abtitlebody">
+      <div class="mt6abtitlebodylang">
         <ul>
-          <li><a href="/tr/rontgen-ve-mamografi-odalarinin-projelendirilmesi-ve-yapimi/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/rontgen-ve-mamografi-odalarinin-projelendirilmesi-ve-yapimi/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li>
+          <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="zsthqbody">
+  <div class="mt6abbody">
     <a href="/en/"
       ><img
-        src="/img/logo.svg?v=exvby"
+        src="/img/logo.svg?v=s1sfj"
         alt="Atlantis Radyoloji Logo"
-        class="zsthqbodylogo"
+        class="mt6abbodylogo"
     /></a>
+    <button type="button" class="mt6ab-mobile-toggle" onclick="menu2_toggle()">
+      <span class="material-symbols-outlined">menu</span>
+    </button>
   </div>
-  <div class="zsthqmenubody">
-    <div class="zsthqmenu">
-      <div class="zsthqmenulistbody">
-        <div class="zsthqmenulist">
+  <div class="mt6abmenubody">
+    <div class="mt6abmenu" id="menu-2-root">
+      <div class="mt6abmenulistbody">
+        <div class="mt6abmenulist">
           <ul>
             <a href="/en/">Home </a><a href="/en/hakkimizda/">Corporate</a><a href="/en/hizmetlerimiz/">Our Services</a><a href="/en/e-katalog/">E-Catalogue</a><a href="/en/referanslarimiz/">Our References</a><a href="/en/iletisim/">Contact</a>
           </ul>
+          <div class="mt6ablanguages-mobile">
+            <ul>
+              <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </div>
 
+<script>
+  if (typeof menu2_toggle === "undefined") {
+    function menu2_toggle() {
+      var root = document.getElementById("menu-2-root");
+      if (!root) {
+        return;
+      }
+      if (root.classList.contains("mt6abmenu-open")) {
+        root.classList.remove("mt6abmenu-open");
+      } else {
+        root.classList.add("mt6abmenu-open");
+      }
+    }
+  }
+</script>
 </div>
-  <div id="content"><div class="amk0i-title f36">
+  <div id="content"><div class="iigaz-title f36">
   <span>Design and Construction of X-ray and Mammography Rooms</span>
 </div>
-<div class="amk0i">
-  <div class="amk0i-menu-btn">
+<div class="iigaz">
+  <div class="iigaz-menu-btn">
     <span>Menu</span>
-    <span class="material-symbols-outlined amk0i-icon">menu</span>
+    <span class="material-symbols-outlined iigaz-icon">menu</span>
   </div>
-  <div class="amk0i-menu"><a class="amk0i-menu-link" href="/en/teleradyolojik-raporlama-hizmeti">Teleradiology Reporting Service</a><a class="amk0i-menu-link" href="/en/radyoloji-bolumu-isletme-hizmeti">Radiology Department Management Service</a><a class="amk0i-menu-link" href="/en/btodasi">Design and Construction of Computed Tomography Rooms</a><a class="amk0i-menu-link" href="/en/manyetik-rezonans-goruntuleme-cihaz-odalarinin-projelendirilmesi-ve-yapimi">Design and Construction of Magnetic Resonance Imaging Suites</a><a class="amk0i-menu-link" href="/en/dopplerultrason">Doppler and Ultrasonography Service</a><a class="amk0i-menu-link active" href="/en/rontgen-ve-mamografi-odalarinin-projelendirilmesi-ve-yapimi">Design and Construction of X-ray and Mammography Rooms</a><a class="amk0i-menu-link" href="/en/radyoloji-cihaz-satisi-sifir-ve-ikinci-el">Radiology Device Sales (New and Pre-Owned)</a><a class="amk0i-menu-link" href="/en/hastanelerde-pacs-ve-arsivleme-hizmeti">PACS and Archiving Services for Hospitals</a><a class="amk0i-menu-link" href="/en/radyolojik-cihazlarin-bakim-onarim-ve-yedek-parca-temini">Maintenance, Repair, and Spare Parts Supply for Radiological Devices</a><a class="amk0i-menu-link" href="/en/danismanlik-hizmetleri">Consultancy Services</a></div>
-  <div class="amk0i-desc">
+  <div class="iigaz-menu"><a class="iigaz-menu-link" href="/en/teleradyolojik-raporlama-hizmeti">Teleradiology Reporting Service</a><a class="iigaz-menu-link" href="/en/radyoloji-bolumu-isletme-hizmeti">Radiology Department Management Service</a><a class="iigaz-menu-link" href="/en/btodasi">Design and Construction of Computed Tomography Rooms</a><a class="iigaz-menu-link" href="/en/manyetik-rezonans-goruntuleme-cihaz-odalarinin-projelendirilmesi-ve-yapimi">Design and Construction of Magnetic Resonance Imaging Suites</a><a class="iigaz-menu-link" href="/en/dopplerultrason">Doppler and Ultrasonography Service</a><a class="iigaz-menu-link active" href="/en/rontgen-ve-mamografi-odalarinin-projelendirilmesi-ve-yapimi">Design and Construction of X-ray and Mammography Rooms</a><a class="iigaz-menu-link" href="/en/radyoloji-cihaz-satisi-sifir-ve-ikinci-el">Radiology Device Sales (New and Pre-Owned)</a><a class="iigaz-menu-link" href="/en/hastanelerde-pacs-ve-arsivleme-hizmeti">PACS and Archiving Services for Hospitals</a><a class="iigaz-menu-link" href="/en/radyolojik-cihazlarin-bakim-onarim-ve-yedek-parca-temini">Maintenance, Repair, and Spare Parts Supply for Radiological Devices</a><a class="iigaz-menu-link" href="/en/danismanlik-hizmetleri">Consultancy Services</a></div>
+  <div class="iigaz-desc">
     
-    <div class="amk0i-desc-body">
-            <img src="/page/rontgen_mamografi/ssc4q.jpg?v=exvby" width="100%" alt="{{title}}" />
+    <div class="iigaz-desc-body">
+            <img src="/page/rontgen_mamografi/ssc4q.jpg?v=s1sfj" width="100%" alt="{{title}}" />
     </div>
-    <div class="amk0i-body"><p><h2 style="font-size: 24px;">DESIGN AND CONSTRUCTION OF X-RAY AND MAMMOGRAPHY ROOMS</h2></p>
+    <div class="iigaz-body"><p><h2 style="font-size: 24px;">DESIGN AND CONSTRUCTION OF X-RAY AND MAMMOGRAPHY ROOMS</h2></p>
 <p>    <p style="font-size: 16px;"></p>
 <p>        Our specialised team designs, shields, and delivers turnkey X-ray and mammography suites. With 23 years of expertise, our staff of 40 physicians, 40 medical secretaries, and 5 technical specialists ensures every project meets stringent radiation safety requirements.</p>
 <p>    </p></p>
@@ -98,27 +119,27 @@
 </div>
 
 <script>
-  const menuToggleBtn = document.querySelector(".amk0i-menu-btn");
+  const menuToggleBtn = document.querySelector(".iigaz-menu-btn");
   if (menuToggleBtn) {
     menuToggleBtn.addEventListener("click", function () {
-      const menu = document.querySelector(".amk0i-menu");
+      const menu = document.querySelector(".iigaz-menu");
       if (!menu) return;
       const isOpen = menu.classList.toggle("active");
-      const icon = this.querySelector(".amk0i-icon");
+      const icon = this.querySelector(".iigaz-icon");
       if (icon) {
         icon.textContent = isOpen ? "close" : "menu";
       }
     });
   }
 
-  document.querySelectorAll(".amk0i-top").forEach(function (button) {
+  document.querySelectorAll(".iigaz-top").forEach(function (button) {
     button.addEventListener("click", function () {
-      const group = this.closest(".amk0i-menu-group");
+      const group = this.closest(".iigaz-menu-group");
       if (!group) return;
-      const sub = group.querySelector(".amk0i-sub");
+      const sub = group.querySelector(".iigaz-sub");
       const isOpen = group.classList.toggle("open");
       this.classList.toggle("active", isOpen);
-      const icon = this.querySelector(".amk0i-icon");
+      const icon = this.querySelector(".iigaz-icon");
       if (icon) {
         icon.textContent = isOpen ? "expand_less" : "expand_more";
       }
@@ -182,7 +203,7 @@
 
 
 
-<script type="text/javascript" src="/src/js.js?v=exvby"></script>
-<script src="/src/cookie.js?v=exvby"></script>
+<script type="text/javascript" src="/src/js.js?v=s1sfj"></script>
+<script src="/src/cookie.js?v=s1sfj"></script>
 
 </html>

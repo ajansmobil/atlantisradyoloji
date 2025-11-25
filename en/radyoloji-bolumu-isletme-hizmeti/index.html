@@ -20,8 +20,8 @@
   <meta name="robots" content="index, follow" />
 
   <link rel="stylesheet" href="/src/rubik.css" />
-  <link rel="stylesheet" href="/src/css.css?v=dr6dc" />
-  <link rel="shortcut icon" href="/img/icon.png?v=dr6dc" type="image/png" />
+  <link rel="stylesheet" href="/src/css.css?v=ud2j5" />
+  <link rel="shortcut icon" href="/img/icon.png?v=ud2j5" type="image/png" />
 
   <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
   <script src="/src/swiper-bundle.min.js"></script>
@@ -29,59 +29,80 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=dr6dc">
+<link rel="stylesheet" href="style.css?v=ud2j5">
 </head>
 
 <body>
-  <div id="header"><div class="czv8k">
-  <div class="czv8ktitle">
-    <div class="czv8ktitlebody">
-     <div class="czv8ktitlebodytitle">
-      </div>
-      <div class="czv8ktitlebodylang">
+  <div id="header"><div class="w57y5">
+  <div class="w57y5title">
+    <div class="w57y5titlebody">
+      <div class="w57y5titlebodylang">
         <ul>
-          <li><a href="/tr/radyoloji-bolumu-isletme-hizmeti/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/radyoloji-bolumu-isletme-hizmeti/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li>
+          <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="czv8kbody">
+  <div class="w57y5body">
     <a href="/en/"
       ><img
-        src="/img/logo.svg?v=dr6dc"
+        src="/img/logo.svg?v=ud2j5"
         alt="Atlantis Radyoloji Logo"
-        class="czv8kbodylogo"
+        class="w57y5bodylogo"
     /></a>
+    <button type="button" class="w57y5-mobile-toggle" onclick="menu2_toggle()">
+      <span class="material-symbols-outlined">menu</span>
+    </button>
   </div>
-  <div class="czv8kmenubody">
-    <div class="czv8kmenu">
-      <div class="czv8kmenulistbody">
-        <div class="czv8kmenulist">
+  <div class="w57y5menubody">
+    <div class="w57y5menu" id="menu-2-root">
+      <div class="w57y5menulistbody">
+        <div class="w57y5menulist">
           <ul>
             <a href="/en/">Home </a><a href="/en/hakkimizda/">Corporate</a><a href="/en/hizmetlerimiz/">Our Services</a><a href="/en/e-katalog/">E-Catalogue</a><a href="/en/referanslarimiz/">Our References</a><a href="/en/iletisim/">Contact</a>
           </ul>
+          <div class="w57y5languages-mobile">
+            <ul>
+              <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </div>
 
+<script>
+  if (typeof menu2_toggle === "undefined") {
+    function menu2_toggle() {
+      var root = document.getElementById("menu-2-root");
+      if (!root) {
+        return;
+      }
+      if (root.classList.contains("w57y5menu-open")) {
+        root.classList.remove("w57y5menu-open");
+      } else {
+        root.classList.add("w57y5menu-open");
+      }
+    }
+  }
+</script>
 </div>
-  <div id="content"><div class="ihqo4-title f36">
+  <div id="content"><div class="bbgz2-title f36">
   <span>Radiology Department Management Service</span>
 </div>
-<div class="ihqo4">
-  <div class="ihqo4-menu-btn">
+<div class="bbgz2">
+  <div class="bbgz2-menu-btn">
     <span>Menu</span>
-    <span class="material-symbols-outlined ihqo4-icon">menu</span>
+    <span class="material-symbols-outlined bbgz2-icon">menu</span>
   </div>
-  <div class="ihqo4-menu"><a class="ihqo4-menu-link" href="/en/teleradyolojik-raporlama-hizmeti">Teleradiology Reporting Service</a><a class="ihqo4-menu-link active" href="/en/radyoloji-bolumu-isletme-hizmeti">Radiology Department Management Service</a><a class="ihqo4-menu-link" href="/en/btodasi">Design and Construction of Computed Tomography Rooms</a><a class="ihqo4-menu-link" href="/en/manyetik-rezonans-goruntuleme-cihaz-odalarinin-projelendirilmesi-ve-yapimi">Design and Construction of Magnetic Resonance Imaging Suites</a><a class="ihqo4-menu-link" href="/en/dopplerultrason">Doppler and Ultrasonography Service</a><a class="ihqo4-menu-link" href="/en/rontgen-ve-mamografi-odalarinin-projelendirilmesi-ve-yapimi">Design and Construction of X-ray and Mammography Rooms</a><a class="ihqo4-menu-link" href="/en/radyoloji-cihaz-satisi-sifir-ve-ikinci-el">Radiology Device Sales (New and Pre-Owned)</a><a class="ihqo4-menu-link" href="/en/hastanelerde-pacs-ve-arsivleme-hizmeti">PACS and Archiving Services for Hospitals</a><a class="ihqo4-menu-link" href="/en/radyolojik-cihazlarin-bakim-onarim-ve-yedek-parca-temini">Maintenance, Repair, and Spare Parts Supply for Radiological Devices</a><a class="ihqo4-menu-link" href="/en/danismanlik-hizmetleri">Consultancy Services</a></div>
-  <div class="ihqo4-desc">
+  <div class="bbgz2-menu"><a class="bbgz2-menu-link" href="/en/teleradyolojik-raporlama-hizmeti">Teleradiology Reporting Service</a><a class="bbgz2-menu-link active" href="/en/radyoloji-bolumu-isletme-hizmeti">Radiology Department Management Service</a><a class="bbgz2-menu-link" href="/en/btodasi">Design and Construction of Computed Tomography Rooms</a><a class="bbgz2-menu-link" href="/en/manyetik-rezonans-goruntuleme-cihaz-odalarinin-projelendirilmesi-ve-yapimi">Design and Construction of Magnetic Resonance Imaging Suites</a><a class="bbgz2-menu-link" href="/en/dopplerultrason">Doppler and Ultrasonography Service</a><a class="bbgz2-menu-link" href="/en/rontgen-ve-mamografi-odalarinin-projelendirilmesi-ve-yapimi">Design and Construction of X-ray and Mammography Rooms</a><a class="bbgz2-menu-link" href="/en/radyoloji-cihaz-satisi-sifir-ve-ikinci-el">Radiology Device Sales (New and Pre-Owned)</a><a class="bbgz2-menu-link" href="/en/hastanelerde-pacs-ve-arsivleme-hizmeti">PACS and Archiving Services for Hospitals</a><a class="bbgz2-menu-link" href="/en/radyolojik-cihazlarin-bakim-onarim-ve-yedek-parca-temini">Maintenance, Repair, and Spare Parts Supply for Radiological Devices</a><a class="bbgz2-menu-link" href="/en/danismanlik-hizmetleri">Consultancy Services</a></div>
+  <div class="bbgz2-desc">
     
-    <div class="ihqo4-desc-body">
-            <img src="/page/radyoloji_isletme/hr4ej.jpg?v=dr6dc" width="100%" alt="{{title}}" />
+    <div class="bbgz2-desc-body">
+            <img src="/page/radyoloji_isletme/hr4ej.jpg?v=ud2j5" width="100%" alt="{{title}}" />
     </div>
-    <div class="ihqo4-body"><p><h2 style="font-size: 24px;">RADIOLOGY DEPARTMENT MANAGEMENT SERVICE</h2></p>
+    <div class="bbgz2-body"><p><h2 style="font-size: 24px;">RADIOLOGY DEPARTMENT MANAGEMENT SERVICE</h2></p>
 <p>    <p style="font-size: 16px;"></p>
 <p>        We provide specialised operational services for hospital radiology departments. Drawing on 23 years of experience, our strong team of 40 physicians, 40 medical secretaries, and 5 technical experts delivers end-to-end management covering staffing, equipment operations, and quality assurance.</p>
 <p>    </p></p>
@@ -98,27 +119,27 @@
 </div>
 
 <script>
-  const menuToggleBtn = document.querySelector(".ihqo4-menu-btn");
+  const menuToggleBtn = document.querySelector(".bbgz2-menu-btn");
   if (menuToggleBtn) {
     menuToggleBtn.addEventListener("click", function () {
-      const menu = document.querySelector(".ihqo4-menu");
+      const menu = document.querySelector(".bbgz2-menu");
       if (!menu) return;
       const isOpen = menu.classList.toggle("active");
-      const icon = this.querySelector(".ihqo4-icon");
+      const icon = this.querySelector(".bbgz2-icon");
       if (icon) {
         icon.textContent = isOpen ? "close" : "menu";
       }
     });
   }
 
-  document.querySelectorAll(".ihqo4-top").forEach(function (button) {
+  document.querySelectorAll(".bbgz2-top").forEach(function (button) {
     button.addEventListener("click", function () {
-      const group = this.closest(".ihqo4-menu-group");
+      const group = this.closest(".bbgz2-menu-group");
       if (!group) return;
-      const sub = group.querySelector(".ihqo4-sub");
+      const sub = group.querySelector(".bbgz2-sub");
       const isOpen = group.classList.toggle("open");
       this.classList.toggle("active", isOpen);
-      const icon = this.querySelector(".ihqo4-icon");
+      const icon = this.querySelector(".bbgz2-icon");
       if (icon) {
         icon.textContent = isOpen ? "expand_less" : "expand_more";
       }
@@ -182,7 +203,7 @@
 
 
 
-<script type="text/javascript" src="/src/js.js?v=dr6dc"></script>
-<script src="/src/cookie.js?v=dr6dc"></script>
+<script type="text/javascript" src="/src/js.js?v=ud2j5"></script>
+<script src="/src/cookie.js?v=ud2j5"></script>
 
 </html>

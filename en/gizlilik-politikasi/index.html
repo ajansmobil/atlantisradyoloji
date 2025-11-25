@@ -20,8 +20,8 @@
   <meta name="robots" content="index, follow" />
 
   <link rel="stylesheet" href="/src/rubik.css" />
-  <link rel="stylesheet" href="/src/css.css?v=ybqwk" />
-  <link rel="shortcut icon" href="/img/icon.png?v=ybqwk" type="image/png" />
+  <link rel="stylesheet" href="/src/css.css?v=r451q" />
+  <link rel="shortcut icon" href="/img/icon.png?v=r451q" type="image/png" />
 
   <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
   <script src="/src/swiper-bundle.min.js"></script>
@@ -29,56 +29,77 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=ybqwk">
+<link rel="stylesheet" href="style.css?v=r451q">
 </head>
 
 <body>
-  <div id="header"><div class="vjrhv">
-  <div class="vjrhvtitle">
-    <div class="vjrhvtitlebody">
-     <div class="vjrhvtitlebodytitle">
-      </div>
-      <div class="vjrhvtitlebodylang">
+  <div id="header"><div class="kpfoo">
+  <div class="kpfootitle">
+    <div class="kpfootitlebody">
+      <div class="kpfootitlebodylang">
         <ul>
-          <li><a href="/tr/gizlilik-politikasi/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/gizlilik-politikasi/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li>
+          <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="vjrhvbody">
+  <div class="kpfoobody">
     <a href="/en/"
       ><img
-        src="/img/logo.svg?v=ybqwk"
+        src="/img/logo.svg?v=r451q"
         alt="Atlantis Radyoloji Logo"
-        class="vjrhvbodylogo"
+        class="kpfoobodylogo"
     /></a>
+    <button type="button" class="kpfoo-mobile-toggle" onclick="menu2_toggle()">
+      <span class="material-symbols-outlined">menu</span>
+    </button>
   </div>
-  <div class="vjrhvmenubody">
-    <div class="vjrhvmenu">
-      <div class="vjrhvmenulistbody">
-        <div class="vjrhvmenulist">
+  <div class="kpfoomenubody">
+    <div class="kpfoomenu" id="menu-2-root">
+      <div class="kpfoomenulistbody">
+        <div class="kpfoomenulist">
           <ul>
             <a href="/en/">Home </a><a href="/en/hakkimizda/">Corporate</a><a href="/en/hizmetlerimiz/">Our Services</a><a href="/en/e-katalog/">E-Catalogue</a><a href="/en/referanslarimiz/">Our References</a><a href="/en/iletisim/">Contact</a>
           </ul>
+          <div class="kpfoolanguages-mobile">
+            <ul>
+              <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </div>
 
+<script>
+  if (typeof menu2_toggle === "undefined") {
+    function menu2_toggle() {
+      var root = document.getElementById("menu-2-root");
+      if (!root) {
+        return;
+      }
+      if (root.classList.contains("kpfoomenu-open")) {
+        root.classList.remove("kpfoomenu-open");
+      } else {
+        root.classList.add("kpfoomenu-open");
+      }
+    }
+  }
+</script>
 </div>
-  <div id="content"><div class="lgbul-title f36">
+  <div id="content"><div class="nsuo8-title f36">
   <span>Privacy Policy</span>
 </div>
-<div class="lgbul">
-  <div class="lgbul-menu-btn">
+<div class="nsuo8">
+  <div class="nsuo8-menu-btn">
     <span>Menu</span>
-    <span class="material-symbols-outlined lgbul-icon">menu</span>
+    <span class="material-symbols-outlined nsuo8-icon">menu</span>
   </div>
-  <div class="lgbul-menu"><a class="lgbul-menu-link" href="/en/hakkimizda">About Us</a><a class="lgbul-menu-link" href="/en/misyon">Mission</a><a class="lgbul-menu-link" href="/en/vizyon">Vision</a><a class="lgbul-menu-link" href="/en/kalite-politikamiz">Our Quality Policy</a><a class="lgbul-menu-link active" href="/en/gizlilik-politikasi">Privacy Policy</a><a class="lgbul-menu-link" href="/en/kisisel-veriler">Personal Data</a><a class="lgbul-menu-link" href="/en/kullanici-haklari">User Rights</a><a class="lgbul-menu-link" href="/en/yasal-uyari">Legal Notice</a></div>
-  <div class="lgbul-desc">
+  <div class="nsuo8-menu"><a class="nsuo8-menu-link" href="/en/hakkimizda">About Us</a><a class="nsuo8-menu-link" href="/en/misyon">Mission</a><a class="nsuo8-menu-link" href="/en/vizyon">Vision</a><a class="nsuo8-menu-link" href="/en/kalite-politikamiz">Our Quality Policy</a><a class="nsuo8-menu-link active" href="/en/gizlilik-politikasi">Privacy Policy</a><a class="nsuo8-menu-link" href="/en/kisisel-veriler">Personal Data</a><a class="nsuo8-menu-link" href="/en/kullanici-haklari">User Rights</a><a class="nsuo8-menu-link" href="/en/yasal-uyari">Legal Notice</a></div>
+  <div class="nsuo8-desc">
     
-    <div class="lgbul-body"><p><h2 style="font-size: 24px;">Our Privacy Policy</h2></p>
+    <div class="nsuo8-body"><p><h2 style="font-size: 24px;">Our Privacy Policy</h2></p>
 <p>    <p style="font-size: 16px;">At Atlantis Radiology we process all images and report data received from our partner healthcare institutions under strict confidentiality, limit access to authorised personnel, transmit data through encrypted channels and comply fully with KVKK and all related regulations.</p></p>
 <p>    <p style="font-size: 16px;">We regularly monitor access logs across our digital systems, retain cookie and session data only for as long as necessary, and require data privacy provisions in agreements with third-party service providers. Where needed, we apply anonymisation methods. Our users can update their cookie preferences at any time and request detailed information about how their personal data is used.</p></p>
 <p>    <p style="font-size: 16px;">You may contact our KVKK officers with any questions about our privacy policy, and transparently learn how your information is protected and which security controls are applied.</p></p></div>
@@ -86,27 +107,27 @@
 </div>
 
 <script>
-  const menuToggleBtn = document.querySelector(".lgbul-menu-btn");
+  const menuToggleBtn = document.querySelector(".nsuo8-menu-btn");
   if (menuToggleBtn) {
     menuToggleBtn.addEventListener("click", function () {
-      const menu = document.querySelector(".lgbul-menu");
+      const menu = document.querySelector(".nsuo8-menu");
       if (!menu) return;
       const isOpen = menu.classList.toggle("active");
-      const icon = this.querySelector(".lgbul-icon");
+      const icon = this.querySelector(".nsuo8-icon");
       if (icon) {
         icon.textContent = isOpen ? "close" : "menu";
       }
     });
   }
 
-  document.querySelectorAll(".lgbul-top").forEach(function (button) {
+  document.querySelectorAll(".nsuo8-top").forEach(function (button) {
     button.addEventListener("click", function () {
-      const group = this.closest(".lgbul-menu-group");
+      const group = this.closest(".nsuo8-menu-group");
       if (!group) return;
-      const sub = group.querySelector(".lgbul-sub");
+      const sub = group.querySelector(".nsuo8-sub");
       const isOpen = group.classList.toggle("open");
       this.classList.toggle("active", isOpen);
-      const icon = this.querySelector(".lgbul-icon");
+      const icon = this.querySelector(".nsuo8-icon");
       if (icon) {
         icon.textContent = isOpen ? "expand_less" : "expand_more";
       }
@@ -170,7 +191,7 @@
 
 
 
-<script type="text/javascript" src="/src/js.js?v=ybqwk"></script>
-<script src="/src/cookie.js?v=ybqwk"></script>
+<script type="text/javascript" src="/src/js.js?v=r451q"></script>
+<script src="/src/cookie.js?v=r451q"></script>
 
 </html>

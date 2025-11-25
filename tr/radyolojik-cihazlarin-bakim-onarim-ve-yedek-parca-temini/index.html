@@ -20,8 +20,8 @@
   <meta name="robots" content="index, follow" />
 
   <link rel="stylesheet" href="/src/rubik.css" />
-  <link rel="stylesheet" href="/src/css.css?v=o4tq7" />
-  <link rel="shortcut icon" href="/img/icon.png?v=o4tq7" type="image/png" />
+  <link rel="stylesheet" href="/src/css.css?v=cp5vc" />
+  <link rel="shortcut icon" href="/img/icon.png?v=cp5vc" type="image/png" />
 
   <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
   <script src="/src/swiper-bundle.min.js"></script>
@@ -29,59 +29,80 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=o4tq7">
+<link rel="stylesheet" href="style.css?v=cp5vc">
 </head>
 
 <body>
-  <div id="header"><div class="tm0j7">
-  <div class="tm0j7title">
-    <div class="tm0j7titlebody">
-     <div class="tm0j7titlebodytitle">
-      </div>
-      <div class="tm0j7titlebodylang">
+  <div id="header"><div class="b6kze">
+  <div class="b6kzetitle">
+    <div class="b6kzetitlebody">
+      <div class="b6kzetitlebodylang">
         <ul>
-          <li><a href="/tr/radyolojik-cihazlarin-bakim-onarim-ve-yedek-parca-temini/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/radyolojik-cihazlarin-bakim-onarim-ve-yedek-parca-temini/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li>
+          <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="tm0j7body">
+  <div class="b6kzebody">
     <a href="/tr/"
       ><img
-        src="/img/logo.svg?v=o4tq7"
+        src="/img/logo.svg?v=cp5vc"
         alt="Atlantis Radyoloji Logo"
-        class="tm0j7bodylogo"
+        class="b6kzebodylogo"
     /></a>
+    <button type="button" class="b6kze-mobile-toggle" onclick="menu2_toggle()">
+      <span class="material-symbols-outlined">menu</span>
+    </button>
   </div>
-  <div class="tm0j7menubody">
-    <div class="tm0j7menu">
-      <div class="tm0j7menulistbody">
-        <div class="tm0j7menulist">
+  <div class="b6kzemenubody">
+    <div class="b6kzemenu" id="menu-2-root">
+      <div class="b6kzemenulistbody">
+        <div class="b6kzemenulist">
           <ul>
             <a href="/tr/">Anasayfa </a><a href="/tr/hakkimizda/">Kurumsal</a><a href="/tr/hizmetlerimiz/">Hizmetlerimiz</a><a href="/tr/e-katalog/">E-Katalog</a><a href="/tr/referanslarimiz/">Referanslarımız</a><a href="/tr/iletisim/">İletişim</a>
           </ul>
+          <div class="b6kzelanguages-mobile">
+            <ul>
+              <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </div>
 
+<script>
+  if (typeof menu2_toggle === "undefined") {
+    function menu2_toggle() {
+      var root = document.getElementById("menu-2-root");
+      if (!root) {
+        return;
+      }
+      if (root.classList.contains("b6kzemenu-open")) {
+        root.classList.remove("b6kzemenu-open");
+      } else {
+        root.classList.add("b6kzemenu-open");
+      }
+    }
+  }
+</script>
 </div>
-  <div id="content"><div class="yqb5e-title f36">
+  <div id="content"><div class="bahqh-title f36">
   <span>Radyolojik Cihazların Bakım, Onarım ve Yedek Parça Temini</span>
 </div>
-<div class="yqb5e">
-  <div class="yqb5e-menu-btn">
+<div class="bahqh">
+  <div class="bahqh-menu-btn">
     <span>Menü</span>
-    <span class="material-symbols-outlined yqb5e-icon">menu</span>
+    <span class="material-symbols-outlined bahqh-icon">menu</span>
   </div>
-  <div class="yqb5e-menu"><a class="yqb5e-menu-link" href="/tr/teleradyolojik-raporlama-hizmeti">Teleradyolojik Raporlama Hizmeti</a><a class="yqb5e-menu-link" href="/tr/radyoloji-bolumu-isletme-hizmeti">Radyoloji Bölümü İşletme Hizmeti</a><a class="yqb5e-menu-link" href="/tr/btodasi">Bilgisayarlı Tomografi Odalarının Projelendirilmesi ve Yapımı</a><a class="yqb5e-menu-link" href="/tr/manyetik-rezonans-goruntuleme-cihaz-odalarinin-projelendirilmesi-ve-yapimi">Manyetik Rezonans Görüntüleme Cihaz Odalarının Projelendirilmesi ve Yapımı</a><a class="yqb5e-menu-link" href="/tr/dopplerultrason">Doppler ve Ultrasonografi Hizmeti</a><a class="yqb5e-menu-link" href="/tr/rontgen-ve-mamografi-odalarinin-projelendirilmesi-ve-yapimi">Röntgen ve Mamografi Odalarının Projelendirilmesi ve Yapımı</a><a class="yqb5e-menu-link" href="/tr/radyoloji-cihaz-satisi-sifir-ve-ikinci-el">Radyoloji Cihaz Satışı (Sıfır ve İkinci El)</a><a class="yqb5e-menu-link" href="/tr/hastanelerde-pacs-ve-arsivleme-hizmeti">Hastanelerde PACS ve Arşivleme Hizmeti</a><a class="yqb5e-menu-link active" href="/tr/radyolojik-cihazlarin-bakim-onarim-ve-yedek-parca-temini">Radyolojik Cihazların Bakım, Onarım ve Yedek Parça Temini</a><a class="yqb5e-menu-link" href="/tr/danismanlik-hizmetleri">Danışmanlık Hizmetleri</a></div>
-  <div class="yqb5e-desc">
+  <div class="bahqh-menu"><a class="bahqh-menu-link" href="/tr/teleradyolojik-raporlama-hizmeti">Teleradyolojik Raporlama Hizmeti</a><a class="bahqh-menu-link" href="/tr/radyoloji-bolumu-isletme-hizmeti">Radyoloji Bölümü İşletme Hizmeti</a><a class="bahqh-menu-link" href="/tr/btodasi">Bilgisayarlı Tomografi Odalarının Projelendirilmesi ve Yapımı</a><a class="bahqh-menu-link" href="/tr/manyetik-rezonans-goruntuleme-cihaz-odalarinin-projelendirilmesi-ve-yapimi">Manyetik Rezonans Görüntüleme Cihaz Odalarının Projelendirilmesi ve Yapımı</a><a class="bahqh-menu-link" href="/tr/dopplerultrason">Doppler ve Ultrasonografi Hizmeti</a><a class="bahqh-menu-link" href="/tr/rontgen-ve-mamografi-odalarinin-projelendirilmesi-ve-yapimi">Röntgen ve Mamografi Odalarının Projelendirilmesi ve Yapımı</a><a class="bahqh-menu-link" href="/tr/radyoloji-cihaz-satisi-sifir-ve-ikinci-el">Radyoloji Cihaz Satışı (Sıfır ve İkinci El)</a><a class="bahqh-menu-link" href="/tr/hastanelerde-pacs-ve-arsivleme-hizmeti">Hastanelerde PACS ve Arşivleme Hizmeti</a><a class="bahqh-menu-link active" href="/tr/radyolojik-cihazlarin-bakim-onarim-ve-yedek-parca-temini">Radyolojik Cihazların Bakım, Onarım ve Yedek Parça Temini</a><a class="bahqh-menu-link" href="/tr/danismanlik-hizmetleri">Danışmanlık Hizmetleri</a></div>
+  <div class="bahqh-desc">
     
-    <div class="yqb5e-desc-body">
-            <img src="/page/bakim_onarim/gwame.jpg?v=o4tq7" width="100%" alt="{{title}}" />
+    <div class="bahqh-desc-body">
+            <img src="/page/bakim_onarim/gwame.jpg?v=cp5vc" width="100%" alt="{{title}}" />
     </div>
-    <div class="yqb5e-body"><p><h2 style="font-size: 24px;">RADYOLOJİK CİHAZLARIN BAKIM, ONARIM VE YEDEK PARÇA TEMİNİ</h2></p>
+    <div class="bahqh-body"><p><h2 style="font-size: 24px;">RADYOLOJİK CİHAZLARIN BAKIM, ONARIM VE YEDEK PARÇA TEMİNİ</h2></p>
 <p>    <p style="font-size: 16px;"></p>
 <p>        Radyolojik cihazların bakım, onarım ve yedek parça temini konusunda uzman ekibimizle hizmet veriyoruz. Firmamız 23 yıllık deneyim ve birikimi ile bu sektörde bilgi ve birikimi en profesyonel şekilde çalışan 40 Doktor, 40 Tıbbi Sekreter ve 5 Teknik personelden oluşan güçlü kadrosu ile hizmet vermektedir. 7/24 teknik destek ve hızlı servis hizmetleri sunarak cihazlarınızın kesintisiz çalışmasını sağlıyoruz.</p>
 <p>    </p></p>
@@ -98,27 +119,27 @@
 </div>
 
 <script>
-  const menuToggleBtn = document.querySelector(".yqb5e-menu-btn");
+  const menuToggleBtn = document.querySelector(".bahqh-menu-btn");
   if (menuToggleBtn) {
     menuToggleBtn.addEventListener("click", function () {
-      const menu = document.querySelector(".yqb5e-menu");
+      const menu = document.querySelector(".bahqh-menu");
       if (!menu) return;
       const isOpen = menu.classList.toggle("active");
-      const icon = this.querySelector(".yqb5e-icon");
+      const icon = this.querySelector(".bahqh-icon");
       if (icon) {
         icon.textContent = isOpen ? "close" : "menu";
       }
     });
   }
 
-  document.querySelectorAll(".yqb5e-top").forEach(function (button) {
+  document.querySelectorAll(".bahqh-top").forEach(function (button) {
     button.addEventListener("click", function () {
-      const group = this.closest(".yqb5e-menu-group");
+      const group = this.closest(".bahqh-menu-group");
       if (!group) return;
-      const sub = group.querySelector(".yqb5e-sub");
+      const sub = group.querySelector(".bahqh-sub");
       const isOpen = group.classList.toggle("open");
       this.classList.toggle("active", isOpen);
-      const icon = this.querySelector(".yqb5e-icon");
+      const icon = this.querySelector(".bahqh-icon");
       if (icon) {
         icon.textContent = isOpen ? "expand_less" : "expand_more";
       }
@@ -182,7 +203,7 @@
 
 
 
-<script type="text/javascript" src="/src/js.js?v=o4tq7"></script>
-<script src="/src/cookie.js?v=o4tq7"></script>
+<script type="text/javascript" src="/src/js.js?v=cp5vc"></script>
+<script src="/src/cookie.js?v=cp5vc"></script>
 
 </html>

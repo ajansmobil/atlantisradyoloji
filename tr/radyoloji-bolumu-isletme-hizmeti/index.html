@@ -20,8 +20,8 @@
   <meta name="robots" content="index, follow" />
 
   <link rel="stylesheet" href="/src/rubik.css" />
-  <link rel="stylesheet" href="/src/css.css?v=umidm" />
-  <link rel="shortcut icon" href="/img/icon.png?v=umidm" type="image/png" />
+  <link rel="stylesheet" href="/src/css.css?v=j8c1w" />
+  <link rel="shortcut icon" href="/img/icon.png?v=j8c1w" type="image/png" />
 
   <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
   <script src="/src/swiper-bundle.min.js"></script>
@@ -29,59 +29,80 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=umidm">
+<link rel="stylesheet" href="style.css?v=j8c1w">
 </head>
 
 <body>
-  <div id="header"><div class="kexzq">
-  <div class="kexzqtitle">
-    <div class="kexzqtitlebody">
-     <div class="kexzqtitlebodytitle">
-      </div>
-      <div class="kexzqtitlebodylang">
+  <div id="header"><div class="bk479">
+  <div class="bk479title">
+    <div class="bk479titlebody">
+      <div class="bk479titlebodylang">
         <ul>
-          <li><a href="/tr/radyoloji-bolumu-isletme-hizmeti/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/radyoloji-bolumu-isletme-hizmeti/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li>
+          <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="kexzqbody">
+  <div class="bk479body">
     <a href="/tr/"
       ><img
-        src="/img/logo.svg?v=umidm"
+        src="/img/logo.svg?v=j8c1w"
         alt="Atlantis Radyoloji Logo"
-        class="kexzqbodylogo"
+        class="bk479bodylogo"
     /></a>
+    <button type="button" class="bk479-mobile-toggle" onclick="menu2_toggle()">
+      <span class="material-symbols-outlined">menu</span>
+    </button>
   </div>
-  <div class="kexzqmenubody">
-    <div class="kexzqmenu">
-      <div class="kexzqmenulistbody">
-        <div class="kexzqmenulist">
+  <div class="bk479menubody">
+    <div class="bk479menu" id="menu-2-root">
+      <div class="bk479menulistbody">
+        <div class="bk479menulist">
           <ul>
             <a href="/tr/">Anasayfa </a><a href="/tr/hakkimizda/">Kurumsal</a><a href="/tr/hizmetlerimiz/">Hizmetlerimiz</a><a href="/tr/e-katalog/">E-Katalog</a><a href="/tr/referanslarimiz/">Referanslarımız</a><a href="/tr/iletisim/">İletişim</a>
           </ul>
+          <div class="bk479languages-mobile">
+            <ul>
+              <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </div>
 
+<script>
+  if (typeof menu2_toggle === "undefined") {
+    function menu2_toggle() {
+      var root = document.getElementById("menu-2-root");
+      if (!root) {
+        return;
+      }
+      if (root.classList.contains("bk479menu-open")) {
+        root.classList.remove("bk479menu-open");
+      } else {
+        root.classList.add("bk479menu-open");
+      }
+    }
+  }
+</script>
 </div>
-  <div id="content"><div class="baek3-title f36">
+  <div id="content"><div class="zky6a-title f36">
   <span>Radyoloji Bölümü İşletme Hizmeti</span>
 </div>
-<div class="baek3">
-  <div class="baek3-menu-btn">
+<div class="zky6a">
+  <div class="zky6a-menu-btn">
     <span>Menü</span>
-    <span class="material-symbols-outlined baek3-icon">menu</span>
+    <span class="material-symbols-outlined zky6a-icon">menu</span>
   </div>
-  <div class="baek3-menu"><a class="baek3-menu-link" href="/tr/teleradyolojik-raporlama-hizmeti">Teleradyolojik Raporlama Hizmeti</a><a class="baek3-menu-link active" href="/tr/radyoloji-bolumu-isletme-hizmeti">Radyoloji Bölümü İşletme Hizmeti</a><a class="baek3-menu-link" href="/tr/btodasi">Bilgisayarlı Tomografi Odalarının Projelendirilmesi ve Yapımı</a><a class="baek3-menu-link" href="/tr/manyetik-rezonans-goruntuleme-cihaz-odalarinin-projelendirilmesi-ve-yapimi">Manyetik Rezonans Görüntüleme Cihaz Odalarının Projelendirilmesi ve Yapımı</a><a class="baek3-menu-link" href="/tr/dopplerultrason">Doppler ve Ultrasonografi Hizmeti</a><a class="baek3-menu-link" href="/tr/rontgen-ve-mamografi-odalarinin-projelendirilmesi-ve-yapimi">Röntgen ve Mamografi Odalarının Projelendirilmesi ve Yapımı</a><a class="baek3-menu-link" href="/tr/radyoloji-cihaz-satisi-sifir-ve-ikinci-el">Radyoloji Cihaz Satışı (Sıfır ve İkinci El)</a><a class="baek3-menu-link" href="/tr/hastanelerde-pacs-ve-arsivleme-hizmeti">Hastanelerde PACS ve Arşivleme Hizmeti</a><a class="baek3-menu-link" href="/tr/radyolojik-cihazlarin-bakim-onarim-ve-yedek-parca-temini">Radyolojik Cihazların Bakım, Onarım ve Yedek Parça Temini</a><a class="baek3-menu-link" href="/tr/danismanlik-hizmetleri">Danışmanlık Hizmetleri</a></div>
-  <div class="baek3-desc">
+  <div class="zky6a-menu"><a class="zky6a-menu-link" href="/tr/teleradyolojik-raporlama-hizmeti">Teleradyolojik Raporlama Hizmeti</a><a class="zky6a-menu-link active" href="/tr/radyoloji-bolumu-isletme-hizmeti">Radyoloji Bölümü İşletme Hizmeti</a><a class="zky6a-menu-link" href="/tr/btodasi">Bilgisayarlı Tomografi Odalarının Projelendirilmesi ve Yapımı</a><a class="zky6a-menu-link" href="/tr/manyetik-rezonans-goruntuleme-cihaz-odalarinin-projelendirilmesi-ve-yapimi">Manyetik Rezonans Görüntüleme Cihaz Odalarının Projelendirilmesi ve Yapımı</a><a class="zky6a-menu-link" href="/tr/dopplerultrason">Doppler ve Ultrasonografi Hizmeti</a><a class="zky6a-menu-link" href="/tr/rontgen-ve-mamografi-odalarinin-projelendirilmesi-ve-yapimi">Röntgen ve Mamografi Odalarının Projelendirilmesi ve Yapımı</a><a class="zky6a-menu-link" href="/tr/radyoloji-cihaz-satisi-sifir-ve-ikinci-el">Radyoloji Cihaz Satışı (Sıfır ve İkinci El)</a><a class="zky6a-menu-link" href="/tr/hastanelerde-pacs-ve-arsivleme-hizmeti">Hastanelerde PACS ve Arşivleme Hizmeti</a><a class="zky6a-menu-link" href="/tr/radyolojik-cihazlarin-bakim-onarim-ve-yedek-parca-temini">Radyolojik Cihazların Bakım, Onarım ve Yedek Parça Temini</a><a class="zky6a-menu-link" href="/tr/danismanlik-hizmetleri">Danışmanlık Hizmetleri</a></div>
+  <div class="zky6a-desc">
     
-    <div class="baek3-desc-body">
-            <img src="/page/radyoloji_isletme/hr4ej.jpg?v=umidm" width="100%" alt="{{title}}" />
+    <div class="zky6a-desc-body">
+            <img src="/page/radyoloji_isletme/hr4ej.jpg?v=j8c1w" width="100%" alt="{{title}}" />
     </div>
-    <div class="baek3-body"><p><h2 style="font-size: 24px;">RADYOLOJİ BÖLÜMÜ İŞLETME HİZMETİ</h2></p>
+    <div class="zky6a-body"><p><h2 style="font-size: 24px;">RADYOLOJİ BÖLÜMÜ İŞLETME HİZMETİ</h2></p>
 <p>    <p style="font-size: 16px;"></p>
 <p>        Hastanelerde radyoloji bölümü işletme hizmetleri konusunda uzman ekibimizle hizmet veriyoruz. Firmamız 23 yıllık deneyim ve birikimi ile bu sektörde bilgi ve birikimi en profesyonel şekilde çalışan 40 Doktor, 40 Tıbbi Sekreter ve 5 Teknik personelden oluşan güçlü kadrosu ile hizmet vermektedir. Personel yönetimi, cihaz operasyonu ve kalite kontrolü konularında kapsamlı işletme hizmetleri sunuyoruz.</p>
 <p>    </p></p>
@@ -98,27 +119,27 @@
 </div>
 
 <script>
-  const menuToggleBtn = document.querySelector(".baek3-menu-btn");
+  const menuToggleBtn = document.querySelector(".zky6a-menu-btn");
   if (menuToggleBtn) {
     menuToggleBtn.addEventListener("click", function () {
-      const menu = document.querySelector(".baek3-menu");
+      const menu = document.querySelector(".zky6a-menu");
       if (!menu) return;
       const isOpen = menu.classList.toggle("active");
-      const icon = this.querySelector(".baek3-icon");
+      const icon = this.querySelector(".zky6a-icon");
       if (icon) {
         icon.textContent = isOpen ? "close" : "menu";
       }
     });
   }
 
-  document.querySelectorAll(".baek3-top").forEach(function (button) {
+  document.querySelectorAll(".zky6a-top").forEach(function (button) {
     button.addEventListener("click", function () {
-      const group = this.closest(".baek3-menu-group");
+      const group = this.closest(".zky6a-menu-group");
       if (!group) return;
-      const sub = group.querySelector(".baek3-sub");
+      const sub = group.querySelector(".zky6a-sub");
       const isOpen = group.classList.toggle("open");
       this.classList.toggle("active", isOpen);
-      const icon = this.querySelector(".baek3-icon");
+      const icon = this.querySelector(".zky6a-icon");
       if (icon) {
         icon.textContent = isOpen ? "expand_less" : "expand_more";
       }
@@ -182,7 +203,7 @@
 
 
 
-<script type="text/javascript" src="/src/js.js?v=umidm"></script>
-<script src="/src/cookie.js?v=umidm"></script>
+<script type="text/javascript" src="/src/js.js?v=j8c1w"></script>
+<script src="/src/cookie.js?v=j8c1w"></script>
 
 </html>

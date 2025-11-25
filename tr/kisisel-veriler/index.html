@@ -20,8 +20,8 @@
   <meta name="robots" content="index, follow" />
 
   <link rel="stylesheet" href="/src/rubik.css" />
-  <link rel="stylesheet" href="/src/css.css?v=qietz" />
-  <link rel="shortcut icon" href="/img/icon.png?v=qietz" type="image/png" />
+  <link rel="stylesheet" href="/src/css.css?v=pb0wu" />
+  <link rel="shortcut icon" href="/img/icon.png?v=pb0wu" type="image/png" />
 
   <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
   <script src="/src/swiper-bundle.min.js"></script>
@@ -29,56 +29,77 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=qietz">
+<link rel="stylesheet" href="style.css?v=pb0wu">
 </head>
 
 <body>
-  <div id="header"><div class="hmc2t">
-  <div class="hmc2ttitle">
-    <div class="hmc2ttitlebody">
-     <div class="hmc2ttitlebodytitle">
-      </div>
-      <div class="hmc2ttitlebodylang">
+  <div id="header"><div class="ij8aj">
+  <div class="ij8ajtitle">
+    <div class="ij8ajtitlebody">
+      <div class="ij8ajtitlebodylang">
         <ul>
-          <li><a href="/tr/kisisel-veriler/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/kisisel-veriler/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li>
+          <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="hmc2tbody">
+  <div class="ij8ajbody">
     <a href="/tr/"
       ><img
-        src="/img/logo.svg?v=qietz"
+        src="/img/logo.svg?v=pb0wu"
         alt="Atlantis Radyoloji Logo"
-        class="hmc2tbodylogo"
+        class="ij8ajbodylogo"
     /></a>
+    <button type="button" class="ij8aj-mobile-toggle" onclick="menu2_toggle()">
+      <span class="material-symbols-outlined">menu</span>
+    </button>
   </div>
-  <div class="hmc2tmenubody">
-    <div class="hmc2tmenu">
-      <div class="hmc2tmenulistbody">
-        <div class="hmc2tmenulist">
+  <div class="ij8ajmenubody">
+    <div class="ij8ajmenu" id="menu-2-root">
+      <div class="ij8ajmenulistbody">
+        <div class="ij8ajmenulist">
           <ul>
             <a href="/tr/">Anasayfa </a><a href="/tr/hakkimizda/">Kurumsal</a><a href="/tr/hizmetlerimiz/">Hizmetlerimiz</a><a href="/tr/e-katalog/">E-Katalog</a><a href="/tr/referanslarimiz/">Referanslarımız</a><a href="/tr/iletisim/">İletişim</a>
           </ul>
+          <div class="ij8ajlanguages-mobile">
+            <ul>
+              <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </div>
 
+<script>
+  if (typeof menu2_toggle === "undefined") {
+    function menu2_toggle() {
+      var root = document.getElementById("menu-2-root");
+      if (!root) {
+        return;
+      }
+      if (root.classList.contains("ij8ajmenu-open")) {
+        root.classList.remove("ij8ajmenu-open");
+      } else {
+        root.classList.add("ij8ajmenu-open");
+      }
+    }
+  }
+</script>
 </div>
-  <div id="content"><div class="hfaig-title f36">
+  <div id="content"><div class="i62li-title f36">
   <span>Kişisel Veriler</span>
 </div>
-<div class="hfaig">
-  <div class="hfaig-menu-btn">
+<div class="i62li">
+  <div class="i62li-menu-btn">
     <span>Menü</span>
-    <span class="material-symbols-outlined hfaig-icon">menu</span>
+    <span class="material-symbols-outlined i62li-icon">menu</span>
   </div>
-  <div class="hfaig-menu"><a class="hfaig-menu-link" href="/tr/hakkimizda">Hakkımızda</a><a class="hfaig-menu-link" href="/tr/misyon">Misyon</a><a class="hfaig-menu-link" href="/tr/vizyon">Vizyon</a><a class="hfaig-menu-link" href="/tr/kalite-politikamiz">Kalite Politikamız</a><a class="hfaig-menu-link" href="/tr/gizlilik-politikasi">Gizlilik Politikası</a><a class="hfaig-menu-link active" href="/tr/kisisel-veriler">Kişisel Veriler</a><a class="hfaig-menu-link" href="/tr/kullanici-haklari">Kullanıcı Hakları</a><a class="hfaig-menu-link" href="/tr/yasal-uyari">Yasal Uyarı</a></div>
-  <div class="hfaig-desc">
+  <div class="i62li-menu"><a class="i62li-menu-link" href="/tr/hakkimizda">Hakkımızda</a><a class="i62li-menu-link" href="/tr/misyon">Misyon</a><a class="i62li-menu-link" href="/tr/vizyon">Vizyon</a><a class="i62li-menu-link" href="/tr/kalite-politikamiz">Kalite Politikamız</a><a class="i62li-menu-link" href="/tr/gizlilik-politikasi">Gizlilik Politikası</a><a class="i62li-menu-link active" href="/tr/kisisel-veriler">Kişisel Veriler</a><a class="i62li-menu-link" href="/tr/kullanici-haklari">Kullanıcı Hakları</a><a class="i62li-menu-link" href="/tr/yasal-uyari">Yasal Uyarı</a></div>
+  <div class="i62li-desc">
     
-    <div class="hfaig-body"><p><h2 style="font-size: 24px;">Kişisel Verilerin İşlenmesi</h2></p>
+    <div class="i62li-body"><p><h2 style="font-size: 24px;">Kişisel Verilerin İşlenmesi</h2></p>
 <p>    <p style="font-size: 16px;">Kişisel verileriniz Atlantis Radyoloji tarafından 6698 sayılı KVKK kapsamında işlenir; teşhis ve raporlama faaliyetlerinin yürütülmesi, hizmet kalitesinin ölçülmesi ve yasal yükümlülüklerin yerine getirilmesi amacıyla kullanılır. Veriler yalnızca ilgili kişilerle ve hukuken zorunlu kurumlarla paylaşılır, gerektiğinde anonimleştirilerek saklanır.</p></p>
 <p>    <p style="font-size: 16px;">Veri saklama süreçlerimizde erişim loglarını kayıt altına alır, rol tabanlı yetkilendirme ve şifreli depolama yöntemleri uygularız. Yasal süreler dolduğunda verileriniz güvenli şekilde imha edilir; yedekleme süreçlerinde de aynı güvenlik standartları korunur.</p></p>
 <p>    <p style="font-size: 16px;">Dilediğiniz zaman veri işleme faaliyetlerine ilişkin bilgi talep edebilir, verilerinizin düzeltilmesini, silinmesini veya işlenmesine itirazınızı iletebilirsiniz. Talep formlarımız ve iletişim bilgilerimiz KVKK başvuru prosedüründe yer almaktadır.</p></p></div>
@@ -86,27 +107,27 @@
 </div>
 
 <script>
-  const menuToggleBtn = document.querySelector(".hfaig-menu-btn");
+  const menuToggleBtn = document.querySelector(".i62li-menu-btn");
   if (menuToggleBtn) {
     menuToggleBtn.addEventListener("click", function () {
-      const menu = document.querySelector(".hfaig-menu");
+      const menu = document.querySelector(".i62li-menu");
       if (!menu) return;
       const isOpen = menu.classList.toggle("active");
-      const icon = this.querySelector(".hfaig-icon");
+      const icon = this.querySelector(".i62li-icon");
       if (icon) {
         icon.textContent = isOpen ? "close" : "menu";
       }
     });
   }
 
-  document.querySelectorAll(".hfaig-top").forEach(function (button) {
+  document.querySelectorAll(".i62li-top").forEach(function (button) {
     button.addEventListener("click", function () {
-      const group = this.closest(".hfaig-menu-group");
+      const group = this.closest(".i62li-menu-group");
       if (!group) return;
-      const sub = group.querySelector(".hfaig-sub");
+      const sub = group.querySelector(".i62li-sub");
       const isOpen = group.classList.toggle("open");
       this.classList.toggle("active", isOpen);
-      const icon = this.querySelector(".hfaig-icon");
+      const icon = this.querySelector(".i62li-icon");
       if (icon) {
         icon.textContent = isOpen ? "expand_less" : "expand_more";
       }
@@ -170,7 +191,7 @@
 
 
 
-<script type="text/javascript" src="/src/js.js?v=qietz"></script>
-<script src="/src/cookie.js?v=qietz"></script>
+<script type="text/javascript" src="/src/js.js?v=pb0wu"></script>
+<script src="/src/cookie.js?v=pb0wu"></script>
 
 </html>

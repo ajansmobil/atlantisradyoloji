@@ -20,8 +20,8 @@
   <meta name="robots" content="index, follow" />
 
   <link rel="stylesheet" href="/src/rubik.css" />
-  <link rel="stylesheet" href="/src/css.css?v=wb45a" />
-  <link rel="shortcut icon" href="/img/icon.png?v=wb45a" type="image/png" />
+  <link rel="stylesheet" href="/src/css.css?v=xmf19" />
+  <link rel="shortcut icon" href="/img/icon.png?v=xmf19" type="image/png" />
 
   <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
   <script src="/src/swiper-bundle.min.js"></script>
@@ -29,59 +29,80 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=wb45a">
+<link rel="stylesheet" href="style.css?v=xmf19">
 </head>
 
 <body>
-  <div id="header"><div class="vhd02">
-  <div class="vhd02title">
-    <div class="vhd02titlebody">
-     <div class="vhd02titlebodytitle">
-      </div>
-      <div class="vhd02titlebodylang">
+  <div id="header"><div class="yo8u4">
+  <div class="yo8u4title">
+    <div class="yo8u4titlebody">
+      <div class="yo8u4titlebodylang">
         <ul>
-          <li><a href="/tr/teleradyolojik-raporlama-hizmeti/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/teleradyolojik-raporlama-hizmeti/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li>
+          <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="vhd02body">
+  <div class="yo8u4body">
     <a href="/en/"
       ><img
-        src="/img/logo.svg?v=wb45a"
+        src="/img/logo.svg?v=xmf19"
         alt="Atlantis Radyoloji Logo"
-        class="vhd02bodylogo"
+        class="yo8u4bodylogo"
     /></a>
+    <button type="button" class="yo8u4-mobile-toggle" onclick="menu2_toggle()">
+      <span class="material-symbols-outlined">menu</span>
+    </button>
   </div>
-  <div class="vhd02menubody">
-    <div class="vhd02menu">
-      <div class="vhd02menulistbody">
-        <div class="vhd02menulist">
+  <div class="yo8u4menubody">
+    <div class="yo8u4menu" id="menu-2-root">
+      <div class="yo8u4menulistbody">
+        <div class="yo8u4menulist">
           <ul>
             <a href="/en/">Home </a><a href="/en/hakkimizda/">Corporate</a><a href="/en/hizmetlerimiz/">Our Services</a><a href="/en/e-katalog/">E-Catalogue</a><a href="/en/referanslarimiz/">Our References</a><a href="/en/iletisim/">Contact</a>
           </ul>
+          <div class="yo8u4languages-mobile">
+            <ul>
+              <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </div>
 
+<script>
+  if (typeof menu2_toggle === "undefined") {
+    function menu2_toggle() {
+      var root = document.getElementById("menu-2-root");
+      if (!root) {
+        return;
+      }
+      if (root.classList.contains("yo8u4menu-open")) {
+        root.classList.remove("yo8u4menu-open");
+      } else {
+        root.classList.add("yo8u4menu-open");
+      }
+    }
+  }
+</script>
 </div>
-  <div id="content"><div class="bobfo-title f36">
+  <div id="content"><div class="nolub-title f36">
   <span>Teleradiology Reporting Service</span>
 </div>
-<div class="bobfo">
-  <div class="bobfo-menu-btn">
+<div class="nolub">
+  <div class="nolub-menu-btn">
     <span>Menu</span>
-    <span class="material-symbols-outlined bobfo-icon">menu</span>
+    <span class="material-symbols-outlined nolub-icon">menu</span>
   </div>
-  <div class="bobfo-menu"><a class="bobfo-menu-link active" href="/en/teleradyolojik-raporlama-hizmeti">Teleradiology Reporting Service</a><a class="bobfo-menu-link" href="/en/radyoloji-bolumu-isletme-hizmeti">Radiology Department Management Service</a><a class="bobfo-menu-link" href="/en/btodasi">Design and Construction of Computed Tomography Rooms</a><a class="bobfo-menu-link" href="/en/manyetik-rezonans-goruntuleme-cihaz-odalarinin-projelendirilmesi-ve-yapimi">Design and Construction of Magnetic Resonance Imaging Suites</a><a class="bobfo-menu-link" href="/en/dopplerultrason">Doppler and Ultrasonography Service</a><a class="bobfo-menu-link" href="/en/rontgen-ve-mamografi-odalarinin-projelendirilmesi-ve-yapimi">Design and Construction of X-ray and Mammography Rooms</a><a class="bobfo-menu-link" href="/en/radyoloji-cihaz-satisi-sifir-ve-ikinci-el">Radiology Device Sales (New and Pre-Owned)</a><a class="bobfo-menu-link" href="/en/hastanelerde-pacs-ve-arsivleme-hizmeti">PACS and Archiving Services for Hospitals</a><a class="bobfo-menu-link" href="/en/radyolojik-cihazlarin-bakim-onarim-ve-yedek-parca-temini">Maintenance, Repair, and Spare Parts Supply for Radiological Devices</a><a class="bobfo-menu-link" href="/en/danismanlik-hizmetleri">Consultancy Services</a></div>
-  <div class="bobfo-desc">
+  <div class="nolub-menu"><a class="nolub-menu-link active" href="/en/teleradyolojik-raporlama-hizmeti">Teleradiology Reporting Service</a><a class="nolub-menu-link" href="/en/radyoloji-bolumu-isletme-hizmeti">Radiology Department Management Service</a><a class="nolub-menu-link" href="/en/btodasi">Design and Construction of Computed Tomography Rooms</a><a class="nolub-menu-link" href="/en/manyetik-rezonans-goruntuleme-cihaz-odalarinin-projelendirilmesi-ve-yapimi">Design and Construction of Magnetic Resonance Imaging Suites</a><a class="nolub-menu-link" href="/en/dopplerultrason">Doppler and Ultrasonography Service</a><a class="nolub-menu-link" href="/en/rontgen-ve-mamografi-odalarinin-projelendirilmesi-ve-yapimi">Design and Construction of X-ray and Mammography Rooms</a><a class="nolub-menu-link" href="/en/radyoloji-cihaz-satisi-sifir-ve-ikinci-el">Radiology Device Sales (New and Pre-Owned)</a><a class="nolub-menu-link" href="/en/hastanelerde-pacs-ve-arsivleme-hizmeti">PACS and Archiving Services for Hospitals</a><a class="nolub-menu-link" href="/en/radyolojik-cihazlarin-bakim-onarim-ve-yedek-parca-temini">Maintenance, Repair, and Spare Parts Supply for Radiological Devices</a><a class="nolub-menu-link" href="/en/danismanlik-hizmetleri">Consultancy Services</a></div>
+  <div class="nolub-desc">
     
-    <div class="bobfo-desc-body">
-            <img src="/page/teleradyoloji/gr8cg.jpg?v=wb45a" width="100%" alt="{{title}}" />
+    <div class="nolub-desc-body">
+            <img src="/page/teleradyoloji/gr8cg.jpg?v=xmf19" width="100%" alt="{{title}}" />
     </div>
-    <div class="bobfo-body"><p><h2 style="font-size: 24px;">TELERADIOLOGY REPORTING SERVICE</h2></p>
+    <div class="nolub-body"><p><h2 style="font-size: 24px;">TELERADIOLOGY REPORTING SERVICE</h2></p>
 <p>    <p style="font-size: 16px;"></p>
 <p>        ATLANTIS RADIOLOGY IMAGING HEALTH SERVICES LTD. was established to meet Turkey's needs for sharing and archiving diagnostic imaging studies and to deliver accurate reports through our experienced radiologists and reporting specialists. We leverage globally recognised PACS platforms to transfer and report MRI, MR angiography, CT, CT angiography, mammography, digital X-ray, and scintigraphy examinations performed in partner hospitals, enabling teleradiology from anywhere in the world.</p>
 <p>    </p></p>
@@ -98,27 +119,27 @@
 </div>
 
 <script>
-  const menuToggleBtn = document.querySelector(".bobfo-menu-btn");
+  const menuToggleBtn = document.querySelector(".nolub-menu-btn");
   if (menuToggleBtn) {
     menuToggleBtn.addEventListener("click", function () {
-      const menu = document.querySelector(".bobfo-menu");
+      const menu = document.querySelector(".nolub-menu");
       if (!menu) return;
       const isOpen = menu.classList.toggle("active");
-      const icon = this.querySelector(".bobfo-icon");
+      const icon = this.querySelector(".nolub-icon");
       if (icon) {
         icon.textContent = isOpen ? "close" : "menu";
       }
     });
   }
 
-  document.querySelectorAll(".bobfo-top").forEach(function (button) {
+  document.querySelectorAll(".nolub-top").forEach(function (button) {
     button.addEventListener("click", function () {
-      const group = this.closest(".bobfo-menu-group");
+      const group = this.closest(".nolub-menu-group");
       if (!group) return;
-      const sub = group.querySelector(".bobfo-sub");
+      const sub = group.querySelector(".nolub-sub");
       const isOpen = group.classList.toggle("open");
       this.classList.toggle("active", isOpen);
-      const icon = this.querySelector(".bobfo-icon");
+      const icon = this.querySelector(".nolub-icon");
       if (icon) {
         icon.textContent = isOpen ? "expand_less" : "expand_more";
       }
@@ -182,7 +203,7 @@
 
 
 
-<script type="text/javascript" src="/src/js.js?v=wb45a"></script>
-<script src="/src/cookie.js?v=wb45a"></script>
+<script type="text/javascript" src="/src/js.js?v=xmf19"></script>
+<script src="/src/cookie.js?v=xmf19"></script>
 
 </html>

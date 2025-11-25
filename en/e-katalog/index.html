@@ -20,8 +20,8 @@
   <meta name="robots" content="index, follow" />
 
   <link rel="stylesheet" href="/src/rubik.css" />
-  <link rel="stylesheet" href="/src/css.css?v=ypfw7" />
-  <link rel="shortcut icon" href="/img/icon.png?v=ypfw7" type="image/png" />
+  <link rel="stylesheet" href="/src/css.css?v=w2q9a" />
+  <link rel="shortcut icon" href="/img/icon.png?v=w2q9a" type="image/png" />
 
   <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
   <script src="/src/swiper-bundle.min.js"></script>
@@ -29,62 +29,83 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=ypfw7">
+<link rel="stylesheet" href="style.css?v=w2q9a">
 </head>
 
 <body>
-  <div id="header"><div class="h5oy4">
-  <div class="h5oy4title">
-    <div class="h5oy4titlebody">
-     <div class="h5oy4titlebodytitle">
-      </div>
-      <div class="h5oy4titlebodylang">
+  <div id="header"><div class="vui8t">
+  <div class="vui8ttitle">
+    <div class="vui8ttitlebody">
+      <div class="vui8ttitlebodylang">
         <ul>
-          <li><a href="/tr/e-katalog/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/e-katalog/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li>
+          <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="h5oy4body">
+  <div class="vui8tbody">
     <a href="/en/"
       ><img
-        src="/img/logo.svg?v=ypfw7"
+        src="/img/logo.svg?v=w2q9a"
         alt="Atlantis Radyoloji Logo"
-        class="h5oy4bodylogo"
+        class="vui8tbodylogo"
     /></a>
+    <button type="button" class="vui8t-mobile-toggle" onclick="menu2_toggle()">
+      <span class="material-symbols-outlined">menu</span>
+    </button>
   </div>
-  <div class="h5oy4menubody">
-    <div class="h5oy4menu">
-      <div class="h5oy4menulistbody">
-        <div class="h5oy4menulist">
+  <div class="vui8tmenubody">
+    <div class="vui8tmenu" id="menu-2-root">
+      <div class="vui8tmenulistbody">
+        <div class="vui8tmenulist">
           <ul>
-            <a href="/en/">Home </a><a href="/en/hakkimizda/">Corporate</a><a href="/en/hizmetlerimiz/">Our Services</a><a class="h5oy4-menu-list-active" href="/en/e-katalog/">E-Catalogue</a><a href="/en/referanslarimiz/">Our References</a><a href="/en/iletisim/">Contact</a>
+            <a href="/en/">Home </a><a href="/en/hakkimizda/">Corporate</a><a href="/en/hizmetlerimiz/">Our Services</a><a class="vui8t-menu-list-active" href="/en/e-katalog/">E-Catalogue</a><a href="/en/referanslarimiz/">Our References</a><a href="/en/iletisim/">Contact</a>
           </ul>
+          <div class="vui8tlanguages-mobile">
+            <ul>
+              <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </div>
 
+<script>
+  if (typeof menu2_toggle === "undefined") {
+    function menu2_toggle() {
+      var root = document.getElementById("menu-2-root");
+      if (!root) {
+        return;
+      }
+      if (root.classList.contains("vui8tmenu-open")) {
+        root.classList.remove("vui8tmenu-open");
+      } else {
+        root.classList.add("vui8tmenu-open");
+      }
+    }
+  }
+</script>
 </div>
-  <div id="content"><div class="jv5zu-catalog">
-  <div class="jv5zu-catalog-header">
-    <div class="jv5zu-catalog-info">
-      <span class="material-symbols-outlined jv5zu-catalog-icon">picture_as_pdf</span>
-      <div class="jv5zu-catalog-texts">
-        <h2 class="jv5zu-catalog-title">Atlantis Radiology E-Catalogue</h2>
-        <p class="jv5zu-catalog-subtitle">Browse every teleradiology service and equipment solution inside a single PDF.</p>
+  <div id="content"><div class="s8it4-catalog">
+  <div class="s8it4-catalog-header">
+    <div class="s8it4-catalog-info">
+      <span class="material-symbols-outlined s8it4-catalog-icon">picture_as_pdf</span>
+      <div class="s8it4-catalog-texts">
+        <h2 class="s8it4-catalog-title">Atlantis Radiology E-Catalogue</h2>
+        <p class="s8it4-catalog-subtitle">Browse every teleradiology service and equipment solution inside a single PDF.</p>
       </div>
     </div>
-    <a class="jv5zu-catalog-download" href="/img/cvt1pk/katalogweb.pdf" target="_blank" rel="noopener">
+    <a class="s8it4-catalog-download" href="/img/cvt1pk/katalogweb.pdf" target="_blank" rel="noopener">
       <span class="material-symbols-outlined">download</span>
       katalogweb.pdf
     </a>
   </div>
-  <div class="jv5zu-catalog-viewer">
+  <div class="s8it4-catalog-viewer">
     <iframe src="/img/cvt1pk/katalogweb.pdf" loading="lazy" title="Atlantis Radiology E-Catalogue"></iframe>
   </div>
-  <div class="jv5zu-catalog-note">If the catalogue does not render, open it in a new tab via the download button.</div>
+  <div class="s8it4-catalog-note">If the catalogue does not render, open it in a new tab via the download button.</div>
 </div>
 
 
@@ -142,7 +163,7 @@
 
 
 
-<script type="text/javascript" src="/src/js.js?v=ypfw7"></script>
-<script src="/src/cookie.js?v=ypfw7"></script>
+<script type="text/javascript" src="/src/js.js?v=w2q9a"></script>
+<script src="/src/cookie.js?v=w2q9a"></script>
 
 </html>
