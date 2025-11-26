@@ -1,7 +1,7 @@
 
  
 
-  .pbe2m {
+  .jnaiu {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
     justify-content: center;
   }
 
-  .pbe2mtitle {
+  .jnaiutitle {
     width: 100%;
     display: flex;
     align-items: center;
@@ -18,12 +18,12 @@
     z-index: 1;
   }
 
-  .pbe2mtitle:has(.pbe2mtitlebodylang:empty),
-  .pbe2mtitle:has(.pbe2mtitlebodylang ul:empty) {
+  .jnaiutitle:has(.jnaiutitlebodylang:empty),
+  .jnaiutitle:has(.jnaiutitlebodylang ul:empty) {
     display: none;
   }
 
-  .pbe2mtitlebody {
+  .jnaiutitlebody {
     color: #ffffff;
     width: var(--max);
     display: flex;
@@ -31,29 +31,29 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .pbe2mtitlebodytitle {
+  .jnaiutitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .pbe2mtitlebodylang {
+  .jnaiutitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .pbe2mtitlebodylang:empty,
-  .pbe2mtitlebodylang ul:empty {
+  .jnaiutitlebodylang:empty,
+  .jnaiutitlebodylang ul:empty {
     display: none;
   }
 
-  .pbe2mtitlebodylang ul {
+  .jnaiutitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .pbe2mbody {
+  .jnaiubody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -62,7 +62,7 @@
     position: relative;
   }
 
-  .pbe2m-mobile-toggle {
+  .jnaiu-mobile-toggle {
     display: none;
     background: #279c90;
     color: #ffffff;
@@ -76,18 +76,18 @@
     right: 0;
   }
 
-  .pbe2m-mobile-toggle span {
+  .jnaiu-mobile-toggle span {
     font-size: 24px;
   }
 
-  .pbe2mmenu {
+  .jnaiumenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .pbe2mmenulist {
+  .jnaiumenulist {
     width: calc(100% - 20px);
     background-color: #279c90;
     padding: 10px;
@@ -96,7 +96,7 @@
     display: flex;
   }
 
-  .pbe2mmenubody {
+  .jnaiumenubody {
     width: 100%;
     background-color: #279c90;
     display: flex;
@@ -104,7 +104,7 @@
     justify-content: center;
   }
 
-  .pbe2mmenulist ul {
+  .jnaiumenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -113,7 +113,7 @@
     padding: 0;
   }
 
-  .pbe2mmenulist ul a {
+  .jnaiumenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #ffffff !important;
@@ -125,18 +125,18 @@
     white-space: nowrap;
   }
 
-  .pbe2mmenulist ul a:hover {
+  .jnaiumenulist ul a:hover {
     background-color: --activebgcolor--;
     border-radius: 5px;
     color: --activecolor-- !important;
     cursor: pointer;
   }
 
-  .pbe2mmenulist ul a.pbe2m-menu-list-active {
+  .jnaiumenulist ul a.jnaiu-menu-list-active {
     color: --activecolor-- !important;
   }
 
-  .pbe2m-menu-list-active {
+  .jnaiu-menu-list-active {
     background-color: --activebgcolor--;
     border-radius: 5px;
     color: --activecolor-- !important;
@@ -144,22 +144,22 @@
     cursor: pointer;
   }
 
-  .pbe2mmenulistbody {
+  .jnaiumenulistbody {
     width: 100%;
   }
 
-  .pbe2mlanguages-mobile {
+  .jnaiulanguages-mobile {
     display: none;
     padding-top: 15px;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
 
-  .pbe2mlanguages-mobile:empty,
-  .pbe2mlanguages-mobile ul:empty {
+  .jnaiulanguages-mobile:empty,
+  .jnaiulanguages-mobile ul:empty {
     display: none !important;
   }
 
-  .pbe2mlanguages-mobile ul {
+  .jnaiulanguages-mobile ul {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -172,7 +172,7 @@
     width: 100%;
   }
 
-  .pbe2mlanguages-mobile li {
+  .jnaiulanguages-mobile li {
     list-style: none;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 8px;
@@ -189,25 +189,25 @@
     flex-grow: 0;
   }
 
-  .pbe2mlanguages-mobile li a {
+  .jnaiulanguages-mobile li a {
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .pbe2mlanguages-mobile li:hover {
+  .jnaiulanguages-mobile li:hover {
     background-color: --activebgcolor--;
     border-color: --activecolor--;
   }
 
   @media screen and (min-width: 1024px) {
-    .pbe2mbodylogo {
+    .jnaiubodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
     }
 
-    .pbe2mtitle {
+    .jnaiutitle {
     margin-bottom: -30px;
   }
 
@@ -215,72 +215,72 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .pbe2mbody {
+    .jnaiubody {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: flex-start;
     }
 
-    .pbe2mmenulist ul {
+    .jnaiumenulist ul {
       flex-direction: row;
     }
 
-    .pbe2mbodylogo {
+    .jnaiubodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
 
-    .pbe2mtitlebody {
+    .jnaiutitlebody {
       flex-direction: column;
       gap: 10px;
       align-items: center;
       display: none;
     }
 
-    .pbe2mtitlebodytitle {
+    .jnaiutitlebodytitle {
       text-align: center;
       font-size: 14px;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .pbe2mtitlebodylang {
+    .jnaiutitlebodylang {
       display: none;
     }
 
-    .pbe2mbody {
+    .jnaiubody {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: space-between;
     }
 
-    .pbe2m-mobile-toggle {
+    .jnaiu-mobile-toggle {
       display: inline-flex;
     }
 
-    .pbe2mbodylogo {
+    .jnaiubodylogo {
       width: 40vw;
       max-width: 40vw;
       max-height: 80px;
     }
 
-    .pbe2mmenulist {
+    .jnaiumenulist {
       display: none;
       flex-direction: column;
       width: calc(100% - 24px);
       padding: 12px;
     }
 
-    .pbe2mmenu.pbe2mmenu-open .pbe2mmenulist {
+    .jnaiumenu.jnaiumenu-open .jnaiumenulist {
       display: flex;
     }
 
-    .pbe2mmenu.pbe2mmenu-open .pbe2mlanguages-mobile {
+    .jnaiumenu.jnaiumenu-open .jnaiulanguages-mobile {
       display: block;
     }
 
-    .pbe2mlanguages-mobile ul {
+    .jnaiulanguages-mobile ul {
       display: flex !important;
       flex-direction: row !important;
       flex-wrap: nowrap !important;
@@ -288,17 +288,17 @@
       align-items: center;
     }
 
-    .pbe2mlanguages-mobile li {
+    .jnaiulanguages-mobile li {
       flex-shrink: 0;
       flex-grow: 0;
     }
 
-    .pbe2mmenulist ul {
+    .jnaiumenulist ul {
       flex-direction: column;
       gap: 0;
     }
 
-    .pbe2mmenulist ul a {
+    .jnaiumenulist ul a {
       font-size: 14px;
       width: 100%;
       padding: 12px;
@@ -307,36 +307,36 @@
       border-radius: 0;
     }
 
-    .pbe2mmenulist ul a:last-child {
+    .jnaiumenulist ul a:last-child {
       border-bottom: none;
     }
 
-    .pbe2mmenulist ul a:hover {
+    .jnaiumenulist ul a:hover {
       background-color: --activebgcolor--;
       border-radius: 0;
     }
 
-    .pbe2mtitlebodytitle {
+    .jnaiutitlebodytitle {
       font-size: 12px;
     }
   }
 
 
-  .euby5 {
+  .vtvyr {
     margin-top: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .euby5body {
+  .vtvyrbody {
     width: var(--max);
     display: grid;
     gap: 20px;
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .euby5bodyitem {
+  .vtvyrbodyitem {
     cursor: pointer;
     background-color: #e9e9e9;
     border-radius: 12px;
@@ -351,23 +351,23 @@
     padding: 10px;
   }
 
-  .euby5bodyitem:hover {
+  .vtvyrbodyitem:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
   }
 
-  .euby5bodyitem:hover .euby5bodyitemimg {
+  .vtvyrbodyitem:hover .vtvyrbodyitemimg {
     transform: scale(1.1);
   }
 
-  .euby5bodyitemimg {
+  .vtvyrbodyitemimg {
     width: 100%;
     height: 100%;
     object-fit: cover;
     transition: transform 0.5s ease;
   }
 
-  .euby5bodyitemtitle {
+  .vtvyrbodyitemtitle {
     padding: 10px;
     background-color: #e9e9e9;
     text-align: left;
@@ -375,14 +375,14 @@
     font-weight: --font-weight--;
     font-size: 16px;
   }
-  .euby5bodyitemtext {
+  .vtvyrbodyitemtext {
     font-size: 16px;
     color: #000;
     font-weight: bold;
   }
 
   @media screen and (max-width: 1024px) {
-    .euby5body {
+    .vtvyrbody {
       width: calc(100% - 30px);
       margin: 0 15px;
       grid-template-columns: repeat(3, 1fr);
@@ -391,7 +391,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .euby5body {
+    .vtvyrbody {
       width: calc(100% - 20px);
       margin: 0 10px;
       grid-template-columns: repeat(2, 1fr);

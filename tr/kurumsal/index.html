@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta http-equiv="Page-Exit" content="BlendTrans(Duration"="0)" />
   <meta http-equiv="Page-Enter" content="BlendTrans(Duration"="0)" />
@@ -19,49 +19,51 @@
   <meta property="og:image" content="https://atlantisradyoloji.com/img/icon.png" />
   <meta name="robots" content="index, follow" />
 
-  <link rel="stylesheet" href="/src/rubik.css" />
-  <link rel="stylesheet" href="/src/css.css?v=uebm1" />
-  <link rel="shortcut icon" href="/img/icon.png?v=uebm1" type="image/png" />
+  <link rel="preload" href="/src/fonts/rubik/rubik-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/rubik/rubik-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
-  <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
-  <script src="/src/swiper-bundle.min.js"></script>
+  <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=kkal2" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=kkal2" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="shortcut icon" href="/img/icon.png?v=kkal2" type="image/png" />
   
   
   
-  
-<link rel="stylesheet" href="style.css?v=uebm1">
+<link rel="stylesheet" href="style.css?v=kkal2">
 </head>
 
 <body>
-  <div id="header"><div class="wf3xr">
-  <div class="wf3xrtitle">
-    <div class="wf3xrtitlebody">
-      <div class="wf3xrtitlebodylang">
+  <div id="header"><div class="h6i7t">
+  <div class="h6i7ttitle">
+    <div class="h6i7ttitlebody">
+      <div class="h6i7ttitlebodylang">
         <ul>
           <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="wf3xrbody">
+  <div class="h6i7tbody">
     <a href="/tr/"
       ><img
-        src="/img/logo.svg?v=uebm1"
+        src="/img/logo.svg?v=kkal2"
         alt="Atlantis Radyoloji Logo"
-        class="wf3xrbodylogo"
+        class="h6i7tbodylogo"
     /></a>
-    <button type="button" class="wf3xr-mobile-toggle" onclick="menu2_toggle()">
+    <button type="button" class="h6i7t-mobile-toggle" onclick="menu2_toggle()">
       <span class="material-symbols-outlined">menu</span>
     </button>
   </div>
-  <div class="wf3xrmenubody">
-    <div class="wf3xrmenu" id="menu-2-root">
-      <div class="wf3xrmenulistbody">
-        <div class="wf3xrmenulist">
+  <div class="h6i7tmenubody">
+    <div class="h6i7tmenu" id="menu-2-root">
+      <div class="h6i7tmenulistbody">
+        <div class="h6i7tmenulist">
           <ul>
-            <a href="/tr/">Anasayfa </a><a class="wf3xr-menu-list-active" href="/tr/kurumsal/">Kurumsal</a><a href="/tr/hizmetlerimiz/">Hizmetlerimiz</a><a href="/tr/e-katalog/">E-Katalog</a><a href="/tr/referanslarimiz/">Referanslarımız</a><a href="/tr/iletisim/">İletişim</a>
+            <a href="/tr/">Anasayfa </a><a class="h6i7t-menu-list-active" href="/tr/kurumsal/">Kurumsal</a><a href="/tr/hizmetlerimiz/">Hizmetlerimiz</a><a href="/tr/e-katalog/">E-Katalog</a><a href="/tr/referanslarimiz/">Referanslarımız</a><a href="/tr/iletisim/">İletişim</a>
           </ul>
-          <div class="wf3xrlanguages-mobile">
+          <div class="h6i7tlanguages-mobile">
             <ul>
               <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li>
             </ul>
@@ -79,10 +81,10 @@
       if (!root) {
         return;
       }
-      if (root.classList.contains("wf3xrmenu-open")) {
-        root.classList.remove("wf3xrmenu-open");
+      if (root.classList.contains("h6i7tmenu-open")) {
+        root.classList.remove("h6i7tmenu-open");
       } else {
-        root.classList.add("wf3xrmenu-open");
+        root.classList.add("h6i7tmenu-open");
       }
     }
   }
@@ -135,13 +137,16 @@
 
 </div>
 </body>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="preload"
+  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+  as="style" onload="this.onload=null;this.rel='stylesheet'" />
 
-<link rel="stylesheet"
-  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
 
-
-<script type="text/javascript" src="/src/js.js?v=uebm1"></script>
-<script src="/src/cookie.js?v=uebm1"></script>
+<script defer src="/src/swiper-bundle.min.js"></script>
+<script defer type="text/javascript" src="/src/js.js?v=kkal2"></script>
+<script defer src="/src/cookie.js?v=kkal2"></script>
 
 </html>
