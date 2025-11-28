@@ -1,7 +1,7 @@
 
  
 
-  .l6org {
+  .g72ll {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
     justify-content: center;
   }
 
-  .l6orgtitle {
+  .g72lltitle {
     width: 100%;
     display: flex;
     align-items: center;
@@ -18,12 +18,12 @@
     z-index: 1;
   }
 
-  .l6orgtitle:has(.l6orgtitlebodylang:empty),
-  .l6orgtitle:has(.l6orgtitlebodylang ul:empty) {
+  .g72lltitle:has(.g72lltitlebodylang:empty),
+  .g72lltitle:has(.g72lltitlebodylang ul:empty) {
     display: none;
   }
 
-  .l6orgtitlebody {
+  .g72lltitlebody {
     color: #ffffff;
     width: var(--max);
     display: flex;
@@ -31,29 +31,29 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .l6orgtitlebodytitle {
+  .g72lltitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .l6orgtitlebodylang {
+  .g72lltitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .l6orgtitlebodylang:empty,
-  .l6orgtitlebodylang ul:empty {
+  .g72lltitlebodylang:empty,
+  .g72lltitlebodylang ul:empty {
     display: none;
   }
 
-  .l6orgtitlebodylang ul {
+  .g72lltitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .l6orgbody {
+  .g72llbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -62,7 +62,7 @@
     position: relative;
   }
 
-  .l6org-mobile-toggle {
+  .g72ll-mobile-toggle {
     display: none;
     background: #279c90;
     color: #ffffff;
@@ -76,18 +76,18 @@
     right: 0;
   }
 
-  .l6org-mobile-toggle span {
+  .g72ll-mobile-toggle span {
     font-size: 24px;
   }
 
-  .l6orgmenu {
+  .g72llmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .l6orgmenulist {
+  .g72llmenulist {
     width: calc(100% - 20px);
     background-color: #279c90;
     padding: 10px;
@@ -96,7 +96,7 @@
     display: flex;
   }
 
-  .l6orgmenubody {
+  .g72llmenubody {
     width: 100%;
     background-color: #279c90;
     display: flex;
@@ -104,7 +104,7 @@
     justify-content: center;
   }
 
-  .l6orgmenulist ul {
+  .g72llmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -113,7 +113,7 @@
     padding: 0;
   }
 
-  .l6orgmenulist ul a {
+  .g72llmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #ffffff !important;
@@ -125,18 +125,18 @@
     white-space: nowrap;
   }
 
-  .l6orgmenulist ul a:hover {
+  .g72llmenulist ul a:hover {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
     cursor: pointer;
   }
 
-  .l6orgmenulist ul a.l6org-menu-list-active {
+  .g72llmenulist ul a.g72ll-menu-list-active {
     color: #000000 !important;
   }
 
-  .l6org-menu-list-active {
+  .g72ll-menu-list-active {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
@@ -144,22 +144,22 @@
     cursor: pointer;
   }
 
-  .l6orgmenulistbody {
+  .g72llmenulistbody {
     width: 100%;
   }
 
-  .l6orglanguages-mobile {
+  .g72lllanguages-mobile {
     display: none;
     padding-top: 15px;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
 
-  .l6orglanguages-mobile:empty,
-  .l6orglanguages-mobile ul:empty {
+  .g72lllanguages-mobile:empty,
+  .g72lllanguages-mobile ul:empty {
     display: none !important;
   }
 
-  .l6orglanguages-mobile ul {
+  .g72lllanguages-mobile ul {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -172,7 +172,7 @@
     width: 100%;
   }
 
-  .l6orglanguages-mobile li {
+  .g72lllanguages-mobile li {
     list-style: none;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 8px;
@@ -189,25 +189,25 @@
     flex-grow: 0;
   }
 
-  .l6orglanguages-mobile li a {
+  .g72lllanguages-mobile li a {
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .l6orglanguages-mobile li:hover {
+  .g72lllanguages-mobile li:hover {
     background-color: #ffffff;
     border-color: #000000;
   }
 
   @media screen and (min-width: 1024px) {
-    .l6orgbodylogo {
+    .g72llbodylogo {
       height: 80px;
       max-width: 90vw;
       max-height: 100px;
     }
 
-    .l6orgtitle {
+    .g72lltitle {
     margin-bottom: -30px;
   }
 
@@ -215,72 +215,72 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .l6orgbody {
+    .g72llbody {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: flex-start;
     }
 
-    .l6orgmenulist ul {
+    .g72llmenulist ul {
       flex-direction: row;
     }
 
-    .l6orgbodylogo {
+    .g72llbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
 
-    .l6orgtitlebody {
+    .g72lltitlebody {
       flex-direction: column;
       gap: 10px;
       align-items: center;
       display: none;
     }
 
-    .l6orgtitlebodytitle {
+    .g72lltitlebodytitle {
       text-align: center;
       font-size: 14px;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .l6orgtitlebodylang {
+    .g72lltitlebodylang {
       display: none;
     }
 
-    .l6orgbody {
+    .g72llbody {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: space-between;
     }
 
-    .l6org-mobile-toggle {
+    .g72ll-mobile-toggle {
       display: inline-flex;
     }
 
-    .l6orgbodylogo {
+    .g72llbodylogo {
       width: 25vw;
       max-width: 40vw;
       max-height: 80px;
     }
 
-    .l6orgmenulist {
+    .g72llmenulist {
       display: none;
       flex-direction: column;
       width: calc(100% - 24px);
       padding: 12px;
     }
 
-    .l6orgmenu.l6orgmenu-open .l6orgmenulist {
+    .g72llmenu.g72llmenu-open .g72llmenulist {
       display: flex;
     }
 
-    .l6orgmenu.l6orgmenu-open .l6orglanguages-mobile {
+    .g72llmenu.g72llmenu-open .g72lllanguages-mobile {
       display: block;
     }
 
-    .l6orglanguages-mobile ul {
+    .g72lllanguages-mobile ul {
       display: flex !important;
       flex-direction: row !important;
       flex-wrap: nowrap !important;
@@ -288,17 +288,17 @@
       align-items: center;
     }
 
-    .l6orglanguages-mobile li {
+    .g72lllanguages-mobile li {
       flex-shrink: 0;
       flex-grow: 0;
     }
 
-    .l6orgmenulist ul {
+    .g72llmenulist ul {
       flex-direction: column;
       gap: 0;
     }
 
-    .l6orgmenulist ul a {
+    .g72llmenulist ul a {
       font-size: 14px;
       width: 100%;
       padding: 12px;
@@ -307,36 +307,36 @@
       border-radius: 0;
     }
 
-    .l6orgmenulist ul a:last-child {
+    .g72llmenulist ul a:last-child {
       border-bottom: none;
     }
 
-    .l6orgmenulist ul a:hover {
+    .g72llmenulist ul a:hover {
       background-color: #ffffff;
       border-radius: 0;
     }
 
-    .l6orgtitlebodytitle {
+    .g72lltitlebodytitle {
       font-size: 12px;
     }
   }
 
 
-  .sbl3h {
+  .yx20w {
     margin-top: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .sbl3hbody {
+  .yx20wbody {
     width: var(--max);
     display: grid;
     gap: 20px;
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .sbl3hbodyitem {
+  .yx20wbodyitem {
     cursor: pointer;
     background-color: #000;
     border-radius: 12px;
@@ -351,23 +351,23 @@
     padding: 10px;
   }
 
-  .sbl3hbodyitem:hover {
+  .yx20wbodyitem:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
   }
 
-  .sbl3hbodyitem:hover .sbl3hbodyitemimg {
+  .yx20wbodyitem:hover .yx20wbodyitemimg {
     transform: scale(1.1);
   }
 
-  .sbl3hbodyitemimg {
+  .yx20wbodyitemimg {
     width: 100%;
     height: 100%;
     object-fit: cover;
     transition: transform 0.5s ease;
   }
 
-  .sbl3hbodyitemtitle {
+  .yx20wbodyitemtitle {
     padding: 10px;
     background-color: #000;
     text-align: left;
@@ -375,14 +375,14 @@
     font-weight: --font-weight--;
     font-size: 16px;
   }
-  .sbl3hbodyitemtext {
+  .yx20wbodyitemtext {
     font-size: 16px;
     color: #fff;
     font-weight: bold;
   }
 
   @media screen and (max-width: 1024px) {
-    .sbl3hbody {
+    .yx20wbody {
       width: calc(100% - 30px);
       margin: 0 15px;
       grid-template-columns: repeat(3, 1fr);
@@ -391,7 +391,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .sbl3hbody {
+    .yx20wbody {
       width: calc(100% - 20px);
       margin: 0 10px;
       grid-template-columns: repeat(2, 1fr);
