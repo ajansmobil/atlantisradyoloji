@@ -1,7 +1,7 @@
 
  
 
-  .rmdjv {
+  .ngvyf {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
     justify-content: center;
   }
 
-  .rmdjvtitle {
+  .ngvyftitle {
     width: 100%;
     display: flex;
     align-items: center;
@@ -18,12 +18,12 @@
     z-index: 1;
   }
 
-  .rmdjvtitle:has(.rmdjvtitlebodylang:empty),
-  .rmdjvtitle:has(.rmdjvtitlebodylang ul:empty) {
+  .ngvyftitle:has(.ngvyftitlebodylang:empty),
+  .ngvyftitle:has(.ngvyftitlebodylang ul:empty) {
     display: none;
   }
 
-  .rmdjvtitlebody {
+  .ngvyftitlebody {
     color: #ffffff;
     width: var(--max);
     display: flex;
@@ -31,29 +31,29 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .rmdjvtitlebodytitle {
+  .ngvyftitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .rmdjvtitlebodylang {
+  .ngvyftitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .rmdjvtitlebodylang:empty,
-  .rmdjvtitlebodylang ul:empty {
+  .ngvyftitlebodylang:empty,
+  .ngvyftitlebodylang ul:empty {
     display: none;
   }
 
-  .rmdjvtitlebodylang ul {
+  .ngvyftitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .rmdjvbody {
+  .ngvyfbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -62,7 +62,7 @@
     position: relative;
   }
 
-  .rmdjv-mobile-toggle {
+  .ngvyf-mobile-toggle {
     display: none;
     background: #279c90;
     color: #ffffff;
@@ -76,18 +76,18 @@
     right: 0;
   }
 
-  .rmdjv-mobile-toggle span {
+  .ngvyf-mobile-toggle span {
     font-size: 24px;
   }
 
-  .rmdjvmenu {
+  .ngvyfmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .rmdjvmenulist {
+  .ngvyfmenulist {
     width: calc(100% - 20px);
     background-color: #279c90;
     padding: 10px;
@@ -96,7 +96,7 @@
     display: flex;
   }
 
-  .rmdjvmenubody {
+  .ngvyfmenubody {
     width: 100%;
     background-color: #279c90;
     display: flex;
@@ -104,7 +104,7 @@
     justify-content: center;
   }
 
-  .rmdjvmenulist ul {
+  .ngvyfmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -113,7 +113,7 @@
     padding: 0;
   }
 
-  .rmdjvmenulist ul a {
+  .ngvyfmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #ffffff !important;
@@ -125,18 +125,18 @@
     white-space: nowrap;
   }
 
-  .rmdjvmenulist ul a:hover {
+  .ngvyfmenulist ul a:hover {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
     cursor: pointer;
   }
 
-  .rmdjvmenulist ul a.rmdjv-menu-list-active {
+  .ngvyfmenulist ul a.ngvyf-menu-list-active {
     color: #000000 !important;
   }
 
-  .rmdjv-menu-list-active {
+  .ngvyf-menu-list-active {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
@@ -144,22 +144,22 @@
     cursor: pointer;
   }
 
-  .rmdjvmenulistbody {
+  .ngvyfmenulistbody {
     width: 100%;
   }
 
-  .rmdjvlanguages-mobile {
+  .ngvyflanguages-mobile {
     display: none;
     padding-top: 15px;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
 
-  .rmdjvlanguages-mobile:empty,
-  .rmdjvlanguages-mobile ul:empty {
+  .ngvyflanguages-mobile:empty,
+  .ngvyflanguages-mobile ul:empty {
     display: none !important;
   }
 
-  .rmdjvlanguages-mobile ul {
+  .ngvyflanguages-mobile ul {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -172,7 +172,7 @@
     width: 100%;
   }
 
-  .rmdjvlanguages-mobile li {
+  .ngvyflanguages-mobile li {
     list-style: none;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 8px;
@@ -189,25 +189,25 @@
     flex-grow: 0;
   }
 
-  .rmdjvlanguages-mobile li a {
+  .ngvyflanguages-mobile li a {
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .rmdjvlanguages-mobile li:hover {
+  .ngvyflanguages-mobile li:hover {
     background-color: #ffffff;
     border-color: #000000;
   }
 
   @media screen and (min-width: 1024px) {
-    .rmdjvbodylogo {
+    .ngvyfbodylogo {
       height: 80px;
       max-width: 90vw;
       max-height: 100px;
     }
 
-    .rmdjvtitle {
+    .ngvyftitle {
     margin-bottom: -30px;
   }
 
@@ -215,72 +215,72 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .rmdjvbody {
+    .ngvyfbody {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: flex-start;
     }
 
-    .rmdjvmenulist ul {
+    .ngvyfmenulist ul {
       flex-direction: row;
     }
 
-    .rmdjvbodylogo {
+    .ngvyfbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
 
-    .rmdjvtitlebody {
+    .ngvyftitlebody {
       flex-direction: column;
       gap: 10px;
       align-items: center;
       display: none;
     }
 
-    .rmdjvtitlebodytitle {
+    .ngvyftitlebodytitle {
       text-align: center;
       font-size: 14px;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .rmdjvtitlebodylang {
+    .ngvyftitlebodylang {
       display: none;
     }
 
-    .rmdjvbody {
+    .ngvyfbody {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: space-between;
     }
 
-    .rmdjv-mobile-toggle {
+    .ngvyf-mobile-toggle {
       display: inline-flex;
     }
 
-    .rmdjvbodylogo {
+    .ngvyfbodylogo {
       width: 25vw;
       max-width: 40vw;
       max-height: 80px;
     }
 
-    .rmdjvmenulist {
+    .ngvyfmenulist {
       display: none;
       flex-direction: column;
       width: calc(100% - 24px);
       padding: 12px;
     }
 
-    .rmdjvmenu.rmdjvmenu-open .rmdjvmenulist {
+    .ngvyfmenu.ngvyfmenu-open .ngvyfmenulist {
       display: flex;
     }
 
-    .rmdjvmenu.rmdjvmenu-open .rmdjvlanguages-mobile {
+    .ngvyfmenu.ngvyfmenu-open .ngvyflanguages-mobile {
       display: block;
     }
 
-    .rmdjvlanguages-mobile ul {
+    .ngvyflanguages-mobile ul {
       display: flex !important;
       flex-direction: row !important;
       flex-wrap: nowrap !important;
@@ -288,17 +288,17 @@
       align-items: center;
     }
 
-    .rmdjvlanguages-mobile li {
+    .ngvyflanguages-mobile li {
       flex-shrink: 0;
       flex-grow: 0;
     }
 
-    .rmdjvmenulist ul {
+    .ngvyfmenulist ul {
       flex-direction: column;
       gap: 0;
     }
 
-    .rmdjvmenulist ul a {
+    .ngvyfmenulist ul a {
       font-size: 14px;
       width: 100%;
       padding: 12px;
@@ -307,36 +307,36 @@
       border-radius: 0;
     }
 
-    .rmdjvmenulist ul a:last-child {
+    .ngvyfmenulist ul a:last-child {
       border-bottom: none;
     }
 
-    .rmdjvmenulist ul a:hover {
+    .ngvyfmenulist ul a:hover {
       background-color: #ffffff;
       border-radius: 0;
     }
 
-    .rmdjvtitlebodytitle {
+    .ngvyftitlebodytitle {
       font-size: 12px;
     }
   }
 
 
-  .b5yhv {
+  .x48wc {
     margin-top: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .b5yhvbody {
+  .x48wcbody {
     width: var(--max);
     display: grid;
     gap: 20px;
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .b5yhvbodyitem {
+  .x48wcbodyitem {
     cursor: pointer;
     background-color: #000;
     border-radius: 12px;
@@ -351,23 +351,23 @@
     padding: 10px;
   }
 
-  .b5yhvbodyitem:hover {
+  .x48wcbodyitem:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
   }
 
-  .b5yhvbodyitem:hover .b5yhvbodyitemimg {
+  .x48wcbodyitem:hover .x48wcbodyitemimg {
     transform: scale(1.1);
   }
 
-  .b5yhvbodyitemimg {
+  .x48wcbodyitemimg {
     width: 100%;
     height: 100%;
     object-fit: cover;
     transition: transform 0.5s ease;
   }
 
-  .b5yhvbodyitemtitle {
+  .x48wcbodyitemtitle {
     padding: 10px;
     background-color: #000;
     text-align: left;
@@ -375,14 +375,14 @@
     font-weight: --font-weight--;
     font-size: 16px;
   }
-  .b5yhvbodyitemtext {
+  .x48wcbodyitemtext {
     font-size: 16px;
     color: #fff;
     font-weight: bold;
   }
 
   @media screen and (max-width: 1024px) {
-    .b5yhvbody {
+    .x48wcbody {
       width: calc(100% - 30px);
       margin: 0 15px;
       grid-template-columns: repeat(3, 1fr);
@@ -391,7 +391,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .b5yhvbody {
+    .x48wcbody {
       width: calc(100% - 20px);
       margin: 0 10px;
       grid-template-columns: repeat(2, 1fr);

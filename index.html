@@ -24,46 +24,46 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
   <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/css.css?v=j3i6n" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/cookie.css?v=j3i6n" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=wjchv" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=wjchv" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="shortcut icon" href="/img/icon.png?v=j3i6n" type="image/png" />
+  <link rel="shortcut icon" href="/img/icon.png?v=wjchv" type="image/png" />
   
   
   
-<link rel="stylesheet" href="style.css?v=j3i6n">
+<link rel="stylesheet" href="style.css?v=wjchv">
 </head>
 
 <body>
-  <div id="header"><div class="a9yi4">
-  <div class="a9yi4title">
-    <div class="a9yi4titlebody">
-      <div class="a9yi4titlebodylang">
+  <div id="header"><div class="ymdoc">
+  <div class="ymdoctitle">
+    <div class="ymdoctitlebody">
+      <div class="ymdoctitlebodylang">
         <ul>
           <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="a9yi4body">
+  <div class="ymdocbody">
     <a href="/tr/"
       ><img
-        src="/img/logo.svg?v=j3i6n"
+        src="/img/logo.svg?v=wjchv"
         alt="Atlantis Radyoloji Logo"
-        class="a9yi4bodylogo"
+        class="ymdocbodylogo"
     /></a>
-    <button type="button" class="a9yi4-mobile-toggle" onclick="menu2_toggle()">
+    <button type="button" class="ymdoc-mobile-toggle" onclick="menu2_toggle()">
       <span class="material-symbols-outlined">menu</span>
     </button>
   </div>
-  <div class="a9yi4menubody">
-    <div class="a9yi4menu" id="menu-2-root">
-      <div class="a9yi4menulistbody">
-        <div class="a9yi4menulist">
+  <div class="ymdocmenubody">
+    <div class="ymdocmenu" id="menu-2-root">
+      <div class="ymdocmenulistbody">
+        <div class="ymdocmenulist">
           <ul>
             <a href="/tr/">Anasayfa </a><a href="/tr/hakkimizda/">Kurumsal</a><a href="/tr/hizmetlerimiz/">Hizmetlerimiz</a><a href="/tr/e-katalog/">E-Katalog</a><a href="/tr/referanslarimiz/">Referanslarımız</a><a href="/tr/iletisim/">İletişim</a>
           </ul>
-          <div class="a9yi4languages-mobile">
+          <div class="ymdoclanguages-mobile">
             <ul>
               <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png"  alt="en"></a></li>
             </ul>
@@ -81,16 +81,16 @@
       if (!root) {
         return;
       }
-      if (root.classList.contains("a9yi4menu-open")) {
-        root.classList.remove("a9yi4menu-open");
+      if (root.classList.contains("ymdocmenu-open")) {
+        root.classList.remove("ymdocmenu-open");
       } else {
-        root.classList.add("a9yi4menu-open");
+        root.classList.add("ymdocmenu-open");
       }
     }
   }
 </script>
-<div class="swiper-container eev28">
-  <div class="swiper-wrapper" id="eev28"><div class="swiper-slide"><img src="/img/svsl6d/1.png?v=1764309357559" alt="Atlantis Radyoloji" /></div><div class="swiper-slide"><img src="/img/svsl6d/2.png?v=1764309357559" alt="Atlantis Radyoloji" /></div><div class="swiper-slide"><img src="/img/svsl6d/3.png?v=1764309357559" alt="Atlantis Radyoloji" /></div></div>
+<div class="swiper-container wsg0k">
+  <div class="swiper-wrapper" id="wsg0k"><div class="swiper-slide"><img src="/img/svsl6d/1.png?v=1764310731611" alt="Atlantis Radyoloji" /></div><div class="swiper-slide"><img src="/img/svsl6d/2.png?v=1764310731611" alt="Atlantis Radyoloji" /></div><div class="swiper-slide"><img src="/img/svsl6d/3.png?v=1764310731611" alt="Atlantis Radyoloji" /></div></div>
   <div class="swiper-button-next"></div>
   <div class="swiper-button-prev"></div>
   <div class="swiper-pagination"></div>
@@ -98,8 +98,54 @@
 
 <script>
 
+
+// Ekran boyutuna göre dinamik resim yolu seçimi
+function updateImagePaths() {
+  const isMobile = window.innerWidth <= 768;
+  const images = document.querySelectorAll('.swiper-slide img');
+  
+  images.forEach(img => {
+    let src = img.getAttribute('src');
+    if (!src || !src.match(/^\/img\/[^\/]+\//)) return;
+    
+    // Query string'i (cache busting) ayır
+    const urlParts = src.split('?');
+    const pathOnly = urlParts[0];
+    const queryString = urlParts[1] ? '?' + urlParts[1] : '';
+    
+    // Yol formatını kontrol et: /img/${json.id}/ veya /img/${json.id}/mobil/
+    const pathMatch = pathOnly.match(/^(\/img\/[^\/]+\/)(mobil\/)?([^\/]+\.\w+)$/);
+    if (!pathMatch) return;
+    
+    const basePath = pathMatch[1]; // /img/${json.id}/
+    const fileName = pathMatch[3]; // img.jpg
+    
+    let newPath;
+    if (isMobile) {
+      // Mobil: /img/${json.id}/mobil/img.jpg
+      newPath = basePath + 'mobil/' + fileName;
+    } else {
+      // Web: /img/${json.id}/img.jpg (mobil klasörünü kaldır)
+      newPath = basePath + fileName;
+    }
+    
+    const newSrc = newPath + queryString;
+    if (newSrc !== src) {
+      img.setAttribute('src', newSrc);
+    }
+  });
+}
+
+// Sayfa yüklendiğinde ve pencere boyutu değiştiğinde güncelle
+document.addEventListener('DOMContentLoaded', updateImagePaths);
+window.addEventListener('resize', updateImagePaths);
+
+
+
+
+
 setTimeout(() => {
-  var swiper = new Swiper(".eev28", {
+  var swiper = new Swiper(".wsg0k", {
     slidesPerView: 1,
     spaceBetween: 30,
     loop: true,
@@ -118,175 +164,175 @@ setTimeout(() => {
   });}, 500);
 </script>
 </div>
-  <div id="content"><div class="mi1k7">
-  <div class="mi1k7body">
-      <div style="animation-delay: 0.3s;" class="mi1k7bodyitems left" >
-        <div class="mi1k7bodyitem lefts">
-          <a href="/tr/teleradyolojik-raporlama-hizmeti" class="mi1k7bodyitemlink">
-            <div class="mi1k7bodyitemimg">
+  <div id="content"><div class="hvx1p">
+  <div class="hvx1pbody">
+      <div style="animation-delay: 0.3s;" class="hvx1pbodyitems left" >
+        <div class="hvx1pbodyitem lefts">
+          <a href="/tr/teleradyolojik-raporlama-hizmeti" class="hvx1pbodyitemlink">
+            <div class="hvx1pbodyitemimg">
               <img src="/page/teleradyoloji/gr8cg.jpg" alt="Teleradyolojik Raporlama Hizmeti">
             </div>
-            <div class="mi1k7bodyitemtitle">
+            <div class="hvx1pbodyitemtitle">
               Teleradyolojik Raporlama Hizmeti
             </div>
           </a>
 
           
         </div>
-        <div class="mi1k7bodybg" style="background-image: url('/page/teleradyoloji/bg/undefined'); background-size: cover;
+        <div class="hvx1pbodybg" style="background-image: url('/page/teleradyoloji/bg/undefined'); background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;"></div>
       </div>
-      <div style="animation-delay: 0.6s;" class="mi1k7bodyitems right" >
-        <div class="mi1k7bodyitem rights">
-          <a href="/tr/radyoloji-bolumu-isletme-hizmeti" class="mi1k7bodyitemlink">
-            <div class="mi1k7bodyitemimg">
+      <div style="animation-delay: 0.6s;" class="hvx1pbodyitems right" >
+        <div class="hvx1pbodyitem rights">
+          <a href="/tr/radyoloji-bolumu-isletme-hizmeti" class="hvx1pbodyitemlink">
+            <div class="hvx1pbodyitemimg">
               <img src="/page/radyoloji_isletme/hr4ej.jpg" alt="Radyoloji Bölümü İşletme Hizmeti">
             </div>
-            <div class="mi1k7bodyitemtitle">
+            <div class="hvx1pbodyitemtitle">
               Radyoloji Bölümü İşletme Hizmeti
             </div>
           </a>
 
           
         </div>
-        <div class="mi1k7bodybg" style="background-image: url('/page/radyoloji_isletme/bg/undefined'); background-size: cover;
+        <div class="hvx1pbodybg" style="background-image: url('/page/radyoloji_isletme/bg/undefined'); background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;"></div>
       </div>
-      <div style="animation-delay: 0.8999999999999999s;" class="mi1k7bodyitems left" >
-        <div class="mi1k7bodyitem lefts">
-          <a href="/tr/btodasi" class="mi1k7bodyitemlink">
-            <div class="mi1k7bodyitemimg">
+      <div style="animation-delay: 0.8999999999999999s;" class="hvx1pbodyitems left" >
+        <div class="hvx1pbodyitem lefts">
+          <a href="/tr/btodasi" class="hvx1pbodyitemlink">
+            <div class="hvx1pbodyitemimg">
               <img src="/page/bt_odasi/og9nm.jpg" alt="Bilgisayarlı Tomografi Odalarının Projelendirilmesi ve Yapımı">
             </div>
-            <div class="mi1k7bodyitemtitle">
+            <div class="hvx1pbodyitemtitle">
               Bilgisayarlı Tomografi Odalarının Projelendirilmesi ve Yapımı
             </div>
           </a>
 
           
         </div>
-        <div class="mi1k7bodybg" style="background-image: url('/page/bt_odasi/bg/undefined'); background-size: cover;
+        <div class="hvx1pbodybg" style="background-image: url('/page/bt_odasi/bg/undefined'); background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;"></div>
       </div>
-      <div style="animation-delay: 1.2s;" class="mi1k7bodyitems right" >
-        <div class="mi1k7bodyitem rights">
-          <a href="/tr/manyetik-rezonans-goruntuleme-cihaz-odalarinin-projelendirilmesi-ve-yapimi" class="mi1k7bodyitemlink">
-            <div class="mi1k7bodyitemimg">
+      <div style="animation-delay: 1.2s;" class="hvx1pbodyitems right" >
+        <div class="hvx1pbodyitem rights">
+          <a href="/tr/manyetik-rezonans-goruntuleme-cihaz-odalarinin-projelendirilmesi-ve-yapimi" class="hvx1pbodyitemlink">
+            <div class="hvx1pbodyitemimg">
               <img src="/page/mr_odasi/ucpi4.jpg" alt="Manyetik Rezonans Görüntüleme Cihaz Odalarının Projelendirilmesi ve Yapımı">
             </div>
-            <div class="mi1k7bodyitemtitle">
+            <div class="hvx1pbodyitemtitle">
               Manyetik Rezonans Görüntüleme Cihaz Odalarının Projelendirilmesi ve Yapımı
             </div>
           </a>
 
           
         </div>
-        <div class="mi1k7bodybg" style="background-image: url('/page/mr_odasi/bg/undefined'); background-size: cover;
+        <div class="hvx1pbodybg" style="background-image: url('/page/mr_odasi/bg/undefined'); background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;"></div>
       </div>
-      <div style="animation-delay: 1.5s;" class="mi1k7bodyitems left" >
-        <div class="mi1k7bodyitem lefts">
-          <a href="/tr/dopplerultrason" class="mi1k7bodyitemlink">
-            <div class="mi1k7bodyitemimg">
+      <div style="animation-delay: 1.5s;" class="hvx1pbodyitems left" >
+        <div class="hvx1pbodyitem lefts">
+          <a href="/tr/dopplerultrason" class="hvx1pbodyitemlink">
+            <div class="hvx1pbodyitemimg">
               <img src="/page/doppler_ultrason/fmqbz.jpg" alt="Doppler ve Ultrasonografi Hizmeti">
             </div>
-            <div class="mi1k7bodyitemtitle">
+            <div class="hvx1pbodyitemtitle">
               Doppler ve Ultrasonografi Hizmeti
             </div>
           </a>
 
           
         </div>
-        <div class="mi1k7bodybg" style="background-image: url('/page/doppler_ultrason/bg/undefined'); background-size: cover;
+        <div class="hvx1pbodybg" style="background-image: url('/page/doppler_ultrason/bg/undefined'); background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;"></div>
       </div>
-      <div style="animation-delay: 1.8s;" class="mi1k7bodyitems right" >
-        <div class="mi1k7bodyitem rights">
-          <a href="/tr/rontgen-ve-mamografi-odalarinin-projelendirilmesi-ve-yapimi" class="mi1k7bodyitemlink">
-            <div class="mi1k7bodyitemimg">
+      <div style="animation-delay: 1.8s;" class="hvx1pbodyitems right" >
+        <div class="hvx1pbodyitem rights">
+          <a href="/tr/rontgen-ve-mamografi-odalarinin-projelendirilmesi-ve-yapimi" class="hvx1pbodyitemlink">
+            <div class="hvx1pbodyitemimg">
               <img src="/page/rontgen_mamografi/ssc4q.jpg" alt="Röntgen ve Mamografi Odalarının Projelendirilmesi ve Yapımı">
             </div>
-            <div class="mi1k7bodyitemtitle">
+            <div class="hvx1pbodyitemtitle">
               Röntgen ve Mamografi Odalarının Projelendirilmesi ve Yapımı
             </div>
           </a>
 
           
         </div>
-        <div class="mi1k7bodybg" style="background-image: url('/page/rontgen_mamografi/bg/undefined'); background-size: cover;
+        <div class="hvx1pbodybg" style="background-image: url('/page/rontgen_mamografi/bg/undefined'); background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;"></div>
       </div>
-      <div style="animation-delay: 2.1s;" class="mi1k7bodyitems left" >
-        <div class="mi1k7bodyitem lefts">
-          <a href="/tr/radyoloji-cihaz-satisi-sifir-ve-ikinci-el" class="mi1k7bodyitemlink">
-            <div class="mi1k7bodyitemimg">
+      <div style="animation-delay: 2.1s;" class="hvx1pbodyitems left" >
+        <div class="hvx1pbodyitem lefts">
+          <a href="/tr/radyoloji-cihaz-satisi-sifir-ve-ikinci-el" class="hvx1pbodyitemlink">
+            <div class="hvx1pbodyitemimg">
               <img src="/page/cihaz_satis/og9nm.jpg" alt="Radyoloji Cihaz Satışı (Sıfır ve İkinci El)">
             </div>
-            <div class="mi1k7bodyitemtitle">
+            <div class="hvx1pbodyitemtitle">
               Radyoloji Cihaz Satışı (Sıfır ve İkinci El)
             </div>
           </a>
 
           
         </div>
-        <div class="mi1k7bodybg" style="background-image: url('/page/cihaz_satis/bg/undefined'); background-size: cover;
+        <div class="hvx1pbodybg" style="background-image: url('/page/cihaz_satis/bg/undefined'); background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;"></div>
       </div>
-      <div style="animation-delay: 2.4s;" class="mi1k7bodyitems right" >
-        <div class="mi1k7bodyitem rights">
-          <a href="/tr/hastanelerde-pacs-ve-arsivleme-hizmeti" class="mi1k7bodyitemlink">
-            <div class="mi1k7bodyitemimg">
+      <div style="animation-delay: 2.4s;" class="hvx1pbodyitems right" >
+        <div class="hvx1pbodyitem rights">
+          <a href="/tr/hastanelerde-pacs-ve-arsivleme-hizmeti" class="hvx1pbodyitemlink">
+            <div class="hvx1pbodyitemimg">
               <img src="/page/pacs_arsiv/vtxn2.jpg" alt="Hastanelerde PACS ve Arşivleme Hizmeti">
             </div>
-            <div class="mi1k7bodyitemtitle">
+            <div class="hvx1pbodyitemtitle">
               Hastanelerde PACS ve Arşivleme Hizmeti
             </div>
           </a>
 
           
         </div>
-        <div class="mi1k7bodybg" style="background-image: url('/page/pacs_arsiv/bg/undefined'); background-size: cover;
+        <div class="hvx1pbodybg" style="background-image: url('/page/pacs_arsiv/bg/undefined'); background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;"></div>
       </div>
-      <div style="animation-delay: 2.6999999999999997s;" class="mi1k7bodyitems left" >
-        <div class="mi1k7bodyitem lefts">
-          <a href="/tr/radyolojik-cihazlarin-bakim-onarim-ve-yedek-parca-temini" class="mi1k7bodyitemlink">
-            <div class="mi1k7bodyitemimg">
+      <div style="animation-delay: 2.6999999999999997s;" class="hvx1pbodyitems left" >
+        <div class="hvx1pbodyitem lefts">
+          <a href="/tr/radyolojik-cihazlarin-bakim-onarim-ve-yedek-parca-temini" class="hvx1pbodyitemlink">
+            <div class="hvx1pbodyitemimg">
               <img src="/page/bakim_onarim/gwame.jpg" alt="Radyolojik Cihazların Bakım, Onarım ve Yedek Parça Temini">
             </div>
-            <div class="mi1k7bodyitemtitle">
+            <div class="hvx1pbodyitemtitle">
               Radyolojik Cihazların Bakım, Onarım ve Yedek Parça Temini
             </div>
           </a>
 
           
         </div>
-        <div class="mi1k7bodybg" style="background-image: url('/page/bakim_onarim/bg/undefined'); background-size: cover;
+        <div class="hvx1pbodybg" style="background-image: url('/page/bakim_onarim/bg/undefined'); background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;"></div>
       </div>
-      <div style="animation-delay: 2.9999999999999996s;" class="mi1k7bodyitems right" >
-        <div class="mi1k7bodyitem rights">
-          <a href="/tr/danismanlik-hizmetleri" class="mi1k7bodyitemlink">
-            <div class="mi1k7bodyitemimg">
+      <div style="animation-delay: 2.9999999999999996s;" class="hvx1pbodyitems right" >
+        <div class="hvx1pbodyitem rights">
+          <a href="/tr/danismanlik-hizmetleri" class="hvx1pbodyitemlink">
+            <div class="hvx1pbodyitemimg">
               <img src="/page/danismanlik/vnj1n.jpg" alt="Danışmanlık Hizmetleri">
             </div>
-            <div class="mi1k7bodyitemtitle">
+            <div class="hvx1pbodyitemtitle">
               Danışmanlık Hizmetleri
             </div>
           </a>
 
           
         </div>
-        <div class="mi1k7bodybg" style="background-image: url('/page/danismanlik/bg/undefined'); background-size: cover;
+        <div class="hvx1pbodybg" style="background-image: url('/page/danismanlik/bg/undefined'); background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;"></div>
       </div></div>
@@ -348,7 +394,7 @@ setTimeout(() => {
 
 
 <script defer src="/src/swiper-bundle.min.js"></script>
-<script defer type="text/javascript" src="/src/js.js?v=j3i6n"></script>
-<script defer src="/src/cookie.js?v=j3i6n"></script>
+<script defer type="text/javascript" src="/src/js.js?v=wjchv"></script>
+<script defer src="/src/cookie.js?v=wjchv"></script>
 
 </html>
