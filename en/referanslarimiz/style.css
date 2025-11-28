@@ -1,7 +1,7 @@
 
  
 
-  .prwrn {
+  .l6org {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
     justify-content: center;
   }
 
-  .prwrntitle {
+  .l6orgtitle {
     width: 100%;
     display: flex;
     align-items: center;
@@ -18,12 +18,12 @@
     z-index: 1;
   }
 
-  .prwrntitle:has(.prwrntitlebodylang:empty),
-  .prwrntitle:has(.prwrntitlebodylang ul:empty) {
+  .l6orgtitle:has(.l6orgtitlebodylang:empty),
+  .l6orgtitle:has(.l6orgtitlebodylang ul:empty) {
     display: none;
   }
 
-  .prwrntitlebody {
+  .l6orgtitlebody {
     color: #ffffff;
     width: var(--max);
     display: flex;
@@ -31,29 +31,29 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .prwrntitlebodytitle {
+  .l6orgtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .prwrntitlebodylang {
+  .l6orgtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .prwrntitlebodylang:empty,
-  .prwrntitlebodylang ul:empty {
+  .l6orgtitlebodylang:empty,
+  .l6orgtitlebodylang ul:empty {
     display: none;
   }
 
-  .prwrntitlebodylang ul {
+  .l6orgtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .prwrnbody {
+  .l6orgbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -62,7 +62,7 @@
     position: relative;
   }
 
-  .prwrn-mobile-toggle {
+  .l6org-mobile-toggle {
     display: none;
     background: #279c90;
     color: #ffffff;
@@ -76,18 +76,18 @@
     right: 0;
   }
 
-  .prwrn-mobile-toggle span {
+  .l6org-mobile-toggle span {
     font-size: 24px;
   }
 
-  .prwrnmenu {
+  .l6orgmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .prwrnmenulist {
+  .l6orgmenulist {
     width: calc(100% - 20px);
     background-color: #279c90;
     padding: 10px;
@@ -96,7 +96,7 @@
     display: flex;
   }
 
-  .prwrnmenubody {
+  .l6orgmenubody {
     width: 100%;
     background-color: #279c90;
     display: flex;
@@ -104,7 +104,7 @@
     justify-content: center;
   }
 
-  .prwrnmenulist ul {
+  .l6orgmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -113,7 +113,7 @@
     padding: 0;
   }
 
-  .prwrnmenulist ul a {
+  .l6orgmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #ffffff !important;
@@ -125,18 +125,18 @@
     white-space: nowrap;
   }
 
-  .prwrnmenulist ul a:hover {
+  .l6orgmenulist ul a:hover {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
     cursor: pointer;
   }
 
-  .prwrnmenulist ul a.prwrn-menu-list-active {
+  .l6orgmenulist ul a.l6org-menu-list-active {
     color: #000000 !important;
   }
 
-  .prwrn-menu-list-active {
+  .l6org-menu-list-active {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
@@ -144,22 +144,22 @@
     cursor: pointer;
   }
 
-  .prwrnmenulistbody {
+  .l6orgmenulistbody {
     width: 100%;
   }
 
-  .prwrnlanguages-mobile {
+  .l6orglanguages-mobile {
     display: none;
     padding-top: 15px;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
 
-  .prwrnlanguages-mobile:empty,
-  .prwrnlanguages-mobile ul:empty {
+  .l6orglanguages-mobile:empty,
+  .l6orglanguages-mobile ul:empty {
     display: none !important;
   }
 
-  .prwrnlanguages-mobile ul {
+  .l6orglanguages-mobile ul {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -172,7 +172,7 @@
     width: 100%;
   }
 
-  .prwrnlanguages-mobile li {
+  .l6orglanguages-mobile li {
     list-style: none;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 8px;
@@ -189,25 +189,25 @@
     flex-grow: 0;
   }
 
-  .prwrnlanguages-mobile li a {
+  .l6orglanguages-mobile li a {
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .prwrnlanguages-mobile li:hover {
+  .l6orglanguages-mobile li:hover {
     background-color: #ffffff;
     border-color: #000000;
   }
 
   @media screen and (min-width: 1024px) {
-    .prwrnbodylogo {
+    .l6orgbodylogo {
       height: 80px;
       max-width: 90vw;
       max-height: 100px;
     }
 
-    .prwrntitle {
+    .l6orgtitle {
     margin-bottom: -30px;
   }
 
@@ -215,72 +215,72 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .prwrnbody {
+    .l6orgbody {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: flex-start;
     }
 
-    .prwrnmenulist ul {
+    .l6orgmenulist ul {
       flex-direction: row;
     }
 
-    .prwrnbodylogo {
+    .l6orgbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
 
-    .prwrntitlebody {
+    .l6orgtitlebody {
       flex-direction: column;
       gap: 10px;
       align-items: center;
       display: none;
     }
 
-    .prwrntitlebodytitle {
+    .l6orgtitlebodytitle {
       text-align: center;
       font-size: 14px;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .prwrntitlebodylang {
+    .l6orgtitlebodylang {
       display: none;
     }
 
-    .prwrnbody {
+    .l6orgbody {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: space-between;
     }
 
-    .prwrn-mobile-toggle {
+    .l6org-mobile-toggle {
       display: inline-flex;
     }
 
-    .prwrnbodylogo {
+    .l6orgbodylogo {
       width: 25vw;
       max-width: 40vw;
       max-height: 80px;
     }
 
-    .prwrnmenulist {
+    .l6orgmenulist {
       display: none;
       flex-direction: column;
       width: calc(100% - 24px);
       padding: 12px;
     }
 
-    .prwrnmenu.prwrnmenu-open .prwrnmenulist {
+    .l6orgmenu.l6orgmenu-open .l6orgmenulist {
       display: flex;
     }
 
-    .prwrnmenu.prwrnmenu-open .prwrnlanguages-mobile {
+    .l6orgmenu.l6orgmenu-open .l6orglanguages-mobile {
       display: block;
     }
 
-    .prwrnlanguages-mobile ul {
+    .l6orglanguages-mobile ul {
       display: flex !important;
       flex-direction: row !important;
       flex-wrap: nowrap !important;
@@ -288,17 +288,17 @@
       align-items: center;
     }
 
-    .prwrnlanguages-mobile li {
+    .l6orglanguages-mobile li {
       flex-shrink: 0;
       flex-grow: 0;
     }
 
-    .prwrnmenulist ul {
+    .l6orgmenulist ul {
       flex-direction: column;
       gap: 0;
     }
 
-    .prwrnmenulist ul a {
+    .l6orgmenulist ul a {
       font-size: 14px;
       width: 100%;
       padding: 12px;
@@ -307,36 +307,36 @@
       border-radius: 0;
     }
 
-    .prwrnmenulist ul a:last-child {
+    .l6orgmenulist ul a:last-child {
       border-bottom: none;
     }
 
-    .prwrnmenulist ul a:hover {
+    .l6orgmenulist ul a:hover {
       background-color: #ffffff;
       border-radius: 0;
     }
 
-    .prwrntitlebodytitle {
+    .l6orgtitlebodytitle {
       font-size: 12px;
     }
   }
 
 
-  .nuul7 {
+  .sbl3h {
     margin-top: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .nuul7body {
+  .sbl3hbody {
     width: var(--max);
     display: grid;
     gap: 20px;
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .nuul7bodyitem {
+  .sbl3hbodyitem {
     cursor: pointer;
     background-color: #000;
     border-radius: 12px;
@@ -351,23 +351,23 @@
     padding: 10px;
   }
 
-  .nuul7bodyitem:hover {
+  .sbl3hbodyitem:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
   }
 
-  .nuul7bodyitem:hover .nuul7bodyitemimg {
+  .sbl3hbodyitem:hover .sbl3hbodyitemimg {
     transform: scale(1.1);
   }
 
-  .nuul7bodyitemimg {
+  .sbl3hbodyitemimg {
     width: 100%;
     height: 100%;
     object-fit: cover;
     transition: transform 0.5s ease;
   }
 
-  .nuul7bodyitemtitle {
+  .sbl3hbodyitemtitle {
     padding: 10px;
     background-color: #000;
     text-align: left;
@@ -375,14 +375,14 @@
     font-weight: --font-weight--;
     font-size: 16px;
   }
-  .nuul7bodyitemtext {
+  .sbl3hbodyitemtext {
     font-size: 16px;
     color: #fff;
     font-weight: bold;
   }
 
   @media screen and (max-width: 1024px) {
-    .nuul7body {
+    .sbl3hbody {
       width: calc(100% - 30px);
       margin: 0 15px;
       grid-template-columns: repeat(3, 1fr);
@@ -391,7 +391,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .nuul7body {
+    .sbl3hbody {
       width: calc(100% - 20px);
       margin: 0 10px;
       grid-template-columns: repeat(2, 1fr);
