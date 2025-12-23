@@ -1,7 +1,7 @@
 
  
 
-  .d2bbz {
+  .wpgkp {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
     justify-content: center;
   }
 
-  .d2bbztitle {
+  .wpgkptitle {
     width: 100%;
     display: flex;
     align-items: center;
@@ -18,12 +18,12 @@
     z-index: 1;
   }
 
-  .d2bbztitle:has(.d2bbztitlebodylang:empty),
-  .d2bbztitle:has(.d2bbztitlebodylang ul:empty) {
+  .wpgkptitle:has(.wpgkptitlebodylang:empty),
+  .wpgkptitle:has(.wpgkptitlebodylang ul:empty) {
     display: none;
   }
 
-  .d2bbztitlebody {
+  .wpgkptitlebody {
     color: #ffffff;
     width: var(--max);
     display: flex;
@@ -31,29 +31,29 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .d2bbztitlebodytitle {
+  .wpgkptitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .d2bbztitlebodylang {
+  .wpgkptitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .d2bbztitlebodylang:empty,
-  .d2bbztitlebodylang ul:empty {
+  .wpgkptitlebodylang:empty,
+  .wpgkptitlebodylang ul:empty {
     display: none;
   }
 
-  .d2bbztitlebodylang ul {
+  .wpgkptitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .d2bbzbody {
+  .wpgkpbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -62,7 +62,7 @@
     position: relative;
   }
 
-  .d2bbz-mobile-toggle {
+  .wpgkp-mobile-toggle {
     display: none;
     background: #279c90;
     color: #ffffff;
@@ -76,18 +76,18 @@
     right: 0;
   }
 
-  .d2bbz-mobile-toggle span {
+  .wpgkp-mobile-toggle span {
     font-size: 24px;
   }
 
-  .d2bbzmenu {
+  .wpgkpmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .d2bbzmenulist {
+  .wpgkpmenulist {
     width: calc(100% - 20px);
     background-color: #279c90;
     padding: 10px;
@@ -96,7 +96,7 @@
     display: flex;
   }
 
-  .d2bbzmenubody {
+  .wpgkpmenubody {
     width: 100%;
     background-color: #279c90;
     display: flex;
@@ -104,7 +104,7 @@
     justify-content: center;
   }
 
-  .d2bbzmenulist ul {
+  .wpgkpmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -113,7 +113,7 @@
     padding: 0;
   }
 
-  .d2bbzmenulist ul a {
+  .wpgkpmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #ffffff !important;
@@ -125,18 +125,18 @@
     white-space: nowrap;
   }
 
-  .d2bbzmenulist ul a:hover {
+  .wpgkpmenulist ul a:hover {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
     cursor: pointer;
   }
 
-  .d2bbzmenulist ul a.d2bbz-menu-list-active {
+  .wpgkpmenulist ul a.wpgkp-menu-list-active {
     color: #000000 !important;
   }
 
-  .d2bbz-menu-list-active {
+  .wpgkp-menu-list-active {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
@@ -144,22 +144,22 @@
     cursor: pointer;
   }
 
-  .d2bbzmenulistbody {
+  .wpgkpmenulistbody {
     width: 100%;
   }
 
-  .d2bbzlanguages-mobile {
+  .wpgkplanguages-mobile {
     display: none;
     padding-top: 15px;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
 
-  .d2bbzlanguages-mobile:empty,
-  .d2bbzlanguages-mobile ul:empty {
+  .wpgkplanguages-mobile:empty,
+  .wpgkplanguages-mobile ul:empty {
     display: none !important;
   }
 
-  .d2bbzlanguages-mobile ul {
+  .wpgkplanguages-mobile ul {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -172,7 +172,7 @@
     width: 100%;
   }
 
-  .d2bbzlanguages-mobile li {
+  .wpgkplanguages-mobile li {
     list-style: none;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 8px;
@@ -189,25 +189,25 @@
     flex-grow: 0;
   }
 
-  .d2bbzlanguages-mobile li a {
+  .wpgkplanguages-mobile li a {
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .d2bbzlanguages-mobile li:hover {
+  .wpgkplanguages-mobile li:hover {
     background-color: #ffffff;
     border-color: #000000;
   }
 
   @media screen and (min-width: 1024px) {
-    .d2bbzbodylogo {
+    .wpgkpbodylogo {
       height: 80px;
       max-width: 90vw;
       max-height: 100px;
     }
 
-    .d2bbztitle {
+    .wpgkptitle {
     margin-bottom: -30px;
   }
 
@@ -215,72 +215,72 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .d2bbzbody {
+    .wpgkpbody {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: flex-start;
     }
 
-    .d2bbzmenulist ul {
+    .wpgkpmenulist ul {
       flex-direction: row;
     }
 
-    .d2bbzbodylogo {
+    .wpgkpbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
 
-    .d2bbztitlebody {
+    .wpgkptitlebody {
       flex-direction: column;
       gap: 10px;
       align-items: center;
       display: none;
     }
 
-    .d2bbztitlebodytitle {
+    .wpgkptitlebodytitle {
       text-align: center;
       font-size: 14px;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .d2bbztitlebodylang {
+    .wpgkptitlebodylang {
       display: none;
     }
 
-    .d2bbzbody {
+    .wpgkpbody {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: space-between;
     }
 
-    .d2bbz-mobile-toggle {
+    .wpgkp-mobile-toggle {
       display: inline-flex;
     }
 
-    .d2bbzbodylogo {
+    .wpgkpbodylogo {
       width: 25vw;
       max-width: 40vw;
       max-height: 80px;
     }
 
-    .d2bbzmenulist {
+    .wpgkpmenulist {
       display: none;
       flex-direction: column;
       width: calc(100% - 24px);
       padding: 12px;
     }
 
-    .d2bbzmenu.d2bbzmenu-open .d2bbzmenulist {
+    .wpgkpmenu.wpgkpmenu-open .wpgkpmenulist {
       display: flex;
     }
 
-    .d2bbzmenu.d2bbzmenu-open .d2bbzlanguages-mobile {
+    .wpgkpmenu.wpgkpmenu-open .wpgkplanguages-mobile {
       display: block;
     }
 
-    .d2bbzlanguages-mobile ul {
+    .wpgkplanguages-mobile ul {
       display: flex !important;
       flex-direction: row !important;
       flex-wrap: nowrap !important;
@@ -288,17 +288,17 @@
       align-items: center;
     }
 
-    .d2bbzlanguages-mobile li {
+    .wpgkplanguages-mobile li {
       flex-shrink: 0;
       flex-grow: 0;
     }
 
-    .d2bbzmenulist ul {
+    .wpgkpmenulist ul {
       flex-direction: column;
       gap: 0;
     }
 
-    .d2bbzmenulist ul a {
+    .wpgkpmenulist ul a {
       font-size: 14px;
       width: 100%;
       padding: 12px;
@@ -307,16 +307,16 @@
       border-radius: 0;
     }
 
-    .d2bbzmenulist ul a:last-child {
+    .wpgkpmenulist ul a:last-child {
       border-bottom: none;
     }
 
-    .d2bbzmenulist ul a:hover {
+    .wpgkpmenulist ul a:hover {
       background-color: #ffffff;
       border-radius: 0;
     }
 
-    .d2bbztitlebodytitle {
+    .wpgkptitlebodytitle {
       font-size: 12px;
     }
   }

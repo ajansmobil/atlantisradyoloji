@@ -1,7 +1,7 @@
 
  
 
-  .reb7b {
+  .knh38 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
     justify-content: center;
   }
 
-  .reb7btitle {
+  .knh38title {
     width: 100%;
     display: flex;
     align-items: center;
@@ -18,12 +18,12 @@
     z-index: 1;
   }
 
-  .reb7btitle:has(.reb7btitlebodylang:empty),
-  .reb7btitle:has(.reb7btitlebodylang ul:empty) {
+  .knh38title:has(.knh38titlebodylang:empty),
+  .knh38title:has(.knh38titlebodylang ul:empty) {
     display: none;
   }
 
-  .reb7btitlebody {
+  .knh38titlebody {
     color: #ffffff;
     width: var(--max);
     display: flex;
@@ -31,29 +31,29 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .reb7btitlebodytitle {
+  .knh38titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .reb7btitlebodylang {
+  .knh38titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .reb7btitlebodylang:empty,
-  .reb7btitlebodylang ul:empty {
+  .knh38titlebodylang:empty,
+  .knh38titlebodylang ul:empty {
     display: none;
   }
 
-  .reb7btitlebodylang ul {
+  .knh38titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .reb7bbody {
+  .knh38body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -62,7 +62,7 @@
     position: relative;
   }
 
-  .reb7b-mobile-toggle {
+  .knh38-mobile-toggle {
     display: none;
     background: #279c90;
     color: #ffffff;
@@ -76,18 +76,18 @@
     right: 0;
   }
 
-  .reb7b-mobile-toggle span {
+  .knh38-mobile-toggle span {
     font-size: 24px;
   }
 
-  .reb7bmenu {
+  .knh38menu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .reb7bmenulist {
+  .knh38menulist {
     width: calc(100% - 20px);
     background-color: #279c90;
     padding: 10px;
@@ -96,7 +96,7 @@
     display: flex;
   }
 
-  .reb7bmenubody {
+  .knh38menubody {
     width: 100%;
     background-color: #279c90;
     display: flex;
@@ -104,7 +104,7 @@
     justify-content: center;
   }
 
-  .reb7bmenulist ul {
+  .knh38menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -113,7 +113,7 @@
     padding: 0;
   }
 
-  .reb7bmenulist ul a {
+  .knh38menulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #ffffff !important;
@@ -125,18 +125,18 @@
     white-space: nowrap;
   }
 
-  .reb7bmenulist ul a:hover {
+  .knh38menulist ul a:hover {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
     cursor: pointer;
   }
 
-  .reb7bmenulist ul a.reb7b-menu-list-active {
+  .knh38menulist ul a.knh38-menu-list-active {
     color: #000000 !important;
   }
 
-  .reb7b-menu-list-active {
+  .knh38-menu-list-active {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
@@ -144,22 +144,22 @@
     cursor: pointer;
   }
 
-  .reb7bmenulistbody {
+  .knh38menulistbody {
     width: 100%;
   }
 
-  .reb7blanguages-mobile {
+  .knh38languages-mobile {
     display: none;
     padding-top: 15px;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
 
-  .reb7blanguages-mobile:empty,
-  .reb7blanguages-mobile ul:empty {
+  .knh38languages-mobile:empty,
+  .knh38languages-mobile ul:empty {
     display: none !important;
   }
 
-  .reb7blanguages-mobile ul {
+  .knh38languages-mobile ul {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -172,7 +172,7 @@
     width: 100%;
   }
 
-  .reb7blanguages-mobile li {
+  .knh38languages-mobile li {
     list-style: none;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 8px;
@@ -189,25 +189,25 @@
     flex-grow: 0;
   }
 
-  .reb7blanguages-mobile li a {
+  .knh38languages-mobile li a {
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .reb7blanguages-mobile li:hover {
+  .knh38languages-mobile li:hover {
     background-color: #ffffff;
     border-color: #000000;
   }
 
   @media screen and (min-width: 1024px) {
-    .reb7bbodylogo {
+    .knh38bodylogo {
       height: 80px;
       max-width: 90vw;
       max-height: 100px;
     }
 
-    .reb7btitle {
+    .knh38title {
     margin-bottom: -30px;
   }
 
@@ -215,72 +215,72 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .reb7bbody {
+    .knh38body {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: flex-start;
     }
 
-    .reb7bmenulist ul {
+    .knh38menulist ul {
       flex-direction: row;
     }
 
-    .reb7bbodylogo {
+    .knh38bodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
 
-    .reb7btitlebody {
+    .knh38titlebody {
       flex-direction: column;
       gap: 10px;
       align-items: center;
       display: none;
     }
 
-    .reb7btitlebodytitle {
+    .knh38titlebodytitle {
       text-align: center;
       font-size: 14px;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .reb7btitlebodylang {
+    .knh38titlebodylang {
       display: none;
     }
 
-    .reb7bbody {
+    .knh38body {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: space-between;
     }
 
-    .reb7b-mobile-toggle {
+    .knh38-mobile-toggle {
       display: inline-flex;
     }
 
-    .reb7bbodylogo {
+    .knh38bodylogo {
       width: 25vw;
       max-width: 40vw;
       max-height: 80px;
     }
 
-    .reb7bmenulist {
+    .knh38menulist {
       display: none;
       flex-direction: column;
       width: calc(100% - 24px);
       padding: 12px;
     }
 
-    .reb7bmenu.reb7bmenu-open .reb7bmenulist {
+    .knh38menu.knh38menu-open .knh38menulist {
       display: flex;
     }
 
-    .reb7bmenu.reb7bmenu-open .reb7blanguages-mobile {
+    .knh38menu.knh38menu-open .knh38languages-mobile {
       display: block;
     }
 
-    .reb7blanguages-mobile ul {
+    .knh38languages-mobile ul {
       display: flex !important;
       flex-direction: row !important;
       flex-wrap: nowrap !important;
@@ -288,17 +288,17 @@
       align-items: center;
     }
 
-    .reb7blanguages-mobile li {
+    .knh38languages-mobile li {
       flex-shrink: 0;
       flex-grow: 0;
     }
 
-    .reb7bmenulist ul {
+    .knh38menulist ul {
       flex-direction: column;
       gap: 0;
     }
 
-    .reb7bmenulist ul a {
+    .knh38menulist ul a {
       font-size: 14px;
       width: 100%;
       padding: 12px;
@@ -307,16 +307,16 @@
       border-radius: 0;
     }
 
-    .reb7bmenulist ul a:last-child {
+    .knh38menulist ul a:last-child {
       border-bottom: none;
     }
 
-    .reb7bmenulist ul a:hover {
+    .knh38menulist ul a:hover {
       background-color: #ffffff;
       border-radius: 0;
     }
 
-    .reb7btitlebodytitle {
+    .knh38titlebodytitle {
       font-size: 12px;
     }
   }
