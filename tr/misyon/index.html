@@ -6,14 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
   <title>Misyon</title>
-  <meta name="description" content="Sağlık kurumlarının radyolojisi güvenilir raporlama, uzman ekip ve teknolojiyle güçlendirilir; hastaların hızlı ve doğru sonuçlara ulaşması hedeflenir." />
-  <meta name="keywords" content="atlantis radyoloji misyonu, teleradyoloji hizmetleri, hızlı radyoloji raporlama, 7-24 teleradyoloji, güvenilir radyoloji çözümleri" />
+  <meta name="description" content="Atlantis Radyoloji'nin misyonu; sağlık kurumlarına 7/24 erişilebilir, hızlı, güvenilir ve doğru teleradyoloji raporlama hizmetleri sunarak hastaların teşhis süreçlerini hızlandırmak, hekimlerin kararlarını desteklemek ve sağlık hizmetlerinde sürdürülebilir kaliteyi korumaktır." />
+  <meta name="keywords" content="teleradyoloji, pacs sistemi, uzaktan raporlama, radyoloji hizmetleri, mri, bt, mamografi, dijital röntgen, atlantis radyoloji, hastane hizmetleri" />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://atlantisradyoloji.com/tr/misyon/" />
 
   <meta property="og:type" content="article" />
   <meta property="og:title" content="Misyon" />
-  <meta property="og:description" content="Sağlık kurumlarının radyolojisi güvenilir raporlama, uzman ekip ve teknolojiyle güçlendirilir; hastaların hızlı ve doğru sonuçlara ulaşması hedeflenir." />
+  <meta property="og:description" content="Atlantis Radyoloji'nin misyonu; sağlık kurumlarına 7/24 erişilebilir, hızlı, güvenilir ve doğru teleradyoloji raporlama hizmetleri sunarak hastaların teşhis süreçlerini hızlandırmak, hekimlerin kararlarını desteklemek ve sağlık hizmetlerinde sürdürülebilir kaliteyi korumaktır." />
   <meta property="og:image" content="https://atlantisradyoloji.com/img/icon.png" />
   <meta property="og:url" content="https://atlantisradyoloji.com/tr/misyon/" />
   <meta property="og:site_name" content="Atlantis Radyoloji" />
@@ -21,25 +21,22 @@
 
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Misyon" />
-  <meta name="twitter:description" content="Sağlık kurumlarının radyolojisi güvenilir raporlama, uzman ekip ve teknolojiyle güçlendirilir; hastaların hızlı ve doğru sonuçlara ulaşması hedeflenir." />
+  <meta name="twitter:description" content="Atlantis Radyoloji'nin misyonu; sağlık kurumlarına 7/24 erişilebilir, hızlı, güvenilir ve doğru teleradyoloji raporlama hizmetleri sunarak hastaların teşhis süreçlerini hızlandırmak, hekimlerin kararlarını desteklemek ve sağlık hizmetlerinde sürdürülebilir kaliteyi korumaktır." />
   <meta name="twitter:image" content="https://atlantisradyoloji.com/img/icon.png" />
 
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
-  <link rel="stylesheet" href="/src/rubik.css" />
-  <link rel="stylesheet" href="/src/css.css?v=a6k15" />
-  <link rel="stylesheet" href="/src/mx-ui.css?v=a6k15" />
-  <link rel="preload" href="/src/cookie.css?v=a6k15" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/material-symbols-outlined.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <noscript>
-    <link rel="stylesheet" href="/src/cookie.css?v=a6k15" />
-    <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="/src/material-symbols-outlined.css" />
-  </noscript>
-  <link rel="shortcut icon" href="/img/icon.png?v=a6k15" type="image/png" />
+  <link rel="stylesheet" href="/src/rubik.css?v=rt0j4" />
+  <link rel="stylesheet" href="/src/css.css?v=rt0j4" />
+  <link rel="stylesheet" href="/src/mx-ui.css?v=rt0j4" />
+  <link rel="preload" href="/src/material-symbols-outlined.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=rt0j4" />
+  
+  <link rel="stylesheet" href="/src/cookie.css?v=rt0j4" />
+  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=rt0j4" />
+  <link rel="shortcut icon" href="/img/icon.png?v=rt0j4" type="image/png" />
   <link rel="apple-touch-icon" href="/img/icon.png" />
   <script type="application/ld+json">
 {
@@ -64,10 +61,27 @@
   
 <link rel="manifest" href="/manifest.json">
 <meta name="theme-color" content="#2196f3">
-<link rel="stylesheet" href="style.css?v=a6k15">
+<link rel="stylesheet" href="style.css?v=rt0j4">
 </head>
 
 <body>
+  <script>
+    (function () {
+      window.user = window.user || { id: null, email: null, name: null, isLoggedIn: false, loginMethod: null };
+      var emptySnapshot = { empty: true, forEach: function () {} };
+      var emptyDoc = { exists: false, data: function () { return null; } };
+      if (typeof window.dataAddWeb !== "function") window.dataAddWeb = function () { return Promise.resolve(); };
+      if (typeof window.dataDeleteWeb !== "function") window.dataDeleteWeb = function () { return Promise.resolve(); };
+      if (typeof window.dataUpdateWeb !== "function") window.dataUpdateWeb = function () { return Promise.resolve(); };
+      if (typeof window.dataGetWeb !== "function") window.dataGetWeb = function () { return Promise.resolve(emptyDoc); };
+      if (typeof window.dataListWeb !== "function") window.dataListWeb = function () { return Promise.resolve(emptySnapshot); };
+      if (typeof window.authStateListenerWeb !== "function") {
+        window.authStateListenerWeb = function (cb) {
+          if (typeof cb === "function") setTimeout(function () { cb(null); }, 0);
+        };
+      }
+    })();
+  </script>
   <div id="header"><div class="h0000">
   <div class="h0000title">
     <div class="h0000titlebody">
@@ -81,7 +95,7 @@
   <div class="h0000body">
     <a href="/tr/"
       ><img
-        src="/img/logo.svg?v=fbmj6"
+        src="/img/logo.svg?v=ac1nt"
         alt="Atlantis Radyoloji Logo"
         class="h0000bodylogo"
         loading="lazy"
@@ -147,9 +161,7 @@
   <div class="b0000-main">
     
     
-    <div class="b0000-body"><h2 style="font-size: 24px;">ATLANTİS RADYOLOJİ MİSYONUMUZ</h2>
-    <p style="font-size: 16px;">Atlantis Radyoloji'nin misyonu; sağlık kurumlarına 7/24 erişilebilir, hızlı, güvenilir ve doğru teleradyoloji raporlama hizmetleri sunarak hastaların teşhis süreçlerini hızlandırmak, hekimlerin kararlarını desteklemek ve sağlık hizmetlerinde sürdürülebilir kaliteyi korumaktır.</p>
-    <p style="font-size: 16px;">Uzman doktor kadromuz, deneyimli operasyon ekibimiz ve güçlü teknolojik altyapımızla; görüntülerin güvenli şekilde aktarılması, standartlara uygun raporlanması ve sonuçların zamanında teslim edilmesi için çalışıyoruz. Her yeni projede, etik ilkelere ve hasta gizliliğine bağlı kalarak ölçülebilir kalite hedefleri belirliyor, tüm süreçlerimizi sürekli iyileştirme yaklaşımıyla yönetiyoruz.</p></div>
+    <div class="b0000-body"></div>
     
   </div>
 </div>
@@ -322,16 +334,16 @@
     <ul class="menu">
       <li class="menu__item"><a class="menu__link" href="/tr/">Anasayfa</a></li><li class="menu__item"><a class="menu__link" href="/tr/hakkimizda/">Kurumsal</a></li><li class="menu__item"><a class="menu__link" href="/tr/hizmetlerimiz/">Hizmetlerimiz</a></li><li class="menu__item"><a class="menu__link" href="/tr/e-katalog/">E-Katalog</a></li><li class="menu__item"><a class="menu__link" href="/tr/referanslarimiz/">Referanslarımız</a></li><li class="menu__item"><a class="menu__link" href="/tr/iletisim/">İletişim</a></li>
     </ul>
-    <p>Atlantis Radyoloji 2025 cognite. &copy;</p>
+    <p>Atlantis Radyoloji 2026 cognite. &copy;</p>
   </footer>
   </div>
 
   
 
   <script defer src="/src/swiper-bundle.min.js"></script>
-  <script defer src="/src/mx-ui.js?v=a6k15"></script>
-  <script defer type="text/javascript" src="/src/js.js?v=a6k15"></script>
-  <script defer src="/src/cookie.js?v=a6k15"></script>
+  <script defer src="/src/mx-ui.js?v=rt0j4"></script>
+  <script defer type="text/javascript" src="/src/js.js?v=rt0j4"></script>
+  <script defer src="/src/cookie.js?v=rt0j4"></script>
 
   <script>
     setTimeout(function() {

@@ -6,14 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
   <title>Radyoloji Cihaz Satışı (Sıfır ve İkinci El)</title>
-  <meta name="description" content="MRI, BT, röntgen ve mamografi cihazları yeni veya ikinci el seçeneklerle sağlanır; danışmanlık ile kurulum desteği yatırımlarınızı güçlendirir." />
-  <meta name="keywords" content="radyoloji cihaz satışı, mri satış, bt satış, röntgen cihazı, mamografi cihazı, ikinci el radyoloji cihazları" />
+  <meta name="description" content="Sıfır ve ikinci el radyoloji cihaz satışı. MRI, BT, röntgen, mamografi ve diğer görüntüleme cihazları." />
+  <meta name="keywords" content="teleradyoloji, pacs sistemi, uzaktan raporlama, radyoloji hizmetleri, mri, bt, mamografi, dijital röntgen, atlantis radyoloji, hastane hizmetleri" />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://atlantisradyoloji.com/tr/radyoloji-cihaz-satisi-sifir-ve-ikinci-el/" />
 
   <meta property="og:type" content="article" />
   <meta property="og:title" content="Radyoloji Cihaz Satışı (Sıfır ve İkinci El)" />
-  <meta property="og:description" content="MRI, BT, röntgen ve mamografi cihazları yeni veya ikinci el seçeneklerle sağlanır; danışmanlık ile kurulum desteği yatırımlarınızı güçlendirir." />
+  <meta property="og:description" content="Sıfır ve ikinci el radyoloji cihaz satışı. MRI, BT, röntgen, mamografi ve diğer görüntüleme cihazları." />
   <meta property="og:image" content="https://atlantisradyoloji.com/page/cihaz_satis/og9nm.jpg" />
   <meta property="og:url" content="https://atlantisradyoloji.com/tr/radyoloji-cihaz-satisi-sifir-ve-ikinci-el/" />
   <meta property="og:site_name" content="Atlantis Radyoloji" />
@@ -21,25 +21,22 @@
 
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Radyoloji Cihaz Satışı (Sıfır ve İkinci El)" />
-  <meta name="twitter:description" content="MRI, BT, röntgen ve mamografi cihazları yeni veya ikinci el seçeneklerle sağlanır; danışmanlık ile kurulum desteği yatırımlarınızı güçlendirir." />
+  <meta name="twitter:description" content="Sıfır ve ikinci el radyoloji cihaz satışı. MRI, BT, röntgen, mamografi ve diğer görüntüleme cihazları." />
   <meta name="twitter:image" content="https://atlantisradyoloji.com/page/cihaz_satis/og9nm.jpg" />
 
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
-  <link rel="stylesheet" href="/src/rubik.css" />
-  <link rel="stylesheet" href="/src/css.css?v=c0jdr" />
-  <link rel="stylesheet" href="/src/mx-ui.css?v=c0jdr" />
-  <link rel="preload" href="/src/cookie.css?v=c0jdr" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/material-symbols-outlined.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <noscript>
-    <link rel="stylesheet" href="/src/cookie.css?v=c0jdr" />
-    <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="/src/material-symbols-outlined.css" />
-  </noscript>
-  <link rel="shortcut icon" href="/img/icon.png?v=c0jdr" type="image/png" />
+  <link rel="stylesheet" href="/src/rubik.css?v=h82mg" />
+  <link rel="stylesheet" href="/src/css.css?v=h82mg" />
+  <link rel="stylesheet" href="/src/mx-ui.css?v=h82mg" />
+  <link rel="preload" href="/src/material-symbols-outlined.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=h82mg" />
+  
+  <link rel="stylesheet" href="/src/cookie.css?v=h82mg" />
+  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=h82mg" />
+  <link rel="shortcut icon" href="/img/icon.png?v=h82mg" type="image/png" />
   <link rel="apple-touch-icon" href="/img/icon.png" />
   <script type="application/ld+json">
 {
@@ -64,10 +61,27 @@
   
 <link rel="manifest" href="/manifest.json">
 <meta name="theme-color" content="#2196f3">
-<link rel="stylesheet" href="style.css?v=c0jdr">
+<link rel="stylesheet" href="style.css?v=h82mg">
 </head>
 
 <body>
+  <script>
+    (function () {
+      window.user = window.user || { id: null, email: null, name: null, isLoggedIn: false, loginMethod: null };
+      var emptySnapshot = { empty: true, forEach: function () {} };
+      var emptyDoc = { exists: false, data: function () { return null; } };
+      if (typeof window.dataAddWeb !== "function") window.dataAddWeb = function () { return Promise.resolve(); };
+      if (typeof window.dataDeleteWeb !== "function") window.dataDeleteWeb = function () { return Promise.resolve(); };
+      if (typeof window.dataUpdateWeb !== "function") window.dataUpdateWeb = function () { return Promise.resolve(); };
+      if (typeof window.dataGetWeb !== "function") window.dataGetWeb = function () { return Promise.resolve(emptyDoc); };
+      if (typeof window.dataListWeb !== "function") window.dataListWeb = function () { return Promise.resolve(emptySnapshot); };
+      if (typeof window.authStateListenerWeb !== "function") {
+        window.authStateListenerWeb = function (cb) {
+          if (typeof cb === "function") setTimeout(function () { cb(null); }, 0);
+        };
+      }
+    })();
+  </script>
   <div id="header"><div class="h0000">
   <div class="h0000title">
     <div class="h0000titlebody">
@@ -81,7 +95,7 @@
   <div class="h0000body">
     <a href="/tr/"
       ><img
-        src="/img/logo.svg?v=gxdey"
+        src="/img/logo.svg?v=z19ma"
         alt="Atlantis Radyoloji Logo"
         class="h0000bodylogo"
         loading="lazy"
@@ -146,20 +160,8 @@
   </nav>
   <div class="b0000-main">
     <nav class="b0000-pd5-breadcrumb" aria-label="Breadcrumb"><a href="/tr/">Anasayfa</a><span class="b0000-pd5-breadcrumb-sep" aria-hidden="true">/</span><a href="/tr/urunler/">Hizmetlerimiz</a><span class="b0000-pd5-breadcrumb-sep" aria-hidden="true">/</span><span class="b0000-pd5-breadcrumb-current">Radyoloji Cihaz Satışı (Sıfır ve İkinci El)</span></nav>
-    <div class="b0000-pd5-panel"><div class="b0000-pd5-media"><div class="b0000-pd5-img-wrap"><img src="/page/cihaz_satis/og9nm.jpg?v=e0idq" alt="Radyoloji Cihaz Satışı (Sıfır ve İkinci El)" loading="lazy" /></div></div><div class="b0000-pd5-info"><p class="b0000-pd5-lead">MRI, BT, röntgen ve mamografi cihazları yeni veya ikinci el seçeneklerle sağlanır; danışmanlık ile kurulum desteği yatırımlarınızı güçlendirir.</p><div class="b0000-pd5-cta"><a class="b0000-pd5-cta-primary" href="/tr/iletisim/"><span class="material-symbols-outlined" aria-hidden="true">request_quote</span><span class="b0000-pd5-cta-label">Teklif Al</span></a></div></div></div>
-    <div class="b0000-body"><h2 style="font-size: 24px;">RADYOLOJİ CİHAZ SATIŞI (SIFIR VE İKİNCİ EL)</h2>
-    <p style="font-size: 16px;">
-        Sıfır ve ikinci el radyoloji cihaz satışı konusunda uzman ekibimizle hizmet veriyoruz. Firmamız 23 yıllık deneyim ve birikimi ile bu sektörde bilgi ve birikimi en profesyonel şekilde çalışan uzman kadromuzla hizmet vermektedir. MRI, BT, röntgen, mamografi ve diğer görüntüleme cihazlarının satışını gerçekleştiriyoruz. Kaliteli ve güvenilir cihazları uygun fiyatlarla müşterilerimize sunuyoruz.
-    </p>
-    <p style="font-size: 16px;">
-        Radyoloji cihaz satışı hizmetlerimizde, hastanelerin ve görüntüleme merkezlerinin ihtiyaçlarına uygun MRI (Manyetik Rezonans Görüntüleme), BT (Bilgisayarlı Tomografi), röntgen, mamografi, ultrasonografi, sintigrafi gibi radyolojik cihazların sıfır ve ikinci el satışını gerçekleştiriyoruz. Cihaz seçimi konusunda da kapsamlı danışmanlık hizmeti veriyoruz. Müşterilerimizin bütçelerine uygun, kaliteli ve güvenilir cihazları bulmalarına yardımcı oluyoruz.
-    </p>
-    <p style="font-size: 16px;">
-        Sıfır radyoloji cihaz satışında, dünya çapında tanınan markaların en yeni teknoloji ürünlerini müşterilerimize sunuyoruz. İkinci el radyoloji cihaz satışında ise, cihazların teknik durumu, bakım geçmişi, kalibrasyon durumu gibi konularda detaylı analizler yaparak, kaliteli ve güvenilir cihazları müşterilerimize sunuyoruz. Cihaz satışı sonrasında kurulum, kalibrasyon, personel eğitimi gibi hizmetleri de sağlıyoruz.
-    </p>
-    <p style="font-size: 16px;">
-        Radyoloji cihaz satışı hizmetlerimizde, müşterilerimizin ihtiyaçlarına göre özel çözümler üretiyoruz. Finansman seçenekleri, takas işlemleri, eski cihazların değerlendirilmesi gibi konularda da danışmanlık hizmeti veriyoruz. Cihaz satışı sonrasında bakım, onarım, yedek parça temini gibi konularda da uzun dönemli destek sağlıyoruz. 23 yıllık deneyimimizle radyoloji cihaz satışında güvenilir bir partner olarak hizmet veriyoruz.
-    </p></div>
+    <div class="b0000-pd5-panel"><div class="b0000-pd5-media"><div class="b0000-pd5-img-wrap"><img src="/page/cihaz_satis/og9nm.jpg?v=ggn64" alt="Radyoloji Cihaz Satışı (Sıfır ve İkinci El)" loading="lazy" /></div></div><div class="b0000-pd5-info"><p class="b0000-pd5-lead">Sıfır ve ikinci el radyoloji cihaz satışı. MRI, BT, röntgen, mamografi ve diğer görüntüleme cihazları.</p><div class="b0000-pd5-cta"><a class="b0000-pd5-cta-primary" href="/tr/iletisim/"><span class="material-symbols-outlined" aria-hidden="true">request_quote</span><span class="b0000-pd5-cta-label">Teklif Al</span></a></div></div></div>
+    <div class="b0000-body"></div>
     
   </div>
 </div>
@@ -332,16 +334,16 @@
     <ul class="menu">
       <li class="menu__item"><a class="menu__link" href="/tr/">Anasayfa</a></li><li class="menu__item"><a class="menu__link" href="/tr/hakkimizda/">Kurumsal</a></li><li class="menu__item"><a class="menu__link" href="/tr/hizmetlerimiz/">Hizmetlerimiz</a></li><li class="menu__item"><a class="menu__link" href="/tr/e-katalog/">E-Katalog</a></li><li class="menu__item"><a class="menu__link" href="/tr/referanslarimiz/">Referanslarımız</a></li><li class="menu__item"><a class="menu__link" href="/tr/iletisim/">İletişim</a></li>
     </ul>
-    <p>Atlantis Radyoloji 2025 cognite. &copy;</p>
+    <p>Atlantis Radyoloji 2026 cognite. &copy;</p>
   </footer>
   </div>
 
   
 
   <script defer src="/src/swiper-bundle.min.js"></script>
-  <script defer src="/src/mx-ui.js?v=c0jdr"></script>
-  <script defer type="text/javascript" src="/src/js.js?v=c0jdr"></script>
-  <script defer src="/src/cookie.js?v=c0jdr"></script>
+  <script defer src="/src/mx-ui.js?v=h82mg"></script>
+  <script defer type="text/javascript" src="/src/js.js?v=h82mg"></script>
+  <script defer src="/src/cookie.js?v=h82mg"></script>
 
   <script>
     setTimeout(function() {

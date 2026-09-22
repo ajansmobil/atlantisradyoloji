@@ -7,7 +7,7 @@
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
   <title>Hastanelerde PACS ve Arşivleme Hizmeti</title>
   <meta name="description" content="Hastanelerde PACS ve dijital arşivleme sistemi kurulumu. Görüntülerin güvenli saklanması ve kolay erişimi için modern teknoloji." />
-  <meta name="keywords" content="pacs sistemi, dijital arşivleme, görüntü saklama, hastane pacs, radyoloji arşivleme sistemi" />
+  <meta name="keywords" content="teleradyoloji, pacs sistemi, uzaktan raporlama, radyoloji hizmetleri, mri, bt, mamografi, dijital röntgen, atlantis radyoloji, hastane hizmetleri" />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://atlantisradyoloji.com/tr/hastanelerde-pacs-ve-arsivleme-hizmeti/" />
 
@@ -28,18 +28,15 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
-  <link rel="stylesheet" href="/src/rubik.css" />
-  <link rel="stylesheet" href="/src/css.css?v=kvf83" />
-  <link rel="stylesheet" href="/src/mx-ui.css?v=kvf83" />
-  <link rel="preload" href="/src/cookie.css?v=kvf83" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/material-symbols-outlined.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <noscript>
-    <link rel="stylesheet" href="/src/cookie.css?v=kvf83" />
-    <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="/src/material-symbols-outlined.css" />
-  </noscript>
-  <link rel="shortcut icon" href="/img/icon.png?v=kvf83" type="image/png" />
+  <link rel="stylesheet" href="/src/rubik.css?v=dnp90" />
+  <link rel="stylesheet" href="/src/css.css?v=dnp90" />
+  <link rel="stylesheet" href="/src/mx-ui.css?v=dnp90" />
+  <link rel="preload" href="/src/material-symbols-outlined.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=dnp90" />
+  
+  <link rel="stylesheet" href="/src/cookie.css?v=dnp90" />
+  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=dnp90" />
+  <link rel="shortcut icon" href="/img/icon.png?v=dnp90" type="image/png" />
   <link rel="apple-touch-icon" href="/img/icon.png" />
   <script type="application/ld+json">
 {
@@ -64,10 +61,27 @@
   
 <link rel="manifest" href="/manifest.json">
 <meta name="theme-color" content="#2196f3">
-<link rel="stylesheet" href="style.css?v=kvf83">
+<link rel="stylesheet" href="style.css?v=dnp90">
 </head>
 
 <body>
+  <script>
+    (function () {
+      window.user = window.user || { id: null, email: null, name: null, isLoggedIn: false, loginMethod: null };
+      var emptySnapshot = { empty: true, forEach: function () {} };
+      var emptyDoc = { exists: false, data: function () { return null; } };
+      if (typeof window.dataAddWeb !== "function") window.dataAddWeb = function () { return Promise.resolve(); };
+      if (typeof window.dataDeleteWeb !== "function") window.dataDeleteWeb = function () { return Promise.resolve(); };
+      if (typeof window.dataUpdateWeb !== "function") window.dataUpdateWeb = function () { return Promise.resolve(); };
+      if (typeof window.dataGetWeb !== "function") window.dataGetWeb = function () { return Promise.resolve(emptyDoc); };
+      if (typeof window.dataListWeb !== "function") window.dataListWeb = function () { return Promise.resolve(emptySnapshot); };
+      if (typeof window.authStateListenerWeb !== "function") {
+        window.authStateListenerWeb = function (cb) {
+          if (typeof cb === "function") setTimeout(function () { cb(null); }, 0);
+        };
+      }
+    })();
+  </script>
   <div id="header"><div class="h0000">
   <div class="h0000title">
     <div class="h0000titlebody">
@@ -81,7 +95,7 @@
   <div class="h0000body">
     <a href="/tr/"
       ><img
-        src="/img/logo.svg?v=yx9qu"
+        src="/img/logo.svg?v=uvn01"
         alt="Atlantis Radyoloji Logo"
         class="h0000bodylogo"
         loading="lazy"
@@ -146,20 +160,8 @@
   </nav>
   <div class="b0000-main">
     <nav class="b0000-pd5-breadcrumb" aria-label="Breadcrumb"><a href="/tr/">Anasayfa</a><span class="b0000-pd5-breadcrumb-sep" aria-hidden="true">/</span><a href="/tr/urunler/">Hizmetlerimiz</a><span class="b0000-pd5-breadcrumb-sep" aria-hidden="true">/</span><span class="b0000-pd5-breadcrumb-current">Hastanelerde PACS ve Arşivleme Hizmeti</span></nav>
-    <div class="b0000-pd5-panel"><div class="b0000-pd5-media"><div class="b0000-pd5-img-wrap"><img src="/page/pacs_arsiv/vtxn2.jpg?v=zmfiv" alt="Hastanelerde PACS ve Arşivleme Hizmeti" loading="lazy" /></div></div><div class="b0000-pd5-info"><p class="b0000-pd5-lead">Hastanelerde PACS ve dijital arşivleme sistemi kurulumu. Görüntülerin güvenli saklanması ve kolay erişimi için modern teknoloji.</p><div class="b0000-pd5-cta"><a class="b0000-pd5-cta-primary" href="/tr/iletisim/"><span class="material-symbols-outlined" aria-hidden="true">request_quote</span><span class="b0000-pd5-cta-label">Teklif Al</span></a></div></div></div>
-    <div class="b0000-body"><h2 style="font-size: 24px;">HASTANELERDE PACS VE ARŞİVLEME HİZMETİ</h2>
-    <p style="font-size: 16px;">
-        PACS (Picture Archiving and Communication System) görüntü arşivleme ve iletişim sistemi, radyolojik görüntülerin dijital olarak elde edilmesi, arşivlenmesi ve iletilmesi işlemi olarak tanımlanabilir. Son yıllarda medikal teknolojilerin gelişimi, bilgisayar teknolojilerinin gelişimi ile paralellik göstermiştir. Tanıda kullanılan görüntüleme yöntemlerinin değişmesiyle birlikte, elde edilen görüntü ve raporların taşınması ve saklanmasında da bazı kolaylıklar oluşmaya başladı.
-    </p>
-    <p style="font-size: 16px;">
-        Sistem, dijital olarak elde edilen görüntülerin saklanmasını sağladığı gibi, bu görüntülerin bilgisayar ağları aracılığı ile sağlık merkezinin içinde yer alan herhangi bir bilgisayara veya başka merkezlere ulaştırılmasına da imkân tanıyor. Sistemin kuruluşu için görüntülemenin ortak dili olan DICOM formatında görüntü gönderen altyapının olması gereklidir. İstenildiği kadar saklanabilir görüntüler, daha sonra gerektiğinde binlerce hasta arasından aranan eski hastalık bulgularına ulaşılabilir.
-    </p>
-    <p style="font-size: 16px;">
-        Gerek görüntülerin saklanması gerekse daha önce yapılmış çekimlerin tekrar çekilmesi yerine yeniden kullanılabilmesi hastaların tedavi sürecinde büyük kolaylıklar sağlar. Ayrıca raporlar karşılaştırılarak hastalığın seyri takip edilebilir, önceki tetkiklerindeki ilgili imajlarla ve raporlarla karşılaştırılması amaçlı kullanılabilir. Dijital ortamda saklanan görüntüler sararmaz, kararmaz ve ilk günkü kalitesinde gerekirse tekrar basılabilir.
-    </p>
-    <p style="font-size: 16px;">
-        Hastaneler veya görüntüleme merkezleri merkezi PACS hizmeti kullanılarak kendi merkez veya hastanelerinde pahalı yatırımlar yapmadan hastaların görüntüleri istenildiği kadar arşivlenebilir. İnternet altyapısı kullanıldığından dolayı dünyanın her yerinden kesintisiz ve ek bir yatırım yapmadan sisteme ulaşmak mümkündür. Hastanelerimiz bizimle isterse haftalık, aylık ve yıllık anlaşabilirler. Uzaktan raporlama için gönderilen imajlar ve raporlar sistemde saklanır.
-    </p></div>
+    <div class="b0000-pd5-panel"><div class="b0000-pd5-media"><div class="b0000-pd5-img-wrap"><img src="/page/pacs_arsiv/vtxn2.jpg?v=vmpnv" alt="Hastanelerde PACS ve Arşivleme Hizmeti" loading="lazy" /></div></div><div class="b0000-pd5-info"><p class="b0000-pd5-lead">Hastanelerde PACS ve dijital arşivleme sistemi kurulumu. Görüntülerin güvenli saklanması ve kolay erişimi için modern teknoloji.</p><div class="b0000-pd5-cta"><a class="b0000-pd5-cta-primary" href="/tr/iletisim/"><span class="material-symbols-outlined" aria-hidden="true">request_quote</span><span class="b0000-pd5-cta-label">Teklif Al</span></a></div></div></div>
+    <div class="b0000-body"></div>
     
   </div>
 </div>
@@ -332,16 +334,16 @@
     <ul class="menu">
       <li class="menu__item"><a class="menu__link" href="/tr/">Anasayfa</a></li><li class="menu__item"><a class="menu__link" href="/tr/hakkimizda/">Kurumsal</a></li><li class="menu__item"><a class="menu__link" href="/tr/hizmetlerimiz/">Hizmetlerimiz</a></li><li class="menu__item"><a class="menu__link" href="/tr/e-katalog/">E-Katalog</a></li><li class="menu__item"><a class="menu__link" href="/tr/referanslarimiz/">Referanslarımız</a></li><li class="menu__item"><a class="menu__link" href="/tr/iletisim/">İletişim</a></li>
     </ul>
-    <p>Atlantis Radyoloji 2025 cognite. &copy;</p>
+    <p>Atlantis Radyoloji 2026 cognite. &copy;</p>
   </footer>
   </div>
 
   
 
   <script defer src="/src/swiper-bundle.min.js"></script>
-  <script defer src="/src/mx-ui.js?v=kvf83"></script>
-  <script defer type="text/javascript" src="/src/js.js?v=kvf83"></script>
-  <script defer src="/src/cookie.js?v=kvf83"></script>
+  <script defer src="/src/mx-ui.js?v=dnp90"></script>
+  <script defer type="text/javascript" src="/src/js.js?v=dnp90"></script>
+  <script defer src="/src/cookie.js?v=dnp90"></script>
 
   <script>
     setTimeout(function() {

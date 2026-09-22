@@ -7,7 +7,7 @@
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
   <title>Bilgisayarlı Tomografi Odalarının Projelendirilmesi ve Yapımı</title>
   <meta name="description" content="BT odalarının projelendirme, kurşun kaplama ve anahtar teslim yapımı standartlara uygun yönetilir; güvenli tomografi alanları oluşturulur." />
-  <meta name="keywords" content="bt odası tasarımı, tomografi odası kurşun kaplama, ct odası yapımı, radyasyon koruma bt, kurşun eşdeğeri hesaplama, bt cihaz odası projelendirme" />
+  <meta name="keywords" content="bt odası projelendirme, bilgisayarlı tomografi odası, kurşun kaplama, radyoloji odası yapımı" />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://atlantisradyoloji.com/tr/btodasi/" />
 
@@ -28,18 +28,15 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
-  <link rel="stylesheet" href="/src/rubik.css" />
-  <link rel="stylesheet" href="/src/css.css?v=cjdd6" />
-  <link rel="stylesheet" href="/src/mx-ui.css?v=cjdd6" />
-  <link rel="preload" href="/src/cookie.css?v=cjdd6" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/material-symbols-outlined.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <noscript>
-    <link rel="stylesheet" href="/src/cookie.css?v=cjdd6" />
-    <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="/src/material-symbols-outlined.css" />
-  </noscript>
-  <link rel="shortcut icon" href="/img/icon.png?v=cjdd6" type="image/png" />
+  <link rel="stylesheet" href="/src/rubik.css?v=hi5iv" />
+  <link rel="stylesheet" href="/src/css.css?v=hi5iv" />
+  <link rel="stylesheet" href="/src/mx-ui.css?v=hi5iv" />
+  <link rel="preload" href="/src/material-symbols-outlined.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=hi5iv" />
+  
+  <link rel="stylesheet" href="/src/cookie.css?v=hi5iv" />
+  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=hi5iv" />
+  <link rel="shortcut icon" href="/img/icon.png?v=hi5iv" type="image/png" />
   <link rel="apple-touch-icon" href="/img/icon.png" />
   <script type="application/ld+json">
 {
@@ -64,10 +61,27 @@
   
 <link rel="manifest" href="/manifest.json">
 <meta name="theme-color" content="#2196f3">
-<link rel="stylesheet" href="style.css?v=cjdd6">
+<link rel="stylesheet" href="style.css?v=hi5iv">
 </head>
 
 <body>
+  <script>
+    (function () {
+      window.user = window.user || { id: null, email: null, name: null, isLoggedIn: false, loginMethod: null };
+      var emptySnapshot = { empty: true, forEach: function () {} };
+      var emptyDoc = { exists: false, data: function () { return null; } };
+      if (typeof window.dataAddWeb !== "function") window.dataAddWeb = function () { return Promise.resolve(); };
+      if (typeof window.dataDeleteWeb !== "function") window.dataDeleteWeb = function () { return Promise.resolve(); };
+      if (typeof window.dataUpdateWeb !== "function") window.dataUpdateWeb = function () { return Promise.resolve(); };
+      if (typeof window.dataGetWeb !== "function") window.dataGetWeb = function () { return Promise.resolve(emptyDoc); };
+      if (typeof window.dataListWeb !== "function") window.dataListWeb = function () { return Promise.resolve(emptySnapshot); };
+      if (typeof window.authStateListenerWeb !== "function") {
+        window.authStateListenerWeb = function (cb) {
+          if (typeof cb === "function") setTimeout(function () { cb(null); }, 0);
+        };
+      }
+    })();
+  </script>
   <div id="header"><div class="h0000">
   <div class="h0000title">
     <div class="h0000titlebody">
@@ -81,7 +95,7 @@
   <div class="h0000body">
     <a href="/tr/"
       ><img
-        src="/img/logo.svg?v=tt1hz"
+        src="/img/logo.svg?v=ckhe7"
         alt="Atlantis Radyoloji Logo"
         class="h0000bodylogo"
         loading="lazy"
@@ -146,20 +160,8 @@
   </nav>
   <div class="b0000-main">
     <nav class="b0000-pd5-breadcrumb" aria-label="Breadcrumb"><a href="/tr/">Anasayfa</a><span class="b0000-pd5-breadcrumb-sep" aria-hidden="true">/</span><a href="/tr/urunler/">Hizmetlerimiz</a><span class="b0000-pd5-breadcrumb-sep" aria-hidden="true">/</span><span class="b0000-pd5-breadcrumb-current">Bilgisayarlı Tomografi Odalarının Projelendirilmesi ve Yapımı</span></nav>
-    <div class="b0000-pd5-panel"><div class="b0000-pd5-media"><div class="b0000-pd5-img-wrap"><img src="/page/bt_odasi/og9nm.jpg?v=wto90" alt="Bilgisayarlı Tomografi Odalarının Projelendirilmesi ve Yapımı" loading="lazy" /></div></div><div class="b0000-pd5-info"><p class="b0000-pd5-lead">BT odalarının projelendirme, kurşun kaplama ve anahtar teslim yapımı standartlara uygun yönetilir; güvenli tomografi alanları oluşturulur.</p><div class="b0000-pd5-cta"><a class="b0000-pd5-cta-primary" href="/tr/iletisim/"><span class="material-symbols-outlined" aria-hidden="true">request_quote</span><span class="b0000-pd5-cta-label">Teklif Al</span></a></div></div></div>
-    <div class="b0000-body"><h2 style="font-size: 24px;">BİLGİSAYARLI TOMOGRAFİ ODALARININ PROJELENDİRİLMESİ VE YAPIMI</h2>
-    <p style="font-size: 16px;">
-        Bilgisayarlı Tomografi (BT) odaları, X-ışını tabanlı kesitsel görüntüleme teknolojisi kullandığı için özel radyasyon koruma standartları gerektirir. 23 yıllık sektör deneyimimizle, BT odalarının projelendirilmesi, kurşun kaplanması ve anahtar teslim yapımı konusunda uzman hizmet sunuyoruz. BT cihazları yüksek doz X-ışını ürettiğinden, odaların radyasyon izolasyonu hayati önem taşır.
-    </p>
-    <p style="font-size: 16px;">
-        BT odası projelendirmesinde, cihazın kV değeri (80-140 kV arası) ve mAs ayarlarına göre kurşun eşdeğeri (Pb eq) hesaplaması yapılır. Standart BT odaları için genellikle 2-3 mm kurşun eşdeğeri yeterli olurken, yüksek güçlü cihazlarda bu değer 4-5 mm'ye çıkar. Duvar, tavan ve zemin kaplamalarında kurşun levha, kurşunlu beton veya baryum sülfat içerikli özel sıvalar kullanılır. Kontrol konsolu için ayrı bir kontrol odası tasarımı ve kurşunlu cam pencere zorunludur.
-    </p>
-    <p style="font-size: 16px;">
-        BT cihazları yüksek ısı üretir, bu nedenle soğutma sistemi kritiktir. Odanın minimum 25-30 m² olması, yüksekliğin 2.8-3.2 m arasında tutulması gerekir. Elektrik tesisatında 380V/3 faz güç kaynağı, UPS sistemi ve topraklama önemlidir. Havalandırma sistemi saatte en az 6-8 hava değişimi sağlamalıdır. Kontrast madde enjeksiyonu için su soğutma ünitesi ve hasta hazırlık alanı da projeye dahil edilir.
-    </p>
-    <p style="font-size: 16px;">
-        Anahtar teslim BT odası projelerimizde, TAEK (Türkiye Atom Enerjisi Kurumu) lisansı ve radyasyon güvenliği raporu hazırlama süreçlerini de yönetiyoruz. Kurulum sonrası radyasyon ölçüm testleri yapılır ve sertifikasyon sağlanır. Mevcut hastanelerdeki eski BT odalarının modernizasyonu, yeni nesil çok kesitli (multislice) cihazlar için uygun hale getirilmesi konularında da deneyimliyiz. Tüm projelerimizde NCRP (National Council on Radiation Protection) ve ICRP (International Commission on Radiological Protection) standartlarına uyum sağlanır.
-    </p></div>
+    <div class="b0000-pd5-panel"><div class="b0000-pd5-media"><div class="b0000-pd5-img-wrap"><img src="/page/bt_odasi/og9nm.jpg?v=fvdes" alt="Bilgisayarlı Tomografi Odalarının Projelendirilmesi ve Yapımı" loading="lazy" /></div></div><div class="b0000-pd5-info"><p class="b0000-pd5-lead">BT odalarının projelendirme, kurşun kaplama ve anahtar teslim yapımı standartlara uygun yönetilir; güvenli tomografi alanları oluşturulur.</p><div class="b0000-pd5-cta"><a class="b0000-pd5-cta-primary" href="/tr/iletisim/"><span class="material-symbols-outlined" aria-hidden="true">request_quote</span><span class="b0000-pd5-cta-label">Teklif Al</span></a></div></div></div>
+    <div class="b0000-body"></div>
     <nav class="b0000-pd5-nav" aria-label="Ürün navigasyonu"><span class="b0000-pd5-nav-spacer"></span><a class="b0000-pd5-nav-link b0000-pd5-nav-next" href="/tr/manyetik-rezonans-goruntuleme-cihaz-odalarinin-projelendirilmesi-ve-yapimi/"><span class="b0000-pd5-nav-text"><span class="b0000-pd5-nav-dir">Sonraki</span><span class="b0000-pd5-nav-name">Manyetik Rezonans Görüntüleme Cihaz Odalarının Projelendirilmesi ve Yapımı</span></span><span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a></nav>
   </div>
 </div>
@@ -332,16 +334,16 @@
     <ul class="menu">
       <li class="menu__item"><a class="menu__link" href="/tr/">Anasayfa</a></li><li class="menu__item"><a class="menu__link" href="/tr/hakkimizda/">Kurumsal</a></li><li class="menu__item"><a class="menu__link" href="/tr/hizmetlerimiz/">Hizmetlerimiz</a></li><li class="menu__item"><a class="menu__link" href="/tr/e-katalog/">E-Katalog</a></li><li class="menu__item"><a class="menu__link" href="/tr/referanslarimiz/">Referanslarımız</a></li><li class="menu__item"><a class="menu__link" href="/tr/iletisim/">İletişim</a></li>
     </ul>
-    <p>Atlantis Radyoloji 2025 cognite. &copy;</p>
+    <p>Atlantis Radyoloji 2026 cognite. &copy;</p>
   </footer>
   </div>
 
   
 
   <script defer src="/src/swiper-bundle.min.js"></script>
-  <script defer src="/src/mx-ui.js?v=cjdd6"></script>
-  <script defer type="text/javascript" src="/src/js.js?v=cjdd6"></script>
-  <script defer src="/src/cookie.js?v=cjdd6"></script>
+  <script defer src="/src/mx-ui.js?v=hi5iv"></script>
+  <script defer type="text/javascript" src="/src/js.js?v=hi5iv"></script>
+  <script defer src="/src/cookie.js?v=hi5iv"></script>
 
   <script>
     setTimeout(function() {

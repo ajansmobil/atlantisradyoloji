@@ -6,14 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
   <title>Radyoloji Bölümü İşletme Hizmeti</title>
-  <meta name="description" content="Hastane radyoloji bölümleri personel planlaması, cihaz işletimi, raporlama ve kalite kontrolleriyle yönetilir; verimli ve güvenli hizmet sürekliliği sağlanır." />
-  <meta name="keywords" content="radyoloji işletme hizmeti, hastane radyoloji işletmesi, radyoloji personel yönetimi, radyoloji cihaz operasyonu" />
+  <meta name="description" content="Hastanelerde radyoloji bölümü işletme hizmetleri. Personel yönetimi, cihaz operasyonu ve kalite kontrolü." />
+  <meta name="keywords" content="teleradyoloji, pacs sistemi, uzaktan raporlama, radyoloji hizmetleri, mri, bt, mamografi, dijital röntgen, atlantis radyoloji, hastane hizmetleri" />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://atlantisradyoloji.com/tr/radyoloji-bolumu-isletme-hizmeti/" />
 
   <meta property="og:type" content="article" />
   <meta property="og:title" content="Radyoloji Bölümü İşletme Hizmeti" />
-  <meta property="og:description" content="Hastane radyoloji bölümleri personel planlaması, cihaz işletimi, raporlama ve kalite kontrolleriyle yönetilir; verimli ve güvenli hizmet sürekliliği sağlanır." />
+  <meta property="og:description" content="Hastanelerde radyoloji bölümü işletme hizmetleri. Personel yönetimi, cihaz operasyonu ve kalite kontrolü." />
   <meta property="og:image" content="https://atlantisradyoloji.com/page/radyoloji_isletme/hr4ej.jpg" />
   <meta property="og:url" content="https://atlantisradyoloji.com/tr/radyoloji-bolumu-isletme-hizmeti/" />
   <meta property="og:site_name" content="Atlantis Radyoloji" />
@@ -21,25 +21,22 @@
 
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Radyoloji Bölümü İşletme Hizmeti" />
-  <meta name="twitter:description" content="Hastane radyoloji bölümleri personel planlaması, cihaz işletimi, raporlama ve kalite kontrolleriyle yönetilir; verimli ve güvenli hizmet sürekliliği sağlanır." />
+  <meta name="twitter:description" content="Hastanelerde radyoloji bölümü işletme hizmetleri. Personel yönetimi, cihaz operasyonu ve kalite kontrolü." />
   <meta name="twitter:image" content="https://atlantisradyoloji.com/page/radyoloji_isletme/hr4ej.jpg" />
 
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
-  <link rel="stylesheet" href="/src/rubik.css" />
-  <link rel="stylesheet" href="/src/css.css?v=olhs1" />
-  <link rel="stylesheet" href="/src/mx-ui.css?v=olhs1" />
-  <link rel="preload" href="/src/cookie.css?v=olhs1" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/material-symbols-outlined.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <noscript>
-    <link rel="stylesheet" href="/src/cookie.css?v=olhs1" />
-    <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="/src/material-symbols-outlined.css" />
-  </noscript>
-  <link rel="shortcut icon" href="/img/icon.png?v=olhs1" type="image/png" />
+  <link rel="stylesheet" href="/src/rubik.css?v=ml8hs" />
+  <link rel="stylesheet" href="/src/css.css?v=ml8hs" />
+  <link rel="stylesheet" href="/src/mx-ui.css?v=ml8hs" />
+  <link rel="preload" href="/src/material-symbols-outlined.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=ml8hs" />
+  
+  <link rel="stylesheet" href="/src/cookie.css?v=ml8hs" />
+  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=ml8hs" />
+  <link rel="shortcut icon" href="/img/icon.png?v=ml8hs" type="image/png" />
   <link rel="apple-touch-icon" href="/img/icon.png" />
   <script type="application/ld+json">
 {
@@ -64,10 +61,27 @@
   
 <link rel="manifest" href="/manifest.json">
 <meta name="theme-color" content="#2196f3">
-<link rel="stylesheet" href="style.css?v=olhs1">
+<link rel="stylesheet" href="style.css?v=ml8hs">
 </head>
 
 <body>
+  <script>
+    (function () {
+      window.user = window.user || { id: null, email: null, name: null, isLoggedIn: false, loginMethod: null };
+      var emptySnapshot = { empty: true, forEach: function () {} };
+      var emptyDoc = { exists: false, data: function () { return null; } };
+      if (typeof window.dataAddWeb !== "function") window.dataAddWeb = function () { return Promise.resolve(); };
+      if (typeof window.dataDeleteWeb !== "function") window.dataDeleteWeb = function () { return Promise.resolve(); };
+      if (typeof window.dataUpdateWeb !== "function") window.dataUpdateWeb = function () { return Promise.resolve(); };
+      if (typeof window.dataGetWeb !== "function") window.dataGetWeb = function () { return Promise.resolve(emptyDoc); };
+      if (typeof window.dataListWeb !== "function") window.dataListWeb = function () { return Promise.resolve(emptySnapshot); };
+      if (typeof window.authStateListenerWeb !== "function") {
+        window.authStateListenerWeb = function (cb) {
+          if (typeof cb === "function") setTimeout(function () { cb(null); }, 0);
+        };
+      }
+    })();
+  </script>
   <div id="header"><div class="h0000">
   <div class="h0000title">
     <div class="h0000titlebody">
@@ -81,7 +95,7 @@
   <div class="h0000body">
     <a href="/tr/"
       ><img
-        src="/img/logo.svg?v=ickuc"
+        src="/img/logo.svg?v=qjd14"
         alt="Atlantis Radyoloji Logo"
         class="h0000bodylogo"
         loading="lazy"
@@ -146,20 +160,8 @@
   </nav>
   <div class="b0000-main">
     <nav class="b0000-pd5-breadcrumb" aria-label="Breadcrumb"><a href="/tr/">Anasayfa</a><span class="b0000-pd5-breadcrumb-sep" aria-hidden="true">/</span><a href="/tr/urunler/">Hizmetlerimiz</a><span class="b0000-pd5-breadcrumb-sep" aria-hidden="true">/</span><span class="b0000-pd5-breadcrumb-current">Radyoloji Bölümü İşletme Hizmeti</span></nav>
-    <div class="b0000-pd5-panel"><div class="b0000-pd5-media"><div class="b0000-pd5-img-wrap"><img src="/page/radyoloji_isletme/hr4ej.jpg?v=yxrky" alt="Radyoloji Bölümü İşletme Hizmeti" loading="lazy" /></div></div><div class="b0000-pd5-info"><p class="b0000-pd5-lead">Hastane radyoloji bölümleri personel planlaması, cihaz işletimi, raporlama ve kalite kontrolleriyle yönetilir; verimli ve güvenli hizmet sürekliliği sağlanır.</p><div class="b0000-pd5-cta"><a class="b0000-pd5-cta-primary" href="/tr/iletisim/"><span class="material-symbols-outlined" aria-hidden="true">request_quote</span><span class="b0000-pd5-cta-label">Teklif Al</span></a></div></div></div>
-    <div class="b0000-body"><h2 style="font-size: 24px;">RADYOLOJİ BÖLÜMÜ İŞLETME HİZMETİ</h2>
-    <p style="font-size: 16px;">
-        Hastanelerde radyoloji bölümü işletme hizmetleri konusunda uzman ekibimizle hizmet veriyoruz. Firmamız 23 yıllık deneyim ve birikimi ile bu sektörde bilgi ve birikimi en profesyonel şekilde çalışan uzman kadromuzla hizmet vermektedir. Personel yönetimi, cihaz operasyonu ve kalite kontrolü konularında kapsamlı işletme hizmetleri sunuyoruz.
-    </p>
-    <p style="font-size: 16px;">
-        Radyoloji bölümü işletme hizmetlerimizde, hastanelerin radyoloji bölümlerinin günlük işletilmesi, personel yönetimi, cihaz operasyonu, hasta takibi, raporlama süreçleri, kalite kontrolü gibi konularda uzman ekibimizle hizmet veriyoruz. MRI, BT, röntgen, mamografi, ultrasonografi gibi radyolojik cihazların işletilmesi konusunda deneyimli personelimizle destek sağlıyoruz. Hastanelerin radyoloji bölümlerinin verimli ve güvenli şekilde işletilmesini sağlıyoruz.
-    </p>
-    <p style="font-size: 16px;">
-        Personel yönetimi hizmetlerimizde, radyoloji teknisyenlerinin eğitimi, cihaz kullanımı eğitimi, güvenlik eğitimi, hasta iletişimi eğitimi gibi konularda kapsamlı eğitim programları düzenliyoruz. Cihaz operasyonu hizmetlerimizde, radyolojik cihazların günlük kullanımı, bakımı, kalibrasyonu, arıza durumlarında müdahale gibi konularda uzman desteği sağlıyoruz. Kalite kontrolü hizmetlerimizde, radyolojik görüntülerin kalitesi, raporların doğruluğu, hasta güvenliği gibi konularda sürekli denetim yapıyoruz.
-    </p>
-    <p style="font-size: 16px;">
-        Radyoloji bölümü işletme hizmetlerimizde, hastanelerin ihtiyaçlarına göre özel çözümler üretiyoruz. Tam zamanlı işletme hizmeti, yarı zamanlı işletme hizmeti, danışmanlık hizmeti gibi farklı hizmet modelleri sunuyoruz. Hastanelerin radyoloji bölümlerinin modernizasyonu, yeni cihaz alımları, personel eğitimi gibi konularda da destek sağlıyoruz. 23 yıllık deneyimimizle radyoloji bölümü işletme hizmetlerinde başarılı sonuçlar elde etmekteyiz.
-    </p></div>
+    <div class="b0000-pd5-panel"><div class="b0000-pd5-media"><div class="b0000-pd5-img-wrap"><img src="/page/radyoloji_isletme/hr4ej.jpg?v=gkcr4" alt="Radyoloji Bölümü İşletme Hizmeti" loading="lazy" /></div></div><div class="b0000-pd5-info"><p class="b0000-pd5-lead">Hastanelerde radyoloji bölümü işletme hizmetleri. Personel yönetimi, cihaz operasyonu ve kalite kontrolü.</p><div class="b0000-pd5-cta"><a class="b0000-pd5-cta-primary" href="/tr/iletisim/"><span class="material-symbols-outlined" aria-hidden="true">request_quote</span><span class="b0000-pd5-cta-label">Teklif Al</span></a></div></div></div>
+    <div class="b0000-body"></div>
     
   </div>
 </div>
@@ -332,16 +334,16 @@
     <ul class="menu">
       <li class="menu__item"><a class="menu__link" href="/tr/">Anasayfa</a></li><li class="menu__item"><a class="menu__link" href="/tr/hakkimizda/">Kurumsal</a></li><li class="menu__item"><a class="menu__link" href="/tr/hizmetlerimiz/">Hizmetlerimiz</a></li><li class="menu__item"><a class="menu__link" href="/tr/e-katalog/">E-Katalog</a></li><li class="menu__item"><a class="menu__link" href="/tr/referanslarimiz/">Referanslarımız</a></li><li class="menu__item"><a class="menu__link" href="/tr/iletisim/">İletişim</a></li>
     </ul>
-    <p>Atlantis Radyoloji 2025 cognite. &copy;</p>
+    <p>Atlantis Radyoloji 2026 cognite. &copy;</p>
   </footer>
   </div>
 
   
 
   <script defer src="/src/swiper-bundle.min.js"></script>
-  <script defer src="/src/mx-ui.js?v=olhs1"></script>
-  <script defer type="text/javascript" src="/src/js.js?v=olhs1"></script>
-  <script defer src="/src/cookie.js?v=olhs1"></script>
+  <script defer src="/src/mx-ui.js?v=ml8hs"></script>
+  <script defer type="text/javascript" src="/src/js.js?v=ml8hs"></script>
+  <script defer src="/src/cookie.js?v=ml8hs"></script>
 
   <script>
     setTimeout(function() {

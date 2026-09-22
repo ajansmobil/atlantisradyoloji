@@ -7,7 +7,7 @@
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
   <title>Design and Construction of Computed Tomography Rooms</title>
   <meta name="description" content="CT room design, lead shielding and turnkey delivery are managed to required standards, producing safe and efficient tomography suites." />
-  <meta name="keywords" content="ct room design, tomography room lead shielding, ct suite construction, radiation protection ct, lead equivalent calculation, ct equipment room planning" />
+  <meta name="keywords" content="ct room design, computed tomography room, lead shielding, radiology room construction" />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://atlantisradyoloji.com/en/btodasi/" />
 
@@ -28,18 +28,15 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
-  <link rel="stylesheet" href="/src/rubik.css" />
-  <link rel="stylesheet" href="/src/css.css?v=x028t" />
-  <link rel="stylesheet" href="/src/mx-ui.css?v=x028t" />
-  <link rel="preload" href="/src/cookie.css?v=x028t" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/material-symbols-outlined.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <noscript>
-    <link rel="stylesheet" href="/src/cookie.css?v=x028t" />
-    <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="/src/material-symbols-outlined.css" />
-  </noscript>
-  <link rel="shortcut icon" href="/img/icon.png?v=x028t" type="image/png" />
+  <link rel="stylesheet" href="/src/rubik.css?v=cbz00" />
+  <link rel="stylesheet" href="/src/css.css?v=cbz00" />
+  <link rel="stylesheet" href="/src/mx-ui.css?v=cbz00" />
+  <link rel="preload" href="/src/material-symbols-outlined.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=cbz00" />
+  
+  <link rel="stylesheet" href="/src/cookie.css?v=cbz00" />
+  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=cbz00" />
+  <link rel="shortcut icon" href="/img/icon.png?v=cbz00" type="image/png" />
   <link rel="apple-touch-icon" href="/img/icon.png" />
   <script type="application/ld+json">
 {
@@ -64,10 +61,27 @@
   
 <link rel="manifest" href="/manifest.json">
 <meta name="theme-color" content="#2196f3">
-<link rel="stylesheet" href="style.css?v=x028t">
+<link rel="stylesheet" href="style.css?v=cbz00">
 </head>
 
 <body>
+  <script>
+    (function () {
+      window.user = window.user || { id: null, email: null, name: null, isLoggedIn: false, loginMethod: null };
+      var emptySnapshot = { empty: true, forEach: function () {} };
+      var emptyDoc = { exists: false, data: function () { return null; } };
+      if (typeof window.dataAddWeb !== "function") window.dataAddWeb = function () { return Promise.resolve(); };
+      if (typeof window.dataDeleteWeb !== "function") window.dataDeleteWeb = function () { return Promise.resolve(); };
+      if (typeof window.dataUpdateWeb !== "function") window.dataUpdateWeb = function () { return Promise.resolve(); };
+      if (typeof window.dataGetWeb !== "function") window.dataGetWeb = function () { return Promise.resolve(emptyDoc); };
+      if (typeof window.dataListWeb !== "function") window.dataListWeb = function () { return Promise.resolve(emptySnapshot); };
+      if (typeof window.authStateListenerWeb !== "function") {
+        window.authStateListenerWeb = function (cb) {
+          if (typeof cb === "function") setTimeout(function () { cb(null); }, 0);
+        };
+      }
+    })();
+  </script>
   <div id="header"><div class="h0000">
   <div class="h0000title">
     <div class="h0000titlebody">
@@ -81,7 +95,7 @@
   <div class="h0000body">
     <a href="/en/"
       ><img
-        src="/img/logo.svg?v=jtbuf"
+        src="/img/logo.svg?v=qwlzl"
         alt="Atlantis Radyoloji Logo"
         class="h0000bodylogo"
         loading="lazy"
@@ -146,21 +160,9 @@
   </nav>
   <div class="b0000-main">
     <nav class="b0000-pd5-breadcrumb" aria-label="Breadcrumb"><a href="/en/">Home</a><span class="b0000-pd5-breadcrumb-sep" aria-hidden="true">/</span><a href="/en/urunler/">Hizmetlerimiz</a><span class="b0000-pd5-breadcrumb-sep" aria-hidden="true">/</span><span class="b0000-pd5-breadcrumb-current">Design and Construction of Computed Tomography Rooms</span></nav>
-    <div class="b0000-pd5-panel"><div class="b0000-pd5-media"><div class="b0000-pd5-img-wrap"><img src="/page/bt_odasi/og9nm.jpg?v=id842" alt="Design and Construction of Computed Tomography Rooms" loading="lazy" /></div></div><div class="b0000-pd5-info"><p class="b0000-pd5-lead">CT room design, lead shielding and turnkey delivery are managed to required standards, producing safe and efficient tomography suites.</p><div class="b0000-pd5-cta"><a class="b0000-pd5-cta-primary" href="/en/iletisim/"><span class="material-symbols-outlined" aria-hidden="true">request_quote</span><span class="b0000-pd5-cta-label">Get Quote</span></a></div></div></div>
-    <div class="b0000-body"><h2 style="font-size: 24px;">DESIGN AND CONSTRUCTION OF COMPUTED TOMOGRAPHY ROOMS</h2>
-    <p style="font-size: 16px;">
-        Computed Tomography (CT) rooms require specialized radiation protection standards as they utilize X-ray-based cross-sectional imaging technology. With 23 years of industry experience, we provide expert services for CT room design, lead shielding, and turnkey construction. Since CT systems generate high-dose X-rays, radiation isolation of these rooms is of critical importance.
-    </p>
-    <p style="font-size: 16px;">
-        In CT room planning, lead equivalent (Pb eq) calculations are performed based on the device's kV value (typically 80-140 kV) and mAs settings. Standard CT rooms generally require 2-3 mm lead equivalent, while high-power systems may need 4-5 mm. Wall, ceiling, and floor shielding utilize lead sheets, leaded concrete, or special plasters containing barium sulfate. A separate control room design with leaded glass windows is mandatory for the operator console.
-    </p>
-    <p style="font-size: 16px;">
-        CT systems generate significant heat, making cooling systems critical. Rooms must be at least 25-30 m² with ceiling heights of 2.8-3.2 m. Electrical infrastructure requires 380V/3-phase power supply, UPS systems, and proper grounding. Ventilation must provide at least 6-8 air changes per hour. Water cooling units for contrast injection and patient preparation areas are also integrated into the design.
-    </p>
-    <p style="font-size: 16px;">
-        In our turnkey CT room projects, we also manage TAEK (Turkish Atomic Energy Authority) licensing and radiation safety reporting processes. Post-installation radiation measurement tests are conducted and certification is provided. We are experienced in modernizing existing hospital CT rooms and adapting them for new-generation multislice systems. All projects comply with NCRP (National Council on Radiation Protection) and ICRP (International Commission on Radiological Protection) standards.
-    </p></div>
-    <nav class="b0000-pd5-nav" aria-label="Ürün navigasyonu"><span class="b0000-pd5-nav-spacer"></span><a class="b0000-pd5-nav-link b0000-pd5-nav-next" href="/en/manyetik-rezonans-goruntuleme-cihaz-odalarinin-projelendirilmesi-ve-yapimi/"><span class="b0000-pd5-nav-text"><span class="b0000-pd5-nav-dir">Next</span><span class="b0000-pd5-nav-name">Design and Construction of Magnetic Resonance Imaging Suites</span></span><span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a></nav>
+    <div class="b0000-pd5-panel"><div class="b0000-pd5-media"><div class="b0000-pd5-img-wrap"><img src="/page/bt_odasi/og9nm.jpg?v=vtgxd" alt="Design and Construction of Computed Tomography Rooms" loading="lazy" /></div></div><div class="b0000-pd5-info"><p class="b0000-pd5-lead">CT room design, lead shielding and turnkey delivery are managed to required standards, producing safe and efficient tomography suites.</p><div class="b0000-pd5-cta"><a class="b0000-pd5-cta-primary" href="/en/iletisim/"><span class="material-symbols-outlined" aria-hidden="true">request_quote</span><span class="b0000-pd5-cta-label">Get Quote</span></a></div></div></div>
+    <div class="b0000-body"></div>
+    <nav class="b0000-pd5-nav" aria-label="Product navigation"><span class="b0000-pd5-nav-spacer"></span><a class="b0000-pd5-nav-link b0000-pd5-nav-next" href="/en/manyetik-rezonans-goruntuleme-cihaz-odalarinin-projelendirilmesi-ve-yapimi/"><span class="b0000-pd5-nav-text"><span class="b0000-pd5-nav-dir">Next</span><span class="b0000-pd5-nav-name">Design and Construction of Magnetic Resonance Imaging Suites</span></span><span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a></nav>
   </div>
 </div>
 
@@ -332,16 +334,16 @@
     <ul class="menu">
       <li class="menu__item"><a class="menu__link" href="/en/">Home</a></li><li class="menu__item"><a class="menu__link" href="/en/hakkimizda/">Corporate</a></li><li class="menu__item"><a class="menu__link" href="/en/hizmetlerimiz/">Our Services</a></li><li class="menu__item"><a class="menu__link" href="/en/e-katalog/">E-Catalogue</a></li><li class="menu__item"><a class="menu__link" href="/en/referanslarimiz/">Our References</a></li><li class="menu__item"><a class="menu__link" href="/en/iletisim/">Contact</a></li>
     </ul>
-    <p>Atlantis Radyoloji 2025 cognite. &copy;</p>
+    <p>Atlantis Radyoloji 2026 cognite. &copy;</p>
   </footer>
   </div>
 
   
 
   <script defer src="/src/swiper-bundle.min.js"></script>
-  <script defer src="/src/mx-ui.js?v=x028t"></script>
-  <script defer type="text/javascript" src="/src/js.js?v=x028t"></script>
-  <script defer src="/src/cookie.js?v=x028t"></script>
+  <script defer src="/src/mx-ui.js?v=cbz00"></script>
+  <script defer type="text/javascript" src="/src/js.js?v=cbz00"></script>
+  <script defer src="/src/cookie.js?v=cbz00"></script>
 
   <script>
     setTimeout(function() {

@@ -6,14 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
   <title>Contact</title>
-  <meta name="description" content="Atlantis Radiology's contact centre shares 24/7 phone, email and address details for teleradiology support, so you can reach our specialist team whenever needed." />
-  <meta name="keywords" content="atlantis radiology contact, teleradiology contact, radiology services contact, pacs support" />
+  <meta name="description" content="Atlantis Radiology contact information and address for teleradiology services." />
+  <meta name="keywords" content="teleradyoloji, pacs sistemi, uzaktan raporlama, radyoloji hizmetleri, mri, bt, mamografi, dijital röntgen, atlantis radyoloji, hastane hizmetleri" />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://atlantisradyoloji.com/en/iletisim/" />
 
   <meta property="og:type" content="article" />
   <meta property="og:title" content="Contact" />
-  <meta property="og:description" content="Atlantis Radiology's contact centre shares 24/7 phone, email and address details for teleradiology support, so you can reach our specialist team whenever needed." />
+  <meta property="og:description" content="Atlantis Radiology contact information and address for teleradiology services." />
   <meta property="og:image" content="https://atlantisradyoloji.com/img/icon.png" />
   <meta property="og:url" content="https://atlantisradyoloji.com/en/iletisim/" />
   <meta property="og:site_name" content="Atlantis Radyoloji" />
@@ -21,25 +21,22 @@
 
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Contact" />
-  <meta name="twitter:description" content="Atlantis Radiology's contact centre shares 24/7 phone, email and address details for teleradiology support, so you can reach our specialist team whenever needed." />
+  <meta name="twitter:description" content="Atlantis Radiology contact information and address for teleradiology services." />
   <meta name="twitter:image" content="https://atlantisradyoloji.com/img/icon.png" />
 
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
-  <link rel="stylesheet" href="/src/rubik.css" />
-  <link rel="stylesheet" href="/src/css.css?v=d47jg" />
-  <link rel="stylesheet" href="/src/mx-ui.css?v=d47jg" />
-  <link rel="preload" href="/src/cookie.css?v=d47jg" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/material-symbols-outlined.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <noscript>
-    <link rel="stylesheet" href="/src/cookie.css?v=d47jg" />
-    <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="/src/material-symbols-outlined.css" />
-  </noscript>
-  <link rel="shortcut icon" href="/img/icon.png?v=d47jg" type="image/png" />
+  <link rel="stylesheet" href="/src/rubik.css?v=avlgm" />
+  <link rel="stylesheet" href="/src/css.css?v=avlgm" />
+  <link rel="stylesheet" href="/src/mx-ui.css?v=avlgm" />
+  <link rel="preload" href="/src/material-symbols-outlined.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=avlgm" />
+  
+  <link rel="stylesheet" href="/src/cookie.css?v=avlgm" />
+  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=avlgm" />
+  <link rel="shortcut icon" href="/img/icon.png?v=avlgm" type="image/png" />
   <link rel="apple-touch-icon" href="/img/icon.png" />
   <script type="application/ld+json">
 {
@@ -64,10 +61,27 @@
   
 <link rel="manifest" href="/manifest.json">
 <meta name="theme-color" content="#2196f3">
-<link rel="stylesheet" href="style.css?v=d47jg">
+<link rel="stylesheet" href="style.css?v=avlgm">
 </head>
 
 <body>
+  <script>
+    (function () {
+      window.user = window.user || { id: null, email: null, name: null, isLoggedIn: false, loginMethod: null };
+      var emptySnapshot = { empty: true, forEach: function () {} };
+      var emptyDoc = { exists: false, data: function () { return null; } };
+      if (typeof window.dataAddWeb !== "function") window.dataAddWeb = function () { return Promise.resolve(); };
+      if (typeof window.dataDeleteWeb !== "function") window.dataDeleteWeb = function () { return Promise.resolve(); };
+      if (typeof window.dataUpdateWeb !== "function") window.dataUpdateWeb = function () { return Promise.resolve(); };
+      if (typeof window.dataGetWeb !== "function") window.dataGetWeb = function () { return Promise.resolve(emptyDoc); };
+      if (typeof window.dataListWeb !== "function") window.dataListWeb = function () { return Promise.resolve(emptySnapshot); };
+      if (typeof window.authStateListenerWeb !== "function") {
+        window.authStateListenerWeb = function (cb) {
+          if (typeof cb === "function") setTimeout(function () { cb(null); }, 0);
+        };
+      }
+    })();
+  </script>
   <div id="header"><div class="h0000">
   <div class="h0000title">
     <div class="h0000titlebody">
@@ -81,7 +95,7 @@
   <div class="h0000body">
     <a href="/en/"
       ><img
-        src="/img/logo.svg?v=ouhj1"
+        src="/img/logo.svg?v=b5z0c"
         alt="Atlantis Radyoloji Logo"
         class="h0000bodylogo"
         loading="lazy"
@@ -287,16 +301,16 @@
     <ul class="menu">
       <li class="menu__item"><a class="menu__link" href="/en/">Home</a></li><li class="menu__item"><a class="menu__link" href="/en/hakkimizda/">Corporate</a></li><li class="menu__item"><a class="menu__link" href="/en/hizmetlerimiz/">Our Services</a></li><li class="menu__item"><a class="menu__link" href="/en/e-katalog/">E-Catalogue</a></li><li class="menu__item"><a class="menu__link" href="/en/referanslarimiz/">Our References</a></li><li class="menu__item"><a class="menu__link" href="/en/iletisim/">Contact</a></li>
     </ul>
-    <p>Atlantis Radyoloji 2025 cognite. &copy;</p>
+    <p>Atlantis Radyoloji 2026 cognite. &copy;</p>
   </footer>
   </div>
 
   
 
   <script defer src="/src/swiper-bundle.min.js"></script>
-  <script defer src="/src/mx-ui.js?v=d47jg"></script>
-  <script defer type="text/javascript" src="/src/js.js?v=d47jg"></script>
-  <script defer src="/src/cookie.js?v=d47jg"></script>
+  <script defer src="/src/mx-ui.js?v=avlgm"></script>
+  <script defer type="text/javascript" src="/src/js.js?v=avlgm"></script>
+  <script defer src="/src/cookie.js?v=avlgm"></script>
 
   <script>
     setTimeout(function() {

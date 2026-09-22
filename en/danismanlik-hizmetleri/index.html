@@ -7,7 +7,7 @@
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
   <title>Consultancy Services</title>
   <meta name="description" content="Expert consultancy services in radiology. Professional guidance on equipment selection, project planning, licensing, and technical support." />
-  <meta name="keywords" content="radiology consultancy, equipment selection, project planning consultancy, radiology specialist services" />
+  <meta name="keywords" content="teleradyoloji, pacs sistemi, uzaktan raporlama, radyoloji hizmetleri, mri, bt, mamografi, dijital röntgen, atlantis radyoloji, hastane hizmetleri" />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://atlantisradyoloji.com/en/danismanlik-hizmetleri/" />
 
@@ -28,18 +28,15 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
-  <link rel="stylesheet" href="/src/rubik.css" />
-  <link rel="stylesheet" href="/src/css.css?v=iiwh8" />
-  <link rel="stylesheet" href="/src/mx-ui.css?v=iiwh8" />
-  <link rel="preload" href="/src/cookie.css?v=iiwh8" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/material-symbols-outlined.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <noscript>
-    <link rel="stylesheet" href="/src/cookie.css?v=iiwh8" />
-    <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="/src/material-symbols-outlined.css" />
-  </noscript>
-  <link rel="shortcut icon" href="/img/icon.png?v=iiwh8" type="image/png" />
+  <link rel="stylesheet" href="/src/rubik.css?v=nwvdk" />
+  <link rel="stylesheet" href="/src/css.css?v=nwvdk" />
+  <link rel="stylesheet" href="/src/mx-ui.css?v=nwvdk" />
+  <link rel="preload" href="/src/material-symbols-outlined.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=nwvdk" />
+  
+  <link rel="stylesheet" href="/src/cookie.css?v=nwvdk" />
+  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=nwvdk" />
+  <link rel="shortcut icon" href="/img/icon.png?v=nwvdk" type="image/png" />
   <link rel="apple-touch-icon" href="/img/icon.png" />
   <script type="application/ld+json">
 {
@@ -64,10 +61,27 @@
   
 <link rel="manifest" href="/manifest.json">
 <meta name="theme-color" content="#2196f3">
-<link rel="stylesheet" href="style.css?v=iiwh8">
+<link rel="stylesheet" href="style.css?v=nwvdk">
 </head>
 
 <body>
+  <script>
+    (function () {
+      window.user = window.user || { id: null, email: null, name: null, isLoggedIn: false, loginMethod: null };
+      var emptySnapshot = { empty: true, forEach: function () {} };
+      var emptyDoc = { exists: false, data: function () { return null; } };
+      if (typeof window.dataAddWeb !== "function") window.dataAddWeb = function () { return Promise.resolve(); };
+      if (typeof window.dataDeleteWeb !== "function") window.dataDeleteWeb = function () { return Promise.resolve(); };
+      if (typeof window.dataUpdateWeb !== "function") window.dataUpdateWeb = function () { return Promise.resolve(); };
+      if (typeof window.dataGetWeb !== "function") window.dataGetWeb = function () { return Promise.resolve(emptyDoc); };
+      if (typeof window.dataListWeb !== "function") window.dataListWeb = function () { return Promise.resolve(emptySnapshot); };
+      if (typeof window.authStateListenerWeb !== "function") {
+        window.authStateListenerWeb = function (cb) {
+          if (typeof cb === "function") setTimeout(function () { cb(null); }, 0);
+        };
+      }
+    })();
+  </script>
   <div id="header"><div class="h0000">
   <div class="h0000title">
     <div class="h0000titlebody">
@@ -81,7 +95,7 @@
   <div class="h0000body">
     <a href="/en/"
       ><img
-        src="/img/logo.svg?v=zfzyw"
+        src="/img/logo.svg?v=j7wmm"
         alt="Atlantis Radyoloji Logo"
         class="h0000bodylogo"
         loading="lazy"
@@ -146,20 +160,8 @@
   </nav>
   <div class="b0000-main">
     <nav class="b0000-pd5-breadcrumb" aria-label="Breadcrumb"><a href="/en/">Home</a><span class="b0000-pd5-breadcrumb-sep" aria-hidden="true">/</span><a href="/en/urunler/">Hizmetlerimiz</a><span class="b0000-pd5-breadcrumb-sep" aria-hidden="true">/</span><span class="b0000-pd5-breadcrumb-current">Consultancy Services</span></nav>
-    <div class="b0000-pd5-panel"><div class="b0000-pd5-media"><div class="b0000-pd5-img-wrap"><img src="/page/danismanlik/vnj1n.jpg?v=kgith" alt="Consultancy Services" loading="lazy" /></div></div><div class="b0000-pd5-info"><p class="b0000-pd5-lead">Expert consultancy services in radiology. Professional guidance on equipment selection, project planning, licensing, and technical support.</p><div class="b0000-pd5-cta"><a class="b0000-pd5-cta-primary" href="/en/iletisim/"><span class="material-symbols-outlined" aria-hidden="true">request_quote</span><span class="b0000-pd5-cta-label">Get Quote</span></a></div></div></div>
-    <div class="b0000-body"><h2 style="font-size: 24px;">CONSULTANCY SERVICES</h2>
-    <p style="font-size: 16px;">
-        We deliver expert consultancy services in radiology. With 23 years of experience and knowledge, our strong team of experts provides professional guidance on equipment selection, project planning, licensing, and technical support. We create tailored solutions for every need in the radiology sector.
-    </p>
-    <p style="font-size: 16px;">
-        Within our consultancy scope, we offer comprehensive services for establishing radiology departments in hospitals and imaging centers, modernizing existing units, procuring new equipment, selecting technical hardware, and training personnel. Consultancy for obtaining TAEK (Turkish Atomic Energy Authority) licenses for radiology devices is also among our core services.
-    </p>
-    <p style="font-size: 16px;">
-        In our equipment selection consultancy, we perform detailed analyses to choose MRI, CT, X-ray, mammography, and ultrasonography devices that match the specific needs of the healthcare facility. Through our project planning consultancy, we provide expert support on designing radiology rooms, calculating lead shielding, planning magnetic shielding, arranging electrical installations, and configuring ventilation systems. Our licensing consultancy guides clients throughout the TAEK license application process.
-    </p>
-    <p style="font-size: 16px;">
-        Our technical support services cover installation, calibration, maintenance, and repair of radiology devices with the help of our specialist team. We also organize comprehensive training programs for radiology technicians, including device operation and safety courses. Leveraging 23 years of experience, we deliver professional solutions for every requirement in the radiology sector.
-    </p></div>
+    <div class="b0000-pd5-panel"><div class="b0000-pd5-media"><div class="b0000-pd5-img-wrap"><img src="/page/danismanlik/vnj1n.jpg?v=yl4a7" alt="Consultancy Services" loading="lazy" /></div></div><div class="b0000-pd5-info"><p class="b0000-pd5-lead">Expert consultancy services in radiology. Professional guidance on equipment selection, project planning, licensing, and technical support.</p><div class="b0000-pd5-cta"><a class="b0000-pd5-cta-primary" href="/en/iletisim/"><span class="material-symbols-outlined" aria-hidden="true">request_quote</span><span class="b0000-pd5-cta-label">Get Quote</span></a></div></div></div>
+    <div class="b0000-body"></div>
     
   </div>
 </div>
@@ -332,16 +334,16 @@
     <ul class="menu">
       <li class="menu__item"><a class="menu__link" href="/en/">Home</a></li><li class="menu__item"><a class="menu__link" href="/en/hakkimizda/">Corporate</a></li><li class="menu__item"><a class="menu__link" href="/en/hizmetlerimiz/">Our Services</a></li><li class="menu__item"><a class="menu__link" href="/en/e-katalog/">E-Catalogue</a></li><li class="menu__item"><a class="menu__link" href="/en/referanslarimiz/">Our References</a></li><li class="menu__item"><a class="menu__link" href="/en/iletisim/">Contact</a></li>
     </ul>
-    <p>Atlantis Radyoloji 2025 cognite. &copy;</p>
+    <p>Atlantis Radyoloji 2026 cognite. &copy;</p>
   </footer>
   </div>
 
   
 
   <script defer src="/src/swiper-bundle.min.js"></script>
-  <script defer src="/src/mx-ui.js?v=iiwh8"></script>
-  <script defer type="text/javascript" src="/src/js.js?v=iiwh8"></script>
-  <script defer src="/src/cookie.js?v=iiwh8"></script>
+  <script defer src="/src/mx-ui.js?v=nwvdk"></script>
+  <script defer type="text/javascript" src="/src/js.js?v=nwvdk"></script>
+  <script defer src="/src/cookie.js?v=nwvdk"></script>
 
   <script>
     setTimeout(function() {

@@ -6,14 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
   <title>Personal Data</title>
-  <meta name="description" content="Personal data is processed for service delivery, KVKK retention rules are applied, access events are logged, and user requests receive transparent responses." />
-  <meta name="keywords" content="atlantis radiology personal data, kvkk data processing, healthcare data protection, anonymisation procedures, data destruction process" />
+  <meta name="description" content="Your personal data is processed by Atlantis Radiology under Law No. 6698 (KVKK) to carry out diagnostic and reporting services, measure service quality and meet legal obligations. It is shared only with authorised parties and anonymised when required." />
+  <meta name="keywords" content="teleradyoloji, pacs sistemi, uzaktan raporlama, radyoloji hizmetleri, mri, bt, mamografi, dijital röntgen, atlantis radyoloji, hastane hizmetleri" />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://atlantisradyoloji.com/en/kisisel-veriler/" />
 
   <meta property="og:type" content="article" />
   <meta property="og:title" content="Personal Data" />
-  <meta property="og:description" content="Personal data is processed for service delivery, KVKK retention rules are applied, access events are logged, and user requests receive transparent responses." />
+  <meta property="og:description" content="Your personal data is processed by Atlantis Radiology under Law No. 6698 (KVKK) to carry out diagnostic and reporting services, measure service quality and meet legal obligations. It is shared only with authorised parties and anonymised when required." />
   <meta property="og:image" content="https://atlantisradyoloji.com/img/icon.png" />
   <meta property="og:url" content="https://atlantisradyoloji.com/en/kisisel-veriler/" />
   <meta property="og:site_name" content="Atlantis Radyoloji" />
@@ -21,25 +21,22 @@
 
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Personal Data" />
-  <meta name="twitter:description" content="Personal data is processed for service delivery, KVKK retention rules are applied, access events are logged, and user requests receive transparent responses." />
+  <meta name="twitter:description" content="Your personal data is processed by Atlantis Radiology under Law No. 6698 (KVKK) to carry out diagnostic and reporting services, measure service quality and meet legal obligations. It is shared only with authorised parties and anonymised when required." />
   <meta name="twitter:image" content="https://atlantisradyoloji.com/img/icon.png" />
 
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
-  <link rel="stylesheet" href="/src/rubik.css" />
-  <link rel="stylesheet" href="/src/css.css?v=d6zed" />
-  <link rel="stylesheet" href="/src/mx-ui.css?v=d6zed" />
-  <link rel="preload" href="/src/cookie.css?v=d6zed" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/material-symbols-outlined.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <noscript>
-    <link rel="stylesheet" href="/src/cookie.css?v=d6zed" />
-    <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="/src/material-symbols-outlined.css" />
-  </noscript>
-  <link rel="shortcut icon" href="/img/icon.png?v=d6zed" type="image/png" />
+  <link rel="stylesheet" href="/src/rubik.css?v=p74wu" />
+  <link rel="stylesheet" href="/src/css.css?v=p74wu" />
+  <link rel="stylesheet" href="/src/mx-ui.css?v=p74wu" />
+  <link rel="preload" href="/src/material-symbols-outlined.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=p74wu" />
+  
+  <link rel="stylesheet" href="/src/cookie.css?v=p74wu" />
+  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=p74wu" />
+  <link rel="shortcut icon" href="/img/icon.png?v=p74wu" type="image/png" />
   <link rel="apple-touch-icon" href="/img/icon.png" />
   <script type="application/ld+json">
 {
@@ -64,10 +61,27 @@
   
 <link rel="manifest" href="/manifest.json">
 <meta name="theme-color" content="#2196f3">
-<link rel="stylesheet" href="style.css?v=d6zed">
+<link rel="stylesheet" href="style.css?v=p74wu">
 </head>
 
 <body>
+  <script>
+    (function () {
+      window.user = window.user || { id: null, email: null, name: null, isLoggedIn: false, loginMethod: null };
+      var emptySnapshot = { empty: true, forEach: function () {} };
+      var emptyDoc = { exists: false, data: function () { return null; } };
+      if (typeof window.dataAddWeb !== "function") window.dataAddWeb = function () { return Promise.resolve(); };
+      if (typeof window.dataDeleteWeb !== "function") window.dataDeleteWeb = function () { return Promise.resolve(); };
+      if (typeof window.dataUpdateWeb !== "function") window.dataUpdateWeb = function () { return Promise.resolve(); };
+      if (typeof window.dataGetWeb !== "function") window.dataGetWeb = function () { return Promise.resolve(emptyDoc); };
+      if (typeof window.dataListWeb !== "function") window.dataListWeb = function () { return Promise.resolve(emptySnapshot); };
+      if (typeof window.authStateListenerWeb !== "function") {
+        window.authStateListenerWeb = function (cb) {
+          if (typeof cb === "function") setTimeout(function () { cb(null); }, 0);
+        };
+      }
+    })();
+  </script>
   <div id="header"><div class="h0000">
   <div class="h0000title">
     <div class="h0000titlebody">
@@ -81,7 +95,7 @@
   <div class="h0000body">
     <a href="/en/"
       ><img
-        src="/img/logo.svg?v=gkui5"
+        src="/img/logo.svg?v=c7jat"
         alt="Atlantis Radyoloji Logo"
         class="h0000bodylogo"
         loading="lazy"
@@ -147,10 +161,7 @@
   <div class="b0000-main">
     
     
-    <div class="b0000-body"><h2 style="font-size: 24px;">Processing of Personal Data</h2>
-    <p style="font-size: 16px;">Your personal data is processed by Atlantis Radiology under Law No. 6698 (KVKK) to conduct diagnostic and reporting activities, measure service quality and fulfil legal obligations. Data is shared only with relevant parties and legally required authorities, and is anonymised when necessary.</p>
-    <p style="font-size: 16px;">During data retention we record access logs, apply role-based authorisation and encrypted storage methods. When statutory periods expire, your information is securely destroyed, and the same security standards apply to all backup processes.</p>
-    <p style="font-size: 16px;">You may request information about data processing activities at any time, or ask for your data to be corrected, deleted or object to its processing. Application forms and contact details are provided within our KVKK request procedure.</p></div>
+    <div class="b0000-body"></div>
     
   </div>
 </div>
@@ -323,16 +334,16 @@
     <ul class="menu">
       <li class="menu__item"><a class="menu__link" href="/en/">Home</a></li><li class="menu__item"><a class="menu__link" href="/en/hakkimizda/">Corporate</a></li><li class="menu__item"><a class="menu__link" href="/en/hizmetlerimiz/">Our Services</a></li><li class="menu__item"><a class="menu__link" href="/en/e-katalog/">E-Catalogue</a></li><li class="menu__item"><a class="menu__link" href="/en/referanslarimiz/">Our References</a></li><li class="menu__item"><a class="menu__link" href="/en/iletisim/">Contact</a></li>
     </ul>
-    <p>Atlantis Radyoloji 2025 cognite. &copy;</p>
+    <p>Atlantis Radyoloji 2026 cognite. &copy;</p>
   </footer>
   </div>
 
   
 
   <script defer src="/src/swiper-bundle.min.js"></script>
-  <script defer src="/src/mx-ui.js?v=d6zed"></script>
-  <script defer type="text/javascript" src="/src/js.js?v=d6zed"></script>
-  <script defer src="/src/cookie.js?v=d6zed"></script>
+  <script defer src="/src/mx-ui.js?v=p74wu"></script>
+  <script defer type="text/javascript" src="/src/js.js?v=p74wu"></script>
+  <script defer src="/src/cookie.js?v=p74wu"></script>
 
   <script>
     setTimeout(function() {

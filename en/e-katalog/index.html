@@ -6,14 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
   <title>E-Catalogue</title>
-  <meta name="description" content="The e-catalogue gathers teleradiology services and equipment options in one place, helping you compare features and reach the team quickly." />
-  <meta name="keywords" content="atlantis radiology e-catalogue, radiology equipment catalogue, mri catalogue, ct catalogue, x-ray catalogue" />
+  <meta name="description" content="Atlantis Radiology e-catalogue showcasing detailed information on imaging equipment, services, and solutions." />
+  <meta name="keywords" content="teleradyoloji, pacs sistemi, uzaktan raporlama, radyoloji hizmetleri, mri, bt, mamografi, dijital röntgen, atlantis radyoloji, hastane hizmetleri" />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://atlantisradyoloji.com/en/e-katalog/" />
 
   <meta property="og:type" content="article" />
   <meta property="og:title" content="E-Catalogue" />
-  <meta property="og:description" content="The e-catalogue gathers teleradiology services and equipment options in one place, helping you compare features and reach the team quickly." />
+  <meta property="og:description" content="Atlantis Radiology e-catalogue showcasing detailed information on imaging equipment, services, and solutions." />
   <meta property="og:image" content="https://atlantisradyoloji.com/img/icon.png" />
   <meta property="og:url" content="https://atlantisradyoloji.com/en/e-katalog/" />
   <meta property="og:site_name" content="Atlantis Radyoloji" />
@@ -21,25 +21,22 @@
 
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="E-Catalogue" />
-  <meta name="twitter:description" content="The e-catalogue gathers teleradiology services and equipment options in one place, helping you compare features and reach the team quickly." />
+  <meta name="twitter:description" content="Atlantis Radiology e-catalogue showcasing detailed information on imaging equipment, services, and solutions." />
   <meta name="twitter:image" content="https://atlantisradyoloji.com/img/icon.png" />
 
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
-  <link rel="stylesheet" href="/src/rubik.css" />
-  <link rel="stylesheet" href="/src/css.css?v=jao6s" />
-  <link rel="stylesheet" href="/src/mx-ui.css?v=jao6s" />
-  <link rel="preload" href="/src/cookie.css?v=jao6s" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/material-symbols-outlined.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <noscript>
-    <link rel="stylesheet" href="/src/cookie.css?v=jao6s" />
-    <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="/src/material-symbols-outlined.css" />
-  </noscript>
-  <link rel="shortcut icon" href="/img/icon.png?v=jao6s" type="image/png" />
+  <link rel="stylesheet" href="/src/rubik.css?v=wgae8" />
+  <link rel="stylesheet" href="/src/css.css?v=wgae8" />
+  <link rel="stylesheet" href="/src/mx-ui.css?v=wgae8" />
+  <link rel="preload" href="/src/material-symbols-outlined.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=wgae8" />
+  
+  <link rel="stylesheet" href="/src/cookie.css?v=wgae8" />
+  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=wgae8" />
+  <link rel="shortcut icon" href="/img/icon.png?v=wgae8" type="image/png" />
   <link rel="apple-touch-icon" href="/img/icon.png" />
   <script type="application/ld+json">
 {
@@ -64,10 +61,27 @@
   
 <link rel="manifest" href="/manifest.json">
 <meta name="theme-color" content="#2196f3">
-<link rel="stylesheet" href="style.css?v=jao6s">
+<link rel="stylesheet" href="style.css?v=wgae8">
 </head>
 
 <body>
+  <script>
+    (function () {
+      window.user = window.user || { id: null, email: null, name: null, isLoggedIn: false, loginMethod: null };
+      var emptySnapshot = { empty: true, forEach: function () {} };
+      var emptyDoc = { exists: false, data: function () { return null; } };
+      if (typeof window.dataAddWeb !== "function") window.dataAddWeb = function () { return Promise.resolve(); };
+      if (typeof window.dataDeleteWeb !== "function") window.dataDeleteWeb = function () { return Promise.resolve(); };
+      if (typeof window.dataUpdateWeb !== "function") window.dataUpdateWeb = function () { return Promise.resolve(); };
+      if (typeof window.dataGetWeb !== "function") window.dataGetWeb = function () { return Promise.resolve(emptyDoc); };
+      if (typeof window.dataListWeb !== "function") window.dataListWeb = function () { return Promise.resolve(emptySnapshot); };
+      if (typeof window.authStateListenerWeb !== "function") {
+        window.authStateListenerWeb = function (cb) {
+          if (typeof cb === "function") setTimeout(function () { cb(null); }, 0);
+        };
+      }
+    })();
+  </script>
   <div id="header"><div class="h0000">
   <div class="h0000title">
     <div class="h0000titlebody">
@@ -81,7 +95,7 @@
   <div class="h0000body">
     <a href="/en/"
       ><img
-        src="/img/logo.svg?v=rqwvj"
+        src="/img/logo.svg?v=pgt0v"
         alt="Atlantis Radyoloji Logo"
         class="h0000bodylogo"
         loading="lazy"
@@ -124,29 +138,7 @@
   }
 </script>
 </div>
-  <div id="content"><div class="b0000-catalog">
-  <div class="b0000-catalog-header">
-    <div class="b0000-catalog-info">
-      <span class="material-symbols-outlined b0000-catalog-icon">picture_as_pdf</span>
-      <div class="b0000-catalog-texts">
-        <h2 class="b0000-catalog-title">Atlantis Radiology E-Catalogue</h2>
-        <p class="b0000-catalog-subtitle">Browse every teleradiology service and equipment solution inside a single PDF.</p>
-      </div>
-    </div>
-    <a class="b0000-catalog-download" href="/img/cvt1pk/katalogweb.pdf" target="_blank" rel="noopener">
-      <span class="material-symbols-outlined">download</span>
-      katalogweb.pdf
-    </a>
-  </div>
-  <div class="b0000-catalog-viewer">
-    <iframe src="/img/cvt1pk/katalogweb.pdf" loading="lazy" title="Atlantis Radiology E-Catalogue"></iframe>
-  </div>
-  <div class="b0000-catalog-note">If the catalogue does not render, open it in a new tab via the download button.</div>
-</div>
-
-
-
-</div>
+  <div id="content"></div>
   <div id="footer"><footer class="footer">
     <div class="waves">
       <div class="wave" id="wave1"></div>
@@ -188,16 +180,16 @@
     <ul class="menu">
       <li class="menu__item"><a class="menu__link" href="/en/">Home</a></li><li class="menu__item"><a class="menu__link" href="/en/hakkimizda/">Corporate</a></li><li class="menu__item"><a class="menu__link" href="/en/hizmetlerimiz/">Our Services</a></li><li class="menu__item"><a class="menu__link" href="/en/e-katalog/">E-Catalogue</a></li><li class="menu__item"><a class="menu__link" href="/en/referanslarimiz/">Our References</a></li><li class="menu__item"><a class="menu__link" href="/en/iletisim/">Contact</a></li>
     </ul>
-    <p>Atlantis Radyoloji 2025 cognite. &copy;</p>
+    <p>Atlantis Radyoloji 2026 cognite. &copy;</p>
   </footer>
   </div>
 
   
 
   <script defer src="/src/swiper-bundle.min.js"></script>
-  <script defer src="/src/mx-ui.js?v=jao6s"></script>
-  <script defer type="text/javascript" src="/src/js.js?v=jao6s"></script>
-  <script defer src="/src/cookie.js?v=jao6s"></script>
+  <script defer src="/src/mx-ui.js?v=wgae8"></script>
+  <script defer type="text/javascript" src="/src/js.js?v=wgae8"></script>
+  <script defer src="/src/cookie.js?v=wgae8"></script>
 
   <script>
     setTimeout(function() {

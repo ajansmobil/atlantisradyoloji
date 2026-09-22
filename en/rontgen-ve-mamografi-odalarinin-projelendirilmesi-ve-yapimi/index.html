@@ -6,14 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
   <title>Design and Construction of X-ray and Mammography Rooms</title>
-  <meta name="description" content="Design, lead shielding and turnkey installation for X-ray and mammography rooms are delivered, providing spaces that meet radiation safety requirements." />
-  <meta name="keywords" content="x-ray room design, mammography room lead shielding, digital x-ray suite, low dose radiation protection, cr dr system installation, x-ray equipment room" />
+  <meta name="description" content="Turnkey projects covering the design, lead shielding, and installation of X-ray and mammography suites." />
+  <meta name="keywords" content="teleradyoloji, pacs sistemi, uzaktan raporlama, radyoloji hizmetleri, mri, bt, mamografi, dijital röntgen, atlantis radyoloji, hastane hizmetleri" />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://atlantisradyoloji.com/en/rontgen-ve-mamografi-odalarinin-projelendirilmesi-ve-yapimi/" />
 
   <meta property="og:type" content="article" />
   <meta property="og:title" content="Design and Construction of X-ray and Mammography Rooms" />
-  <meta property="og:description" content="Design, lead shielding and turnkey installation for X-ray and mammography rooms are delivered, providing spaces that meet radiation safety requirements." />
+  <meta property="og:description" content="Turnkey projects covering the design, lead shielding, and installation of X-ray and mammography suites." />
   <meta property="og:image" content="https://atlantisradyoloji.com/page/rontgen_mamografi/ssc4q.jpg" />
   <meta property="og:url" content="https://atlantisradyoloji.com/en/rontgen-ve-mamografi-odalarinin-projelendirilmesi-ve-yapimi/" />
   <meta property="og:site_name" content="Atlantis Radyoloji" />
@@ -21,25 +21,22 @@
 
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Design and Construction of X-ray and Mammography Rooms" />
-  <meta name="twitter:description" content="Design, lead shielding and turnkey installation for X-ray and mammography rooms are delivered, providing spaces that meet radiation safety requirements." />
+  <meta name="twitter:description" content="Turnkey projects covering the design, lead shielding, and installation of X-ray and mammography suites." />
   <meta name="twitter:image" content="https://atlantisradyoloji.com/page/rontgen_mamografi/ssc4q.jpg" />
 
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
-  <link rel="stylesheet" href="/src/rubik.css" />
-  <link rel="stylesheet" href="/src/css.css?v=xrl0b" />
-  <link rel="stylesheet" href="/src/mx-ui.css?v=xrl0b" />
-  <link rel="preload" href="/src/cookie.css?v=xrl0b" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/material-symbols-outlined.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <noscript>
-    <link rel="stylesheet" href="/src/cookie.css?v=xrl0b" />
-    <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="/src/material-symbols-outlined.css" />
-  </noscript>
-  <link rel="shortcut icon" href="/img/icon.png?v=xrl0b" type="image/png" />
+  <link rel="stylesheet" href="/src/rubik.css?v=rv3wc" />
+  <link rel="stylesheet" href="/src/css.css?v=rv3wc" />
+  <link rel="stylesheet" href="/src/mx-ui.css?v=rv3wc" />
+  <link rel="preload" href="/src/material-symbols-outlined.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=rv3wc" />
+  
+  <link rel="stylesheet" href="/src/cookie.css?v=rv3wc" />
+  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=rv3wc" />
+  <link rel="shortcut icon" href="/img/icon.png?v=rv3wc" type="image/png" />
   <link rel="apple-touch-icon" href="/img/icon.png" />
   <script type="application/ld+json">
 {
@@ -64,10 +61,27 @@
   
 <link rel="manifest" href="/manifest.json">
 <meta name="theme-color" content="#2196f3">
-<link rel="stylesheet" href="style.css?v=xrl0b">
+<link rel="stylesheet" href="style.css?v=rv3wc">
 </head>
 
 <body>
+  <script>
+    (function () {
+      window.user = window.user || { id: null, email: null, name: null, isLoggedIn: false, loginMethod: null };
+      var emptySnapshot = { empty: true, forEach: function () {} };
+      var emptyDoc = { exists: false, data: function () { return null; } };
+      if (typeof window.dataAddWeb !== "function") window.dataAddWeb = function () { return Promise.resolve(); };
+      if (typeof window.dataDeleteWeb !== "function") window.dataDeleteWeb = function () { return Promise.resolve(); };
+      if (typeof window.dataUpdateWeb !== "function") window.dataUpdateWeb = function () { return Promise.resolve(); };
+      if (typeof window.dataGetWeb !== "function") window.dataGetWeb = function () { return Promise.resolve(emptyDoc); };
+      if (typeof window.dataListWeb !== "function") window.dataListWeb = function () { return Promise.resolve(emptySnapshot); };
+      if (typeof window.authStateListenerWeb !== "function") {
+        window.authStateListenerWeb = function (cb) {
+          if (typeof cb === "function") setTimeout(function () { cb(null); }, 0);
+        };
+      }
+    })();
+  </script>
   <div id="header"><div class="h0000">
   <div class="h0000title">
     <div class="h0000titlebody">
@@ -81,7 +95,7 @@
   <div class="h0000body">
     <a href="/en/"
       ><img
-        src="/img/logo.svg?v=xigwa"
+        src="/img/logo.svg?v=ebxlz"
         alt="Atlantis Radyoloji Logo"
         class="h0000bodylogo"
         loading="lazy"
@@ -146,21 +160,9 @@
   </nav>
   <div class="b0000-main">
     <nav class="b0000-pd5-breadcrumb" aria-label="Breadcrumb"><a href="/en/">Home</a><span class="b0000-pd5-breadcrumb-sep" aria-hidden="true">/</span><a href="/en/urunler/">Hizmetlerimiz</a><span class="b0000-pd5-breadcrumb-sep" aria-hidden="true">/</span><span class="b0000-pd5-breadcrumb-current">Design and Construction of X-ray and Mammography Rooms</span></nav>
-    <div class="b0000-pd5-panel"><div class="b0000-pd5-media"><div class="b0000-pd5-img-wrap"><img src="/page/rontgen_mamografi/ssc4q.jpg?v=oy4kk" alt="Design and Construction of X-ray and Mammography Rooms" loading="lazy" /></div></div><div class="b0000-pd5-info"><p class="b0000-pd5-lead">Design, lead shielding and turnkey installation for X-ray and mammography rooms are delivered, providing spaces that meet radiation safety requirements.</p><div class="b0000-pd5-cta"><a class="b0000-pd5-cta-primary" href="/en/iletisim/"><span class="material-symbols-outlined" aria-hidden="true">request_quote</span><span class="b0000-pd5-cta-label">Get Quote</span></a></div></div></div>
-    <div class="b0000-body"><h2 style="font-size: 24px;">DESIGN AND CONSTRUCTION OF X-RAY AND MAMMOGRAPHY ROOMS</h2>
-    <p style="font-size: 16px;">
-        X-ray and mammography rooms require less lead shielding than CT rooms as they use low-energy X-rays, but radiation safety remains critical. With 23 years of experience, we provide expert services for X-ray and mammography room design, lead shielding, and turnkey construction. X-ray systems typically generate 50-125 kV, while mammography units produce 25-35 kV low-energy X-rays.
-    </p>
-    <p style="font-size: 16px;">
-        In X-ray room planning, lead equivalent is calculated based on the device's kV value. Standard X-ray rooms generally require 1.5-2 mm lead equivalent. Wall and ceiling shielding use lead sheets or leaded plaster. Leaded glass windows (2-3 mm Pb eq) are mandatory for control consoles. Mammography rooms require only 1-1.5 mm lead equivalent due to lower energy, but special waiting areas and changing rooms are important for patient comfort and privacy.
-    </p>
-    <p style="font-size: 16px;">
-        X-ray rooms are typically 15-20 m², while mammography rooms require 12-15 m². Ceiling heights are maintained at 2.5-3 m. Electrical infrastructure requires 220V/1-phase power supply. Ventilation must provide 4-6 air changes per hour. X-ray systems generate low heat, so cooling is generally unnecessary, though mammography units may require compressor cooling. Special patient tables and column mounting are installed for patient positioning.
-    </p>
-    <p style="font-size: 16px;">
-        In our turnkey X-ray and mammography room projects, we manage TAEK licensing and radiation safety reporting processes. Post-installation radiation measurement tests (leakage tests) are conducted. For mammography rooms, we offer special design solutions emphasizing female patient privacy. We are experienced in adapting existing X-ray rooms for digital systems and modernizing for CR (Computed Radiography) and DR (Digital Radiography) systems. All projects comply with ALARA (As Low As Reasonably Achievable) principles and ICRP standards.
-    </p></div>
-    <nav class="b0000-pd5-nav" aria-label="Ürün navigasyonu"><a class="b0000-pd5-nav-link b0000-pd5-nav-prev" href="/en/manyetik-rezonans-goruntuleme-cihaz-odalarinin-projelendirilmesi-ve-yapimi/"><span class="material-symbols-outlined" aria-hidden="true">arrow_back</span><span class="b0000-pd5-nav-text"><span class="b0000-pd5-nav-dir">Previous</span><span class="b0000-pd5-nav-name">Design and Construction of Magnetic Resonance Imaging Suites</span></span></a></nav>
+    <div class="b0000-pd5-panel"><div class="b0000-pd5-media"><div class="b0000-pd5-img-wrap"><img src="/page/rontgen_mamografi/ssc4q.jpg?v=pn4h5" alt="Design and Construction of X-ray and Mammography Rooms" loading="lazy" /></div></div><div class="b0000-pd5-info"><p class="b0000-pd5-lead">Turnkey projects covering the design, lead shielding, and installation of X-ray and mammography suites.</p><div class="b0000-pd5-cta"><a class="b0000-pd5-cta-primary" href="/en/iletisim/"><span class="material-symbols-outlined" aria-hidden="true">request_quote</span><span class="b0000-pd5-cta-label">Get Quote</span></a></div></div></div>
+    <div class="b0000-body"></div>
+    <nav class="b0000-pd5-nav" aria-label="Product navigation"><a class="b0000-pd5-nav-link b0000-pd5-nav-prev" href="/en/manyetik-rezonans-goruntuleme-cihaz-odalarinin-projelendirilmesi-ve-yapimi/"><span class="material-symbols-outlined" aria-hidden="true">arrow_back</span><span class="b0000-pd5-nav-text"><span class="b0000-pd5-nav-dir">Previous</span><span class="b0000-pd5-nav-name">Design and Construction of Magnetic Resonance Imaging Suites</span></span></a></nav>
   </div>
 </div>
 
@@ -332,16 +334,16 @@
     <ul class="menu">
       <li class="menu__item"><a class="menu__link" href="/en/">Home</a></li><li class="menu__item"><a class="menu__link" href="/en/hakkimizda/">Corporate</a></li><li class="menu__item"><a class="menu__link" href="/en/hizmetlerimiz/">Our Services</a></li><li class="menu__item"><a class="menu__link" href="/en/e-katalog/">E-Catalogue</a></li><li class="menu__item"><a class="menu__link" href="/en/referanslarimiz/">Our References</a></li><li class="menu__item"><a class="menu__link" href="/en/iletisim/">Contact</a></li>
     </ul>
-    <p>Atlantis Radyoloji 2025 cognite. &copy;</p>
+    <p>Atlantis Radyoloji 2026 cognite. &copy;</p>
   </footer>
   </div>
 
   
 
   <script defer src="/src/swiper-bundle.min.js"></script>
-  <script defer src="/src/mx-ui.js?v=xrl0b"></script>
-  <script defer type="text/javascript" src="/src/js.js?v=xrl0b"></script>
-  <script defer src="/src/cookie.js?v=xrl0b"></script>
+  <script defer src="/src/mx-ui.js?v=rv3wc"></script>
+  <script defer type="text/javascript" src="/src/js.js?v=rv3wc"></script>
+  <script defer src="/src/cookie.js?v=rv3wc"></script>
 
   <script>
     setTimeout(function() {

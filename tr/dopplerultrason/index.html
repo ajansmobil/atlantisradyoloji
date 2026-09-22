@@ -6,14 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
   <title>Doppler ve Ultrasonografi Hizmeti</title>
-  <meta name="description" content="Uzman radyologlar PACS altyapısıyla Doppler ve ultrasonografi tetkiklerini raporlar, damar ve organ değerlendirmelerinde hızlı, güvenilir sonuçlar sunar." />
-  <meta name="keywords" content="doppler ultrasonografi, ultrasonografi hizmetleri, radyoloji görüntüleme, doppler tetkiki, ultrason raporlama" />
+  <meta name="description" content="Doppler ve Ultrasonografi görüntüleme hizmetleri. Uzman radyolog kadromuzla kaliteli tanısal görüntüleme ve raporlama." />
+  <meta name="keywords" content="teleradyoloji, pacs sistemi, uzaktan raporlama, radyoloji hizmetleri, mri, bt, mamografi, dijital röntgen, atlantis radyoloji, hastane hizmetleri" />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://atlantisradyoloji.com/tr/dopplerultrason/" />
 
   <meta property="og:type" content="article" />
   <meta property="og:title" content="Doppler ve Ultrasonografi Hizmeti" />
-  <meta property="og:description" content="Uzman radyologlar PACS altyapısıyla Doppler ve ultrasonografi tetkiklerini raporlar, damar ve organ değerlendirmelerinde hızlı, güvenilir sonuçlar sunar." />
+  <meta property="og:description" content="Doppler ve Ultrasonografi görüntüleme hizmetleri. Uzman radyolog kadromuzla kaliteli tanısal görüntüleme ve raporlama." />
   <meta property="og:image" content="https://atlantisradyoloji.com/page/doppler_ultrason/fmqbz.jpg" />
   <meta property="og:url" content="https://atlantisradyoloji.com/tr/dopplerultrason/" />
   <meta property="og:site_name" content="Atlantis Radyoloji" />
@@ -21,25 +21,22 @@
 
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Doppler ve Ultrasonografi Hizmeti" />
-  <meta name="twitter:description" content="Uzman radyologlar PACS altyapısıyla Doppler ve ultrasonografi tetkiklerini raporlar, damar ve organ değerlendirmelerinde hızlı, güvenilir sonuçlar sunar." />
+  <meta name="twitter:description" content="Doppler ve Ultrasonografi görüntüleme hizmetleri. Uzman radyolog kadromuzla kaliteli tanısal görüntüleme ve raporlama." />
   <meta name="twitter:image" content="https://atlantisradyoloji.com/page/doppler_ultrason/fmqbz.jpg" />
 
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
-  <link rel="stylesheet" href="/src/rubik.css" />
-  <link rel="stylesheet" href="/src/css.css?v=jpr6j" />
-  <link rel="stylesheet" href="/src/mx-ui.css?v=jpr6j" />
-  <link rel="preload" href="/src/cookie.css?v=jpr6j" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/material-symbols-outlined.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <noscript>
-    <link rel="stylesheet" href="/src/cookie.css?v=jpr6j" />
-    <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="/src/material-symbols-outlined.css" />
-  </noscript>
-  <link rel="shortcut icon" href="/img/icon.png?v=jpr6j" type="image/png" />
+  <link rel="stylesheet" href="/src/rubik.css?v=oogw5" />
+  <link rel="stylesheet" href="/src/css.css?v=oogw5" />
+  <link rel="stylesheet" href="/src/mx-ui.css?v=oogw5" />
+  <link rel="preload" href="/src/material-symbols-outlined.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=oogw5" />
+  
+  <link rel="stylesheet" href="/src/cookie.css?v=oogw5" />
+  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=oogw5" />
+  <link rel="shortcut icon" href="/img/icon.png?v=oogw5" type="image/png" />
   <link rel="apple-touch-icon" href="/img/icon.png" />
   <script type="application/ld+json">
 {
@@ -64,10 +61,27 @@
   
 <link rel="manifest" href="/manifest.json">
 <meta name="theme-color" content="#2196f3">
-<link rel="stylesheet" href="style.css?v=jpr6j">
+<link rel="stylesheet" href="style.css?v=oogw5">
 </head>
 
 <body>
+  <script>
+    (function () {
+      window.user = window.user || { id: null, email: null, name: null, isLoggedIn: false, loginMethod: null };
+      var emptySnapshot = { empty: true, forEach: function () {} };
+      var emptyDoc = { exists: false, data: function () { return null; } };
+      if (typeof window.dataAddWeb !== "function") window.dataAddWeb = function () { return Promise.resolve(); };
+      if (typeof window.dataDeleteWeb !== "function") window.dataDeleteWeb = function () { return Promise.resolve(); };
+      if (typeof window.dataUpdateWeb !== "function") window.dataUpdateWeb = function () { return Promise.resolve(); };
+      if (typeof window.dataGetWeb !== "function") window.dataGetWeb = function () { return Promise.resolve(emptyDoc); };
+      if (typeof window.dataListWeb !== "function") window.dataListWeb = function () { return Promise.resolve(emptySnapshot); };
+      if (typeof window.authStateListenerWeb !== "function") {
+        window.authStateListenerWeb = function (cb) {
+          if (typeof cb === "function") setTimeout(function () { cb(null); }, 0);
+        };
+      }
+    })();
+  </script>
   <div id="header"><div class="h0000">
   <div class="h0000title">
     <div class="h0000titlebody">
@@ -81,7 +95,7 @@
   <div class="h0000body">
     <a href="/tr/"
       ><img
-        src="/img/logo.svg?v=ejjh0"
+        src="/img/logo.svg?v=nffew"
         alt="Atlantis Radyoloji Logo"
         class="h0000bodylogo"
         loading="lazy"
@@ -146,20 +160,8 @@
   </nav>
   <div class="b0000-main">
     <nav class="b0000-pd5-breadcrumb" aria-label="Breadcrumb"><a href="/tr/">Anasayfa</a><span class="b0000-pd5-breadcrumb-sep" aria-hidden="true">/</span><a href="/tr/urunler/">Hizmetlerimiz</a><span class="b0000-pd5-breadcrumb-sep" aria-hidden="true">/</span><span class="b0000-pd5-breadcrumb-current">Doppler ve Ultrasonografi Hizmeti</span></nav>
-    <div class="b0000-pd5-panel"><div class="b0000-pd5-media"><div class="b0000-pd5-img-wrap"><img src="/page/doppler_ultrason/fmqbz.jpg?v=tbs8j" alt="Doppler ve Ultrasonografi Hizmeti" loading="lazy" /></div></div><div class="b0000-pd5-info"><p class="b0000-pd5-lead">Uzman radyologlar PACS altyapısıyla Doppler ve ultrasonografi tetkiklerini raporlar, damar ve organ değerlendirmelerinde hızlı, güvenilir sonuçlar sunar.</p><div class="b0000-pd5-cta"><a class="b0000-pd5-cta-primary" href="/tr/iletisim/"><span class="material-symbols-outlined" aria-hidden="true">request_quote</span><span class="b0000-pd5-cta-label">Teklif Al</span></a></div></div></div>
-    <div class="b0000-body"><h2 style="font-size: 24px;">DOPPLER VE ULTRASONOGRAFİ HİZMETİ</h2>
-    <p style="font-size: 16px;">
-        Doppler ve Ultrasonografi görüntüleme hizmetleri kapsamında, uzman radyolog kadromuzla kaliteli tanısal görüntüleme ve raporlama hizmetleri sunmaktayız. Firmamız 23 yıllık deneyim ve birikimi ile bu sektörde bilgi ve birikimi en profesyonel şekilde çalışan uzman kadromuzla hizmet vermektedir. Doppler ultrasonografi, kan akımını değerlendirmek için kullanılan özel bir ultrasonografi tekniğidir.
-    </p>
-    <p style="font-size: 16px;">
-        Ultrasonografi, ses dalgalarını kullanarak vücudun iç yapılarını görüntüleme tekniğidir. Bu yöntem, radyasyon içermediği için güvenli bir görüntüleme yöntemidir ve hamilelik döneminde bile güvenle kullanılabilir. Doppler ultrasonografi ise, kan akımının yönünü, hızını ve özelliklerini değerlendirmek için kullanılan gelişmiş bir tekniktir. Bu teknik, damarlardaki tıkanıklıkları, daralmaları ve diğer anormallikleri tespit etmek için kullanılır.
-    </p>
-    <p style="font-size: 16px;">
-        Hizmet verdiğimiz hastanelerde çekilmiş Doppler ve Ultrasonografi tetkik imajlarını PACS yazılımı ile teleradyoloji raporlarını dünyanın her yerinden internet üzerinden yapma imkânı sağlıyoruz. Gece, gündüz, hafta sonu, tatil günleri de dahil olmak üzere şehir ya da ülke ayırımı yapmadan 7 gün 24 saat raporlama hizmeti veriyoruz. Acil hastalarda ise 1 saat içerisinde raporlama yapılmakta ve dünyanın her yerine ulaştırılmaktadır.
-    </p>
-    <p style="font-size: 16px;">
-        Doppler ve Ultrasonografi hizmetlerimizde, karaciğer, böbrek, safra kesesi, pankreas, dalak gibi karın içi organların değerlendirilmesi, tiroid bezi, meme, prostat gibi yüzeyel organların incelenmesi, kalp ekokardiyografisi, gebelik takibi, damar hastalıklarının değerlendirilmesi gibi geniş bir yelpazede hizmet sunmaktayız. Uzman radyolog kadromuz, her türlü Doppler ve Ultrasonografi tetkikini en yüksek kalite standartlarında değerlendirerek detaylı raporlar hazırlamaktadır.
-    </p></div>
+    <div class="b0000-pd5-panel"><div class="b0000-pd5-media"><div class="b0000-pd5-img-wrap"><img src="/page/doppler_ultrason/fmqbz.jpg?v=u8s9h" alt="Doppler ve Ultrasonografi Hizmeti" loading="lazy" /></div></div><div class="b0000-pd5-info"><p class="b0000-pd5-lead">Doppler ve Ultrasonografi görüntüleme hizmetleri. Uzman radyolog kadromuzla kaliteli tanısal görüntüleme ve raporlama.</p><div class="b0000-pd5-cta"><a class="b0000-pd5-cta-primary" href="/tr/iletisim/"><span class="material-symbols-outlined" aria-hidden="true">request_quote</span><span class="b0000-pd5-cta-label">Teklif Al</span></a></div></div></div>
+    <div class="b0000-body"></div>
     
   </div>
 </div>
@@ -332,16 +334,16 @@
     <ul class="menu">
       <li class="menu__item"><a class="menu__link" href="/tr/">Anasayfa</a></li><li class="menu__item"><a class="menu__link" href="/tr/hakkimizda/">Kurumsal</a></li><li class="menu__item"><a class="menu__link" href="/tr/hizmetlerimiz/">Hizmetlerimiz</a></li><li class="menu__item"><a class="menu__link" href="/tr/e-katalog/">E-Katalog</a></li><li class="menu__item"><a class="menu__link" href="/tr/referanslarimiz/">Referanslarımız</a></li><li class="menu__item"><a class="menu__link" href="/tr/iletisim/">İletişim</a></li>
     </ul>
-    <p>Atlantis Radyoloji 2025 cognite. &copy;</p>
+    <p>Atlantis Radyoloji 2026 cognite. &copy;</p>
   </footer>
   </div>
 
   
 
   <script defer src="/src/swiper-bundle.min.js"></script>
-  <script defer src="/src/mx-ui.js?v=jpr6j"></script>
-  <script defer type="text/javascript" src="/src/js.js?v=jpr6j"></script>
-  <script defer src="/src/cookie.js?v=jpr6j"></script>
+  <script defer src="/src/mx-ui.js?v=oogw5"></script>
+  <script defer type="text/javascript" src="/src/js.js?v=oogw5"></script>
+  <script defer src="/src/cookie.js?v=oogw5"></script>
 
   <script>
     setTimeout(function() {

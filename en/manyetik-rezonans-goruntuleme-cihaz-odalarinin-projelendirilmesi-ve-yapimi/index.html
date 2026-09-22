@@ -6,14 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
   <title>Design and Construction of Magnetic Resonance Imaging Suites</title>
-  <meta name="description" content="MR suite design, magnetic shielding and turnkey installation are managed to required standards, keeping patients and staff protected." />
-  <meta name="keywords" content="mr room design, magnetic field shielding, rf shielding, faraday cage, mr equipment room, tesla rating calculation, magnetic isolation" />
+  <meta name="description" content="Design and turnkey construction of Magnetic Resonance Imaging suites that provide safe, compliant, and efficient MR operations." />
+  <meta name="keywords" content="teleradyoloji, pacs sistemi, uzaktan raporlama, radyoloji hizmetleri, mri, bt, mamografi, dijital röntgen, atlantis radyoloji, hastane hizmetleri" />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://atlantisradyoloji.com/en/manyetik-rezonans-goruntuleme-cihaz-odalarinin-projelendirilmesi-ve-yapimi/" />
 
   <meta property="og:type" content="article" />
   <meta property="og:title" content="Design and Construction of Magnetic Resonance Imaging Suites" />
-  <meta property="og:description" content="MR suite design, magnetic shielding and turnkey installation are managed to required standards, keeping patients and staff protected." />
+  <meta property="og:description" content="Design and turnkey construction of Magnetic Resonance Imaging suites that provide safe, compliant, and efficient MR operations." />
   <meta property="og:image" content="https://atlantisradyoloji.com/page/mr_odasi/ucpi4.jpg" />
   <meta property="og:url" content="https://atlantisradyoloji.com/en/manyetik-rezonans-goruntuleme-cihaz-odalarinin-projelendirilmesi-ve-yapimi/" />
   <meta property="og:site_name" content="Atlantis Radyoloji" />
@@ -21,25 +21,22 @@
 
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Design and Construction of Magnetic Resonance Imaging Suites" />
-  <meta name="twitter:description" content="MR suite design, magnetic shielding and turnkey installation are managed to required standards, keeping patients and staff protected." />
+  <meta name="twitter:description" content="Design and turnkey construction of Magnetic Resonance Imaging suites that provide safe, compliant, and efficient MR operations." />
   <meta name="twitter:image" content="https://atlantisradyoloji.com/page/mr_odasi/ucpi4.jpg" />
 
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
-  <link rel="stylesheet" href="/src/rubik.css" />
-  <link rel="stylesheet" href="/src/css.css?v=v3ruf" />
-  <link rel="stylesheet" href="/src/mx-ui.css?v=v3ruf" />
-  <link rel="preload" href="/src/cookie.css?v=v3ruf" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/material-symbols-outlined.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <noscript>
-    <link rel="stylesheet" href="/src/cookie.css?v=v3ruf" />
-    <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="/src/material-symbols-outlined.css" />
-  </noscript>
-  <link rel="shortcut icon" href="/img/icon.png?v=v3ruf" type="image/png" />
+  <link rel="stylesheet" href="/src/rubik.css?v=lxyyk" />
+  <link rel="stylesheet" href="/src/css.css?v=lxyyk" />
+  <link rel="stylesheet" href="/src/mx-ui.css?v=lxyyk" />
+  <link rel="preload" href="/src/material-symbols-outlined.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=lxyyk" />
+  
+  <link rel="stylesheet" href="/src/cookie.css?v=lxyyk" />
+  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=lxyyk" />
+  <link rel="shortcut icon" href="/img/icon.png?v=lxyyk" type="image/png" />
   <link rel="apple-touch-icon" href="/img/icon.png" />
   <script type="application/ld+json">
 {
@@ -64,10 +61,27 @@
   
 <link rel="manifest" href="/manifest.json">
 <meta name="theme-color" content="#2196f3">
-<link rel="stylesheet" href="style.css?v=v3ruf">
+<link rel="stylesheet" href="style.css?v=lxyyk">
 </head>
 
 <body>
+  <script>
+    (function () {
+      window.user = window.user || { id: null, email: null, name: null, isLoggedIn: false, loginMethod: null };
+      var emptySnapshot = { empty: true, forEach: function () {} };
+      var emptyDoc = { exists: false, data: function () { return null; } };
+      if (typeof window.dataAddWeb !== "function") window.dataAddWeb = function () { return Promise.resolve(); };
+      if (typeof window.dataDeleteWeb !== "function") window.dataDeleteWeb = function () { return Promise.resolve(); };
+      if (typeof window.dataUpdateWeb !== "function") window.dataUpdateWeb = function () { return Promise.resolve(); };
+      if (typeof window.dataGetWeb !== "function") window.dataGetWeb = function () { return Promise.resolve(emptyDoc); };
+      if (typeof window.dataListWeb !== "function") window.dataListWeb = function () { return Promise.resolve(emptySnapshot); };
+      if (typeof window.authStateListenerWeb !== "function") {
+        window.authStateListenerWeb = function (cb) {
+          if (typeof cb === "function") setTimeout(function () { cb(null); }, 0);
+        };
+      }
+    })();
+  </script>
   <div id="header"><div class="h0000">
   <div class="h0000title">
     <div class="h0000titlebody">
@@ -81,7 +95,7 @@
   <div class="h0000body">
     <a href="/en/"
       ><img
-        src="/img/logo.svg?v=qkxpm"
+        src="/img/logo.svg?v=e3ie4"
         alt="Atlantis Radyoloji Logo"
         class="h0000bodylogo"
         loading="lazy"
@@ -146,21 +160,9 @@
   </nav>
   <div class="b0000-main">
     <nav class="b0000-pd5-breadcrumb" aria-label="Breadcrumb"><a href="/en/">Home</a><span class="b0000-pd5-breadcrumb-sep" aria-hidden="true">/</span><a href="/en/urunler/">Hizmetlerimiz</a><span class="b0000-pd5-breadcrumb-sep" aria-hidden="true">/</span><span class="b0000-pd5-breadcrumb-current">Design and Construction of Magnetic Resonance Imaging Suites</span></nav>
-    <div class="b0000-pd5-panel"><div class="b0000-pd5-media"><div class="b0000-pd5-img-wrap"><img src="/page/mr_odasi/ucpi4.jpg?v=kj8a7" alt="Design and Construction of Magnetic Resonance Imaging Suites" loading="lazy" /></div></div><div class="b0000-pd5-info"><p class="b0000-pd5-lead">MR suite design, magnetic shielding and turnkey installation are managed to required standards, keeping patients and staff protected.</p><div class="b0000-pd5-cta"><a class="b0000-pd5-cta-primary" href="/en/iletisim/"><span class="material-symbols-outlined" aria-hidden="true">request_quote</span><span class="b0000-pd5-cta-label">Get Quote</span></a></div></div></div>
-    <div class="b0000-body"><h2 style="font-size: 24px;">DESIGN AND CONSTRUCTION OF MAGNETIC RESONANCE IMAGING SUITES</h2>
-    <p style="font-size: 16px;">
-        Magnetic Resonance Imaging (MR) rooms operate using magnetic fields and radiofrequency waves without radiation. Therefore, MR rooms require magnetic field isolation and RF (Radio Frequency) shielding rather than radiation protection. With 23 years of experience, we provide expert services for MR room design and turnkey construction. MR systems generate powerful magnetic fields ranging from 0.5 Tesla to 7 Tesla.
-    </p>
-    <p style="font-size: 16px;">
-        In MR room design, magnetic field shielding (Faraday cage) is the most critical component. RF shields made of stainless steel or copper mesh cover all room surfaces (walls, ceiling, floor) with electrical continuity ensured. While 1.5 Tesla systems typically require 2-3 mm stainless steel, higher field systems (3 Tesla and above) need thicker shielding. Non-ferromagnetic construction materials are used to prevent magnetic field leakage.
-    </p>
-    <p style="font-size: 16px;">
-        Since MR systems use superconducting magnets, continuous cryogen cooling is required. Oxygen monitors and ventilation systems are mandatory against helium leaks. Rooms must be at least 40-50 m² with ceiling heights of 3.5-4 m. Electrical infrastructure uses fiber optic cables unaffected by magnetic fields. Acoustic insulation is critical as MR systems generate 80-120 decibels of noise. Special acoustic panels and insulation materials are applied for patient comfort.
-    </p>
-    <p style="font-size: 16px;">
-        In our turnkey MR room projects, field mapping tests are conducted and the 5 Gauss line (magnetic field safety boundary) is determined. Outside this boundary, magnetic devices such as pacemakers and metal implants can be safely used. For MR room installation in existing buildings, structural analysis is performed and the impact of magnetic materials such as elevators and iron columns is calculated. All projects comply with IEC (International Electrotechnical Commission) and FDA (Food and Drug Administration) magnetic field safety standards.
-    </p></div>
-    <nav class="b0000-pd5-nav" aria-label="Ürün navigasyonu"><a class="b0000-pd5-nav-link b0000-pd5-nav-prev" href="/en/btodasi/"><span class="material-symbols-outlined" aria-hidden="true">arrow_back</span><span class="b0000-pd5-nav-text"><span class="b0000-pd5-nav-dir">Previous</span><span class="b0000-pd5-nav-name">Design and Construction of Computed Tomography Rooms</span></span></a><a class="b0000-pd5-nav-link b0000-pd5-nav-next" href="/en/rontgen-ve-mamografi-odalarinin-projelendirilmesi-ve-yapimi/"><span class="b0000-pd5-nav-text"><span class="b0000-pd5-nav-dir">Next</span><span class="b0000-pd5-nav-name">Design and Construction of X-ray and Mammography Rooms</span></span><span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a></nav>
+    <div class="b0000-pd5-panel"><div class="b0000-pd5-media"><div class="b0000-pd5-img-wrap"><img src="/page/mr_odasi/ucpi4.jpg?v=eg7rj" alt="Design and Construction of Magnetic Resonance Imaging Suites" loading="lazy" /></div></div><div class="b0000-pd5-info"><p class="b0000-pd5-lead">Design and turnkey construction of Magnetic Resonance Imaging suites that provide safe, compliant, and efficient MR operations.</p><div class="b0000-pd5-cta"><a class="b0000-pd5-cta-primary" href="/en/iletisim/"><span class="material-symbols-outlined" aria-hidden="true">request_quote</span><span class="b0000-pd5-cta-label">Get Quote</span></a></div></div></div>
+    <div class="b0000-body"></div>
+    <nav class="b0000-pd5-nav" aria-label="Product navigation"><a class="b0000-pd5-nav-link b0000-pd5-nav-prev" href="/en/btodasi/"><span class="material-symbols-outlined" aria-hidden="true">arrow_back</span><span class="b0000-pd5-nav-text"><span class="b0000-pd5-nav-dir">Previous</span><span class="b0000-pd5-nav-name">Design and Construction of Computed Tomography Rooms</span></span></a><a class="b0000-pd5-nav-link b0000-pd5-nav-next" href="/en/rontgen-ve-mamografi-odalarinin-projelendirilmesi-ve-yapimi/"><span class="b0000-pd5-nav-text"><span class="b0000-pd5-nav-dir">Next</span><span class="b0000-pd5-nav-name">Design and Construction of X-ray and Mammography Rooms</span></span><span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a></nav>
   </div>
 </div>
 
@@ -332,16 +334,16 @@
     <ul class="menu">
       <li class="menu__item"><a class="menu__link" href="/en/">Home</a></li><li class="menu__item"><a class="menu__link" href="/en/hakkimizda/">Corporate</a></li><li class="menu__item"><a class="menu__link" href="/en/hizmetlerimiz/">Our Services</a></li><li class="menu__item"><a class="menu__link" href="/en/e-katalog/">E-Catalogue</a></li><li class="menu__item"><a class="menu__link" href="/en/referanslarimiz/">Our References</a></li><li class="menu__item"><a class="menu__link" href="/en/iletisim/">Contact</a></li>
     </ul>
-    <p>Atlantis Radyoloji 2025 cognite. &copy;</p>
+    <p>Atlantis Radyoloji 2026 cognite. &copy;</p>
   </footer>
   </div>
 
   
 
   <script defer src="/src/swiper-bundle.min.js"></script>
-  <script defer src="/src/mx-ui.js?v=v3ruf"></script>
-  <script defer type="text/javascript" src="/src/js.js?v=v3ruf"></script>
-  <script defer src="/src/cookie.js?v=v3ruf"></script>
+  <script defer src="/src/mx-ui.js?v=lxyyk"></script>
+  <script defer type="text/javascript" src="/src/js.js?v=lxyyk"></script>
+  <script defer src="/src/cookie.js?v=lxyyk"></script>
 
   <script>
     setTimeout(function() {
